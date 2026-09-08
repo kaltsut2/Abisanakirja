@@ -6,6 +6,16 @@
 <meta name="theme-color" content="#fbfaf8" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#16171a" media="(prefers-color-scheme: dark)">
 <title>Ruotsin sanasto</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="ikoni.svg" type="image/svg+xml">
+<link rel="icon" href="ikoni-64-v1.png" sizes="64x64" type="image/png">
+<!-- Safari välimuistittaa kotinäytön ikonin tiedostonimen mukaan eikä huomaa
+     sisällön muuttumista. Kun ikoni vaihdetaan, nosta versionumero näissä
+     nimissä, manifest.webmanifest-tiedostossa ja tyokalut/tee_ikonit.sh:ssä. -->
+<link rel="apple-touch-icon" href="ikoni-180-v1.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Ruotsi">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <style>
 /* ==========================================================================
    1. Perusta – värit, tila ja typografia
@@ -995,7 +1005,10 @@ function palautelohko(tulos, oikea, lisatieto, kirjoitettu, taivutus) {
   return lohko;
 }
 
-/* Koko paradigma yhtenä rivinä: perusmuoto artikkeleineen ja kaikki muodot. */
+/* Koko paradigma yhtenä rivinä: perusmuoto artikkeleineen ja kaikki muodot.
+   Näytetään jokaisen tehtävätyypin palautteessa riippumatta siitä, meniko
+   vastaus oikein: hetki vastauksen jälkeen on se, jolloin muodot tarttuvat.
+   Palauttaa null, jos sanalla ei ole taivutusmuotoja lähteessä. */
 function taivutusMuodot(sana) {
   if (!sana.taivutus.length) return null;
   const alku = (sana.suku ? sana.suku + " " : "") + sana.ruotsi;
@@ -1214,7 +1227,8 @@ function naytaOpi() {
         if (b.textContent === oikea) b.classList.add("oikein");
         else if (b.textContent === valittu) b.classList.add("vaarin");
       }
-      lisaa(kortti, palautelohko(osui ? "oikein" : "vaarin", oikea, null, null));
+      lisaa(kortti, palautelohko(osui ? "oikein" : "vaarin", oikea, null, null,
+                                 taivutusMuodot(sana)));
       oppiVastaus(kohde, osui);
       jatkaHetkenPaasta(osui, () => {
         if (!osui && kohde.perakkaisetVirheet >= 2) oppiIstunto.naytaVastaus = true;
@@ -1236,9 +1250,7 @@ function naytaOpi() {
         return {
           tulos: tulos.tulos, oikea: tulos.oikeat[0], kirjoitettu: arvo,
           lisatieto: tulos.syy === "tarkkeet" ? "Kirjainmerkki ratkaisee: kokeessa tämä on virhe." : null,
-          // Tuottamisvaiheessa koko taivutus kerralla: juuri siinä hetkessä,
-          // kun sana on haettu muistista, paradigma tarttuu parhaiten.
-          taivutus: suunta === SUUNNAT.FISV ? taivutusMuodot(sana) : null,
+          taivutus: taivutusMuodot(sana),
         };
       },
       onJatka: () => {
@@ -1422,6 +1434,7 @@ function naytaKertaa() {
       return {
         tulos: tulos.tulos, oikea: tulos.oikeat.join(" / "), kirjoitettu: arvo,
         lisatieto: tulos.syy === "tarkkeet" ? "Kirjainmerkki ratkaisee: kokeessa tämä on virhe." : null,
+        taivutus: taivutusMuodot(sana),
       };
     },
     onJatka: () => { kertausIstunto.indeksi += 1; piirra(); },
@@ -1741,7 +1754,8 @@ function harjoitusNakyma(tehtava, indeksi, kokonais, otsikko, onJatka, onTulos) 
       }
       const oikeaTeksti = tehtava.vastaukset[0] + " " + tehtava.sana.ruotsi;
       kirjaa(osui, oikeaTeksti, valittu);
-      lisaa(kortti, palautelohko(osui ? "oikein" : "vaarin", oikeaTeksti, null, null));
+      lisaa(kortti, palautelohko(osui ? "oikein" : "vaarin", oikeaTeksti, null, null,
+                                 taivutusMuodot(tehtava.sana)));
       const jatka = nappi("Jatka", "ensisijainen leve", onJatka);
       lisaa(kortti, jatka);
       jatka.focus();
@@ -1757,6 +1771,7 @@ function harjoitusNakyma(tehtava, indeksi, kokonais, otsikko, onJatka, onTulos) 
         return {
           tulos: kaikkiOikein ? "oikein" : "vaarin", oikea: oikeaTeksti,
           kirjoitettu: arvot.filter(Boolean).join(", "), lisatieto: null,
+          taivutus: taivutusMuodot(tehtava.sana),
         };
       },
       onJatka,
@@ -1776,6 +1791,7 @@ function harjoitusNakyma(tehtava, indeksi, kokonais, otsikko, onJatka, onTulos) 
           tulos: osui ? "oikein" : (tarkkeet ? "melkein" : "vaarin"),
           oikea: oikeaTeksti, kirjoitettu: arvo,
           lisatieto: tarkkeet ? "Kirjainmerkki ratkaisee: kokeessa tämä on virhe." : null,
+          taivutus: taivutusMuodot(tehtava.sana),
         };
       },
       onJatka,
@@ -2075,6 +2091,7 @@ function naytaTeoria() {
 function naytaTeoriassa(sana) {
   teoriaHaku = "";
   teoriaKohdistus = sana.id;
+  if (valilehti === "teoria") { piirra(); return; }
   vaihdaValilehti("teoria");
 }
 
@@ -2508,12 +2525,21 @@ function piirra() {
 }
 
 function vaihdaValilehti(uusi) {
-  if (uusi === valilehti) return;
+  if (uusi === valilehti) {
+    // Jo valitun välilehden painallus kelaa alkuun – pitkässä teoriassa se on
+    // nopein tapa palata sisällysluetteloon.
+    sijainnit[valilehti] = 0;
+    window.scrollTo({ top: 0, behavior: kevytLiike.matches ? "auto" : "smooth" });
+    return;
+  }
   sijainnit[valilehti] = window.scrollY;
   valilehti = uusi;
   try { localStorage.setItem(AVAIN_VALILEHTI, uusi); } catch (virhe) { /* ei kriittinen */ }
+  // Kun tullaan tietyn sanan kohdalle, näkymä vierittää sinne itse. Tallennetun
+  // sijainnin palauttaminen kumoaisi sen, joten se ohitetaan.
+  const kohdistetaan = uusi === "teoria" && teoriaKohdistus;
   piirra();
-  window.scrollTo(0, sijainnit[uusi] || 0);
+  if (!kohdistetaan) window.scrollTo(0, sijainnit[uusi] || 0);
   naytto.focus({ preventScroll: true });
 }
 
