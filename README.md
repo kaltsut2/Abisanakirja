@@ -12,6 +12,10 @@ Rakennetaan `SPEC.md`:n mukaan. Ei palvelinta, ei tunnuksia, ei build-vaihetta.
 | `lahde/sanasto.txt` | Sanaston alkuperäinen lähde – muokkaukset tehdään tänne |
 | `lahde/Ruotsin_sanasto.docx` | Sama sisältö Word-muodossa, luettavaksi |
 | `tyokalut/rakenna_sanasto.py` | Muuntaa lähteen JSONiksi |
+| `tyokalut/tee_ikonit.sh` | Tekee kotinäytön ikonit `ikoni-lahde.png`:stä |
+| `manifest.webmanifest` | Kotinäyttöasennuksen tiedot |
+| `ikoni.svg` | Ikoni vektorina (selaimen välilehti) |
+| `ikoni-*-v1.png` | Kotinäytön ikonit, **generoituja** |
 
 ## Sanaston päivittäminen
 
@@ -81,6 +85,11 @@ valittu välilehti, tarkennuskehä – koska se jää valkoista vasten alle luet
 kontrastin. Syvä `#00509d` ja `#003f88` kantavat tekstin ja painikkeiden täytöt.
 Vaalea `#a2d6f9` on tumman teeman korostusteksti.
 
+Tausta on laivastonsininen (`#04203f` tummana, `#f1f5fb` vaaleana), ja
+painikkeen täyttö vaihtuu teeman mukana: vaalealla `#003f88` valkoisella
+tekstillä, tummalla `#1e96fc` tummansinisellä tekstillä. Molemmat yltävät
+luettavaan kontrastiin, kumpikaan suunta yksinään ei yltäisi.
+
 **Keltainen** `#ffc600` on huomioväri: hakuosumat, lukumääräpillerit,
 kertausmerkki alapalkissa ja "melkein oikein" -palaute.
 
@@ -114,6 +123,22 @@ on 20–35 korttia, ja siirtymä kortista korttiin tekisi siitä hitaan.
 - **Asetuslevyn** voi vetää kiinni. Veto seuraa sormea 1:1, ylärajalla on
   kumilenkki, ja heiton lepopiste projisoidaan nopeudesta.
 - `prefers-reduced-motion` korvaa siirtymät häivytyksillä, ei poista palautetta.
+
+## Ikoni
+
+Kotinäytön ikoni tehdään yhdestä lähdekuvasta:
+
+```bash
+sh "tyokalut/tee_ikonit.sh"
+```
+
+Skripti lukee `ikoni-lahde.png`:n (neliö, vähintään 1024 × 1024) ja tekee
+kaikki koot. Repossa on tällä hetkellä väliaikainen ikoni, joka on renderöity
+`ikoni.svg`:stä – korvaa `ikoni-lahde.png` oikealla kuvalla ja aja skripti.
+
+> **Safari välimuistittaa kotinäytön ikonin tiedostonimen mukaan** eikä huomaa
+> sisällön muuttumista. Kun ikoni vaihdetaan, nosta versionumero (`v1` → `v2`)
+> skriptissä, `index.html`:ssä ja `manifest.webmanifest`-tiedostossa.
 
 ## Ääntäminen
 
