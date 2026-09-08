@@ -1,15 +1,17 @@
 #!/usr/bin/env python3
 """Muuntaa lahde/sanasto.txt -> sanasto.json (lukurakenne, ks. SPEC.md luku 1).
 
-Lahdemuoto (rivialkuiset merkit):
-  T / S   dokumentin otsikko ja alaotsikko
-  p       kappale
-  # ## ###  luku, alaluku, valiotsikko
-  * ruotsi|luokka|suomi     sana taivutusmuotoineen
-  = ruotsi|suomi            ilmaus (ei taivutusta)
-  >       esimerkki, muotoa "sv = fi", useampi erotettuna " / "
-  !       korjaus alkuperaisiin muistiinpanoihin
-  ~       huomio
+Lahde on OneNotesta kopioitu teksti sellaisenaan. Muodot:
+
+  Sivun otsikko          oma rivi, jota seuraa paivays tai alaluvun numero
+  1.1 Alaluvun nimi      luku ja alaluku numeroista
+  Valiotsikko            lyhyt rivi ilman erotinta
+  Kappaletta selittava   pitka rivi ilman erotinta
+  sana, muodot  (luokka)  -  suomi     kaksi valilyontia ajatusviivan ymparilla
+  sana = suomi                          Skrivtavlan ja luvun 6.9 muoto
+  <sisennys> ruotsi = suomi             esimerkki
+  <sisennys> Korjaus: ...               korjaus
+  <sisennys> muu teksti                 huomio
 """
 import json
 import re
@@ -20,14 +22,27 @@ JUURI = Path(__file__).resolve().parent.parent
 LAHDE = JUURI / "lahde" / "sanasto.txt"
 KOHDE = JUURI / "sanasto.json"
 
-VERBILUOKAT = {"I", "IIa", "IIb", "III", "IV", "dep."}
-ADJLUOKAT = {"adj.", "part.", "taipumaton"}
+OTSIKKO = "Ruotsin sanasto"
+ALAOTSIKKO = "Kootut OneNote-muistiinpanot – jäsennelty sanaluokittain ja aihepiireittäin"
+
+EROTIN = "  –  "          # kaksi valilyontia, ajatusviiva, kaksi valilyontia
+VIIKONPAIVAT = ("maanantai", "tiistai", "keskiviikko", "torstai", "perjantai",
+                "lauantai", "sunnuntai")
+VERBILUOKAT = {"I", "IIa", "IIb", "III", "IV", "dep.", "dep. IIa", "I / IV"}
+ADJLUOKAT = {"adj.", "part.", "taipumaton", "adj. (taipumaton)", "adj. (puhek.)"}
+SUBSTLUOKAT = {"1", "2", "3", "4", "5", "epäsäänn.", "adj.subst.", "mon."}
 PREPOSITIOT = {
     "på", "för", "till", "av", "med", "om", "efter", "från", "mot", "över",
     "åt", "i", "hos", "genom", "under", "vid", "inför", "utan", "trots",
 }
-# Luvun 3.1 vastakohtapareissa on mukana muutama verbi.
 SANALUOKKA_POIKKEUS = {"förbättra": "verbi", "försämra": "verbi"}
+VALIOTSIKON_RAJA = 60     # tata pidempi rivi ilman erotinta on kappale, ei otsikko
+# Sisennetyt rivit, jotka alkavat naista, ovat huomioita eivatka esimerkkeja,
+# vaikka niissa olisi yhtasuuruusmerkki.
+HUOMION_ALUT = ("Muistisääntö", "Muistiinpanoissa", "Huomaa", "Huom.", "Vrt.",
+                "Sääntö", "Johdos", "Johdokset", "Adjektiivi", "Verbi",
+                "Muodostuu", "Etuliite", "Prepositio", "Vuosiluku",
+                "Kellonajassa", "Vastakohtapari", "Sama pätee")
 
 varoitukset = []
 
@@ -49,6 +64,34 @@ def jaa_pilkuilla(teksti):
     return [o for o in osat if o]
 
 
+def irrota_loppusulut(teksti):
+    """Palauttaa (teksti ilman loppusulkuja, sulkujen sisalto tai None)."""
+    teksti = teksti.rstrip()
+    if not teksti.endswith(")"):
+        return teksti, None
+    syvyys = 0
+    for i in range(len(teksti) - 1, -1, -1):
+        if teksti[i] == ")":
+            syvyys += 1
+        elif teksti[i] == "(":
+            syvyys -= 1
+            if syvyys == 0:
+                return teksti[:i].rstrip(), teksti[i + 1:-1].strip()
+    return teksti, None
+
+
+def erota_luokka(ruotsi_raaka):
+    """Erottaa lopun suluista taivutusluokan. Taivutusmuodot jaavat sanaan."""
+    runko, sulut = irrota_loppusulut(ruotsi_raaka)
+    if sulut is None:
+        return ruotsi_raaka.strip(), None
+    if "," in sulut and sulut not in ADJLUOKAT:
+        return ruotsi_raaka.strip(), None      # (står, stod, stått) = taivutus
+    if sulut in {"–", "-", ""}:
+        return runko, None
+    return runko, sulut
+
+
 def tee_tunnus(ruotsi, kaytetyt):
     perus = re.sub(r"[^0-9a-zåäöéü]+", "-", ruotsi.lower()).strip("-") or "sana"
     tunnus, n = perus, 2
@@ -63,49 +106,41 @@ def jaa_muodot(ruotsi_raaka):
     """Palauttaa (perusmuoto, [taivutusmuodot], suku)."""
     teksti = ruotsi_raaka.strip()
     suku = None
-    osui_suku = re.match(r"^(en|ett)\s+(.*)$", teksti)
-    if osui_suku:
-        suku = osui_suku.group(1)
-        teksti = osui_suku.group(2)
-    if " – " in teksti and "," not in teksti:
-        osat = [o.strip() for o in teksti.split(" – ")]
-    else:
-        osat = jaa_pilkuilla(teksti)
-    osat = [re.sub(r"^(att|har|\(har\))\s+", "", o).strip() for o in osat]
+    osui = re.match(r"^(en|ett)\s+(.*)$", teksti)
+    if osui:
+        suku, teksti = osui.group(1), osui.group(2)
+    if "→" in teksti or "↔" in teksti:
+        return teksti, [], suku          # johdospari tai vastakohta: ei jaeta
+    osat = jaa_pilkuilla(teksti)
     return osat[0], osat[1:], suku
 
 
 def poimi_rektio(perusmuoto):
     """Erottaa perusmuodosta sulkeissa olevan rektion: klaga (på/över)."""
-    osui = re.search(r"\s*\(([^)]+)\)\s*$", perusmuoto)
-    if not osui:
+    runko, sulut = irrota_loppusulut(perusmuoto)
+    if sulut is None:
         return perusmuoto, None
-    sisalto = osui.group(1)
-    palat = [p.strip() for p in re.split(r"[/,]", sisalto)]
+    palat = [p.strip() for p in re.split(r"[/,]", sulut)]
     if palat and all(p in PREPOSITIOT for p in palat):
-        return perusmuoto[: osui.start()].strip(), "/".join(palat)
+        return runko, "/".join(palat)
     return perusmuoto, None
 
 
-def paattele_sanaluokka(luokka, suku, luku_nro, alaluku_otsikko):
-    if suku:
-        return "substantiivi"
+def paattele_sanaluokka(luokka, suku, ctx):
     if luokka in VERBILUOKAT:
         return "verbi"
     if luokka == "adv.":
         return "adverbi"
     if luokka in ADJLUOKAT:
         return "adjektiivi"
-    if luokka == "adj.subst.":
+    if suku or luokka in SUBSTLUOKAT:
         return "substantiivi"
-    if luokka in {"1", "2", "3", "4", "5", "epäsäänn."}:
-        return "substantiivi"
-    otsikko = (alaluku_otsikko or "").lower()
+    otsikko = (ctx["alaluku"] or "").lower()
     for avain, arvo in (("verbi", "verbi"), ("substantiivi", "substantiivi"),
                         ("adjektiivi", "adjektiivi"), ("adverbi", "adverbi")):
         if avain in otsikko:
             return arvo
-    return {1: "verbi", 2: "substantiivi", 3: "adjektiivi"}.get(luku_nro, "ilmaus")
+    return {1: "verbi", 2: "substantiivi", 3: "adjektiivi"}.get(ctx["luku_nro"], "ilmaus")
 
 
 def jasenna_esimerkki(rivi):
@@ -122,18 +157,15 @@ def jasenna_esimerkki(rivi):
     return tulos
 
 
-def tee_sana(ruotsi_raaka, luokka, suomi_raaka, ctx, kaytetyt, jaa_taivutus=True):
-    if jaa_taivutus:
-        perusmuoto, taivutus, suku = jaa_muodot(ruotsi_raaka)
-    else:
-        perusmuoto, taivutus, suku = ruotsi_raaka.strip(), [], None
+def tee_sana(ruotsi_raaka, luokka, suomi_raaka, ctx, kaytetyt):
+    perusmuoto, taivutus, suku = jaa_muodot(ruotsi_raaka)
     perusmuoto, rektio = poimi_rektio(perusmuoto)
     if not rektio and ctx["rektioluku"]:
         loydot = [p for p in re.split(r"[\s/]+", perusmuoto) if p in PREPOSITIOT]
         if loydot:
             rektio = "/".join(dict.fromkeys(loydot))
-    sanaluokka = SANALUOKKA_POIKKEUS.get(perusmuoto) or paattele_sanaluokka(
-        luokka, suku, ctx["luku_nro"], ctx["alaluku"])
+    sanaluokka = (SANALUOKKA_POIKKEUS.get(perusmuoto)
+                  or paattele_sanaluokka(luokka, suku, ctx))
     if not perusmuoto or not suomi_raaka.strip():
         varoitukset.append(f"rivi {ctx['rivi']}: tyhja sana tai kaannos: {ruotsi_raaka!r}")
     return {
@@ -143,7 +175,7 @@ def tee_sana(ruotsi_raaka, luokka, suomi_raaka, ctx, kaytetyt, jaa_taivutus=True
         "ruotsi": perusmuoto,
         "suomi": jaa_pilkuilla(suomi_raaka),
         "taivutus": taivutus,
-        "luokka": luokka if luokka and luokka not in {"–", ""} else None,
+        "luokka": luokka,
         "suku": suku,
         "kategoria": ctx["luku"],
         "alakategoria": ctx["alaluku"],
@@ -156,146 +188,181 @@ def tee_sana(ruotsi_raaka, luokka, suomi_raaka, ctx, kaytetyt, jaa_taivutus=True
     }
 
 
-def jasenna_merkinta(ruotsi_raaka, luokka, suomi_raaka, ctx, kaytetyt, jaa_taivutus):
+def jasenna_merkinta(ruotsi_raaka, luokka, suomi_raaka, ctx, kaytetyt):
     """Palauttaa listan sanoja: 1 kpl, tai 2 kun rivilla on vastakohtapari."""
     if "↔" in ruotsi_raaka and "↔" in suomi_raaka:
         sv_osat = [o.strip() for o in ruotsi_raaka.split("↔")]
         fi_osat = [o.strip() for o in suomi_raaka.split("↔")]
         if len(sv_osat) == len(fi_osat) == 2:
-            a = tee_sana(sv_osat[0], luokka, fi_osat[0], ctx, kaytetyt, jaa_taivutus)
-            b = tee_sana(sv_osat[1], luokka, fi_osat[1], ctx, kaytetyt, jaa_taivutus)
+            a = tee_sana(sv_osat[0], luokka, fi_osat[0], ctx, kaytetyt)
+            b = tee_sana(sv_osat[1], luokka, fi_osat[1], ctx, kaytetyt)
             a["vastakohta"], b["vastakohta"] = b["id"], a["id"]
             return [a, b]
     if ctx["luku_nro"] == 3 and " / " in ruotsi_raaka and " / " in suomi_raaka:
         sv_osat = [o.strip() for o in ruotsi_raaka.split(" / ")]
         fi_osat = [o.strip() for o in suomi_raaka.split(" / ")]
         if len(sv_osat) == len(fi_osat):
-            return [tee_sana(sv, luokka, fi, ctx, kaytetyt, jaa_taivutus)
+            return [tee_sana(sv, luokka, fi, ctx, kaytetyt)
                     for sv, fi in zip(sv_osat, fi_osat)]
-    return [tee_sana(ruotsi_raaka, luokka, suomi_raaka, ctx, kaytetyt, jaa_taivutus)]
+    return [tee_sana(ruotsi_raaka, luokka, suomi_raaka, ctx, kaytetyt)]
+
+
+def on_yhtasuuruusmerkinta(rivi):
+    """Onko rivi muotoa "sana = suomi" (Skrivtavla, luku 6.9)?
+
+    Kieliopin selitysteksteissa esiintyy myos yhtasuuruusmerkki keskella
+    virketta, joten hakusanapuoli saa olla vain lyhyt eika sisaltaa
+    virkevalimerkkeja.
+    """
+    if " = " not in rivi:
+        return False
+    hakusana = rivi.split(" = ", 1)[0]
+    return len(hakusana) <= 60 and not any(m in hakusana for m in ".!?:")
+
+
+def on_paivays(rivi):
+    return (rivi.startswith(VIIKONPAIVAT)
+            or re.fullmatch(r"\d{1,2}[.:]\d{2}", rivi) is not None)
+
+
+def on_sivun_otsikko(rivi, seuraava):
+    """Sivun otsikko on lyhyt rivi, jota seuraa paivays tai alaluvun numero.
+
+    Pituusehto erottaa otsikon kappaleesta: myos luvun johdantokappaletta
+    seuraa alaluvun numero, mutta kappale on aina pitka ja paattyy pisteeseen.
+    """
+    if not seuraava or len(rivi) > VALIOTSIKON_RAJA or rivi.endswith("."):
+        return False
+    return on_paivays(seuraava) or re.match(r"^\d+\.\d+\s", seuraava) is not None
 
 
 def rakenna():
     rivit = LAHDE.read_text(encoding="utf-8").split("\n")
-    doc = {"otsikko": "", "alaotsikko": "", "johdanto": [], "luvut": []}
+    doc = {"otsikko": OTSIKKO, "alaotsikko": ALAOTSIKKO, "johdanto": [], "luvut": []}
     kaytetyt = set()
     luku = alaluku = None
     ctx = {"luku": None, "luku_nro": 0, "alaluku": None, "valiotsikko": None,
-           "rektioluku": False, "rivi": 0}
+           "rektioluku": False, "muistilista": False, "rivi": 0}
     viime_sana = None
+
+    def seuraava_rivi(i):
+        for j in range(i + 1, len(rivit)):
+            if rivit[j].strip():
+                return rivit[j].strip()
+        return None
 
     def sisalto():
         nonlocal alaluku
         if luku is None:
-            return None
+            return doc["johdanto"]
         if alaluku is None:
             alaluku = {"otsikko": None, "sisalto": []}
             luku["alaluvut"].append(alaluku)
             ctx["alaluku"] = None
         return alaluku["sisalto"]
 
-    for numero, raaka in enumerate(rivit, start=1):
+    for numero, raaka in enumerate(rivit):
         rivi = raaka.rstrip()
-        ctx["rivi"] = numero
+        ctx["rivi"] = numero + 1
         if not rivi.strip():
             continue
-        merkki, _, loppu = rivi.partition(" ")
-        loppu = loppu.strip()
 
-        if merkki == "T":
-            doc["otsikko"] = loppu
-        elif merkki == "S":
-            doc["alaotsikko"] = loppu
-        elif merkki == "#":
-            luku = {"otsikko": loppu, "alaluvut": []}
+        sisennetty = raaka[:1] in ("\t", " ")
+        teksti = rivi.strip()
+
+        if sisennetty:
+            if teksti.startswith("Korjaus:"):
+                sisalto().append({"tyyppi": "korjaus",
+                                  "teksti": teksti[len("Korjaus:"):].strip(),
+                                  "liittyy": viime_sana["id"] if viime_sana else None})
+            elif " = " in teksti and not teksti.startswith(HUOMION_ALUT):
+                esimerkit = jasenna_esimerkki(teksti)
+                if viime_sana is not None:
+                    viime_sana["esimerkit"].extend(esimerkit)
+                else:
+                    sisalto().append({"tyyppi": "esimerkki", "esimerkit": esimerkit})
+            else:
+                sisalto().append({"tyyppi": "huomio", "teksti": teksti,
+                                  "liittyy": viime_sana["id"] if viime_sana else None})
+            continue
+
+        if on_paivays(teksti):
+            continue
+
+        osui_alaluku = re.match(r"^(\d+)\.(\d+)\s+(.*)$", teksti)
+        if osui_alaluku and luku is not None:
+            if ctx["luku_nro"] == 0:
+                ctx["luku_nro"] = int(osui_alaluku.group(1))
+                luku["otsikko"] = f"{ctx['luku_nro']} {luku['otsikko']}"
+                ctx["luku"] = luku["otsikko"]
+            alaluku = {"otsikko": teksti, "sisalto": []}
+            luku["alaluvut"].append(alaluku)
+            viime_sana = None
+            ctx["alaluku"] = teksti
+            ctx["valiotsikko"] = None
+            ctx["rektioluku"] = bool(re.match(r"^6\.[3-6]\b", teksti))
+            continue
+
+        if EROTIN in teksti or on_yhtasuuruusmerkinta(teksti):
+            if EROTIN in teksti:
+                ruotsi_raaka, suomi_raaka = teksti.split(EROTIN, 1)
+            else:
+                ruotsi_raaka, suomi_raaka = teksti.split(" = ", 1)
+            ruotsi_raaka, luokka = erota_luokka(ruotsi_raaka)
+            sanat = jasenna_merkinta(ruotsi_raaka, luokka, suomi_raaka, ctx, kaytetyt)
+            sisalto().extend(sanat)
+            viime_sana = sanat[0]
+            continue
+
+        # Jaljelle jaa otsikko, kappale tai muistilistan rivi.
+        if on_sivun_otsikko(teksti, seuraava_rivi(numero)):
+            luku = {"otsikko": teksti, "alaluvut": []}
             doc["luvut"].append(luku)
             alaluku = None
             viime_sana = None
-            osui = re.match(r"^(\d+)", loppu)
-            ctx.update(luku=loppu, luku_nro=int(osui.group(1)) if osui else 0,
-                       alaluku=None, valiotsikko=None, rektioluku=False)
-        elif merkki == "##":
-            alaluku = {"otsikko": loppu, "sisalto": []}
-            luku["alaluvut"].append(alaluku)
+            ctx.update(luku=teksti, luku_nro=0, alaluku=None, valiotsikko=None,
+                       rektioluku=False, muistilista=teksti.startswith("Muistilista"))
+        elif ctx["muistilista"]:
             viime_sana = None
-            ctx["alaluku"] = loppu
-            ctx["valiotsikko"] = None
-            ctx["rektioluku"] = bool(re.match(r"^6\.[3-6]\b", loppu))
-        elif merkki == "###":
-            ctx["valiotsikko"] = loppu
+            sisalto().append({"tyyppi": "muistilista", "teksti": teksti})
+        elif len(teksti) > VALIOTSIKON_RAJA or teksti.endswith("."):
             viime_sana = None
-            sisalto().append({"tyyppi": "otsikko", "teksti": loppu})
-        elif merkki == "p":
-            viime_sana = None
-            (doc["johdanto"] if luku is None else sisalto()).append(
-                {"tyyppi": "teksti", "teksti": loppu})
-        elif merkki in {"*", "="}:
-            osat = loppu.split("|")
-            if merkki == "*":
-                if len(osat) != 3:
-                    varoitukset.append(f"rivi {numero}: * odotti 3 kenttaa, sai {len(osat)}")
-                    continue
-                ruotsi_raaka, luokka, suomi_raaka = osat
-                jaa_taivutus = True
-            else:
-                if len(osat) < 2:
-                    varoitukset.append(f"rivi {numero}: = odotti 2 kenttaa, sai {len(osat)}")
-                    continue
-                ruotsi_raaka, suomi_raaka = osat[0], "|".join(osat[1:])
-                luokka = None
-                # Luvun 3.1 vastakohtaparit on kirjattu =-riveille taivutuksineen.
-                jaa_taivutus = ctx["alaluku"] is not None and ctx["alaluku"].startswith("3.1")
-            if not suomi_raaka.strip():
-                viime_sana = None
-                sisalto().append({"tyyppi": "muistilista", "teksti": ruotsi_raaka.strip()})
-                continue
-            sanat = jasenna_merkinta(ruotsi_raaka, luokka, suomi_raaka, ctx,
-                                     kaytetyt, jaa_taivutus)
-            sisalto().extend(sanat)
-            viime_sana = sanat[0]
-        elif merkki == ">":
-            esimerkit = jasenna_esimerkki(loppu)
-            if viime_sana is not None:
-                viime_sana["esimerkit"].extend(esimerkit)
-            else:
-                sisalto().append({"tyyppi": "esimerkki", "esimerkit": esimerkit})
-        elif merkki in {"!", "~"}:
-            sisalto().append({
-                "tyyppi": "korjaus" if merkki == "!" else "huomio",
-                "teksti": loppu,
-                "liittyy": viime_sana["id"] if viime_sana else None,
-            })
+            sisalto().append({"tyyppi": "teksti", "teksti": teksti})
         else:
-            varoitukset.append(f"rivi {numero}: tuntematon merkki {merkki!r}")
+            viime_sana = None
+            ctx["valiotsikko"] = teksti
+            sisalto().append({"tyyppi": "otsikko", "teksti": teksti})
 
     return doc
 
 
-def tilasto(doc):
-    sanat = [k for l in doc["luvut"] for a in l["alaluvut"]
-             for k in a["sisalto"] if k["tyyppi"] == "sana"]
-    laskuri = {}
-    nimet = {}
-    for s in sanat:
-        laskuri[s["sanaluokka"]] = laskuri.get(s["sanaluokka"], 0) + 1
-        nimet.setdefault(s["ruotsi"], []).append(s["id"])
-    kaksoiset = {k: v for k, v in nimet.items() if len(v) > 1}
-    return sanat, laskuri, kaksoiset
+def numeroi_luvut(doc):
+    """Numeroimattomat luvut (ei alalukujen numeroita) jatkavat edellisesta."""
+    edellinen = 0
+    for luku in doc["luvut"]:
+        osui = re.match(r"^(\d+)\s", luku["otsikko"])
+        if osui:
+            edellinen = int(osui.group(1))
+        elif edellinen:
+            edellinen += 1
+            luku["otsikko"] = f"{edellinen} {luku['otsikko']}"
+            for alaluku in luku["alaluvut"]:
+                for kohta in alaluku["sisalto"]:
+                    if kohta["tyyppi"] == "sana":
+                        kohta["kategoria"] = luku["otsikko"]
 
 
 def merkitse_paallekkaiset(doc):
-    """Sama sana esiintyy lahteessa useassa luvussa (esim. lycka-pesue luvussa 8).
-    Teoriassa kaikki esiintymat nakyvat; kortteja tehdaan vain ensimmaisesta."""
-    nahdyt = set()
-    maara = 0
-    for l in doc["luvut"]:
-        for a in l["alaluvut"]:
-            for k in a["sisalto"]:
-                if k["tyyppi"] != "sana":
+    """Sama sana useassa luvussa: teoriassa kaikki, kortteja vain ensimmaisesta."""
+    nahdyt, maara = set(), 0
+    for luku in doc["luvut"]:
+        for alaluku in luku["alaluvut"]:
+            for kohta in alaluku["sisalto"]:
+                if kohta["tyyppi"] != "sana":
                     continue
-                avain = k["ruotsi"].lower()
+                avain = kohta["ruotsi"].lower()
                 if avain in nahdyt:
-                    k["paallekkainen"] = True
+                    kohta["paallekkainen"] = True
                     maara += 1
                 else:
                     nahdyt.add(avain)
@@ -304,9 +371,15 @@ def merkitse_paallekkaiset(doc):
 
 if __name__ == "__main__":
     doc = rakenna()
+    numeroi_luvut(doc)
     paallekkaisia = merkitse_paallekkaiset(doc)
     KOHDE.write_text(json.dumps(doc, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
-    sanat, laskuri, kaksoiset = tilasto(doc)
+
+    sanat = [k for l in doc["luvut"] for a in l["alaluvut"]
+             for k in a["sisalto"] if k["tyyppi"] == "sana"]
+    laskuri = {}
+    for s in sanat:
+        laskuri[s["sanaluokka"]] = laskuri.get(s["sanaluokka"], 0) + 1
     print(f"Kirjoitettu {KOHDE.name}: {len(doc['luvut'])} lukua, {len(sanat)} sanaa")
     for k in sorted(laskuri, key=lambda x: -laskuri[x]):
         print(f"  {k:14} {laskuri[k]}")
@@ -315,10 +388,10 @@ if __name__ == "__main__":
     print(f"  esimerkkeja   {sum(len(s['esimerkit']) for s in sanat)}")
     print(f"  paallekkaisia {paallekkaisia} (ei kortteja)")
     print(f"  -> kortteja   {(len(sanat) - paallekkaisia) * 2}")
-    if kaksoiset:
-        print(f"\nSama ruotsin sana useammassa kohdassa ({len(kaksoiset)}):")
-        for k, v in sorted(kaksoiset.items()):
-            print(f"  {k}: {', '.join(v)}")
+    print("\nLuvut:")
+    for l in doc["luvut"]:
+        n = sum(1 for a in l["alaluvut"] for k in a["sisalto"] if k["tyyppi"] == "sana")
+        print(f"  {l['otsikko']:34} {len(l['alaluvut']):2} alalukua, {n:3} sanaa")
     if varoitukset:
         print(f"\nVaroitukset ({len(varoitukset)}):", file=sys.stderr)
         for v in varoitukset:

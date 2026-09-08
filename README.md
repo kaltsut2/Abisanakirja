@@ -25,26 +25,43 @@ Skripti tulostaa tilastot ja varoittaa riveistä, joita se ei ymmärtänyt.
 
 ## Lähdemuoto
 
-Rivin ensimmäinen merkki kertoo tyypin:
+Lähde on OneNotesta kopioitua tekstiä sellaisenaan. Jäsennin tunnistaa rivit
+niiden muodosta, ei erillisistä merkeistä:
 
-| Merkki | Muoto | Esimerkki |
-|---|---|---|
-| `#` `##` `###` | luku, alaluku, väliotsikko | `## 1.1 Ajattelu` |
-| `p` | kappale | `p Taivutusluokat: …` |
-| `*` | sana taivutuksineen: `ruotsi\|luokka\|suomi` | `* tycka, tycker, tyckte, tyckt\|IIb\|olla jotain mieltä` |
-| `=` | ilmaus ilman taivutusta: `ruotsi\|suomi` | `= tänka på ngt\|ajatella jotakin` |
-| `>` | esimerkki, `sv = fi`, useampi erotettuna ` / ` | `> Menar du allvar? = Oletko tosissasi?` |
-| `!` | korjaus muistiinpanoihin (punainen) | `! "Värdesetta" – oikea muoto on värdesätta` |
-| `~` | huomio (harmaa) | `~ Vrt. adjektiivi verklig = todellinen` |
+| Rivi | Tulkinta |
+|---|---|
+| Lyhyt rivi, jota seuraa päiväys tai alaluvun numero | luku (OneNote-sivu) |
+| `1.1 Ajattelu, ymmärtäminen ja mielipide` | alaluku |
+| Lyhyt rivi ilman erotinta | väliotsikko |
+| Yli 60 merkkiä tai päättyy pisteeseen | kappale |
+| `tycka, tycker, tyckte, tyckt  (IIb)  –  olla jotain mieltä` | sana – **kaksi välilyöntiä** ajatusviivan molemmin puolin |
+| `i förväg = etukäteen` | sana lyhyemmässä muodossa (Skrivtavla, luku 6.9) |
+| *sisennetty* `Menar du allvar? = Oletko tosissasi?` | esimerkki |
+| *sisennetty* `Korjaus: …` | korjaus (punainen) |
+| *sisennetty* muu teksti | huomio (harmaa) |
+
+Erotin `  –  ` on merkitsevä: yksi välilyönti ei riitä, koska ajatusviiva
+esiintyy myös sanojen sisällä (`i dag – i går – i morgon`).
 
 Muuntimen päättelemät asiat:
 
-- **Sanaluokka** tulee `en`/`ett`-alusta, taivutusluokasta tai luvun otsikosta.
-- **Rektio** tulee sulkeista (`klaga (på/över)`) tai luvun 6.3–6.6 ilmauksista.
+- **Sanaluokka** tulee taivutusluokasta, `en`/`ett`-alusta tai luvun otsikosta.
+- **Rektio** tulee sulkeista (`klaga (på/över)`, `skydda (mot)`) tai luvun
+  6.3–6.6 ilmauksista.
 - **Vastakohta** syntyy `↔`-merkistä: rivi jaetaan kahdeksi sanaksi, jotka
   linkitetään toisiinsa molempiin suuntiin.
-- **Päällekkäisyys**: sama sana useassa luvussa (esim. `lycka`-pesue luvussa 8)
-  näkyy Teoriassa joka paikassa, mutta kortteja tehdään vain ensimmäisestä.
+- **Päällekkäisyys**: sama sana useassa luvussa näkyy Teoriassa joka paikassa,
+  mutta kortteja tehdään vain ensimmäisestä.
+
+Sisennetty rivi tulkitaan esimerkiksi, jos siinä on yhtäsuuruusmerkki. Jos
+haluat sen huomioksi, aloita rivi sanalla `Huomaa:`, `Vrt.`, `Sääntö:`,
+`Verbi:`, `Muistisääntö:` tai muulla `HUOMION_ALUT`-listan sanalla.
+
+## Skrivtavla – uusien sanojen välivarasto
+
+Lähteen ensimmäinen luku `Skrivtavla` on tyhjä välivarasto. Liitä sinne uudet
+sanat OneNotesta missä muodossa tahansa, ja pyydä minua luokittelemaan ne:
+ne siirretään oikeisiin lukuihin ja Skrivtavla tyhjennetään taas.
 
 ## Kehitys
 
@@ -61,6 +78,7 @@ Rakennusjärjestys on `SPEC.md` luvussa 9.
 - [x] 1 `sanasto.json` – tietomalli
 - [x] 2 Teoria-välilehti – JSON renderöitynä
 - [x] 3 Alapalkki ja välilehtinavigaatio
+- [x] Skrivtavlan 7.9.2026 erä luokiteltu (32 uutta sanaa, 11 päällekkäistä)
 - [ ] 4 Kortti-UI
 - [ ] 5 Välitoisto ja edistymisen tallennus
 - [ ] 6 Molemmat suunnat erillisinä kortteina

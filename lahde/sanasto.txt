@@ -3,52 +3,7 @@ Skrivtavla
 maanantai 7. syyskuuta 2026
 22.50
 
-Berömma, berömmer, berömde, berömt = ylistää, kehua
-Berömma sig, berömmer sig, berömde sig, berömt sig = kerskua, leuhkia
-
-Vägbygg = tietyömaa
-
-Fusk = huijaus, petos
-
-Uppmuntra = ilahduttaa, virkistää, kannustaa
-
-oförberedd = valmistelematon
-försiktig = varovainen
-skaka = ravistaa
-rusa = kiirehtiä
-ramla omkull = kaatua nurin
-sparka = potkaista
-
-komma loss = karata
-släppa = vapauttaa
-dräkt = puku/asu
-kuvert = kirjekuori
-föreställning = esitys, näytelmä, näkemys
-förtjusande = lumoava, hurmaava
-väsentlig = olennainen
-onödig = tarpeeton
-skadlig = vahingollinen
-ansvarsfull = vastuuntuntoinen
-oväntad = aavistamaton
-saklig = asiallinen
-avgöra = ratkaista
-bekräfta = vahvistaa
-dela = jakaa
-utrrycka sig = ilmaista itseään
-försvara = puolustaa
-skydda = suojella
-fastna = juuttua
-en förmåga = kyky
-en värdering = arvo, arvostus
-ett synsätt = näkökulma
-en förutsättning = edellytys
-en åsikt = mielipide
-ett samhälle = yhteiskunta
-
-avsedd = tarkoitettu
-på egen hand = omatoimisesti
-antingen = joko
-grundläggande = perustavanlaatuinen, perus, olennainen
+Tyhjä. Uudet sanat kirjataan tähän ja siirretään lukuihin, kun ne on luokiteltu.
 
 Verbit
 
@@ -99,6 +54,13 @@ klaga (på/över), klagar, klagade, klagat  (I)  –  valittaa
 vägra, vägrar, vägrade, vägrat  (I)  –  kieltäytyä
 	Han vägrar själv att söka hjälp. = Hän kieltäytyy itse hakemasta apua.
 göra anteckningar  –  tehdä muistiinpanoja
+berömma, berömmer, berömde, berömt  (IIa)  –  ylistää, kehua, kiittää
+berömma sig (av), berömmer sig, berömde sig, berömt sig  (IIa)  –  kerskua, leuhkia, kehuskella
+	Puhekielessä kerskumisesta käytetään useammin verbiä skryta (skryter, skröt, skrutit) + över tai med. Berömma sig av on kirjallisempi.
+uppmuntra, uppmuntrar, uppmuntrade, uppmuntrat  (I)  –  kannustaa, rohkaista, ilahduttaa, virkistää
+uttrycka sig, uttrycker sig, uttryckte sig, uttryckt sig  (IIb)  –  ilmaista itseään
+	Korjaus: "utrrycka sig" → uttrycka sig (kaksi t:tä, yksi r)
+dela, delar, delade, delat  (I)  –  jakaa
 
 1.3 Epäily, luottamus ja varmuus
 misstänka, misstänker, misstänkte, misstänkt  (IIb)  –  epäillä, aavistaa (vahvempi kuin jag tror)
@@ -118,6 +80,8 @@ likna, liknar, liknade, liknat  (I)  –  muistuttaa (näyttää samalta)
 uppskatta, uppskattar, uppskattade, uppskattat  (I)  –  arvostaa; arvioida
 värdesätta, värdesätter, värdesatte, värdesatt  (IV)  –  arvostaa
 försvara, försvarar, försvarade, försvarat  (I)  –  puolustaa
+skydda (mot), skyddar, skyddade, skyddat  (I)  –  suojella, suojata
+	Huomaa: skydda mot något = suojella joltakin. Substantiivi: ett skydd = suoja.
 stå upp för (står, stod, stått)  –  puolustaa, asettua jonkin puolelle
 	Vi måste stå upp för de demokratiska värderingarna. = Meidän on puolustettava demokraattisia arvoja.
 ta hänsyn till  –  ottaa huomioon
@@ -156,6 +120,8 @@ utmana, utmanar, utmanade, utmanat  (I)  –  haastaa
 undvika, undviker, undvek, undvikit  (IV)  –  välttää
 avbryta, avbryter, avbröt, avbrutit  (IV)  –  keskeyttää, pitää tauko
 lösa, löser, löste, löst  (IIb)  –  ratkaista
+avgöra, avgör, avgjorde, avgjort  (IV)  –  ratkaista, päättää
+	Huomaa: avgöra taipuu kuten göra (gör, gjorde, gjort). Adjektiivi avgörande = ratkaiseva.
 undersöka, undersöker, undersökte, undersökt  (IIb)  –  tutkia
 forska, forskar, forskade, forskat  (I)  –  tutkia (tieteellisesti)
 försöka, försöker, försökte, försökt  (IIb)  –  yrittää
@@ -266,6 +232,18 @@ tillverka → en tillverkning  –  valmistaa → valmistus
 rengöra → en rengöring, rengöringen, rengöringar, rengöringarna (2)  –  puhdistaa → puhdistus
 begrava → en begravning (2)  –  haudata → hautajaiset
 
+1.12 Liike, irtoaminen ja fyysinen toiminta
+skaka, skakar, skakade, skakat  (I)  –  ravistaa, täristä
+rusa, rusar, rusade, rusat  (I)  –  syöksyä, rynnätä, pinkoa
+	Korjaus: "rusa = kiirehtiä" – rusa on rajumpi: syöksyä, rynnätä. Kiirehtiä on skynda (sig).
+ramla omkull, ramlar omkull, ramlade omkull, ramlat omkull  (I)  –  kaatua nurin, kupsahtaa
+sparka, sparkar, sparkade, sparkat  (I)  –  potkaista, potkia
+fastna, fastnar, fastnade, fastnat  (I)  –  juuttua, tarttua kiinni
+	Vastakohta fastna ↔ lossna (irrota) löytyy luvusta 1.9.
+komma loss, kommer loss, kom loss, kommit loss  (IV)  –  päästä irti, irrota, päästä vauhtiin
+	Korjaus: "komma loss = karata" – loss tarkoittaa irti, joten komma loss = päästä irti. Karata (esim. vankilasta) on rymma.
+släppa, släpper, släppte, släppt  (IIb)  –  päästää irti, vapauttaa, laskea irti
+
 Substantiivit
 
 maanantai 7. syyskuuta 2026
@@ -349,6 +327,9 @@ en reklam, reklamen  (–)  –  mainonta, mainos
 en tjänst, tjänsten, tjänster, tjänsterna  (3)  –  palvelu
 en skatt, skatten, skatter, skatterna  (3)  –  vero
 	skattefritt = verovapaa / ge skattefritt = antaa verovapaana
+ett samhälle, samhället, samhällen, samhällena  (4)  –  yhteiskunta, yhdyskunta
+ett fusk, fusket, fusk, fusken  (5)  –  huijaus, vilppi, lunttaus
+	Huomaa: fusk on tavallisesti aineensana eikä esiinny monikossa. Verbi: fuska (I) = huijata, luntata.
 
 2.4 Näkökulma, suhde ja mielipide
 en åsikt, åsikten, åsikter, åsikterna  (3)  –  mielipide, näkemys
@@ -361,6 +342,10 @@ ett förhållande (till), förhållandet, förhållanden, förhållandena  (4)  
 	olika förhållanden = erilaiset olosuhteet
 en avsikt, avsikten, avsikter, avsikterna  (3)  –  tarkoitus, aikomus, tahallisuus
 ett syfte, syftet, syften, syftena  (4)  –  tarkoitus, päämäärä
+en förutsättning (för), förutsättningen, förutsättningar, förutsättningarna  (2)  –  edellytys, ehto, ennakkoehto
+	Verbi: förutsätta (förutsätter, förutsatte, förutsatt) = edellyttää; ks. luku 1.3.
+en föreställning (om), föreställningen, föreställningar, föreställningarna  (2)  –  esitys, näytäntö, käsitys, mielikuva
+	Huomaa: kaksi eri merkitystä samasta sanasta: teatteriesitys ja mielessä oleva käsitys. Vrt. verbi föreställa sig = kuvitella.
 
 2.5 Ympäristö ja kestävä kehitys
 ett område, området, områden, områdena  (4)  –  alue
@@ -404,6 +389,8 @@ en resväska, resväskan, resväskor, resväskorna  (1)  –  matkalaukku
 en förbindelse, förbindelsen, förbindelser, förbindelserna  (3)  –  yhteys
 en våning, våningen, våningar, våningarna  (2)  –  kerros
 	första våningen = ensimmäinen kerros
+ett vägbygge, vägbygget, vägbyggen, vägbyggena  (4)  –  tietyömaa, tienrakennus
+	Korjaus: "Vägbygg" → ett vägbygge. Sana on ett-sukuinen ja päättyy e:hen (bygga → ett bygge = rakennustyömaa).
 till utlandet ↔ till hemlandet  –  ulkomaille ↔ kotimaahan
 utomlands  –  ulkomailla
 Gräsviken / Träskända / Talludden  –  Ruoholahti / Järvenpää / Mäntyniemi
@@ -449,6 +436,10 @@ oanade konsekvenser  –  odottamattomat seuraukset
 en ande, anden, andar, andarna  (2)  –  henki, haltija
 	Muistiinpanoissa oli merkintä "Ande ende". Huomaa ero: en ande = henki, mutta den ende / det enda = ainoa (adjektiivista enda).
 
+2.11 Esineet ja arjen sanat
+en dräkt, dräkten, dräkter, dräkterna  (3)  –  puku, asu, asukokonaisuus
+ett kuvert, kuvertet, kuvert, kuverten  (5)  –  kirjekuori
+
 Adjektiivit ja adverbit
 
 maanantai 7. syyskuuta 2026
@@ -482,6 +473,9 @@ högljudd, högljutt, högljudda ↔ tystlåten, tystlåtet, tystlåtna  –  ä
 pratsam, pratsamt, pratsamma ↔ kortfattad, kortfattat, kortfattade  –  puhelias ↔ lyhytsanainen
 avtagande ↔ tilltagande  –  vähenevä ↔ kasvava
 förbättra ↔ försämra  –  parantaa ↔ heikentää
+förberedd, förberett, förberedda ↔ oförberedd, oförberett, oförberedda  –  valmistautunut ↔ valmistautumaton
+väntad, väntat, väntade ↔ oväntad, oväntat, oväntade  –  odotettu ↔ odottamaton
+	Korjaus: "oväntad = aavistamaton" → odottamaton, yllättävä. Sana tulee verbistä vänta (odottaa), ei aavistamisesta.
 
 3.2 Perusadjektiivit (en-muoto, ett-muoto, monikko/määräinen)
 nöjd, nöjt, nöjda  (adj.)  –  tyytyväinen
@@ -517,6 +511,10 @@ hållbar, hållbart, hållbara  (adj.)  –  kestävä
 tvåspråkig, tvåspråkigt, tvåspråkiga  (adj.)  –  kaksikielinen
 kreddig, kreddigt, kreddiga  (adj. (puhek.))  –  arvostettu, meriittiä tuova
 	ett kreddigt universitet = arvostettu yliopisto
+försiktig (med), försiktigt, försiktiga  (adj.)  –  varovainen
+ansvarsfull, ansvarsfullt, ansvarsfulla  (adj.)  –  vastuuntuntoinen, vastuullinen
+	Vrt. ansvarig för = vastuussa jostakin. Ansvarsfull kuvaa ihmisen luonnetta, ansvarig konkreettista vastuuta.
+saklig, sakligt, sakliga  (adj.)  –  asiallinen, asiapitoinen
 
 3.3 Partisiippiadjektiivit
 Perfektin partisiipista muodostetut adjektiivit taipuvat kolmessa muodossa: en-muoto, ett-muoto (-t) ja monikko/määräinen (-a/-e).
@@ -546,6 +544,8 @@ nymålad, nymålat, nymålade  (part.)  –  vastamaalattu
 	Etuliite ny- + partisiippi = "vasta-". Vrt. adverbi nyss = vasta, äskettäin.
 lättirriterad, lättirriterat, lättirriterade  (part.)  –  helposti ärsyyntyvä
 bekymrad, bekymrat, bekymrade  (part.)  –  huolestunut
+avsedd (för), avsett, avsedda  (part.)  –  tarkoitettu
+	Huomaa: perfektin partisiippi verbistä avse (avser, avsåg, avsett) = tarkoittaa. Vrt. en avsikt = tarkoitus, aikomus.
 
 3.4 -ande/-ende-partisiipit (preesensin partisiippi)
 närvarande  (taipumaton)  –  läsnä oleva
@@ -554,6 +554,9 @@ illamående ↔ välmående  (taipumaton)  –  pahoinvoiva ↔ hyvinvoiva
 fängslande  (taipumaton)  –  vangitseva
 avtagande ↔ tilltagande  (taipumaton)  –  vähenevä ↔ kasvava
 avgörande  (taipumaton)  –  ratkaiseva
+grundläggande  (taipumaton)  –  perustavanlaatuinen, perus-, olennainen
+förtjusande  (taipumaton)  –  lumoava, hurmaava, upea
+	Sääntö: -ande-partisiipit eivät taivu lainkaan: ett grundläggande problem, en förtjusande utsikt.
 
 3.5 -aktig-johtimiset adjektiivit
 tvivelaktig, tvivelaktigt, tvivelaktiga  (adj.)  –  epäilyttävä
@@ -634,6 +637,7 @@ lägga märke till  –  panna merkille
 Har du märkt…?  –  Oletko huomannut…?
 komplettera svaren  –  täydennä vastaukset
 	Muistisääntö "visa vinkuu": visa (IIb, visar, visade, visat) = näyttää; en visa = laulu.
+på egen hand  –  omatoimisesti, omin päin, itsenäisesti
 
 Sidosteisuus ja pikkusanat
 
