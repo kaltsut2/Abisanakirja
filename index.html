@@ -479,6 +479,8 @@ mark {
 .pino > * + * { margin-top: 0.9rem; }
 .pino-tiivis > * + * { margin-top: 0.5rem; }
 .rivi-vali { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+.kytkinrivi { display: flex; align-items: flex-start; gap: 1rem; cursor: pointer; }
+.kytkinrivi input { flex: none; width: 1.15rem; height: 1.15rem; margin-top: 0.15rem; accent-color: var(--korostus-kirkas); }
 .napit { display: flex; gap: 0.6rem; flex-wrap: wrap; }
 .napit > .nappi { flex: 1; min-width: 8rem; }
 
@@ -505,6 +507,14 @@ mark {
   .merkkiPiirto { animation: none; stroke-dashoffset: 0; }
 }
 @keyframes palauteHaivytys { from { opacity: 0; } }
+/* Näppäimistötarkennus paletin mukaisena, ei selaimen oletusrenkaana. */
+:focus-visible {
+  outline: 2px solid var(--korostus-kirkas);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+.kentta:focus-visible { outline: none; }
+
 .vain-ruudunlukijalle {
   position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
   overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
@@ -769,7 +779,7 @@ const oletusEdistyminen = () => ({
   versio: 1,
   kortit: {},
   virheloki: [],
-  asetukset: { aani: true, suodatin: null },
+  asetukset: { aani: true, suodatin: null, naytaLuokka: true },
   istunto: { paiva: null, maara: 0 },
 });
 
@@ -1502,7 +1512,11 @@ function taivutusTehtavat() {
       sana,
       kehote: "Täydennä taivutus",
       kysymys: (sana.suku ? sana.suku + " " : "") + sana.ruotsi,
-      vihje: [sana.sanaluokka, sana.luokka, sana.suomi[0]].filter(Boolean).join(" · "),
+      // Taivutusluokka kertoo kaavan. Ilman sitä muodot on haettava muistista,
+      // mikä on lähempänä kokeen tilannetta.
+      vihje: [sana.sanaluokka,
+              edistyminen.asetukset.naytaLuokka ? sana.luokka : null,
+              sana.suomi[0]].filter(Boolean).join(" · "),
       kentat: sana.taivutus.map((muoto, i) => ({
         otsikko: OTSIKOT[sana.sanaluokka][i] || "muoto " + (i + 1),
         vastaukset: [muoto],
@@ -2280,19 +2294,20 @@ function avaaAsetukset() {
     lisaa(rajaus, valikko);
     lisaa(sisus, rajaus);
 
+    /* Vaikeustaso */
+    lisaa(sisus, kytkinrivi(
+      "Näytä taivutusluokka",
+      "Taivutustreenissä luokka (I, IIb, 3, 5…) kertoo kaavan. Piilota se, kun " +
+      "haluat hakea muodot muistista.",
+      edistyminen.asetukset.naytaLuokka,
+      (arvo) => { edistyminen.asetukset.naytaLuokka = arvo; tallenna(); piirra(); }));
+
     /* Ääni */
     if (window.speechSynthesis) {
-      const rivi = el("label", "rivi-vali");
-      lisaa(rivi, el("span", null, "Ääntämisnappi sanojen vieressä"));
-      const kytkin = el("input");
-      kytkin.type = "checkbox";
-      kytkin.checked = edistyminen.asetukset.aani;
-      kytkin.addEventListener("change", () => {
-        edistyminen.asetukset.aani = kytkin.checked;
-        tallenna(); piirra();
-      });
-      lisaa(rivi, kytkin);
-      lisaa(sisus, rivi);
+      lisaa(sisus, kytkinrivi(
+        "Ääntämisnappi sanojen vieressä", null,
+        edistyminen.asetukset.aani,
+        (arvo) => { edistyminen.asetukset.aani = arvo; tallenna(); piirra(); }));
       lisaa(sisus, el("p", "t-pieni haalea", ruotsinAani
         ? "Ruotsin ääni: " + ruotsinAani.name
         : "Ruotsin ääntä ei ole asennettuna, joten lausuminen menee suomalaisittain. " +
@@ -2391,6 +2406,19 @@ function avaaAsetukset() {
     lisaa(sisus, el("p", "t-nano haalein",
       `${kortit.length} KORTTIA · ${aloitetut} ALOITETTU · ${valmiit} VÄLITOISTOSSA`));
   });
+}
+
+function kytkinrivi(otsikko, selite, arvo, onMuutos) {
+  const kuori = el("label", "kytkinrivi");
+  const teksti = el("div", "kasvaa");
+  lisaa(teksti, el("div", null, otsikko));
+  if (selite) lisaa(teksti, el("div", "t-pieni haalea", selite));
+  const kytkin = el("input");
+  kytkin.type = "checkbox";
+  kytkin.checked = Boolean(arvo);
+  kytkin.addEventListener("change", () => onMuutos(kytkin.checked));
+  lisaa(kuori, teksti, kytkin);
+  return kuori;
 }
 
 function naytaTeksti(otsikko, teksti) {

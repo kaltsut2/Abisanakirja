@@ -124,6 +124,13 @@ on 20–35 korttia, ja siirtymä kortista korttiin tekisi siitä hitaan.
   kumilenkki, ja heiton lepopiste projisoidaan nopeudesta.
 - `prefers-reduced-motion` korvaa siirtymät häivytyksillä, ei poista palautetta.
 
+## Asetukset
+
+Asetuslevy avautuu ylärivin rattaasta. Siellä on harjoittelun rajaus luvuittain
+tai sanaluokittain, **taivutusluokan piilotus** (taivutustreeni ilman kaavan
+paljastavaa I/IIb/3/5-merkintää), ääntämisnappi, edistymisen vienti ja tuonti,
+vaikeat sanat, virheloki ja nollaus.
+
 ## Ikoni
 
 Kotinäytön ikoni tehdään yhdestä lähdekuvasta:
