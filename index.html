@@ -33,7 +33,7 @@
   --korostus-syva:   #003f88;
   --korostus-pehmea: rgba(30, 150, 252, 0.12);
   --huomio:       #ffc600;
-  --huomio-teksti: #7a5a00;
+  --huomio-teksti: #6b4f00;
   --oikein:       #1a7f4b;
   --oikein-pehmea: rgba(26, 127, 75, 0.1);
   --vaarin:       #c0362c;
@@ -66,13 +66,13 @@
     --muste:      #eceae7;
     --muste-2:    #a8a49c;
     --muste-3:    #7c7871;
-    --tausta:     #16171a;
-    --pinta:      #1e2024;
-    --pinta-2:    #25282d;
-    --lasi:       rgba(22, 23, 26, 0.72);
-    --lasi-reuna: rgba(255, 255, 255, 0.07);
-    --viiva:      #2e3136;
-    --viiva-vahva: #3c4046;
+    --tausta:     #0e141b;
+    --pinta:      #182029;
+    --pinta-2:    #1f2a35;
+    --lasi:       rgba(14, 20, 27, 0.74);
+    --lasi-reuna: rgba(162, 214, 249, 0.09);
+    --viiva:      #253140;
+    --viiva-vahva: #33445a;
 
     --korostus:   #a2d6f9;
     --korostus-2: #a2d6f9;
@@ -164,7 +164,7 @@ body {
 .valilehti .merkki {
   position: absolute; transform: translate(0.85rem, -0.7rem);
   min-width: 1.1rem; height: 1.1rem; padding: 0 0.25rem;
-  border-radius: 999px; background: var(--korostus-kirkas); color: #fff;
+  border-radius: 999px; background: var(--huomio); color: #3d2f00;
   font-size: 0.65rem; font-weight: 650; line-height: 1.1rem; text-align: center;
 }
 
@@ -315,6 +315,33 @@ main {
 .rivi .kasvaa { flex: 1; min-width: 0; }
 .rivi .maara { color: var(--muste-3); font-variant-numeric: tabular-nums; }
 .rivi .nuoli { color: var(--muste-3); flex: none; }
+
+/* Värillinen laatta rivin alussa. Väri kertoo mitä sanaluokkaa tai aihetta
+   rivi koskee; hehku on laatan oma, ei koko kortin, jotta lista pysyy rauhallisena. */
+.laatta {
+  flex: none; width: 2.6rem; height: 2.6rem; border-radius: 0.8rem;
+  display: grid; place-items: center;
+  background: color-mix(in srgb, var(--laatanvari) 20%, var(--pinta));
+  /* Kuvake sekoitetaan musteeseen, jotta kirkas keltainen pysyy luettavana
+     vaalealla pohjalla eikä tummu liikaa tummalla. */
+  color: color-mix(in srgb, var(--laatanvari) 74%, var(--muste));
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--laatanvari) 34%, transparent),
+              0 6px 16px -10px var(--laatanvari);
+}
+.laatta.numero { font-weight: 700; font-size: 0.95rem; letter-spacing: -0.02em; }
+.rivi:has(.laatta) { padding: 0.7rem 0.9rem; }
+
+/* Osaston otsikko: tunnusväri, nimi ja lukumäärä pillerissä. */
+.osasto { display: flex; align-items: center; gap: 0.5rem; margin: 1.4rem 0 0.6rem; }
+.osasto:first-child { margin-top: 0.25rem; }
+.osasto .merkki-kuvake { color: var(--laatanvari); display: grid; place-items: center; }
+.osasto .nimi { font-weight: 650; letter-spacing: -0.01em; }
+.pilleri {
+  font-size: 0.72rem; font-weight: 700; line-height: 1;
+  padding: 0.28rem 0.5rem; border-radius: 999px;
+  background: color-mix(in srgb, var(--huomio) 24%, transparent);
+  color: var(--huomio-teksti);
+}
 
 h2.luku {
   margin: 2.25rem 0 0.35rem; padding-top: 1rem;
@@ -1569,14 +1596,52 @@ function sukuTehtavat() {
     }));
 }
 
+const KUVAKKEET = {
+  muodot:     '<path d="M4 7h16M4 12h10M4 17h13"/>',
+  suku:       '<rect x="3.5" y="4.5" width="17" height="15" rx="2.5"/><path d="M12 4.5v15"/>',
+  rektio:     '<path d="m9.6 14.4 4.8-4.8"/><path d="m11 7.6 1.8-1.8a3.6 3.6 0 0 1 5.1 5.1L16.1 12.7"/><path d="m13 16.4-1.8 1.8a3.6 3.6 0 0 1-5.1-5.1L7.9 11.3"/>',
+  paikka:     '<path d="M12 21s6.4-5.9 6.4-10.4a6.4 6.4 0 1 0-12.8 0C5.6 15.1 12 21 12 21z"/><circle cx="12" cy="10.6" r="2.3"/>',
+  vastakohta: '<path d="m7.5 8.5-3 3 3 3"/><path d="m16.5 8.5 3 3-3 3"/><path d="M4.5 11.5h15"/>',
+  lause:      '<path d="M20 15.4a2.5 2.5 0 0 1-2.5 2.5H8.4L4.5 21V6.6A2.5 2.5 0 0 1 7 4.1h10.5A2.5 2.5 0 0 1 20 6.6z"/>',
+};
+
 const HARJOITUKSET = [
-  { id: "taivutus",   nimi: "Taivutustreeni",  kuvaus: "Kaikki muodot omiin kenttiinsä",         tee: taivutusTehtavat },
-  { id: "rektio",     nimi: "Rektioaukot",     kuvaus: "Verbi, adjektiivi tai substantiivi + prepositio", tee: rektioTehtavat },
-  { id: "prepositio", nimi: "Prepositiotreeni", kuvaus: "Ajan ja paikan i / på / om / för",      tee: prepositioTehtavat },
-  { id: "vastakohta", nimi: "Vastakohtaparit", kuvaus: "Näytä sana, kirjoita sen vastakohta",    tee: vastakohtaTehtavat },
-  { id: "lause",      nimi: "Lauseesta sana",  kuvaus: "Suomenkielinen lause ruotsiksi",         tee: lauseTehtavat },
-  { id: "suku",       nimi: "en vai ett",      kuvaus: "Substantiivien suku nopeasti",           tee: sukuTehtavat },
+  { id: "taivutus",   osasto: "Muodot",      vari: "var(--korostus-kirkas)",     kuvake: KUVAKKEET.muodot,
+    nimi: "Taivutustreeni",   kuvaus: "Kaikki muodot omiin kenttiinsä",                  tee: taivutusTehtavat },
+  { id: "suku",       osasto: "Muodot",      vari: "var(--luokka-substantiivi)", kuvake: KUVAKKEET.suku,
+    nimi: "en vai ett",       kuvaus: "Substantiivien suku nopeasti",                    tee: sukuTehtavat },
+  { id: "rektio",     osasto: "Prepositiot", vari: "var(--luokka-prepositio)",   kuvake: KUVAKKEET.rektio,
+    nimi: "Rektioaukot",      kuvaus: "Verbi, adjektiivi tai substantiivi + prepositio", tee: rektioTehtavat },
+  { id: "prepositio", osasto: "Prepositiot", vari: "var(--huomio)",              kuvake: KUVAKKEET.paikka,
+    nimi: "Prepositiotreeni", kuvaus: "Ajan ja paikan i / på / om / för",                tee: prepositioTehtavat },
+  { id: "vastakohta", osasto: "Merkitys",    vari: "var(--luokka-adjektiivi)",   kuvake: KUVAKKEET.vastakohta,
+    nimi: "Vastakohtaparit",  kuvaus: "Näytä sana, kirjoita sen vastakohta",             tee: vastakohtaTehtavat },
+  { id: "lause",      osasto: "Merkitys",    vari: "var(--luokka-verbi)",        kuvake: KUVAKKEET.lause,
+    nimi: "Lauseesta sana",   kuvaus: "Suomenkielinen lause ruotsiksi",                  tee: lauseTehtavat },
 ];
+
+const OSASTOT = [
+  { nimi: "Muodot",      vari: "var(--korostus-kirkas)",   kuvake: KUVAKKEET.muodot },
+  { nimi: "Prepositiot", vari: "var(--luokka-prepositio)", kuvake: KUVAKKEET.paikka },
+  { nimi: "Merkitys",    vari: "var(--huomio)",            kuvake: KUVAKKEET.lause },
+];
+
+function osastonOtsikko(osasto, maara) {
+  const rivi = el("div", "osasto");
+  rivi.style.setProperty("--laatanvari", osasto.vari);
+  const merkki = el("span", "merkki-kuvake");
+  lisaa(merkki, ikoni(osasto.kuvake, 18));
+  lisaa(rivi, merkki, el("span", "nimi", osasto.nimi), el("span", "pilleri", String(maara)));
+  return rivi;
+}
+
+function laatta(vari, sisalto, numero) {
+  const solmu = el("div", "laatta" + (numero ? " numero" : ""));
+  solmu.style.setProperty("--laatanvari", vari || "var(--luokka-neutraali)");
+  if (numero) solmu.textContent = sisalto;
+  else lisaa(solmu, ikoni(sisalto, 21));
+  return solmu;
+}
 
 let harjoitusIstunto = null;
 
@@ -1592,22 +1657,29 @@ function naytaHarjoitukset() {
     lisaa(lohko, el("p", "t-pieni haalea",
       "Nämä syntyvät samasta sanastosta kuin kortitkin. Rektiot ja prepositiot ovat " +
       "käytännössä ylioppilaskokeen aukkotehtävä sellaisenaan."));
-    const lista = el("div", "rivilista");
-    for (const maaritys of HARJOITUKSET) {
-      const maara = maaritys.tee().length;
-      const rivi = el("button", "rivi");
-      rivi.type = "button";
-      const kasvaa = el("div", "kasvaa");
-      lisaa(kasvaa, el("div", "t-vali", maaritys.nimi));
-      lisaa(kasvaa, el("div", "t-pieni haalea", maaritys.kuvaus));
-      const nuoli = ikoni('<path d="m9 6 6 6-6 6"/>', 18);
-      nuoli.classList.add("nuoli");
-      lisaa(rivi, kasvaa, el("span", "maara t-pieni", String(maara)), nuoli);
-      rivi.disabled = maara === 0;
-      rivi.addEventListener("click", () => { aloitaHarjoitus(maaritys); piirra(); });
-      lisaa(lista, rivi);
+    for (const osasto of OSASTOT) {
+      const kuuluvat = HARJOITUKSET.filter((h) => h.osasto === osasto.nimi);
+      const maarat = kuuluvat.map((h) => h.tee().length);
+      lisaa(lohko, osastonOtsikko(osasto, maarat.reduce((a, b) => a + b, 0)));
+      const lista = el("div", "rivilista");
+      kuuluvat.forEach((maaritys, i) => {
+        const rivi = el("button", "rivi");
+        rivi.type = "button";
+        lisaa(rivi, laatta(maaritys.vari, maaritys.kuvake));
+        const kasvaa = el("div", "kasvaa");
+        lisaa(kasvaa, el("div", "t-vali", maaritys.nimi));
+        lisaa(kasvaa, el("div", "t-pieni haalea", maaritys.kuvaus));
+        const nuoli = ikoni('<path d="M8 5.5v13l11-6.5z"/>', 17);
+        nuoli.classList.add("nuoli");
+        nuoli.setAttribute("fill", "currentColor");
+        nuoli.setAttribute("stroke", "none");
+        lisaa(rivi, kasvaa, el("span", "maara t-pieni", String(maarat[i])), nuoli);
+        rivi.disabled = maarat[i] === 0;
+        rivi.addEventListener("click", () => { aloitaHarjoitus(maaritys); piirra(); });
+        lisaa(lista, rivi);
+      });
+      lisaa(lohko, lista);
     }
-    lisaa(lohko, lista);
     return lohko;
   }
 
@@ -1718,13 +1790,31 @@ function harjoitusNakyma(tehtava, indeksi, kokonais, otsikko, onJatka, onTulos) 
 /* ==========================================================================
    11. Ääntäminen
    ========================================================================== */
+/* Pelkkä lang = "sv-SE" ei riitä: ilman nimettyä ääntä selain käyttää
+   järjestelmän oletusta, joka lausuu ruotsin suomalaisittain. Haetaan ruotsin
+   ääni erikseen, ja kerrotaan asetuksissa jos sitä ei ole asennettuna. */
+let ruotsinAani = null;
+function paivitaAanet() {
+  if (!window.speechSynthesis) return;
+  const aanet = speechSynthesis.getVoices() || [];
+  ruotsinAani =
+    aanet.find((a) => /^sv[-_]se$/i.test(a.lang)) ||
+    aanet.find((a) => /^sv([-_]|$)/i.test(a.lang)) ||
+    null;
+}
+if (window.speechSynthesis) {
+  paivitaAanet();
+  speechSynthesis.addEventListener("voiceschanged", paivitaAanet);
+}
+
 function puhu(teksti) {
   if (!window.speechSynthesis) return;
   try {
     speechSynthesis.cancel();
     const puhe = new SpeechSynthesisUtterance(teksti);
     puhe.lang = "sv-SE";
-    puhe.rate = 0.95;
+    if (ruotsinAani) puhe.voice = ruotsinAani;
+    puhe.rate = 0.92;
     speechSynthesis.speak(puhe);
   } catch (virhe) { /* ääni ei ole koskaan välttämätön */ }
 }
@@ -1923,6 +2013,11 @@ function naytaTeoria() {
   }
   lisaa(juuri, selite);
 
+  const sanojaYhteensa = sanasto.luvut.reduce((summa, luku) => summa + luku.alaluvut.reduce(
+    (a, alaluku) => a + alaluku.sisalto.filter((k) => k.tyyppi === "sana").length, 0), 0);
+  lisaa(juuri, osastonOtsikko(
+    { nimi: "Luvut", vari: "var(--korostus-kirkas)", kuvake: KUVAKKEET.muodot }, sanojaYhteensa));
+
   const sisallys = el("div", "rivilista");
   for (const luku of sanasto.luvut) {
     const sanoja = luku.alaluvut.reduce(
@@ -1930,9 +2025,11 @@ function naytaTeoria() {
     if (!sanoja && !luku.alaluvut.length) continue;
     const rivi = el("button", "rivi");
     rivi.type = "button";
-    lisaa(rivi, varineliö(lukuVari(luku.otsikko)));
+    const numero = (luku.otsikko.match(/^(\d+)\s/) || [])[1];
+    const nimi = numero ? luku.otsikko.slice(numero.length + 1) : luku.otsikko;
+    lisaa(rivi, laatta(lukuVari(luku.otsikko), numero || "·", true));
     const kasvaa = el("div", "kasvaa");
-    lisaa(kasvaa, el("div", "t-vali", luku.otsikko));
+    lisaa(kasvaa, el("div", "t-vali", nimi));
     lisaa(rivi, kasvaa, el("span", "maara t-pieni", String(sanoja)));
     rivi.addEventListener("click", () => {
       document.getElementById(lukuTunniste(luku.otsikko))?.scrollIntoView({
@@ -2172,6 +2269,11 @@ function avaaAsetukset() {
       });
       lisaa(rivi, kytkin);
       lisaa(sisus, rivi);
+      lisaa(sisus, el("p", "t-pieni haalea", ruotsinAani
+        ? "Ruotsin ääni: " + ruotsinAani.name
+        : "Ruotsin ääntä ei ole asennettuna, joten lausuminen menee suomalaisittain. " +
+          "macOS: Järjestelmäasetukset → Käyttöapu → Puhuttu sisältö → Järjestelmän ääni → " +
+          "Hallitse ääniä → Ruotsi."));
     }
 
     /* Varmuuskopio */
