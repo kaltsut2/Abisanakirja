@@ -152,6 +152,8 @@ body {
   mask-image: linear-gradient(to top, #000, transparent);
   pointer-events: none;
 }
+/* Leveällä ruudulla palkki ei veny yli sisällön leveyden. */
+.alapalkki > .valilehdet { display: flex; width: 100%; max-width: var(--leveys); margin: 0 auto; }
 .valilehti {
   flex: 1; min-height: var(--alapalkki); border: 0; background: none;
   color: var(--muste-3); font: inherit; cursor: pointer;
@@ -2399,8 +2401,10 @@ let valilehti = "opi";
 const sijainnit = {};
 
 function piirraAlapalkki() {
-  const palkki = $("#alapalkki");
-  palkki.textContent = "";
+  const juuri = $("#alapalkki");
+  juuri.textContent = "";
+  const palkki = el("div", "valilehdet");
+  lisaa(juuri, palkki);
   const eraantyy = kortit.filter(erääntyy).length;
   for (const lehti of VALILEHDET) {
     const b = el("button", "valilehti");

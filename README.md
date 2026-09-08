@@ -71,6 +71,56 @@ ne siirretään oikeisiin lukuihin ja Skrivtavla tyhjennetään taas.
 python3 -m http.server 8777 --directory "/Users/kalletaskinen/Kallen paikallinen kansio/Ruotsin sanasto"
 ```
 
+## Ulkoasu
+
+Yksi ainoa tiedosto, ei riippuvuuksia, ei build-vaihetta. Tumma ja vaalea teema
+seuraavat järjestelmän asetusta.
+
+**Siniset** kantavat käyttöliittymän. Kirkas `#1e96fc` on pintaa – edistyspalkki,
+valittu välilehti, tarkennuskehä – koska se jää valkoista vasten alle luettavan
+kontrastin. Syvä `#00509d` ja `#003f88` kantavat tekstin ja painikkeiden täytöt.
+Vaalea `#a2d6f9` on tumman teeman korostusteksti.
+
+**Keltainen** `#ffc600` on huomioväri: hakuosumat, lukumääräpillerit,
+kertausmerkki alapalkissa ja "melkein oikein" -palaute.
+
+**Sanaluokilla on omat värinsä.** Niitä käytetään vain pintoina – laattoina,
+pisteinä ja lippuina – ei koskaan tekstin värinä, koska useimmat niistä eivät
+yllä luettavaan kontrastiin.
+
+| Sanaluokka | Väri |
+|---|---|
+| verbi | `#82e1df` |
+| substantiivi | `#a486d5` |
+| adjektiivi | `#fa442a` |
+| adverbi | `#6fcf5f` |
+| prepositio | `#ff65b3` |
+| ilmaus | `#ffc600` |
+
+Luvun tunnusväri tulee luvun **aiheesta**, ei sen sanojen enemmistöstä: luvun 6
+sanat ovat sanaluokaltaan kaikkea, mutta luku on prepositioita. Ks. `LUKUVARIT`.
+
+## Liike
+
+Liikettä on vähän ja se on perusteltua. Kortti vaihtuu välittömästi – istunnossa
+on 20–35 korttia, ja siirtymä kortista korttiin tekisi siitä hitaan.
+
+- **Jousi-luokka** (`vaimennus`, `vaste`) hoitaa kaiken keskeytettävän liikkeen.
+  Vaimennus 1.0 on oletus: ylitystä käytetään vain, kun eleessä itsessään oli
+  liike-energiaa.
+- **Vastauslomake** pitää toimintonapin paikallaan: kenttä ja palaute jakavat
+  saman ruudun, ja nappi vaihtaa vain nimensä. Nappi on lukossa 320 ms, jottei
+  pohjaan jäänyt Enter ohita palautetta.
+- **Asetuslevyn** voi vetää kiinni. Veto seuraa sormea 1:1, ylärajalla on
+  kumilenkki, ja heiton lepopiste projisoidaan nopeudesta.
+- `prefers-reduced-motion` korvaa siirtymät häivytyksillä, ei poista palautetta.
+
+## Ääntäminen
+
+Pelkkä `lang: "sv-SE"` ei riitä – ilman nimettyä ääntä selain lausuu ruotsin
+suomalaisittain. Sovellus hakee ruotsinkielisen äänen erikseen ja kertoo
+asetuksissa, jos sitä ei ole asennettuna.
+
 ## Tilanne
 
 Rakennusjärjestys on `SPEC.md` luvussa 9.
@@ -79,10 +129,16 @@ Rakennusjärjestys on `SPEC.md` luvussa 9.
 - [x] 2 Teoria-välilehti – JSON renderöitynä
 - [x] 3 Alapalkki ja välilehtinavigaatio
 - [x] Skrivtavlan 7.9.2026 erä luokiteltu (32 uutta sanaa, 11 päällekkäistä)
-- [ ] 4 Kortti-UI
-- [ ] 5 Välitoisto ja edistymisen tallennus
-- [ ] 6 Molemmat suunnat erillisinä kortteina
-- [ ] 7 Learn-tila
-- [ ] 8 Teorian haku ja lukunavigaatio
-- [ ] 9 Taivutustreeni
-- [ ] 10 Vie/tuo edistyminen
+- [x] 4 Kortti-UI
+- [x] 5 Välitoisto (SM-2) ja edistymisen tallennus
+- [x] 6 Molemmat suunnat erillisinä kortteina
+- [x] 7 Learn-tila: vaiheet, erälogiikka, häiriövaihtoehdot
+- [x] 8 Teorian haku ja lukunavigaatio
+- [x] 9 Taivutustreeni
+- [x] 10 Vie/tuo edistyminen
+- [x] 11 Kategoriasuodatin, "harjoittele tämä luku", osaamismerkit
+- [x] 12 Rektio- ja prepositioharjoitukset
+- [x] 13 Ääntäminen, leech-tunnistus, virheloki, istunnon pituus
+
+Rakentamatta jäi tarkoituksella se, mitä `SPEC.md` luvussa 7 kielletään:
+tunnukset, palvelin, pisteet ja sarjat, monivalinta kertauksessa.
