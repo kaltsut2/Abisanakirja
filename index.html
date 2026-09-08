@@ -3,346 +3,2444 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#fbfaf8" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#16171a" media="(prefers-color-scheme: dark)">
 <title>Ruotsin sanasto</title>
 <style>
+/* ==========================================================================
+   1. Perusta – värit, tila ja typografia
+   ========================================================================== */
 :root {
   color-scheme: light dark;
-  --tausta: #fbfaf8;
-  --tausta-korotettu: #ffffff;
-  --teksti: #1c1b19;
-  --teksti-haalea: #6b6862;
-  --viiva: #e4e0d9;
-  --korostus: #1f4e79;
-  --korostus-vaalea: #2e75b6;
-  --punainen: #b22222;
-  --punainen-tausta: #fdf2f2;
-  --leveys: 44rem;
+
+  --muste:        #1c1b19;
+  --muste-2:      #5f5c56;
+  --muste-3:      #8b8780;
+  --tausta:       #fbfaf8;
+  --pinta:        #ffffff;
+  --pinta-2:      #f3f1ed;
+  --lasi:         rgba(251, 250, 248, 0.72);
+  --lasi-reuna:   rgba(255, 255, 255, 0.6);
+  --viiva:        #e4e0d9;
+  --viiva-vahva:  #d3cec5;
+
+  /* Sininen kantaa käyttöliittymän. Syvä sävy kantaa tekstin ja täytöt, koska
+     kirkas #1e96fc jää valkoista vasten alle luettavan kontrastin; kirkas sävy
+     saa työkseen ne kohdat, joissa väri on pintaa eikä tekstiä. */
+  --korostus:     #00509d;
+  --korostus-2:   #00509d;
+  --korostus-kirkas: #1e96fc;
+  --korostus-syva:   #003f88;
+  --korostus-pehmea: rgba(30, 150, 252, 0.12);
+  --huomio:       #ffc600;
+  --huomio-teksti: #7a5a00;
+  --oikein:       #1a7f4b;
+  --oikein-pehmea: rgba(26, 127, 75, 0.1);
+  --vaarin:       #c0362c;
+  --vaarin-pehmea: rgba(192, 54, 44, 0.09);
+  --melkein:      #a86616;
+  --melkein-pehmea: rgba(168, 102, 22, 0.11);
+
+  --liike-ulos:      cubic-bezier(0.23, 1, 0.32, 1);   /* saapuminen ja poistuminen */
+  --liike-painallus: cubic-bezier(0.2, 0, 0.2, 1);      /* painalluspalaute */
+
+  --luokka-verbi:        #82e1df;
+  --luokka-substantiivi: #a486d5;
+  --luokka-adjektiivi:   #fa442a;
+  --luokka-adverbi:      #6fcf5f;
+  --luokka-prepositio:   #ff65b3;
+  --luokka-ilmaus:       #ffc600;
+  --luokka-neutraali:    #9aa0a6;
+
+  --pyoristys:    16px;
+  --pyoristys-s:  11px;
+  --varjo:        0 1px 2px rgba(28, 27, 25, 0.05), 0 8px 24px -12px rgba(28, 27, 25, 0.18);
+  --varjo-nostettu: 0 2px 6px rgba(28, 27, 25, 0.07), 0 20px 48px -16px rgba(28, 27, 25, 0.3);
+
+  --ylapalkki:    3.25rem;
+  --alapalkki:    3.5rem;
+  --leveys:       40rem;
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --tausta: #16171a;
-    --tausta-korotettu: #1e2024;
-    --teksti: #e8e6e3;
-    --teksti-haalea: #9a978f;
-    --viiva: #2e3136;
-    --korostus: #7db3e8;
-    --korostus-vaalea: #9cc6f0;
-    --punainen: #f08a80;
-    --punainen-tausta: #2a1e1d;
+    --muste:      #eceae7;
+    --muste-2:    #a8a49c;
+    --muste-3:    #7c7871;
+    --tausta:     #16171a;
+    --pinta:      #1e2024;
+    --pinta-2:    #25282d;
+    --lasi:       rgba(22, 23, 26, 0.72);
+    --lasi-reuna: rgba(255, 255, 255, 0.07);
+    --viiva:      #2e3136;
+    --viiva-vahva: #3c4046;
+
+    --korostus:   #a2d6f9;
+    --korostus-2: #a2d6f9;
+    --korostus-kirkas: #1e96fc;
+    --korostus-syva:   #003f88;
+    --korostus-pehmea: rgba(162, 214, 249, 0.16);
+    --huomio:     #ffc600;
+    --huomio-teksti: #ffc600;
+    --oikein:     #5fd39a;
+    --oikein-pehmea: rgba(95, 211, 154, 0.13);
+    --vaarin:     #ff8a80;
+    --vaarin-pehmea: rgba(255, 138, 128, 0.13);
+    --melkein:    #f0b866;
+    --melkein-pehmea: rgba(240, 184, 102, 0.14);
+
+    --varjo:      0 1px 2px rgba(0, 0, 0, 0.4), 0 8px 24px -12px rgba(0, 0, 0, 0.7);
+    --varjo-nostettu: 0 2px 6px rgba(0, 0, 0, 0.5), 0 20px 48px -16px rgba(0, 0, 0, 0.8);
   }
 }
-* { box-sizing: border-box; }
-html, body { margin: 0; padding: 0; }
+
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
 body {
+  margin: 0;
   background: var(--tausta);
-  color: var(--teksti);
-  font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  -webkit-text-size-adjust: 100%;
+  color: var(--muste);
+  font: 1rem/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  overscroll-behavior-y: none;
 }
 
-/* --- Ylapalkki --- */
+/* Typografia: kirjainväli ja riviväli seuraavat kokoa, eivät ole vakioita. */
+.t-nayttava { font-size: clamp(1.75rem, 7vw, 2.5rem); line-height: 1.08; letter-spacing: -0.025em; font-weight: 650; }
+.t-otsikko  { font-size: 1.3rem;  line-height: 1.22; letter-spacing: -0.018em; font-weight: 650; }
+.t-vali     { font-size: 1.05rem; line-height: 1.32; letter-spacing: -0.01em;  font-weight: 600; }
+.t-pieni    { font-size: 0.875rem; line-height: 1.45; letter-spacing: 0.004em; }
+.t-nano     { font-size: 0.75rem; line-height: 1.35; letter-spacing: 0.02em; font-weight: 550; }
+.haalea  { color: var(--muste-2); }
+.haalein { color: var(--muste-3); }
+
+/* ==========================================================================
+   2. Kromi – translusentit palkit, sisältö kulkee alta
+   ========================================================================== */
 .ylapalkki {
-  position: sticky; top: 0; z-index: 10;
-  background: var(--tausta-korotettu);
-  border-bottom: 1px solid var(--viiva);
-  padding: max(0.6rem, env(safe-area-inset-top)) 1rem 0.6rem;
+  position: fixed; inset: 0 0 auto 0; z-index: 30;
+  height: calc(var(--ylapalkki) + env(safe-area-inset-top));
+  padding: env(safe-area-inset-top) 0.5rem 0 0.75rem;
+  display: flex; align-items: center; gap: 0.5rem;
+  background: var(--lasi);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  backdrop-filter: blur(20px) saturate(180%);
 }
-.ylapalkki h1 { margin: 0; font-size: 1.05rem; font-weight: 600; letter-spacing: -0.01em; }
-.ylapalkki p { margin: 0.15rem 0 0; font-size: 0.78rem; color: var(--teksti-haalea); }
-
-/* --- Sisalto --- */
-main { max-width: var(--leveys); margin: 0 auto; padding: 1rem 1rem 6rem; }
-
-.sisallys { margin: 0 0 1.75rem; padding: 0; list-style: none; }
-.sisallys li { margin: 0; }
-.sisallys a {
-  display: block; padding: 0.55rem 0.2rem;
-  color: var(--korostus); text-decoration: none;
-  border-bottom: 1px solid var(--viiva); font-size: 0.95rem;
+/* Pehmeä reuna kovan viivan sijaan – vain siinä missä kromi peittää sisältöä. */
+.ylapalkki::after {
+  content: ""; position: absolute; left: 0; right: 0; top: 100%; height: 12px;
+  background: linear-gradient(to bottom, var(--lasi), transparent);
+  -webkit-backdrop-filter: blur(3px); backdrop-filter: blur(3px);
+  -webkit-mask-image: linear-gradient(to bottom, #000, transparent);
+  mask-image: linear-gradient(to bottom, #000, transparent);
+  pointer-events: none;
 }
+.ylapalkki h1 { margin: 0; flex: 1; min-width: 0; }
+.ylapalkki .nimi { display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+.alapalkki {
+  position: fixed; inset: auto 0 0 0; z-index: 30;
+  display: flex;
+  padding-bottom: env(safe-area-inset-bottom);
+  background: var(--lasi);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  backdrop-filter: blur(20px) saturate(180%);
+  border-top: 1px solid var(--lasi-reuna);
+}
+.alapalkki::before {
+  content: ""; position: absolute; left: 0; right: 0; bottom: 100%; height: 14px;
+  background: linear-gradient(to top, var(--lasi), transparent);
+  -webkit-mask-image: linear-gradient(to top, #000, transparent);
+  mask-image: linear-gradient(to top, #000, transparent);
+  pointer-events: none;
+}
+.valilehti {
+  flex: 1; min-height: var(--alapalkki); border: 0; background: none;
+  color: var(--muste-3); font: inherit; cursor: pointer;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.1rem;
+  padding: 0.35rem 0.2rem; -webkit-tap-highlight-color: transparent;
+}
+.valilehti .kuvake { width: 22px; height: 22px; display: block; }
+.valilehti .teksti { font-size: 0.68rem; letter-spacing: 0.02em; font-weight: 550; }
+.valilehti[aria-current="page"] { color: var(--korostus-kirkas); }
+.valilehti .merkki {
+  position: absolute; transform: translate(0.85rem, -0.7rem);
+  min-width: 1.1rem; height: 1.1rem; padding: 0 0.25rem;
+  border-radius: 999px; background: var(--korostus-kirkas); color: #fff;
+  font-size: 0.65rem; font-weight: 650; line-height: 1.1rem; text-align: center;
+}
+
+main {
+  max-width: var(--leveys); margin: 0 auto;
+  padding: calc(var(--ylapalkki) + env(safe-area-inset-top) + 0.75rem) 1rem
+           calc(var(--alapalkki) + env(safe-area-inset-bottom) + 1.5rem);
+}
+
+/* ==========================================================================
+   3. Painikkeet ja kentät – palaute syntyy painalluksesta, ei irrotuksesta
+   ========================================================================== */
+.nappi {
+  display: inline-flex; align-items: center; justify-content: center; gap: 0.4rem;
+  min-height: 2.9rem; padding: 0.6rem 1.1rem;
+  border: 1px solid var(--viiva-vahva); border-radius: var(--pyoristys-s);
+  background: var(--pinta); color: var(--muste);
+  font: inherit; font-weight: 550; cursor: pointer;
+  -webkit-tap-highlight-color: transparent; touch-action: manipulation;
+  transition: transform 120ms var(--liike-painallus), background-color 120ms linear;
+}
+.nappi:active { transform: scale(0.97); background: var(--pinta-2); }
+.nappi.ensisijainen {
+  background: var(--korostus-syva); border-color: transparent; color: #fff;
+  box-shadow: 0 1px 2px rgba(0, 63, 136, 0.32);
+}
+.nappi.ensisijainen:active { background: var(--korostus-syva); filter: brightness(1.15); }
+.nappi.leve { width: 100%; }
+.nappi.hiljainen { background: none; border-color: transparent; color: var(--korostus); }
+.nappi:disabled { opacity: 0.4; cursor: default; transform: none; }
+
+.kuvakenappi {
+  flex: none; width: 2.4rem; height: 2.4rem; display: grid; place-items: center;
+  border: 0; border-radius: 999px; background: none; color: var(--muste-2);
+  cursor: pointer; -webkit-tap-highlight-color: transparent;
+  transition: transform 120ms var(--liike-painallus), background-color 120ms linear;
+}
+.kuvakenappi:active { transform: scale(0.9); background: var(--pinta-2); }
+.kuvakenappi svg { width: 21px; height: 21px; }
+
+.kentta {
+  width: 100%; min-height: 3.1rem; padding: 0.7rem 0.9rem;
+  border: 1.5px solid var(--viiva-vahva); border-radius: var(--pyoristys-s);
+  background: var(--pinta); color: var(--muste);
+  font: inherit; font-size: 1.15rem; letter-spacing: -0.005em;
+  transition: border-color 140ms linear, box-shadow 140ms linear;
+}
+.kentta:focus {
+  outline: none; border-color: var(--korostus);
+  box-shadow: 0 0 0 3.5px var(--korostus-pehmea);
+}
+.kentta::placeholder { color: var(--muste-3); }
+
+/* ==========================================================================
+   4. Kortit ja tehtävänäkymät
+   ========================================================================== */
+.kortti {
+  background: var(--pinta); border: 1px solid var(--viiva);
+  border-radius: var(--pyoristys); box-shadow: var(--varjo);
+  padding: 1.4rem 1.25rem;
+}
+.kysymys { text-align: center; padding: 1.5rem 0.5rem 1.75rem; }
+.kysymys .kehote { margin: 0 0 0.6rem; }
+.kysymys .sana { margin: 0; overflow-wrap: anywhere; }
+.kysymys .vihje { margin: 0.5rem 0 0; }
+.kysymys .kaannos { margin: 0.65rem 0 0.9rem; }
+.kysymys .vihje + .vihje { margin-top: 0.15rem; }
+
+.vaihtoehdot { display: grid; gap: 0.5rem; }
+.vaihtoehto {
+  width: 100%; min-height: 3.2rem; padding: 0.75rem 1rem; text-align: left;
+  border: 1.5px solid var(--viiva); border-radius: var(--pyoristys-s);
+  background: var(--pinta); color: var(--muste); font: inherit; cursor: pointer;
+  -webkit-tap-highlight-color: transparent; touch-action: manipulation;
+  transition: transform 120ms var(--liike-painallus), background-color 120ms linear, border-color 140ms linear;
+}
+.vaihtoehto:active { transform: scale(0.985); background: var(--pinta-2); }
+.vaihtoehto.oikein  { border-color: var(--oikein); background: var(--oikein-pehmea); color: var(--oikein); font-weight: 600; }
+.vaihtoehto.vaarin  { border-color: var(--vaarin); background: var(--vaarin-pehmea); color: var(--vaarin); }
+.vaihtoehto:disabled { cursor: default; }
+
+/* Kenttä ja palaute jakavat saman ruudun, ja alue varaa tilaa etukäteen.
+   Näin toimintonappi pysyy paikallaan eikä karkaa sormen alta. */
+.vastausalue { display: grid; align-items: start; min-height: 5rem; margin-bottom: 0.75rem; }
+.vastausalue > * { grid-area: 1 / 1; }
+.syotteet { display: grid; gap: 0.6rem; transition: opacity 140ms var(--liike-ulos), transform 140ms var(--liike-ulos); }
+.syotteet.poistuu { opacity: 0; transform: translateY(-3px); pointer-events: none; }
+.kenttarivi { display: grid; gap: 0.25rem; }
+
+.palaute { border-radius: var(--pyoristys-s); padding: 0.85rem 1rem; }
+.palaute.saapuu { animation: palauteSaapuu 180ms var(--liike-ulos) both; }
+@keyframes palauteSaapuu { from { opacity: 0; transform: translateY(4px); } }
+
+/* Väärä vaihtoehto hylkää valinnan fyysisesti – väri kertoo mitä, liike että ei. */
+.vaihtoehto.vaarin { animation: hylkays 280ms var(--liike-painallus); }
+@keyframes hylkays {
+  0%, 100% { transform: translateX(0); }
+  22% { transform: translateX(-4px); }
+  55% { transform: translateX(3px); }
+  80% { transform: translateX(-1.5px); }
+}
+
+.edistyspalkki > i { width: 100%; transform-origin: left center; transform: scaleX(0); }
+
+/* Päätösnäkymä on harvinainen hetki – ainoa paikka, jossa on varaa porrastukseen. */
+.tyhja .porras { animation: porrasSaapuu 380ms var(--liike-ulos) both; }
+@keyframes porrasSaapuu { from { opacity: 0; transform: translateY(8px); } }
+.merkkiPiirto { stroke-dasharray: 32; stroke-dashoffset: 32; animation: merkkiVeto 420ms var(--liike-ulos) 120ms forwards; }
+@keyframes merkkiVeto { to { stroke-dashoffset: 0; } }
+.palaute.oikein  { background: var(--oikein-pehmea);  color: var(--oikein); }
+.palaute.vaarin  { background: var(--vaarin-pehmea);  color: var(--vaarin); }
+.palaute.melkein {
+  background: color-mix(in srgb, var(--huomio) 22%, transparent);
+  color: var(--huomio-teksti);
+}
+.palaute .otsake { font-weight: 650; }
+.palaute .oikea-vastaus { color: var(--muste); font-size: 1.1rem; font-weight: 600; margin-top: 0.2rem; }
+.palaute .lisa { color: var(--muste-2); margin-top: 0.35rem; }
+.palaute .taivutus {
+  margin-top: 0.5rem; padding-top: 0.5rem; font-size: 0.95rem; color: var(--muste);
+  border-top: 1px solid color-mix(in srgb, currentColor 22%, transparent);
+}
+.palaute del { text-decoration-color: currentColor; opacity: 0.75; }
+
+.edistyspalkki { height: 3px; border-radius: 999px; background: var(--viiva); overflow: hidden; }
+.edistyspalkki > i { display: block; height: 100%; background: var(--korostus-kirkas); border-radius: 999px; }
+
+.pisteet { display: flex; gap: 0.28rem; justify-content: center; }
+.pisteet i {
+  width: 0.45rem; height: 0.45rem; border-radius: 999px;
+  background: var(--viiva-vahva); display: block;
+}
+.pisteet i[data-tila="kesken"] { background: var(--korostus); }
+.pisteet i[data-tila="valmis"] { background: var(--oikein); }
+
+/* ==========================================================================
+   5. Listat, teoria ja haku
+   ========================================================================== */
+.rivilista { display: grid; gap: 0.5rem; }
+.rivi {
+  display: flex; align-items: center; gap: 0.8rem; width: 100%; text-align: left;
+  padding: 0.85rem 1rem; border: 1px solid var(--viiva); border-radius: var(--pyoristys-s);
+  background: var(--pinta); color: inherit; font: inherit; cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: transform 120ms var(--liike-painallus), background-color 120ms linear;
+}
+.rivi:active { transform: scale(0.99); background: var(--pinta-2); }
+.rivi .kasvaa { flex: 1; min-width: 0; }
+.rivi .maara { color: var(--muste-3); font-variant-numeric: tabular-nums; }
+.rivi .nuoli { color: var(--muste-3); flex: none; }
 
 h2.luku {
-  margin: 2.5rem 0 0.25rem; padding-top: 1rem;
-  border-top: 2px solid var(--korostus);
-  font-size: 1.3rem; color: var(--korostus); letter-spacing: -0.01em;
-  scroll-margin-top: 4rem;
+  margin: 2.25rem 0 0.35rem; padding-top: 1rem;
+  border-top: 1.5px solid var(--korostus);
+  color: var(--korostus); scroll-margin-top: 5.5rem;
 }
-h2.luku:first-of-type { margin-top: 0.5rem; }
+h2.luku:first-of-type { margin-top: 0.75rem; }
 h3.alaluku {
-  margin: 1.75rem 0 0.6rem;
-  font-size: 1.02rem; color: var(--korostus-vaalea); font-weight: 600;
+  display: flex; align-items: baseline; gap: 0.6rem;
+  margin: 1.6rem 0 0.5rem; color: var(--korostus-2); scroll-margin-top: 5.5rem;
 }
-h4.valiotsikko {
-  margin: 1.1rem 0 0.4rem;
-  font-size: 0.9rem; font-weight: 600; color: var(--teksti-haalea);
-  text-transform: none; letter-spacing: 0.02em;
+h3.alaluku .harjoita {
+  flex: none; margin-left: auto; font-size: 0.72rem; font-weight: 600;
+  border: 1px solid var(--korostus); color: var(--korostus); background: none;
+  border-radius: 999px; padding: 0.2rem 0.6rem; cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 }
-p.teksti { margin: 0.5rem 0 0.9rem; color: var(--teksti-haalea); font-size: 0.92rem; }
+h3.alaluku .harjoita:active { background: var(--korostus-pehmea); }
+h4.valiotsikko { margin: 1rem 0 0.3rem; color: var(--muste-2); font-size: 0.85rem; font-weight: 650; letter-spacing: 0.02em; }
+p.teksti { margin: 0.4rem 0 0.9rem; color: var(--muste-2); font-size: 0.92rem; }
 
-/* --- Sanamerkinta --- */
-.sana { padding: 0.42rem 0; border-bottom: 1px solid var(--viiva); }
-.sana .sv { font-weight: 600; }
-.sana .muodot { font-weight: 400; color: var(--teksti-haalea); }
-.sana .luokka {
-  font-size: 0.72rem; color: var(--teksti-haalea);
-  border: 1px solid var(--viiva); border-radius: 3px;
-  padding: 0.05rem 0.3rem; margin-left: 0.4rem; white-space: nowrap;
+.sana-rivi { display: flex; gap: 0.55rem; padding: 0.45rem 0; border-bottom: 1px solid var(--viiva); }
+.sana-rivi .osaaminen {
+  flex: none; width: 0.45rem; height: 0.45rem; border-radius: 999px; margin-top: 0.5rem;
+  background: var(--viiva-vahva);
 }
-.sana .fi { color: var(--teksti); opacity: 0.85; font-size: 0.95rem; }
-.sana .fi::before { content: "– "; color: var(--teksti-haalea); }
-.sana .vastakohta { color: var(--teksti-haalea); margin-left: 0.45rem; font-size: 0.85rem; }
-.sana .rektio {
-  font-size: 0.72rem; margin-left: 0.4rem; color: var(--korostus);
-  border: 1px solid var(--korostus); border-radius: 3px; padding: 0.05rem 0.3rem;
+.sana-rivi .osaaminen[data-tila="opittava"] { background: var(--korostus); }
+.sana-rivi .osaaminen[data-tila="valmis"]   { background: var(--oikein); }
+.sana-rivi .osaaminen[data-tila="vaikea"]   { background: var(--vaarin); }
+.sana-rivi .sisus { flex: 1; min-width: 0; }
+.sana-rivi .sv { font-weight: 600; }
+.sana-rivi .muodot { font-weight: 400; color: var(--muste-2); }
+.sana-rivi .fi { color: var(--muste); opacity: 0.85; font-size: 0.95rem; }
+.sana-rivi .fi::before { content: "– "; color: var(--muste-3); }
+.sana-rivi .vastakohta { color: var(--muste-3); margin-left: 0.4rem; font-size: 0.85rem; }
+.lippu {
+  font-size: 0.7rem; font-weight: 600; white-space: nowrap;
+  border: 1px solid var(--viiva-vahva); color: var(--muste-3);
+  border-radius: 4px; padding: 0.05rem 0.32rem; margin-left: 0.35rem;
+}
+.lippu[data-luokkavari] {
+  border-color: color-mix(in srgb, var(--luokkavari) 62%, transparent);
+  background: color-mix(in srgb, var(--luokkavari) 17%, transparent);
+  color: var(--muste-2);
+}
+.lippu.rektio {
+  border-color: color-mix(in srgb, var(--luokka-prepositio) 70%, transparent);
+  background: color-mix(in srgb, var(--luokka-prepositio) 18%, transparent);
+  color: var(--muste-2);
 }
 
-.esimerkit { margin: 0.3rem 0 0.1rem; padding: 0; list-style: none; }
-.esimerkit li {
-  font-size: 0.88rem; font-style: italic; color: var(--teksti-haalea);
-  padding: 0.1rem 0 0.1rem 0.85rem; border-left: 2px solid var(--viiva);
+/* Luvun tunnusväri: pieni neliö otsikossa ja sama sävy yläviivassa. Se kertoo
+   yhdellä silmäyksellä, missä kohtaa 700 sanan dokumenttia ollaan. */
+.luvunvari {
+  flex: none; width: 0.62rem; height: 0.62rem; border-radius: 3px;
+  background: var(--luokkavari, var(--luokka-neutraali)); display: inline-block;
+  margin-right: 0.5rem; vertical-align: 0.02em;
 }
+h2.luku[style*="--luokkavari"] { border-top-color: color-mix(in srgb, var(--luokkavari) 70%, transparent); }
+h3.alaluku .luvunvari { width: 0.45rem; height: 0.45rem; border-radius: 999px; }
+
+.selite { display: flex; flex-wrap: wrap; gap: 0.35rem 0.75rem; margin: 0.2rem 0 1.25rem; }
+.selite span { display: inline-flex; align-items: center; gap: 0.3rem; font-size: 0.76rem; color: var(--muste-2); }
+.selite i { width: 0.55rem; height: 0.55rem; border-radius: 3px; background: var(--luokkavari); display: block; }
+
+.esimerkit { margin: 0.3rem 0 0.15rem; padding: 0 0 0 0.8rem; list-style: none; border-left: 2px solid var(--viiva); }
+.esimerkit li { font-size: 0.88rem; font-style: italic; color: var(--muste-2); padding: 0.08rem 0; }
 .esimerkit .kaannos { font-style: normal; }
 .esimerkit .kaannos::before { content: " = "; }
 
-.korjaus, .huomio { font-size: 0.85rem; margin: 0.45rem 0 0.7rem; }
+.korjaus, .huomio { font-size: 0.85rem; margin: 0.4rem 0 0.7rem; }
 .korjaus {
-  color: var(--punainen); background: var(--punainen-tausta);
-  border-left: 3px solid var(--punainen);
-  padding: 0.45rem 0.6rem; border-radius: 0 4px 4px 0;
+  color: var(--vaarin); background: var(--vaarin-pehmea);
+  border-left: 3px solid var(--vaarin); padding: 0.45rem 0.65rem;
+  border-radius: 0 5px 5px 0;
 }
-.korjaus b { font-weight: 600; }
-.huomio { color: var(--teksti-haalea); padding-left: 0.6rem; border-left: 2px dotted var(--viiva); }
-.muistilista { font-size: 0.92rem; padding: 0.3rem 0; border-bottom: 1px solid var(--viiva); }
+.huomio { color: var(--muste-2); padding-left: 0.65rem; border-left: 2px dotted var(--viiva-vahva); }
+.muistilista { font-size: 0.93rem; padding: 0.35rem 0; border-bottom: 1px solid var(--viiva); }
+mark {
+  background: color-mix(in srgb, var(--huomio) 42%, transparent);
+  color: inherit; border-radius: 3px; padding: 0 0.1em;
+}
 
-/* --- Alapalkki --- */
-.alapalkki {
-  position: fixed; bottom: 0; left: 0; right: 0; z-index: 20;
-  display: flex; background: var(--tausta-korotettu);
-  border-top: 1px solid var(--viiva);
-  padding-bottom: env(safe-area-inset-bottom);
+.hakupalkki { position: relative; flex: 1; }
+.hakupalkki input {
+  width: 100%; min-height: 2.3rem; padding: 0.35rem 2rem 0.35rem 2rem;
+  border: 1px solid transparent; border-radius: 999px;
+  background: var(--pinta-2); color: var(--muste); font: inherit; font-size: 0.95rem;
 }
-.alapalkki button {
-  flex: 1; min-height: 52px; border: 0; background: none; cursor: pointer;
-  color: var(--teksti-haalea); font: inherit; font-size: 0.78rem;
-  display: flex; flex-direction: column; align-items: center; justify-content: center;
-  gap: 0.15rem; padding: 0.4rem 0.2rem;
-}
-.alapalkki button .kuva { font-size: 1.15rem; line-height: 1; }
-.alapalkki button[aria-current="page"] { color: var(--korostus); font-weight: 600; }
+.hakupalkki input:focus { outline: none; border-color: var(--korostus); }
+.hakupalkki .luuppi { position: absolute; left: 0.6rem; top: 50%; transform: translateY(-50%); color: var(--muste-3); pointer-events: none; }
+.hakupalkki .tyhjenna { position: absolute; right: 0.35rem; top: 50%; transform: translateY(-50%); }
 
-.tyhja { padding: 3rem 1rem; text-align: center; color: var(--teksti-haalea); }
-.tyhja h2 { color: var(--teksti); font-size: 1.1rem; margin: 0 0 0.5rem; }
-.tyhja p { margin: 0.3rem 0; font-size: 0.9rem; }
+/* ==========================================================================
+   6. Levy (asetukset) – himmennys erottaa, materiaali saapuu
+   ========================================================================== */
+.himmennys {
+  position: fixed; inset: 0; z-index: 40; background: rgba(0, 0, 0, 0.28);
+  -webkit-backdrop-filter: blur(2px); backdrop-filter: blur(2px);
+  opacity: 0;
+}
+.levy {
+  position: fixed; inset: auto 0 0 0; z-index: 41;
+  max-height: 88vh; overflow-y: auto; -webkit-overflow-scrolling: touch;
+  background: var(--pinta); border-radius: 20px 20px 0 0;
+  box-shadow: var(--varjo-nostettu);
+  padding: 0.5rem 1rem calc(1.5rem + env(safe-area-inset-bottom));
+  transform: translateY(100%);
+}
+.levy-sisus { max-width: var(--leveys); margin: 0 auto; }
+.kahva { width: 2.25rem; height: 0.3rem; border-radius: 999px; background: var(--viiva-vahva); margin: 0.4rem auto 0.9rem; }
+
+.tyhja { padding: 3rem 1rem; text-align: center; }
+.tyhja .kuva { font-size: 2rem; margin-bottom: 0.5rem; opacity: 0.5; }
+.tyhja h2 { margin: 0 0 0.4rem; }
+.tyhja p { margin: 0.3rem 0; color: var(--muste-2); }
+
+.pino > * + * { margin-top: 0.9rem; }
+.pino-tiivis > * + * { margin-top: 0.5rem; }
+.rivi-vali { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+.napit { display: flex; gap: 0.6rem; flex-wrap: wrap; }
+.napit > .nappi { flex: 1; min-width: 8rem; }
+
+/* ==========================================================================
+   7. Saavutettavuus – kevyempi vastine, ei pelkkä poisto
+   ========================================================================== */
+@media (prefers-reduced-transparency: reduce) {
+  .ylapalkki, .alapalkki { background: var(--tausta); -webkit-backdrop-filter: none; backdrop-filter: none; }
+  .ylapalkki { border-bottom: 1px solid var(--viiva); }
+  .ylapalkki::after, .alapalkki::before { display: none; }
+  .himmennys { -webkit-backdrop-filter: none; backdrop-filter: none; }
+}
+@media (prefers-contrast: more) {
+  :root { --viiva: var(--muste-3); --viiva-vahva: var(--muste-2); }
+  .kortti, .rivi, .vaihtoehto { border-width: 1.5px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .nappi:active, .kuvakenappi:active, .vaihtoehto:active, .rivi:active { transform: none; }
+  /* Kevyempi vastine, ei poisto: läpinäkyvyys jää, siirtymä ja pomppu poistuvat. */
+  .vaihtoehto.vaarin { animation: none; }
+  .palaute.saapuu { animation: palauteHaivytys 200ms linear both; }
+  .tyhja .porras { animation: palauteHaivytys 220ms linear both; }
+  .syotteet.poistuu { transform: none; }
+  .merkkiPiirto { animation: none; stroke-dashoffset: 0; }
+}
+@keyframes palauteHaivytys { from { opacity: 0; } }
+.vain-ruudunlukijalle {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
 </style>
 </head>
 <body>
 
 <header class="ylapalkki">
-  <h1 id="otsikko">Ruotsin sanasto</h1>
-  <p id="alaotsikko"></p>
+  <h1 class="t-vali" id="palkin-nimi"><span class="nimi">Ruotsin sanasto</span></h1>
+  <div id="palkin-lisa"></div>
+  <button class="kuvakenappi" id="asetukset-nappi" aria-label="Asetukset" hidden>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round">
+      <circle cx="12" cy="12" r="3.2"/>
+      <path d="M12 2.6v2.3M12 19.1v2.3M21.4 12h-2.3M4.9 12H2.6M18.6 5.4l-1.6 1.6M7 17l-1.6 1.6M18.6 18.6 17 17M7 7 5.4 5.4"/>
+    </svg>
+  </button>
 </header>
 
-<main id="naytto"><p class="tyhja">Ladataan sanastoa…</p></main>
+<main id="naytto" tabindex="-1"><div class="tyhja"><p class="haalea">Ladataan sanastoa…</p></div></main>
 
-<nav class="alapalkki" id="alapalkki"></nav>
+<nav class="alapalkki" id="alapalkki" aria-label="Osiot"></nav>
+
+<div id="levyt"></div>
+<div id="ilmoitus" class="vain-ruudunlukijalle" role="status" aria-live="polite"></div>
 
 <script>
-const VALILEHDET = [
-  { id: "opi",           nimi: "Opi",          kuva: "○" },
-  { id: "kertaa",        nimi: "Kertaa",       kuva: "↻" },
-  { id: "harjoitukset",  nimi: "Harjoitukset", kuva: "▦" },
-  { id: "teoria",        nimi: "Teoria",       kuva: "≡" },
-];
-const AVAIN_VALILEHTI = "ruotsi.valilehti";
+"use strict";
 
-let sanasto = null;
-let sanatTunnuksella = {};
-let valilehti = localStorage.getItem(AVAIN_VALILEHTI) || "teoria";
-if (!VALILEHDET.some(v => v.id === valilehti)) valilehti = "teoria";
+/* ==========================================================================
+   1. Pikkuapurit
+   ========================================================================== */
+const $ = (valitsin, juuri = document) => juuri.querySelector(valitsin);
 
-const naytto = document.getElementById("naytto");
-
-/* --- Apurit --- */
 function el(tagi, luokka, teksti) {
   const solmu = document.createElement(tagi);
   if (luokka) solmu.className = luokka;
   if (teksti != null) solmu.textContent = teksti;
   return solmu;
 }
+function lisaa(vanhempi, ...lapset) {
+  for (const lapsi of lapset) if (lapsi) vanhempi.appendChild(lapsi);
+  return vanhempi;
+}
+function nappi(teksti, luokka, kasittelija) {
+  const b = el("button", "nappi " + (luokka || ""), teksti);
+  b.type = "button";
+  if (kasittelija) b.addEventListener("click", kasittelija);
+  return b;
+}
+function ikoni(polku, koko = 22) {
+  const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+  svg.setAttribute("viewBox", "0 0 24 24");
+  svg.setAttribute("fill", "none");
+  svg.setAttribute("stroke", "currentColor");
+  svg.setAttribute("stroke-width", "1.7");
+  svg.setAttribute("stroke-linecap", "round");
+  svg.setAttribute("stroke-linejoin", "round");
+  svg.setAttribute("width", koko);
+  svg.setAttribute("height", koko);
+  svg.innerHTML = polku;
+  return svg;
+}
+function sekoita(lista) {
+  const kopio = lista.slice();
+  for (let i = kopio.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [kopio[i], kopio[j]] = [kopio[j], kopio[i]];
+  }
+  return kopio;
+}
+function ilmoita(teksti) { $("#ilmoitus").textContent = teksti; }
 
-// "en man, mannen, män, männen" – kokonainen hakusanarivi taivutuksineen.
+const kevytLiike = window.matchMedia("(prefers-reduced-motion: reduce)");
+
+/* ==========================================================================
+   2. Jousi – liike alkaa aina nykyisestä arvosta ja on keskeytettävissä
+   --------------------------------------------------------------------------
+   Vaimennussuhde 1.0 = ei ylitystä (oletus kaikelle). Alle 1.0 vain silloin,
+   kun eleessä itsessään oli liike-energiaa. "Vaste" on sekunteina se, kuinka
+   nopeasti arvo saavuttaa kohteen – ei kesto, jousella ei ole kestoa.
+   ========================================================================== */
+class Jousi {
+  constructor(arvo, { vaimennus = 1, vaste = 0.4, onPaivitys, onValmis } = {}) {
+    this.arvo = arvo;
+    this.kohde = arvo;
+    this.nopeus = 0;
+    this.vaimennus = vaimennus;
+    this.vaste = vaste;
+    this.onPaivitys = onPaivitys;
+    this.onValmis = onValmis;
+    this.kahva = null;
+    this.viimeksi = 0;
+  }
+  /* Uusi kohde ei nollaa nopeutta: liike jatkuu saumatta myös suunnanvaihdossa. */
+  kohti(kohde, nopeus) {
+    this.kohde = kohde;
+    if (nopeus !== undefined) this.nopeus = nopeus;
+    if (kevytLiike.matches) {
+      this.arvo = kohde; this.nopeus = 0;
+      this.onPaivitys?.(this.arvo);
+      this.onValmis?.();
+      return;
+    }
+    if (!this.kahva) {
+      this.viimeksi = performance.now();
+      this.kahva = requestAnimationFrame(this.askel);
+    }
+  }
+  aseta(arvo) {
+    this.pysayta();
+    this.arvo = this.kohde = arvo;
+    this.nopeus = 0;
+    this.onPaivitys?.(arvo);
+  }
+  pysayta() {
+    if (this.kahva) cancelAnimationFrame(this.kahva);
+    this.kahva = null;
+  }
+  askel = (nyt) => {
+    const dt = Math.min((nyt - this.viimeksi) / 1000, 1 / 30);
+    this.viimeksi = nyt;
+    const w = (2 * Math.PI) / this.vaste;
+    const k = w * w;
+    const c = 2 * this.vaimennus * w;
+    // Puolittainen aika-askel pitää integroinnin vakaana myös hitaalla ruudulla.
+    const askeleita = Math.max(1, Math.ceil(dt / (1 / 240)));
+    const h = dt / askeleita;
+    for (let i = 0; i < askeleita; i++) {
+      const kiihtyvyys = -k * (this.arvo - this.kohde) - c * this.nopeus;
+      this.nopeus += kiihtyvyys * h;
+      this.arvo += this.nopeus * h;
+    }
+    this.onPaivitys?.(this.arvo);
+    if (Math.abs(this.arvo - this.kohde) < 0.0015 && Math.abs(this.nopeus) < 0.02) {
+      this.arvo = this.kohde;
+      this.nopeus = 0;
+      this.kahva = null;
+      this.onPaivitys?.(this.arvo);
+      this.onValmis?.();
+      return;
+    }
+    this.kahva = requestAnimationFrame(this.askel);
+  };
+}
+
+/* ==========================================================================
+   3. Sanasto ja korttien johtaminen
+   ========================================================================== */
+const SUUNNAT = { SVFI: "sv→fi", FISV: "fi→sv" };
+
+let sanasto = null;
+let kaikkiSanat = [];          // luettelojärjestyksessä
+let sanatTunnuksella = new Map();
+let kortit = [];
+let kortitTunnuksella = new Map();
+let kortitSanalla = new Map(); // sanan id -> [kortti, kortti]
+
+function kortinTunnus(sana, suunta) { return sana.id + ":" + suunta; }
+
+function keraaSanat(data) {
+  const sanat = [];
+  for (const luku of data.luvut) {
+    for (const alaluku of luku.alaluvut) {
+      for (const kohta of alaluku.sisalto) {
+        if (kohta.tyyppi === "sana") {
+          kohta._luku = luku.otsikko;
+          kohta._alaluku = alaluku.otsikko;
+          sanat.push(kohta);
+        }
+      }
+    }
+  }
+  return sanat;
+}
+
+/* Kortiksi kelpaa sana, jolla on molemmat kielet eikä se toistu myöhemmästä
+   luvusta. Kielioppiluvut eivät tuota kortteja lainkaan. */
+function kelpaaKortiksi(sana) {
+  return !sana.paallekkainen
+    && sana.ruotsi && sana.suomi.length
+    && !/^7 /.test(sana.kategoria || "");
+}
+
+function teeKortit(sanat) {
+  const tulos = [];
+  for (const sana of sanat) {
+    if (!kelpaaKortiksi(sana)) continue;
+    const pari = [];
+    for (const suunta of [SUUNNAT.SVFI, SUUNNAT.FISV]) {
+      const kortti = { id: kortinTunnus(sana, suunta), sana, suunta };
+      tulos.push(kortti);
+      pari.push(kortti);
+    }
+    kortitSanalla.set(sana.id, pari);
+  }
+  return tulos;
+}
+
+/* ==========================================================================
+   4. Vastausten hyväksyminen
+   ========================================================================== */
+function normalisoi(teksti) {
+  return teksti
+    .toLowerCase()
+    .normalize("NFC")
+    .replace(/\([^)]*\)/g, " ")
+    .replace(/[.,!?;:…"'’„”]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+function riisuTarkkeet(teksti) {
+  return teksti.replace(/[åä]/g, "a").replace(/ö/g, "o")
+               .replace(/é/g, "e").replace(/ü/g, "u").replace(/ø/g, "o");
+}
+
+function hyvaksytytVastaukset(sana, suunta) {
+  const joukko = new Set();
+  const lisaaMuoto = (teksti) => {
+    const siisti = teksti.trim();
+    if (siisti) joukko.add(siisti);
+  };
+  if (suunta === SUUNNAT.FISV) {
+    for (const osa of sana.ruotsi.split(" / ")) {
+      lisaaMuoto(osa);
+      // Artikkeli saa puuttua, mutta väärä artikkeli ei kelpaa.
+      if (sana.suku && !/^(en|ett)\s/.test(osa)) lisaaMuoto(sana.suku + " " + osa);
+    }
+  } else {
+    for (const merkitys of sana.suomi) {
+      for (const osa of merkitys.split(" / ")) lisaaMuoto(osa);
+    }
+  }
+  return [...joukko];
+}
+
+/* Palauttaa "oikein" | "melkein" | "vaarin".
+   "melkein" = oikea kirjainjono mutta å/ä/ö kirjoitettu a/o:na. Sitä ei
+   hyväksytä, koska kokeessa se on virhe – mutta palaute kertoo syyn. */
+function tarkistaVastaus(kirjoitettu, sana, suunta) {
+  const vastaus = normalisoi(kirjoitettu);
+  if (!vastaus) return { tulos: "vaarin", oikeat: hyvaksytytVastaukset(sana, suunta) };
+  const oikeat = hyvaksytytVastaukset(sana, suunta);
+  for (const oikea of oikeat) {
+    if (vastaus === normalisoi(oikea)) return { tulos: "oikein", osuma: oikea, oikeat };
+  }
+  for (const oikea of oikeat) {
+    if (riisuTarkkeet(vastaus) === riisuTarkkeet(normalisoi(oikea))) {
+      return { tulos: "melkein", osuma: oikea, oikeat, syy: "tarkkeet" };
+    }
+  }
+  return { tulos: "vaarin", oikeat };
+}
+
+/* ==========================================================================
+   5. Edistyminen – localStorage, korttikohtaisesti
+   ========================================================================== */
+const AVAIN = "ruotsi.edistyminen.v1";
+const PAIVA = 86400000;
+
+const oletusEdistyminen = () => ({
+  versio: 1,
+  kortit: {},
+  virheloki: [],
+  asetukset: { aani: true, suodatin: null },
+  istunto: { paiva: null, maara: 0 },
+});
+
+let edistyminen = oletusEdistyminen();
+let tallennusOdottaa = null;
+
+function lataaEdistyminen() {
+  try {
+    const raaka = localStorage.getItem(AVAIN);
+    if (!raaka) return;
+    const data = JSON.parse(raaka);
+    if (data && data.versio === 1) {
+      edistyminen = Object.assign(oletusEdistyminen(), data);
+      edistyminen.asetukset = Object.assign(oletusEdistyminen().asetukset, data.asetukset || {});
+    }
+  } catch (virhe) {
+    console.warn("Edistymistä ei voitu lukea:", virhe);
+  }
+}
+function tallenna() {
+  clearTimeout(tallennusOdottaa);
+  tallennusOdottaa = setTimeout(() => {
+    try {
+      localStorage.setItem(AVAIN, JSON.stringify(edistyminen));
+    } catch (virhe) {
+      console.warn("Edistymistä ei voitu tallentaa:", virhe);
+    }
+  }, 250);
+}
+
+const uusiTila = (kortinId) => ({
+  cardId: kortinId, stage: 0, graduated: false,
+  interval: 0, easeFactor: 2.5, repetitions: 0,
+  nextReview: null, lapses: 0, virheita: 0, nahty: 0,
+});
+
+function tila(kortti) { return edistyminen.kortit[kortti.id] || null; }
+function tilaTaiUusi(kortti) {
+  let t = edistyminen.kortit[kortti.id];
+  if (!t) { t = uusiTila(kortti.id); edistyminen.kortit[kortti.id] = t; }
+  return t;
+}
+const onAloittamaton = (kortti) => !edistyminen.kortit[kortti.id];
+const onValmistunut = (kortti) => Boolean(tila(kortti)?.graduated);
+
+function tanaan() {
+  const d = new Date();
+  return new Date(d.getFullYear(), d.getMonth(), d.getDate()).getTime();
+}
+function erääntyy(kortti) {
+  const t = tila(kortti);
+  return Boolean(t?.graduated) && (t.nextReview == null || t.nextReview <= tanaan());
+}
+
+/* SM-2. Laatu: 5 = oikein, 2 = tarkkeet väärin, 0 = väärin. */
+function paivitaValitoisto(t, laatu) {
+  if (laatu >= 3) {
+    t.repetitions += 1;
+    if (t.repetitions === 1) t.interval = 1;
+    else if (t.repetitions === 2) t.interval = 6;
+    else t.interval = Math.round(t.interval * t.easeFactor);
+  } else {
+    t.repetitions = 0;
+    t.interval = 1;
+    t.lapses += 1;
+  }
+  const muutos = 0.1 - (5 - laatu) * (0.08 + (5 - laatu) * 0.02);
+  t.easeFactor = Math.max(1.3, Math.round((t.easeFactor + muutos) * 1000) / 1000);
+  t.nextReview = tanaan() + t.interval * PAIVA;
+}
+
+function kirjaaVirhe(kortti, kirjoitettu, oikea) {
+  edistyminen.virheloki.unshift({
+    aika: Date.now(), kortti: kortti.id,
+    sana: kortti.sana.ruotsi, suunta: kortti.suunta,
+    kirjoitettu: kirjoitettu.trim().slice(0, 80), oikea,
+  });
+  edistyminen.virheloki = edistyminen.virheloki.slice(0, 200);
+}
+
+const LEECH_RAJA = 5;
+const onLeech = (kortti) => (tila(kortti)?.virheita || 0) >= LEECH_RAJA;
+
+/* ==========================================================================
+   6. Näkymän rungot – yhteiset palikat kaikille tehtävätyypeille
+   ========================================================================== */
+const naytto = $("#naytto");
+
+function kysymysLohko(kehote, teksti, vihje, puhuttava) {
+  const lohko = el("div", "kysymys");
+  lisaa(lohko, el("p", "kehote t-nano haalein", kehote.toUpperCase()));
+  lisaa(lohko, el("p", "sana t-nayttava", teksti));
+  if (vihje) lisaa(lohko, el("p", "vihje t-pieni haalea", vihje));
+  const aani = puhuttava ? aaninappi(puhuttava) : null;
+  if (aani) { aani.style.margin = "0.5rem auto 0"; lisaa(lohko, aani); }
+  return lohko;
+}
+
+function tekstikentta(paikanpitaja) {
+  const kentta = el("input", "kentta");
+  kentta.type = "text";
+  if (paikanpitaja) kentta.placeholder = paikanpitaja;
+  kentta.autocomplete = "off";
+  kentta.autocapitalize = "off";
+  kentta.autocorrect = "off";
+  kentta.spellcheck = false;
+  kentta.enterKeyHint = "done";
+  return kentta;
+}
+
+/* Yksi lomake kaikkeen kirjoittamiseen.
+
+   Vastauskenttä ja palaute jakavat saman ruudun, ja toimintonappi pysyy koko
+   ajan samassa kohdassa: se vain vaihtaa nimensä. Näin sormi ei osu tyhjään
+   siinä hetkessä, kun palaute ilmestyy. Nappi on lukossa 320 ms vastauksen
+   paljastuttua, jottei pohjaan jäänyt Enter ohita palautetta. */
+function vastauslomake({ paikanpitaja, kentat, onTarkista, onJatka }) {
+  const muoto = el("form");
+  const alue = el("div", "vastausalue");
+  const syotelohko = el("div", "syotteet");
+  const syotteet = [];
+
+  if (kentat) {
+    for (const maaritys of kentat) {
+      const rivi = el("label", "kenttarivi");
+      lisaa(rivi, el("span", "t-nano haalein", maaritys.otsikko.toUpperCase()));
+      const kentta = tekstikentta();
+      lisaa(rivi, kentta);
+      lisaa(syotelohko, rivi);
+      syotteet.push(kentta);
+    }
+  } else {
+    const kentta = tekstikentta(paikanpitaja);
+    lisaa(syotelohko, kentta);
+    syotteet.push(kentta);
+  }
+  lisaa(alue, syotelohko);
+
+  const toiminto = nappi("Tarkista", "ensisijainen leve");
+  toiminto.type = "submit";
+  lisaa(muoto, alue, toiminto);
+
+  let vaihe = "kysyy";
+  muoto.addEventListener("submit", (tapahtuma) => {
+    tapahtuma.preventDefault();
+    if (vaihe === "kysyy") {
+      const tulos = onTarkista(syotteet.map((k) => k.value));
+      const palaute = palautelohko(tulos.tulos, tulos.oikea, tulos.lisatieto,
+                                   tulos.kirjoitettu, tulos.taivutus);
+      palaute.classList.add("saapuu");
+      lisaa(alue, palaute);
+      syotelohko.classList.add("poistuu");
+      for (const kentta of syotteet) kentta.disabled = true;
+      toiminto.textContent = "Jatka";
+      toiminto.disabled = true;
+      vaihe = "lukossa";
+      setTimeout(() => {
+        vaihe = "jatkaa";
+        toiminto.disabled = false;
+        toiminto.focus();
+      }, kevytLiike.matches ? 0 : 320);
+    } else if (vaihe === "jatkaa") {
+      onJatka();
+    }
+  });
+
+  muoto._kentat = syotteet;
+  return muoto;
+}
+
+/* Edistyspalkki lähtee aina siitä, mihin se viimeksi jäi. */
+const edistysArvot = new Map();
+function edistyspalkki(avain, osuus) {
+  const palkki = el("div", "edistyspalkki");
+  const tayte = el("i");
+  const edellinen = edistysArvot.get(avain) ?? 0;
+  edistysArvot.set(avain, osuus);
+  tayte.style.transform = `scaleX(${edellinen})`;
+  lisaa(palkki, tayte);
+  if (kevytLiike.matches || Math.abs(osuus - edellinen) < 0.001) {
+    tayte.style.transform = `scaleX(${osuus})`;
+  } else {
+    const jousi = new Jousi(edellinen, {
+      vaimennus: 1, vaste: 0.45,
+      onPaivitys: (arvo) => { tayte.style.transform = `scaleX(${arvo})`; },
+    });
+    requestAnimationFrame(() => jousi.kohti(osuus));
+  }
+  return palkki;
+}
+
+/* Pieni pomppu: ainoa paikka, jossa ylitys on ansaittu, koska jotain valmistui. */
+function pomppaa(solmu) {
+  if (kevytLiike.matches) return;
+  const jousi = new Jousi(1.6, {
+    vaimennus: 0.55, vaste: 0.32,
+    onPaivitys: (arvo) => { solmu.style.transform = `scale(${arvo})`; },
+    onValmis: () => { solmu.style.transform = ""; },
+  });
+  jousi.kohti(1);
+}
+
+function vaihtoehtolohko(vaihtoehdot, onValinta) {
+  const lohko = el("div", "vaihtoehdot");
+  for (const teksti of vaihtoehdot) {
+    const b = el("button", "vaihtoehto", teksti);
+    b.type = "button";
+    b.addEventListener("click", () => onValinta(teksti, lohko));
+    lisaa(lohko, b);
+  }
+  return lohko;
+}
+
+function palautelohko(tulos, oikea, lisatieto, kirjoitettu, taivutus) {
+  const lohko = el("div", "palaute " + tulos);
+  const otsakkeet = {
+    oikein: "Oikein",
+    melkein: "Melkein – tarkista ä/ö/å",
+    vaarin: "Väärin",
+  };
+  lisaa(lohko, el("div", "otsake", otsakkeet[tulos]));
+  if (tulos !== "oikein") {
+    if (kirjoitettu && kirjoitettu.trim()) {
+      const rivi = el("div", "t-pieni");
+      const yli = el("del", null, kirjoitettu.trim());
+      lisaa(rivi, yli);
+      lisaa(lohko, rivi);
+    }
+    lisaa(lohko, el("div", "oikea-vastaus", oikea));
+  }
+  if (taivutus) {
+    const rivi = el("div", "taivutus");
+    lisaa(rivi, el("span", "t-nano haalein", "TAIVUTUS "));
+    lisaa(rivi, el("span", null, taivutus));
+    lisaa(lohko, rivi);
+  }
+  if (lisatieto) lisaa(lohko, el("div", "lisa t-pieni", lisatieto));
+  return lohko;
+}
+
+/* Koko paradigma yhtenä rivinä: perusmuoto artikkeleineen ja kaikki muodot. */
+function taivutusMuodot(sana) {
+  if (!sana.taivutus.length) return null;
+  const alku = (sana.suku ? sana.suku + " " : "") + sana.ruotsi;
+  return [alku, ...sana.taivutus].join(" · ");
+}
+
+/* Sanan konteksti: mistä luvusta se on ja mitä siihen liittyy. */
+function sanavihje(sana) {
+  const osat = [];
+  if (sana.sanaluokka) osat.push(sana.sanaluokka);
+  if (sana.luokka) osat.push(sana.luokka);
+  return osat.join(" · ");
+}
+
 function hakusana(sana) {
   const alku = (sana.suku ? sana.suku + " " : "") + sana.ruotsi;
   return sana.taivutus.length ? alku + ", " + sana.taivutus.join(", ") : alku;
 }
 
-function tunniste(otsikko) {
-  return "luku-" + otsikko.split(" ")[0].replace(/\./g, "-");
+/* ==========================================================================
+   7. Häiriövaihtoehdot – läheltä, ei satunnaisesti koko sanastosta
+   ========================================================================== */
+function vastausTeksti(sana, suunta) {
+  return suunta === SUUNNAT.FISV ? sana.ruotsi : sana.suomi[0];
+}
+/* Monivalinnassa selittävä sulkulisäys paljastaisi oikean vastauksen
+   pituudellaan, joten vaihtoehdot näytetään ilman sitä. */
+function lyhytVastaus(sana, suunta) {
+  return vastausTeksti(sana, suunta).replace(/\s*\([^)]*\)/g, "").trim();
+}
+function kysymysTeksti(sana, suunta) {
+  return suunta === SUUNNAT.FISV ? sana.suomi.join(", ") : hakusana(sana);
 }
 
-/* --- Teoria-valilehti --- */
-function piirraSana(sana) {
-  const laatikko = el("div", "sana");
-  const rivi = el("div");
-  rivi.appendChild(el("span", "sv", hakusana(sana)));
-  if (sana.rektio) rivi.appendChild(el("span", "rektio", sana.rektio));
-  if (sana.luokka) rivi.appendChild(el("span", "luokka", sana.luokka));
-  laatikko.appendChild(rivi);
-  const suomi = el("div", "fi", sana.suomi.join(", "));
-  const pari = sana.vastakohta && sanatTunnuksella[sana.vastakohta];
-  if (pari) suomi.appendChild(el("span", "vastakohta", "↔ " + pari.ruotsi));
-  laatikko.appendChild(suomi);
-  if (sana.esimerkit.length) {
-    const lista = el("ul", "esimerkit");
-    for (const esim of sana.esimerkit) {
-      const kohta = el("li", null, esim.sv);
-      if (esim.fi) kohta.appendChild(el("span", "kaannos", esim.fi));
-      lista.appendChild(kohta);
+function hairiot(sana, suunta, maara = 3) {
+  const kaytetty = new Set([lyhytVastaus(sana, suunta)]);
+  const tulos = [];
+  const lisaaEhdokkaat = (ehdokkaat) => {
+    for (const ehdokas of sekoita(ehdokkaat)) {
+      if (tulos.length >= maara) return;
+      if (ehdokas === sana || !kelpaaKortiksi(ehdokas)) continue;
+      const teksti = lyhytVastaus(ehdokas, suunta);
+      if (!teksti || kaytetty.has(teksti)) continue;
+      kaytetty.add(teksti);
+      tulos.push(teksti);
     }
-    laatikko.appendChild(lista);
+  };
+  // Vastakohta on paras mahdollinen häiriö: se pakottaa erottamaan parin.
+  if (sana.vastakohta && sanatTunnuksella.has(sana.vastakohta)) {
+    lisaaEhdokkaat([sanatTunnuksella.get(sana.vastakohta)]);
   }
-  return laatikko;
+  lisaaEhdokkaat(kaikkiSanat.filter((s) => s._alaluku === sana._alaluku));
+  if (tulos.length < maara) lisaaEhdokkaat(kaikkiSanat.filter((s) => s._luku === sana._luku));
+  if (tulos.length < maara) lisaaEhdokkaat(kaikkiSanat.filter((s) => s.sanaluokka === sana.sanaluokka));
+  if (tulos.length < maara) lisaaEhdokkaat(kaikkiSanat);
+  return tulos;
 }
 
-function piirraKohta(kohta) {
+/* ==========================================================================
+   8. Opi – uuden sanan sisäänajo erissä
+   ========================================================================== */
+const ERAN_KOKO = 7;
+const VAIHEET = [
+  { nimi: "Esittely",   ohje: "Katso ja lue" },
+  { nimi: "Tunnistus",  ohje: "Ruotsi → suomi" },
+  { nimi: "Suunnanvaihto", ohje: "Suomi → ruotsi" },
+  { nimi: "Palautus",   ohje: "Kirjoita suomeksi" },
+  { nimi: "Tuottaminen", ohje: "Kirjoita ruotsiksi" },
+];
+
+let oppiIstunto = null;
+
+function uusiaSanoja(suodatettu = true) {
+  const joukko = suodatettu ? suodatetutSanat() : kaikkiSanat;
+  return joukko.filter((sana) => {
+    const pari = kortitSanalla.get(sana.id);
+    return pari && pari.every(onAloittamaton);
+  });
+}
+
+function aloitaEra(sanat) {
+  const era = sanat.slice(0, ERAN_KOKO).map((sana) => {
+    for (const kortti of kortitSanalla.get(sana.id)) {
+      const t = tilaTaiUusi(kortti);
+      t.stage = 0;
+    }
+    return { sana, vaihe: 0, perakkaisetVirheet: 0, valmis: false };
+  });
+  oppiIstunto = { kohteet: era, viimeksi: [], nykyinen: null, naytaVastaus: false, pompatut: new Set() };
+  tallenna();
+  seuraavaOppiKohde();
+}
+
+function seuraavaOppiKohde() {
+  const kesken = oppiIstunto.kohteet.filter((k) => !k.valmis);
+  if (!kesken.length) { oppiIstunto.nykyinen = null; return; }
+  // Samaa sanaa ei kysytä kahdesti peräkkäin: väliin vähintään kaksi muuta.
+  let ehdokkaat = kesken.filter((k) => !oppiIstunto.viimeksi.includes(k.sana.id));
+  if (!ehdokkaat.length) ehdokkaat = kesken.filter((k) => k.sana.id !== oppiIstunto.viimeksi[0]);
+  if (!ehdokkaat.length) ehdokkaat = kesken;
+  // Alimmasta vaiheesta eteenpäin, jotta erä etenee tasaisesti.
+  const alin = Math.min(...ehdokkaat.map((k) => k.vaihe));
+  const valinta = sekoita(ehdokkaat.filter((k) => k.vaihe === alin))[0];
+  oppiIstunto.nykyinen = valinta;
+  oppiIstunto.viimeksi = [valinta.sana.id, oppiIstunto.viimeksi[0]].filter(Boolean);
+}
+
+function oppiVastaus(kohde, oikein) {
+  if (oikein) {
+    kohde.perakkaisetVirheet = 0;
+    kohde.vaihe += 1;
+    if (kohde.vaihe > 4) {
+      kohde.valmis = true;
+      for (const kortti of kortitSanalla.get(kohde.sana.id)) {
+        const t = tilaTaiUusi(kortti);
+        t.stage = null;
+        t.graduated = true;
+        t.repetitions = 1;
+        t.interval = 1;
+        t.nextReview = tanaan() + PAIVA;
+      }
+    }
+  } else {
+    kohde.perakkaisetVirheet += 1;
+    // Vaiheeseen 0 ei palata: esittely nähdään kerran.
+    if (kohde.perakkaisetVirheet < 2) kohde.vaihe = Math.max(1, kohde.vaihe - 1);
+  }
+  for (const kortti of kortitSanalla.get(kohde.sana.id)) {
+    const t = tilaTaiUusi(kortti);
+    if (!t.graduated) t.stage = kohde.vaihe;
+    t.nahty += 1;
+    if (!oikein) t.virheita += 1;
+  }
+  tallenna();
+}
+
+function naytaOpi() {
+  const uudet = uusiaSanoja();
+
+  if (!oppiIstunto) {
+    const lohko = el("div", "pino");
+    if (!uudet.length) {
+      lisaa(lohko, tyhjaNakyma("Kaikki sanat aloitettu",
+        "Jokainen sanasto­kohta on käynyt Opi-putken läpi. Loppu tapahtuu Kertaa-välilehdellä.",
+        nappi("Siirry kertaamaan", "ensisijainen", () => vaihdaValilehti("kertaa"))));
+      return lohko;
+    }
+    const kortti = el("div", "kortti pino");
+    lisaa(kortti, el("p", "t-nano haalein", "UUSIA SANOJA"));
+    lisaa(kortti, el("p", "t-nayttava", String(uudet.length)));
+    lisaa(kortti, el("p", "t-pieni haalea",
+      "Erässä on seitsemän sanaa – suunnilleen se määrä, jonka työmuisti pitää kerralla hallussaan. " +
+      "Sanat kiertävät vaiheittain, kunnes kaikki on kirjoitettu ruotsiksi."));
+    lisaa(kortti, nappi(`Aloita erä (${Math.min(ERAN_KOKO, uudet.length)} sanaa)`, "ensisijainen leve",
+      () => { aloitaEra(uudet); piirra(); }));
+    lisaa(lohko, kortti);
+    lisaa(lohko, seuraavatSanatLista(uudet.slice(0, ERAN_KOKO)));
+    return lohko;
+  }
+
+  if (!oppiIstunto.nykyinen) {
+    const opitut = oppiIstunto.kohteet.map((k) => k.sana);
+    oppiIstunto = null;
+    const lohko = el("div", "pino");
+    lisaa(lohko, tyhjaNakyma("Erä valmis",
+      "Sanat siirtyivät kertaukseen ja palaavat huomenna.", null, "✓"));
+    lisaa(lohko, seuraavatSanatLista(opitut, "Tämän erän sanat"));
+    const napit = el("div", "napit");
+    if (uusiaSanoja().length) {
+      lisaa(napit, nappi("Uusi erä", "ensisijainen", () => { aloitaEra(uusiaSanoja()); piirra(); }));
+    }
+    lisaa(napit, nappi("Kertaa", "", () => vaihdaValilehti("kertaa")));
+    lisaa(lohko, napit);
+    return lohko;
+  }
+
+  const kohde = oppiIstunto.nykyinen;
+  const { sana, vaihe } = kohde;
+  const lohko = el("div", "pino");
+
+  const yla = el("div", "rivi-vali");
+  lisaa(yla, el("span", "t-nano haalein", VAIHEET[vaihe].nimi.toUpperCase() + " · " + VAIHEET[vaihe].ohje));
+  const pisteet = el("div", "pisteet");
+  for (const k of oppiIstunto.kohteet) {
+    const piste = el("i");
+    piste.dataset.tila = k.valmis ? "valmis" : (k === kohde ? "kesken" : "");
+    if (k.valmis && !oppiIstunto.pompatut.has(k.sana.id)) {
+      oppiIstunto.pompatut.add(k.sana.id);
+      requestAnimationFrame(() => pomppaa(piste));
+    }
+    lisaa(pisteet, piste);
+  }
+  lisaa(yla, pisteet);
+  lisaa(lohko, yla);
+
+  const kortti = el("div", "kortti");
+
+  if (oppiIstunto.naytaVastaus || vaihe === 0) {
+    // Esittely: ei arvausta, vain sana kokonaisuudessaan.
+    lisaa(kortti, esittelyLohko(sana));
+    lisaa(kortti, nappi("Seuraava", "ensisijainen leve", () => {
+      oppiIstunto.naytaVastaus = false;
+      if (vaihe === 0) oppiVastaus(kohde, true);
+      seuraavaOppiKohde();
+      piirra();
+    }));
+  } else if (vaihe === 1 || vaihe === 2) {
+    const suunta = vaihe === 1 ? SUUNNAT.SVFI : SUUNNAT.FISV;
+    const oikea = lyhytVastaus(sana, suunta);
+    lisaa(kortti, kysymysLohko(VAIHEET[vaihe].ohje, kysymysTeksti(sana, suunta), sanavihje(sana)));
+    const vaihtoehdot = sekoita([oikea, ...hairiot(sana, suunta)]);
+    lisaa(kortti, vaihtoehtolohko(vaihtoehdot, (valittu, palkki) => {
+      const osui = valittu === oikea;
+      for (const b of palkki.children) {
+        b.disabled = true;
+        if (b.textContent === oikea) b.classList.add("oikein");
+        else if (b.textContent === valittu) b.classList.add("vaarin");
+      }
+      lisaa(kortti, palautelohko(osui ? "oikein" : "vaarin", oikea, null, null));
+      oppiVastaus(kohde, osui);
+      jatkaHetkenPaasta(osui, () => {
+        if (!osui && kohde.perakkaisetVirheet >= 2) oppiIstunto.naytaVastaus = true;
+        else seuraavaOppiKohde();
+        piirra();
+      });
+    }));
+  } else {
+    const suunta = vaihe === 3 ? SUUNNAT.SVFI : SUUNNAT.FISV;
+    lisaa(kortti, kysymysLohko(VAIHEET[vaihe].ohje, kysymysTeksti(sana, suunta), sanavihje(sana)));
+    let osuiViimeksi = false;
+    const muoto = vastauslomake({
+      paikanpitaja: suunta === SUUNNAT.FISV ? "ruotsiksi" : "suomeksi",
+      onTarkista: ([arvo]) => {
+        const tulos = tarkistaVastaus(arvo, sana, suunta);
+        osuiViimeksi = tulos.tulos === "oikein";
+        if (!osuiViimeksi) kirjaaVirhe({ id: kortinTunnus(sana, suunta), sana, suunta }, arvo, tulos.oikeat[0]);
+        oppiVastaus(kohde, osuiViimeksi);
+        return {
+          tulos: tulos.tulos, oikea: tulos.oikeat[0], kirjoitettu: arvo,
+          lisatieto: tulos.syy === "tarkkeet" ? "Kirjainmerkki ratkaisee: kokeessa tämä on virhe." : null,
+          // Tuottamisvaiheessa koko taivutus kerralla: juuri siinä hetkessä,
+          // kun sana on haettu muistista, paradigma tarttuu parhaiten.
+          taivutus: suunta === SUUNNAT.FISV ? taivutusMuodot(sana) : null,
+        };
+      },
+      onJatka: () => {
+        if (!osuiViimeksi && kohde.perakkaisetVirheet >= 2) oppiIstunto.naytaVastaus = true;
+        else seuraavaOppiKohde();
+        piirra();
+      },
+    });
+    lisaa(kortti, muoto);
+    queueMicrotask(() => muoto._kentat[0].focus());
+  }
+
+  lisaa(lohko, kortti);
+  lisaa(lohko, teoriaLinkki(sana));
+  return lohko;
+}
+
+/* Ensikohtaaminen: sana, käännös ja taivutus yhdellä silmäyksellä, keskitettynä
+   samalle akselille kuin myöhemmät kysymykset – sama paikka, eri sisältö. */
+function esittelyLohko(sana) {
+  const lohko = el("div", "kysymys");
+  lisaa(lohko, el("p", "kehote t-nano haalein", "UUSI SANA"));
+  lisaa(lohko, el("p", "sana t-nayttava", (sana.suku ? sana.suku + " " : "") + sana.ruotsi));
+  lisaa(lohko, el("p", "kaannos t-otsikko", sana.suomi.join(", ")));
+
+  const merkinnat = [];
+  if (sana.taivutus.length) merkinnat.push(sana.taivutus.join(" · "));
+  const alarivi = [sana.sanaluokka, sana.luokka].filter(Boolean).join(" · ");
+  if (alarivi) merkinnat.push(alarivi);
+  if (sana.rektio) merkinnat.push("rektio: " + sana.rektio);
+  const pari = sana.vastakohta && sanatTunnuksella.get(sana.vastakohta);
+  if (pari) merkinnat.push("↔ " + pari.ruotsi);
+  for (const teksti of merkinnat) lisaa(lohko, el("p", "vihje t-pieni haalea", teksti));
+
+  const aani = aaninappi(sana.ruotsi);
+  if (aani) { aani.style.margin = "0.75rem auto 0"; lisaa(lohko, aani); }
+  if (sana.esimerkit.length) {
+    const lista = esimerkkiLista(sana.esimerkit.slice(0, 3));
+    lista.style.textAlign = "left";
+    lista.style.marginTop = "1rem";
+    lisaa(lohko, lista);
+  }
+  return lohko;
+}
+
+function jatkaHetkenPaasta(osui, jatko) {
+  // Oikea vastaus ei tarvitse lukuaikaa; väärä tarvitsee.
+  setTimeout(jatko, osui ? 550 : 1400);
+}
+
+function seuraavatSanatLista(sanat, otsikko = "Tulossa") {
+  const lohko = el("div", "pino-tiivis");
+  lisaa(lohko, el("p", "t-nano haalein", otsikko.toUpperCase()));
+  for (const sana of sanat) {
+    const rivi = el("div", "sana-rivi");
+    const sisus = el("div", "sisus");
+    lisaa(sisus, el("div", "sv", hakusana(sana)));
+    lisaa(sisus, el("div", "fi", sana.suomi.join(", ")));
+    lisaa(rivi, el("i", "osaaminen"), sisus);
+    lisaa(lohko, rivi);
+  }
+  return lohko;
+}
+
+function esimerkkiLista(esimerkit) {
+  const lista = el("ul", "esimerkit");
+  for (const esim of esimerkit) {
+    const kohta = el("li", null, esim.sv);
+    if (esim.fi) lisaa(kohta, el("span", "kaannos", esim.fi));
+    lisaa(lista, kohta);
+  }
+  return lista;
+}
+
+function teoriaLinkki(sana) {
+  const b = nappi("Näytä asiayhteydessä", "hiljainen leve", () => {
+    naytaTeoriassa(sana);
+  });
+  return b;
+}
+
+/* ==========================================================================
+   9. Kertaa – välitoisto, aina kirjoittamalla
+   ========================================================================== */
+const ISTUNNON_PITUUS = 20;
+let kertausIstunto = null;
+
+function eraantyvatKortit() {
+  const sallitut = new Set(suodatetutSanat().map((s) => s.id));
+  return kortit
+    .filter((kortti) => sallitut.has(kortti.sana.id) && erääntyy(kortti))
+    .sort((a, b) => (tila(a).nextReview || 0) - (tila(b).nextReview || 0));
+}
+
+function aloitaKertaus(lista) {
+  edistysArvot.delete("kertaus");
+  kertausIstunto = {
+    jono: lista.slice(0, ISTUNNON_PITUUS),
+    indeksi: 0, oikein: 0, vaarin: 0, vastattu: null,
+  };
+}
+
+function naytaKertaa() {
+  if (!kertausIstunto) {
+    const eraantyvat = eraantyvatKortit();
+    const lohko = el("div", "pino");
+    if (!eraantyvat.length) {
+      const seuraava = kortit
+        .map(tila).filter((t) => t?.graduated && t.nextReview)
+        .sort((a, b) => a.nextReview - b.nextReview)[0];
+      const teksti = seuraava
+        ? "Seuraavat kortit erääntyvät " + new Date(seuraava.nextReview).toLocaleDateString("fi-FI") + "."
+        : "Aloita Opi-välilehdeltä, niin kortteja alkaa kertyä tänne.";
+      lisaa(lohko, tyhjaNakyma("Ei kerrattavaa tänään", teksti,
+        nappi("Opi uusia sanoja", "ensisijainen", () => vaihdaValilehti("opi")), "✓"));
+      return lohko;
+    }
+    const kortti = el("div", "kortti pino");
+    lisaa(kortti, el("p", "t-nano haalein", "ERÄÄNTYNYT"));
+    lisaa(kortti, el("p", "t-nayttava", String(eraantyvat.length)));
+    lisaa(kortti, el("p", "t-pieni haalea",
+      eraantyvat.length > ISTUNNON_PITUUS
+        ? `Istunnossa ${ISTUNNON_PITUUS} korttia kerrallaan, loput jäävät jonoon.`
+        : "Kaikki kirjoittamalla – tunnistaminen ja tuottaminen ovat eri taitoja."));
+    lisaa(kortti, nappi("Aloita kertaus", "ensisijainen leve",
+      () => { aloitaKertaus(eraantyvat); piirra(); }));
+    lisaa(lohko, kortti);
+    return lohko;
+  }
+
+  const { jono, indeksi } = kertausIstunto;
+  if (indeksi >= jono.length) {
+    const { oikein, vaarin } = kertausIstunto;
+    kertausIstunto = null;
+    const lohko = el("div", "pino");
+    lisaa(lohko, tyhjaNakyma("Istunto valmis",
+      `${oikein} oikein, ${vaarin} väärin.`, null, "✓"));
+    const napit = el("div", "napit");
+    if (eraantyvatKortit().length) {
+      lisaa(napit, nappi("Jatka kertausta", "ensisijainen",
+        () => { aloitaKertaus(eraantyvatKortit()); piirra(); }));
+    }
+    lisaa(napit, nappi("Harjoitukset", "", () => vaihdaValilehti("harjoitukset")));
+    lisaa(lohko, napit);
+    return lohko;
+  }
+
+  const kortti = jono[indeksi];
+  const { sana, suunta } = kortti;
+  const lohko = el("div", "pino");
+
+  lisaa(lohko, edistyspalkki("kertaus", indeksi / jono.length));
+
+  const yla = el("div", "rivi-vali t-nano haalein");
+  lisaa(yla, el("span", null, (suunta === SUUNNAT.FISV ? "SUOMI → RUOTSI" : "RUOTSI → SUOMI")));
+  lisaa(yla, el("span", null, `${indeksi + 1} / ${jono.length}`));
+  lisaa(lohko, yla);
+
+  const laatikko = el("div", "kortti");
+  lisaa(laatikko, kysymysLohko(
+    suunta === SUUNNAT.FISV ? "Kirjoita ruotsiksi" : "Kirjoita suomeksi",
+    kysymysTeksti(sana, suunta),
+    sanavihje(sana) + (onLeech(kortti) ? " · vaikea sana" : ""),
+    suunta === SUUNNAT.SVFI ? sana.ruotsi : null));
+
+  const muoto = vastauslomake({
+    paikanpitaja: suunta === SUUNNAT.FISV ? "ruotsiksi" : "suomeksi",
+    onTarkista: ([arvo]) => {
+      const tulos = tarkistaVastaus(arvo, sana, suunta);
+      const osui = tulos.tulos === "oikein";
+      const t = tilaTaiUusi(kortti);
+      t.nahty += 1;
+      if (!osui) { t.virheita += 1; kirjaaVirhe(kortti, arvo, tulos.oikeat[0]); }
+      if (t.graduated || !kertausIstunto.vapaa) {
+        paivitaValitoisto(t, osui ? 5 : (tulos.tulos === "melkein" ? 2 : 0));
+      }
+      kertausIstunto[osui ? "oikein" : "vaarin"] += 1;
+      tallenna();
+      // Esimerkit napin alapuolelle: näin toimintonappi ei siirry pituuden mukaan.
+      if (sana.esimerkit.length) lisaa(laatikko, esimerkkiLista(sana.esimerkit.slice(0, 2)));
+      return {
+        tulos: tulos.tulos, oikea: tulos.oikeat.join(" / "), kirjoitettu: arvo,
+        lisatieto: tulos.syy === "tarkkeet" ? "Kirjainmerkki ratkaisee: kokeessa tämä on virhe." : null,
+      };
+    },
+    onJatka: () => { kertausIstunto.indeksi += 1; piirra(); },
+  });
+  lisaa(laatikko, muoto);
+  queueMicrotask(() => muoto._kentat[0].focus());
+
+  lisaa(lohko, laatikko);
+  lisaa(lohko, teoriaLinkki(sana));
+  return lohko;
+}
+
+/* Harvinainen hetki – erän tai istunnon päätös. Ainoa paikka sovelluksessa,
+   jossa liikettä saa olla enemmän kuin välttämätön. */
+function tyhjaNakyma(otsikko, teksti, toiminto, kuva) {
+  const lohko = el("div", "tyhja");
+  const portaat = [];
+  if (kuva) {
+    const kuori = el("div", "kuva");
+    lisaa(kuori, kuva === "✓" ? valmisMerkki() : el("span", null, kuva));
+    portaat.push(kuori);
+  }
+  portaat.push(el("h2", "t-otsikko", otsikko));
+  portaat.push(el("p", "t-pieni", teksti));
+  if (toiminto) { toiminto.style.marginTop = "1rem"; portaat.push(toiminto); }
+  portaat.forEach((solmu, i) => {
+    solmu.classList.add("porras");
+    solmu.style.animationDelay = (i * 60) + "ms";
+    lisaa(lohko, solmu);
+  });
+  return lohko;
+}
+
+function valmisMerkki() {
+  const svg = ikoni('<circle cx="12" cy="12" r="9.5" opacity="0.28"/><path class="merkkiPiirto" d="m7.5 12.4 3.1 3.1 6-6.4"/>', 44);
+  svg.setAttribute("stroke-width", "1.9");
+  svg.style.color = "var(--oikein)";
+  return svg;
+}
+
+/* ==========================================================================
+   10. Harjoitukset – kaikki samasta datasta, ei erillistä sisältöä
+   ========================================================================== */
+const AJAN_PREPOSITIOT = ["i", "på", "om", "för", "under", "sedan", "inom", "före",
+                          "efter", "från", "till", "mellan", "vid"];
+
+function ensimmainenVaihtoehto(teksti) { return teksti.split(" / ")[0].trim(); }
+
+function taivutusTehtavat() {
+  const OTSIKOT = {
+    verbi: ["preesens", "imperfekti", "supiini"],
+    substantiivi: ["yks. määräinen", "mon. epämääräinen", "mon. määräinen"],
+    adjektiivi: ["ett-muoto", "monikko"],
+  };
+  return suodatetutSanat()
+    .filter((sana) => sana.taivutus.length >= 2 && OTSIKOT[sana.sanaluokka]
+                      && !sana.ruotsi.includes(" / ") && kelpaaKortiksi(sana))
+    .map((sana) => ({
+      tyyppi: "kentat",
+      sana,
+      kehote: "Täydennä taivutus",
+      kysymys: (sana.suku ? sana.suku + " " : "") + sana.ruotsi,
+      vihje: [sana.sanaluokka, sana.luokka, sana.suomi[0]].filter(Boolean).join(" · "),
+      kentat: sana.taivutus.map((muoto, i) => ({
+        otsikko: OTSIKOT[sana.sanaluokka][i] || "muoto " + (i + 1),
+        vastaukset: [muoto],
+      })),
+    }));
+}
+
+function rektioTehtavat() {
+  const tulos = [];
+  for (const sana of suodatetutSanat()) {
+    if (!sana.rektio || !kelpaaKortiksi(sana)) continue;
+    const vaihtoehdot = sana.rektio.split("/").map((p) => p.trim());
+    const ensimmainen = vaihtoehdot[0];
+    const kuvio = new RegExp("(^|\\s)" + ensimmainen + "(\\s|$)");
+    let lause = null;
+    for (const esim of sana.esimerkit) {
+      if (esim.sv && kuvio.test(esim.sv)) { lause = esim; break; }
+    }
+    const pohja = lause ? lause.sv : ensimmainenVaihtoehto(sana.ruotsi);
+    let kysymys;
+    if (kuvio.test(pohja)) {
+      kysymys = pohja.replace(kuvio, (osuma, a, b) => a + "___" + b);
+    } else {
+      kysymys = pohja + " ___";
+    }
+    tulos.push({
+      tyyppi: "kirjoita",
+      sana,
+      kehote: "Mikä prepositio?",
+      kysymys,
+      vihje: (lause && lause.fi) ? lause.fi : sana.suomi.join(", "),
+      paikanpitaja: "prepositio",
+      vastaukset: vaihtoehdot,
+    });
+  }
+  return tulos;
+}
+
+function prepositioTehtavat() {
+  const tulos = [];
+  for (const sana of suodatetutSanat()) {
+    if (!/^6 /.test(sana.kategoria || "")) continue;
+    if (!/^6\.[12]\b/.test(sana.alakategoria || "")) continue;
+    const lauseke = ensimmainenVaihtoehto(sana.ruotsi);
+    const osat = lauseke.split(" ");
+    if (osat.length < 2 || !AJAN_PREPOSITIOT.includes(osat[0])) continue;
+    tulos.push({
+      tyyppi: "kirjoita",
+      sana,
+      kehote: "Aika vai paikka?",
+      kysymys: "___ " + osat.slice(1).join(" "),
+      vihje: ensimmainenVaihtoehto(sana.suomi.join(", ")),
+      paikanpitaja: "prepositio",
+      vastaukset: [osat[0]],
+    });
+  }
+  return tulos;
+}
+
+function vastakohtaTehtavat() {
+  const tulos = [];
+  for (const sana of suodatetutSanat()) {
+    if (!sana.vastakohta || !kelpaaKortiksi(sana)) continue;
+    const pari = sanatTunnuksella.get(sana.vastakohta);
+    if (!pari) continue;
+    tulos.push({
+      tyyppi: "kirjoita",
+      sana: pari,
+      kehote: "Mikä on vastakohta?",
+      kysymys: sana.ruotsi,
+      vihje: sana.suomi.join(", ") + " ↔ " + pari.suomi.join(", "),
+      paikanpitaja: "ruotsiksi",
+      vastaukset: hyvaksytytVastaukset(pari, SUUNNAT.FISV),
+    });
+  }
+  return tulos;
+}
+
+function lauseTehtavat() {
+  const tulos = [];
+  for (const sana of suodatetutSanat()) {
+    for (const esim of sana.esimerkit) {
+      if (!esim.sv || !esim.fi) continue;
+      const sanoja = esim.sv.split(/\s+/).length;
+      if (sanoja < 2 || sanoja > 7) continue;
+      tulos.push({
+        tyyppi: "kirjoita",
+        sana,
+        kehote: "Käännä ruotsiksi",
+        kysymys: esim.fi,
+        vihje: "Avainsana: " + sana.ruotsi,
+        paikanpitaja: "ruotsiksi",
+        vastaukset: [esim.sv],
+      });
+    }
+  }
+  return tulos;
+}
+
+function sukuTehtavat() {
+  return suodatetutSanat()
+    .filter((sana) => sana.suku && kelpaaKortiksi(sana))
+    .map((sana) => ({
+      tyyppi: "napit",
+      sana,
+      kehote: "en vai ett?",
+      kysymys: sana.ruotsi,
+      vihje: sana.suomi.join(", "),
+      napit: ["en", "ett"],
+      vastaukset: [sana.suku],
+    }));
+}
+
+const HARJOITUKSET = [
+  { id: "taivutus",   nimi: "Taivutustreeni",  kuvaus: "Kaikki muodot omiin kenttiinsä",         tee: taivutusTehtavat },
+  { id: "rektio",     nimi: "Rektioaukot",     kuvaus: "Verbi, adjektiivi tai substantiivi + prepositio", tee: rektioTehtavat },
+  { id: "prepositio", nimi: "Prepositiotreeni", kuvaus: "Ajan ja paikan i / på / om / för",      tee: prepositioTehtavat },
+  { id: "vastakohta", nimi: "Vastakohtaparit", kuvaus: "Näytä sana, kirjoita sen vastakohta",    tee: vastakohtaTehtavat },
+  { id: "lause",      nimi: "Lauseesta sana",  kuvaus: "Suomenkielinen lause ruotsiksi",         tee: lauseTehtavat },
+  { id: "suku",       nimi: "en vai ett",      kuvaus: "Substantiivien suku nopeasti",           tee: sukuTehtavat },
+];
+
+let harjoitusIstunto = null;
+
+function aloitaHarjoitus(maaritys) {
+  edistysArvot.delete("harjoitus");
+  const tehtavat = sekoita(maaritys.tee()).slice(0, ISTUNNON_PITUUS);
+  harjoitusIstunto = { maaritys, tehtavat, indeksi: 0, oikein: 0, vaarin: 0 };
+}
+
+function naytaHarjoitukset() {
+  if (!harjoitusIstunto) {
+    const lohko = el("div", "pino");
+    lisaa(lohko, el("p", "t-pieni haalea",
+      "Nämä syntyvät samasta sanastosta kuin kortitkin. Rektiot ja prepositiot ovat " +
+      "käytännössä ylioppilaskokeen aukkotehtävä sellaisenaan."));
+    const lista = el("div", "rivilista");
+    for (const maaritys of HARJOITUKSET) {
+      const maara = maaritys.tee().length;
+      const rivi = el("button", "rivi");
+      rivi.type = "button";
+      const kasvaa = el("div", "kasvaa");
+      lisaa(kasvaa, el("div", "t-vali", maaritys.nimi));
+      lisaa(kasvaa, el("div", "t-pieni haalea", maaritys.kuvaus));
+      const nuoli = ikoni('<path d="m9 6 6 6-6 6"/>', 18);
+      nuoli.classList.add("nuoli");
+      lisaa(rivi, kasvaa, el("span", "maara t-pieni", String(maara)), nuoli);
+      rivi.disabled = maara === 0;
+      rivi.addEventListener("click", () => { aloitaHarjoitus(maaritys); piirra(); });
+      lisaa(lista, rivi);
+    }
+    lisaa(lohko, lista);
+    return lohko;
+  }
+
+  const { tehtavat, indeksi, maaritys } = harjoitusIstunto;
+  if (indeksi >= tehtavat.length) {
+    const { oikein, vaarin } = harjoitusIstunto;
+    harjoitusIstunto = null;
+    const lohko = el("div", "pino");
+    lisaa(lohko, tyhjaNakyma(maaritys.nimi + " valmis", `${oikein} oikein, ${vaarin} väärin.`, null, "✓"));
+    const napit = el("div", "napit");
+    lisaa(napit, nappi("Uudestaan", "ensisijainen", () => { aloitaHarjoitus(maaritys); piirra(); }));
+    lisaa(napit, nappi("Muut harjoitukset", "", () => piirra()));
+    lisaa(lohko, napit);
+    return lohko;
+  }
+  return harjoitusNakyma(tehtavat[indeksi], indeksi, tehtavat.length, maaritys.nimi, () => {
+    harjoitusIstunto.indeksi += 1;
+    piirra();
+  }, (osui) => { harjoitusIstunto[osui ? "oikein" : "vaarin"] += 1; });
+}
+
+function harjoitusNakyma(tehtava, indeksi, kokonais, otsikko, onJatka, onTulos) {
+  const lohko = el("div", "pino");
+
+  lisaa(lohko, edistyspalkki("harjoitus", indeksi / kokonais));
+
+  const yla = el("div", "rivi-vali t-nano haalein");
+  lisaa(yla, el("span", null, otsikko.toUpperCase()));
+  lisaa(yla, el("span", null, `${indeksi + 1} / ${kokonais}`));
+  lisaa(lohko, yla);
+
+  const kortti = el("div", "kortti");
+  lisaa(kortti, kysymysLohko(tehtava.kehote, tehtava.kysymys, tehtava.vihje));
+
+  /* Kirjaa tuloksen. Vain jo aloitetun kortin tilastoja päivitetään: harjoitus
+     ei aloita sanaa eikä siis vie sitä pois Opi-välilehden uusista sanoista. */
+  const kirjaa = (osui, oikeaTeksti, kirjoitettu) => {
+    onTulos(osui);
+    for (const kortti of kortitSanalla.get(tehtava.sana.id) || []) {
+      const t = tila(kortti);
+      if (!t) continue;
+      t.nahty += 1;
+      if (!osui) t.virheita += 1;
+    }
+    if (!osui) kirjaaVirhe({ id: "harjoitus:" + tehtava.sana.id, sana: tehtava.sana, suunta: "harjoitus" },
+                           kirjoitettu || "", oikeaTeksti);
+    tallenna();
+  };
+
+  if (tehtava.tyyppi === "napit") {
+    lisaa(kortti, vaihtoehtolohko(tehtava.napit, (valittu, palkkiSolmu) => {
+      const osui = tehtava.vastaukset.includes(valittu);
+      for (const b of palkkiSolmu.children) {
+        b.disabled = true;
+        if (tehtava.vastaukset.includes(b.textContent)) b.classList.add("oikein");
+        else if (b.textContent === valittu) b.classList.add("vaarin");
+      }
+      const oikeaTeksti = tehtava.vastaukset[0] + " " + tehtava.sana.ruotsi;
+      kirjaa(osui, oikeaTeksti, valittu);
+      lisaa(kortti, palautelohko(osui ? "oikein" : "vaarin", oikeaTeksti, null, null));
+      const jatka = nappi("Jatka", "ensisijainen leve", onJatka);
+      lisaa(kortti, jatka);
+      jatka.focus();
+    }));
+  } else if (tehtava.tyyppi === "kentat") {
+    const muoto = vastauslomake({
+      kentat: tehtava.kentat,
+      onTarkista: (arvot) => {
+        const kaikkiOikein = tehtava.kentat.every((maar, i) =>
+          maar.vastaukset.some((v) => normalisoi(v) === normalisoi(arvot[i] || "")));
+        const oikeaTeksti = tehtava.kentat.map((k) => k.vastaukset[0]).join(", ");
+        kirjaa(kaikkiOikein, oikeaTeksti, arvot.filter(Boolean).join(", "));
+        return {
+          tulos: kaikkiOikein ? "oikein" : "vaarin", oikea: oikeaTeksti,
+          kirjoitettu: arvot.filter(Boolean).join(", "), lisatieto: null,
+        };
+      },
+      onJatka,
+    });
+    lisaa(kortti, muoto);
+    queueMicrotask(() => muoto._kentat[0]?.focus());
+  } else {
+    const muoto = vastauslomake({
+      paikanpitaja: tehtava.paikanpitaja || "vastaus",
+      onTarkista: ([arvo]) => {
+        const osui = tehtava.vastaukset.some((v) => normalisoi(v) === normalisoi(arvo));
+        const tarkkeet = !osui && tehtava.vastaukset.some(
+          (v) => riisuTarkkeet(normalisoi(v)) === riisuTarkkeet(normalisoi(arvo)));
+        const oikeaTeksti = tehtava.vastaukset.join(" / ");
+        kirjaa(osui, oikeaTeksti, arvo);
+        return {
+          tulos: osui ? "oikein" : (tarkkeet ? "melkein" : "vaarin"),
+          oikea: oikeaTeksti, kirjoitettu: arvo,
+          lisatieto: tarkkeet ? "Kirjainmerkki ratkaisee: kokeessa tämä on virhe." : null,
+        };
+      },
+      onJatka,
+    });
+    lisaa(kortti, muoto);
+    queueMicrotask(() => muoto._kentat[0].focus());
+  }
+
+  lisaa(lohko, kortti);
+  if (tehtava.sana) lisaa(lohko, teoriaLinkki(tehtava.sana));
+  return lohko;
+}
+
+/* ==========================================================================
+   11. Ääntäminen
+   ========================================================================== */
+function puhu(teksti) {
+  if (!window.speechSynthesis) return;
+  try {
+    speechSynthesis.cancel();
+    const puhe = new SpeechSynthesisUtterance(teksti);
+    puhe.lang = "sv-SE";
+    puhe.rate = 0.95;
+    speechSynthesis.speak(puhe);
+  } catch (virhe) { /* ääni ei ole koskaan välttämätön */ }
+}
+function aaninappi(teksti) {
+  if (!window.speechSynthesis || !edistyminen.asetukset.aani) return null;
+  const b = el("button", "kuvakenappi");
+  b.type = "button";
+  b.setAttribute("aria-label", "Kuuntele: " + teksti);
+  lisaa(b, ikoni('<path d="M11 5 6 9H3v6h3l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/>', 19));
+  b.addEventListener("click", (tapahtuma) => { tapahtuma.stopPropagation(); puhu(teksti); });
+  return b;
+}
+
+/* ==========================================================================
+   12. Teoria – koko sanasto luettavana, haettavana ja harjoiteltavana
+   ========================================================================== */
+let teoriaHaku = "";
+let teoriaKohdistus = null;
+
+const LUOKKAVARIT = {
+  verbi: "var(--luokka-verbi)",
+  substantiivi: "var(--luokka-substantiivi)",
+  adjektiivi: "var(--luokka-adjektiivi)",
+  adverbi: "var(--luokka-adverbi)",
+  ilmaus: "var(--luokka-ilmaus)",
+};
+/* Luvun tunnusväri on sen aiheen väri, ei sisällön enemmistön – luvun 6 sanat
+   ovat sanaluokaltaan kaikkea, mutta luku on prepositioita. */
+// Järjestys ratkaisee: "adverbit" sisältää merkkijonon "verbi", joten
+// tarkemmat osumat on testattava ennen väljempiä.
+const LUKUVARIT = [
+  [/adjektiivi/i, "var(--luokka-adjektiivi)"],
+  [/substantiivi/i, "var(--luokka-substantiivi)"],
+  [/prepositio/i, "var(--luokka-prepositio)"],
+  [/ilmauk|sanont/i, "var(--luokka-ilmaus)"],
+  [/sidosteisuus|pikkusan/i, "var(--luokka-adverbi)"],
+  [/adverbi/i, "var(--luokka-adverbi)"],
+  [/verbi/i, "var(--luokka-verbi)"],
+];
+function luokkaVari(sanaluokka) { return LUOKKAVARIT[sanaluokka] || null; }
+function lukuVari(otsikko) {
+  for (const [kuvio, vari] of LUKUVARIT) if (kuvio.test(otsikko)) return vari;
+  return null;
+}
+function varineliö(vari, luokka = "luvunvari") {
+  const merkki = el("i", luokka);
+  merkki.style.setProperty("--luokkavari", vari || "var(--luokka-neutraali)");
+  return merkki;
+}
+
+function osaamisenTila(sana) {
+  const pari = kortitSanalla.get(sana.id);
+  if (!pari) return "";
+  if (pari.some(onLeech)) return "vaikea";
+  if (pari.every(onValmistunut)) return "valmis";
+  if (pari.some((kortti) => tila(kortti))) return "opittava";
+  return "";
+}
+
+function korostaOsumat(teksti, haku) {
+  if (!haku) return document.createTextNode(teksti);
+  const pala = document.createDocumentFragment();
+  const matala = teksti.toLowerCase();
+  const kohde = haku.toLowerCase();
+  let alku = 0;
+  for (;;) {
+    const osuma = matala.indexOf(kohde, alku);
+    if (osuma === -1) break;
+    if (osuma > alku) pala.appendChild(document.createTextNode(teksti.slice(alku, osuma)));
+    pala.appendChild(el("mark", null, teksti.slice(osuma, osuma + kohde.length)));
+    alku = osuma + kohde.length;
+  }
+  pala.appendChild(document.createTextNode(teksti.slice(alku)));
+  return pala;
+}
+
+function osuukoHakuun(sana, matala) {
+  if (hakusana(sana).toLowerCase().includes(matala)) return true;
+  if (sana.suomi.join(", ").toLowerCase().includes(matala)) return true;
+  return sana.esimerkit.some((esim) =>
+    (esim.sv || "").toLowerCase().includes(matala) ||
+    (esim.fi || "").toLowerCase().includes(matala));
+}
+
+function piirraSanaRivi(sana, haku) {
+  const rivi = el("div", "sana-rivi");
+  rivi.id = "sana-" + sana.id;
+  const merkki = el("i", "osaaminen");
+  const tilanne = osaamisenTila(sana);
+  if (tilanne) merkki.dataset.tila = tilanne;
+  merkki.title = { opittava: "Opi-vaiheessa", valmis: "Valmistunut", vaikea: "Vaikea sana" }[tilanne] || "Ei aloitettu";
+  lisaa(rivi, merkki);
+
+  const sisus = el("div", "sisus");
+  const otsikko = el("div", "sv");
+  otsikko.appendChild(korostaOsumat(hakusana(sana), haku));
+  if (sana.rektio) lisaa(otsikko, el("span", "lippu rektio", sana.rektio));
+  if (sana.luokka) {
+    const lippu = el("span", "lippu", sana.luokka);
+    const vari = luokkaVari(sana.sanaluokka);
+    if (vari) {
+      lippu.dataset.luokkavari = sana.sanaluokka;
+      lippu.style.setProperty("--luokkavari", vari);
+      lippu.title = sana.sanaluokka;
+    }
+    lisaa(otsikko, lippu);
+  }
+  lisaa(sisus, otsikko);
+
+  const kaannos = el("div", "fi");
+  kaannos.appendChild(korostaOsumat(sana.suomi.join(", "), haku));
+  const pari = sana.vastakohta && sanatTunnuksella.get(sana.vastakohta);
+  if (pari) lisaa(kaannos, el("span", "vastakohta", "↔ " + pari.ruotsi));
+  lisaa(sisus, kaannos);
+
+  if (sana.esimerkit.length) lisaa(sisus, esimerkkiLista(sana.esimerkit));
+  lisaa(rivi, sisus);
+  const aani = aaninappi(sana.ruotsi);
+  if (aani) lisaa(rivi, aani);
+  return rivi;
+}
+
+function piirraKohta(kohta, haku) {
   switch (kohta.tyyppi) {
-    case "sana":
-      return piirraSana(kohta);
-    case "teksti":
-      return el("p", "teksti", kohta.teksti);
-    case "otsikko":
-      return el("h4", "valiotsikko", kohta.teksti);
+    case "sana": return piirraSanaRivi(kohta, haku);
+    case "teksti": return el("p", "teksti", kohta.teksti);
+    case "otsikko": return el("h4", "valiotsikko", kohta.teksti);
     case "korjaus": {
       const solmu = el("div", "korjaus");
-      solmu.appendChild(el("b", null, "Korjaus: "));
+      lisaa(solmu, el("b", null, "Korjaus: "));
       solmu.appendChild(document.createTextNode(kohta.teksti));
       return solmu;
     }
-    case "huomio":
-      return el("div", "huomio", kohta.teksti);
-    case "muistilista":
-      return el("div", "muistilista", kohta.teksti);
-    case "esimerkki": {
-      const lista = el("ul", "esimerkit");
-      for (const esim of kohta.esimerkit) {
-        const rivi = el("li", null, esim.sv);
-        if (esim.fi) rivi.appendChild(el("span", "kaannos", esim.fi));
-        lista.appendChild(rivi);
-      }
-      return lista;
-    }
-    default:
-      return null;
+    case "huomio": return el("div", "huomio", kohta.teksti);
+    case "muistilista": return el("div", "muistilista", kohta.teksti);
+    case "esimerkki": return esimerkkiLista(kohta.esimerkit);
+    default: return null;
   }
 }
 
-function piirraTeoria() {
+function lukuTunniste(otsikko) {
+  return "luku-" + otsikko.split(" ")[0].replace(/[.]/g, "-");
+}
+
+function harjoitaAlaluku(alaluku) {
+  const sanat = alaluku.sisalto.filter((k) => k.tyyppi === "sana" && kelpaaKortiksi(k));
+  const lista = [];
+  for (const sana of sanat) {
+    for (const kortti of kortitSanalla.get(sana.id) || []) lista.push(kortti);
+  }
+  if (!lista.length) return;
+  aloitaKertaus(sekoita(lista));
+  kertausIstunto.vapaa = true;
+  kertausIstunto.otsikko = alaluku.otsikko;
+  vaihdaValilehti("kertaa");
+}
+
+function naytaTeoria() {
   const juuri = document.createDocumentFragment();
+  const haku = teoriaHaku.trim();
+
+  if (haku.length >= 2) {
+    const matala = haku.toLowerCase();
+    let osumia = 0;
+    for (const luku of sanasto.luvut) {
+      for (const alaluku of luku.alaluvut) {
+        const osuvat = alaluku.sisalto.filter((kohta) =>
+          kohta.tyyppi === "sana" && osuukoHakuun(kohta, matala));
+        if (!osuvat.length) continue;
+        osumia += osuvat.length;
+        lisaa(juuri, el("h3", "alaluku t-vali", (alaluku.otsikko || luku.otsikko)));
+        for (const sana of osuvat) lisaa(juuri, piirraSanaRivi(sana, haku));
+      }
+    }
+    if (!osumia) {
+      lisaa(juuri, tyhjaNakyma("Ei osumia", `Haulla “${haku}” ei löytynyt sanoja.`, null, "○"));
+    } else {
+      const laskuri = el("p", "t-nano haalein", osumia + " OSUMAA");
+      juuri.insertBefore(laskuri, juuri.firstChild);
+    }
+    return juuri;
+  }
 
   for (const kohta of sanasto.johdanto) {
-    const solmu = piirraKohta(kohta);
-    if (solmu) juuri.appendChild(solmu);
+    const solmu = piirraKohta(kohta, "");
+    if (solmu) lisaa(juuri, solmu);
   }
 
-  const sisallys = el("ul", "sisallys");
-  for (const luku of sanasto.luvut) {
-    const kohta = el("li");
-    const linkki = el("a", null, luku.otsikko);
-    linkki.href = "#" + tunniste(luku.otsikko);
-    kohta.appendChild(linkki);
-    sisallys.appendChild(kohta);
+  const selite = el("div", "selite");
+  for (const [sanaluokka, vari] of Object.entries(LUOKKAVARIT)) {
+    const kohta = el("span");
+    const merkki = el("i");
+    merkki.style.setProperty("--luokkavari", vari);
+    lisaa(kohta, merkki, document.createTextNode(sanaluokka));
+    lisaa(selite, kohta);
   }
-  juuri.appendChild(sisallys);
+  lisaa(juuri, selite);
+
+  const sisallys = el("div", "rivilista");
+  for (const luku of sanasto.luvut) {
+    const sanoja = luku.alaluvut.reduce(
+      (summa, a) => summa + a.sisalto.filter((k) => k.tyyppi === "sana").length, 0);
+    if (!sanoja && !luku.alaluvut.length) continue;
+    const rivi = el("button", "rivi");
+    rivi.type = "button";
+    lisaa(rivi, varineliö(lukuVari(luku.otsikko)));
+    const kasvaa = el("div", "kasvaa");
+    lisaa(kasvaa, el("div", "t-vali", luku.otsikko));
+    lisaa(rivi, kasvaa, el("span", "maara t-pieni", String(sanoja)));
+    rivi.addEventListener("click", () => {
+      document.getElementById(lukuTunniste(luku.otsikko))?.scrollIntoView({
+        behavior: kevytLiike.matches ? "auto" : "smooth", block: "start",
+      });
+    });
+    lisaa(sisallys, rivi);
+  }
+  lisaa(juuri, sisallys);
 
   for (const luku of sanasto.luvut) {
-    const otsikko = el("h2", "luku", luku.otsikko);
-    otsikko.id = tunniste(luku.otsikko);
-    juuri.appendChild(otsikko);
+    const vari = lukuVari(luku.otsikko);
+    const otsikko = el("h2", "luku t-otsikko");
+    otsikko.id = lukuTunniste(luku.otsikko);
+    if (vari) otsikko.style.setProperty("--luokkavari", vari);
+    lisaa(otsikko, varineliö(vari), document.createTextNode(luku.otsikko));
+    lisaa(juuri, otsikko);
     for (const alaluku of luku.alaluvut) {
-      if (alaluku.otsikko) juuri.appendChild(el("h3", "alaluku", alaluku.otsikko));
+      if (alaluku.otsikko) {
+        const rivi = el("h3", "alaluku t-vali");
+        rivi.id = lukuTunniste(alaluku.otsikko);
+        lisaa(rivi, varineliö(vari), el("span", null, alaluku.otsikko));
+        const harjoitettavia = alaluku.sisalto.filter((k) => k.tyyppi === "sana" && kelpaaKortiksi(k)).length;
+        if (harjoitettavia >= 3) {
+          const b = el("button", "harjoita", "Harjoittele");
+          b.type = "button";
+          b.addEventListener("click", () => harjoitaAlaluku(alaluku));
+          lisaa(rivi, b);
+        }
+        lisaa(juuri, rivi);
+      }
       for (const kohta of alaluku.sisalto) {
-        const solmu = piirraKohta(kohta);
-        if (solmu) juuri.appendChild(solmu);
+        const solmu = piirraKohta(kohta, "");
+        if (solmu) lisaa(juuri, solmu);
       }
     }
   }
   return juuri;
 }
 
-/* --- Keskeneraiset valilehdet --- */
-function piirraTulossa(nimi, kuvaus) {
-  const laatikko = el("div", "tyhja");
-  laatikko.appendChild(el("h2", null, nimi));
-  laatikko.appendChild(el("p", null, kuvaus));
-  laatikko.appendChild(el("p", null, "Ei vielä rakennettu."));
-  return laatikko;
+function naytaTeoriassa(sana) {
+  teoriaHaku = "";
+  teoriaKohdistus = sana.id;
+  vaihdaValilehti("teoria");
 }
 
-/* --- Navigaatio --- */
-function piirraAlapalkki() {
-  const palkki = document.getElementById("alapalkki");
-  palkki.textContent = "";
-  for (const lehti of VALILEHDET) {
-    const nappi = el("button");
-    nappi.type = "button";
-    nappi.appendChild(el("span", "kuva", lehti.kuva));
-    nappi.appendChild(el("span", null, lehti.nimi));
-    if (lehti.id === valilehti) nappi.setAttribute("aria-current", "page");
-    nappi.addEventListener("click", () => vaihdaValilehti(lehti.id));
-    palkki.appendChild(nappi);
+/* ==========================================================================
+   13. Levy – materiaali saapuu, ja sen voi vetää pois
+   ========================================================================== */
+function avaaLevy(otsikko, taytaSisalto) {
+  const juuri = $("#levyt");
+  const himmennys = el("div", "himmennys");
+  const levy = el("div", "levy");
+  levy.setAttribute("role", "dialog");
+  levy.setAttribute("aria-modal", "true");
+  levy.setAttribute("aria-label", otsikko);
+
+  const sisus = el("div", "levy-sisus pino");
+  lisaa(sisus, el("div", "kahva"));
+  const ylarivi = el("div", "rivi-vali");
+  lisaa(ylarivi, el("h2", "t-otsikko", otsikko));
+  const sulje = el("button", "kuvakenappi");
+  sulje.type = "button";
+  sulje.setAttribute("aria-label", "Sulje");
+  lisaa(sulje, ikoni('<path d="M18 6 6 18M6 6l12 12"/>', 20));
+  lisaa(ylarivi, sulje);
+  lisaa(sisus, ylarivi);
+  taytaSisalto(sisus, () => sulkeminen());
+  lisaa(levy, sisus);
+  lisaa(juuri, himmennys, levy);
+
+  const korkeus = () => levy.offsetHeight || 1;
+  const asetaSijainti = (osuus) => {
+    levy.style.transform = `translate3d(0, ${osuus * 100}%, 0)`;
+    himmennys.style.opacity = String(Math.max(0, 1 - osuus));
+  };
+
+  // Vaimennus 1.0: paneeli ei pomppaa auetessaan, koska mikään ele ei tuonut
+  // siihen liike-energiaa. Vetämällä suljettaessa nopeus välitetään jouselle.
+  const jousi = new Jousi(1, { vaimennus: 1, vaste: 0.36, onPaivitys: asetaSijainti });
+  requestAnimationFrame(() => jousi.kohti(0));
+
+  let suljettu = false;
+  function sulkeminen(nopeus = 0) {
+    if (suljettu) return;
+    suljettu = true;
+    document.removeEventListener("keydown", nappain);
+    jousi.onValmis = () => { himmennys.remove(); levy.remove(); };
+    jousi.kohti(1, nopeus);
+    if (kevytLiike.matches) { himmennys.remove(); levy.remove(); }
+  }
+  function nappain(tapahtuma) { if (tapahtuma.key === "Escape") sulkeminen(); }
+  document.addEventListener("keydown", nappain);
+  himmennys.addEventListener("click", () => sulkeminen());
+  sulje.addEventListener("click", () => sulkeminen());
+
+  /* Vetäminen: 1:1 sormen kanssa, kumilenkki ylärajalla, heitto projisoidaan. */
+  let veto = null;
+  levy.addEventListener("pointerdown", (tapahtuma) => {
+    if (tapahtuma.target.closest("button, input, select, textarea, a")) return;
+    if (levy.scrollTop > 0) return;
+    levy.setPointerCapture(tapahtuma.pointerId);
+    jousi.pysayta();
+    veto = { alkuY: tapahtuma.clientY, alkuOsuus: jousi.arvo, historia: [] };
+  });
+  levy.addEventListener("pointermove", (tapahtuma) => {
+    if (!veto) return;
+    const siirto = tapahtuma.clientY - veto.alkuY;
+    let osuus = veto.alkuOsuus + siirto / korkeus();
+    if (osuus < 0) osuus = -kumilenkki(-osuus * korkeus(), korkeus()) / korkeus();
+    jousi.arvo = osuus;
+    asetaSijainti(osuus);
+    veto.historia.push({ y: tapahtuma.clientY, t: performance.now() });
+    if (veto.historia.length > 5) veto.historia.shift();
+  });
+  const lopeta = (tapahtuma) => {
+    if (!veto) return;
+    const historia = veto.historia;
+    veto = null;
+    let nopeus = 0;
+    if (historia.length >= 2) {
+      const eka = historia[0];
+      const vika = historia[historia.length - 1];
+      const dt = (vika.t - eka.t) / 1000;
+      if (dt > 0) nopeus = (vika.y - eka.y) / dt;   // px/s
+    }
+    // Projisoidaan lepopiste vauhdista, ei nykyisestä sijainnista.
+    const projektio = jousi.arvo + projisoi(nopeus) / korkeus();
+    if (projektio > 0.4) sulkeminen(nopeus / korkeus());
+    else jousi.kohti(0, nopeus / korkeus());
+  };
+  levy.addEventListener("pointerup", lopeta);
+  levy.addEventListener("pointercancel", lopeta);
+
+  queueMicrotask(() => levy.querySelector("button, input, select")?.focus());
+  return sulkeminen;
+}
+
+function kumilenkki(ylitys, mitta, vakio = 0.55) {
+  return (ylitys * mitta * vakio) / (mitta + vakio * Math.abs(ylitys));
+}
+function projisoi(nopeus, hidastuvuus = 0.998) {
+  return (nopeus / 1000) * hidastuvuus / (1 - hidastuvuus);
+}
+
+/* ==========================================================================
+   14. Suodatin ja asetukset
+   ========================================================================== */
+function suodatetutSanat() {
+  const suodatin = edistyminen.asetukset.suodatin;
+  if (!suodatin) return kaikkiSanat;
+  if (suodatin.tyyppi === "luku") return kaikkiSanat.filter((s) => s._luku === suodatin.arvo);
+  if (suodatin.tyyppi === "sanaluokka") return kaikkiSanat.filter((s) => s.sanaluokka === suodatin.arvo);
+  return kaikkiSanat;
+}
+function suodattimenNimi() {
+  const suodatin = edistyminen.asetukset.suodatin;
+  return suodatin ? suodatin.arvo : "Koko sanasto";
+}
+
+function vieEdistyminen() {
+  const sisalto = JSON.stringify(edistyminen, null, 1);
+  const paiva = new Date().toISOString().slice(0, 10);
+  const nimi = `ruotsi-edistyminen-${paiva}.json`;
+  try {
+    const linkki = el("a");
+    linkki.href = URL.createObjectURL(new Blob([sisalto], { type: "application/json" }));
+    linkki.download = nimi;
+    document.body.appendChild(linkki);
+    linkki.click();
+    setTimeout(() => { URL.revokeObjectURL(linkki.href); linkki.remove(); }, 1000);
+    ilmoita("Edistyminen viety tiedostoon " + nimi);
+    return true;
+  } catch (virhe) {
+    return false;
   }
 }
 
+function tuoEdistyminen(teksti) {
+  const data = JSON.parse(teksti);
+  if (!data || data.versio !== 1 || typeof data.kortit !== "object") {
+    throw new Error("Tiedosto ei ole tämän sovelluksen edistymistiedosto.");
+  }
+  edistyminen = Object.assign(oletusEdistyminen(), data);
+  edistyminen.asetukset = Object.assign(oletusEdistyminen().asetukset, data.asetukset || {});
+  oppiIstunto = kertausIstunto = harjoitusIstunto = null;
+  tallenna();
+}
+
+function avaaAsetukset() {
+  avaaLevy("Asetukset", (sisus, sulje) => {
+    /* Rajaus */
+    const rajaus = el("div", "pino-tiivis");
+    lisaa(rajaus, el("p", "t-nano haalein", "RAJAA HARJOITTELU"));
+    const valikko = el("select", "kentta");
+    const lisaaValinta = (teksti, arvo, valittu) => {
+      const kohta = el("option", null, teksti);
+      kohta.value = arvo;
+      if (valittu) kohta.selected = true;
+      lisaa(valikko, kohta);
+    };
+    const nyt = edistyminen.asetukset.suodatin;
+    lisaaValinta("Koko sanasto", "", !nyt);
+    for (const luku of sanasto.luvut) {
+      const maara = luku.alaluvut.reduce(
+        (s, a) => s + a.sisalto.filter((k) => k.tyyppi === "sana" && kelpaaKortiksi(k)).length, 0);
+      if (maara) lisaaValinta(`${luku.otsikko} (${maara})`, "luku:" + luku.otsikko,
+                              nyt?.tyyppi === "luku" && nyt.arvo === luku.otsikko);
+    }
+    for (const sanaluokka of ["verbi", "substantiivi", "adjektiivi", "adverbi", "ilmaus"]) {
+      const maara = kaikkiSanat.filter((s) => s.sanaluokka === sanaluokka && kelpaaKortiksi(s)).length;
+      if (maara) lisaaValinta(`Vain ${sanaluokka}t (${maara})`, "sanaluokka:" + sanaluokka,
+                              nyt?.tyyppi === "sanaluokka" && nyt.arvo === sanaluokka);
+    }
+    valikko.addEventListener("change", () => {
+      const arvo = valikko.value;
+      edistyminen.asetukset.suodatin = arvo
+        ? { tyyppi: arvo.slice(0, arvo.indexOf(":")), arvo: arvo.slice(arvo.indexOf(":") + 1) }
+        : null;
+      oppiIstunto = kertausIstunto = harjoitusIstunto = null;
+      tallenna();
+      piirra();
+    });
+    lisaa(rajaus, valikko);
+    lisaa(sisus, rajaus);
+
+    /* Ääni */
+    if (window.speechSynthesis) {
+      const rivi = el("label", "rivi-vali");
+      lisaa(rivi, el("span", null, "Ääntämisnappi sanojen vieressä"));
+      const kytkin = el("input");
+      kytkin.type = "checkbox";
+      kytkin.checked = edistyminen.asetukset.aani;
+      kytkin.addEventListener("change", () => {
+        edistyminen.asetukset.aani = kytkin.checked;
+        tallenna(); piirra();
+      });
+      lisaa(rivi, kytkin);
+      lisaa(sisus, rivi);
+    }
+
+    /* Varmuuskopio */
+    const kopio = el("div", "pino-tiivis");
+    lisaa(kopio, el("p", "t-nano haalein", "VARMUUSKOPIO"));
+    lisaa(kopio, el("p", "t-pieni haalea",
+      "Edistyminen elää vain tämän selaimen muistissa. Se katoaa, jos selaimen tiedot " +
+      "tyhjennetään. Vie tiedosto silloin tällöin."));
+    const napit = el("div", "napit");
+    lisaa(napit, nappi("Vie tiedostoon", "", () => {
+      if (!vieEdistyminen()) naytaTeksti("Edistyminen", JSON.stringify(edistyminen));
+    }));
+    const tuoNappi = nappi("Tuo tiedostosta", "");
+    const tiedosto = el("input");
+    tiedosto.type = "file";
+    tiedosto.accept = "application/json,.json";
+    tiedosto.style.display = "none";
+    tiedosto.addEventListener("change", async () => {
+      const valittu = tiedosto.files?.[0];
+      if (!valittu) return;
+      try {
+        tuoEdistyminen(await valittu.text());
+        sulje();
+        piirra();
+        ilmoita("Edistyminen tuotu.");
+      } catch (virhe) {
+        alert("Tuonti epäonnistui: " + virhe.message);
+      }
+    });
+    tuoNappi.addEventListener("click", () => tiedosto.click());
+    lisaa(napit, tuoNappi);
+    lisaa(kopio, napit, tiedosto);
+    lisaa(sisus, kopio);
+
+    /* Vaikeat sanat */
+    const vaikeat = kortit.filter(onLeech);
+    if (vaikeat.length) {
+      const lohko = el("div", "pino-tiivis");
+      lisaa(lohko, el("p", "t-nano haalein", `VAIKEAT SANAT (${vaikeat.length})`));
+      lisaa(lohko, el("p", "t-pieni haalea",
+        "Nämä ovat menneet väärin vähintään viisi kertaa. Toistaminen ei yleensä auta – " +
+        "kokeile opetella ne esimerkkilauseen tai muistisäännön kautta."));
+      const nahdyt = new Set();
+      for (const kortti of vaikeat.slice(0, 12)) {
+        if (nahdyt.has(kortti.sana.id)) continue;
+        nahdyt.add(kortti.sana.id);
+        const rivi = el("button", "rivi");
+        rivi.type = "button";
+        const kasvaa = el("div", "kasvaa");
+        lisaa(kasvaa, el("div", "t-vali", kortti.sana.ruotsi));
+        lisaa(kasvaa, el("div", "t-pieni haalea", kortti.sana.suomi.join(", ")));
+        lisaa(rivi, kasvaa, el("span", "maara t-pieni", (tila(kortti)?.virheita || 0) + " virhettä"));
+        rivi.addEventListener("click", () => { sulje(); naytaTeoriassa(kortti.sana); });
+        lisaa(lohko, rivi);
+      }
+      lisaa(sisus, lohko);
+    }
+
+    /* Virheloki */
+    if (edistyminen.virheloki.length) {
+      const lohko = el("div", "pino-tiivis");
+      lisaa(lohko, el("p", "t-nano haalein", "VIIMEISIMMÄT VIRHEET"));
+      for (const virhe of edistyminen.virheloki.slice(0, 12)) {
+        const rivi = el("div", "sana-rivi");
+        const sisus2 = el("div", "sisus");
+        const yla = el("div", "t-pieni");
+        lisaa(yla, el("del", null, virhe.kirjoitettu || "(tyhjä)"));
+        lisaa(yla, el("span", null, "  →  "));
+        lisaa(yla, el("b", null, virhe.oikea));
+        lisaa(sisus2, yla);
+        lisaa(sisus2, el("div", "t-nano haalein", virhe.sana + " · " + virhe.suunta));
+        lisaa(rivi, sisus2);
+        lisaa(lohko, rivi);
+      }
+      lisaa(sisus, lohko);
+    }
+
+    /* Nollaus */
+    const nollaus = nappi("Nollaa kaikki edistyminen", "", () => {
+      if (!confirm("Tämä poistaa kaikki laatikot, virhelokin ja välitoiston tiedot. Ei voi perua.")) return;
+      edistyminen = oletusEdistyminen();
+      oppiIstunto = kertausIstunto = harjoitusIstunto = null;
+      tallenna(); sulje(); piirra();
+    });
+    nollaus.style.color = "var(--vaarin)";
+    lisaa(sisus, nollaus);
+
+    /* Tilastot */
+    const valmiit = kortit.filter(onValmistunut).length;
+    const aloitetut = kortit.filter((k) => tila(k)).length;
+    lisaa(sisus, el("p", "t-nano haalein",
+      `${kortit.length} KORTTIA · ${aloitetut} ALOITETTU · ${valmiit} VÄLITOISTOSSA`));
+  });
+}
+
+function naytaTeksti(otsikko, teksti) {
+  avaaLevy(otsikko, (sisus) => {
+    const kentta = el("textarea", "kentta");
+    kentta.rows = 10;
+    kentta.value = teksti;
+    kentta.readOnly = true;
+    lisaa(sisus, el("p", "t-pieni haalea", "Kopioi tämä talteen."), kentta);
+    queueMicrotask(() => { kentta.focus(); kentta.select(); });
+  });
+}
+
+/* ==========================================================================
+   15. Navigaatio ja piirto
+   ========================================================================== */
+const VALILEHDET = [
+  { id: "opi", nimi: "Opi",
+    kuvake: '<circle cx="12" cy="12" r="8.5"/><path d="M12 8.5v7M8.5 12h7"/>' },
+  { id: "kertaa", nimi: "Kertaa",
+    kuvake: '<path d="M20 11.5a8 8 0 1 1-2.6-5.4"/><path d="M20 4v5h-5"/>' },
+  { id: "harjoitukset", nimi: "Harjoitukset",
+    kuvake: '<rect x="3.5" y="3.5" width="7" height="7" rx="1.6"/><rect x="13.5" y="3.5" width="7" height="7" rx="1.6"/><rect x="3.5" y="13.5" width="7" height="7" rx="1.6"/><rect x="13.5" y="13.5" width="7" height="7" rx="1.6"/>' },
+  { id: "teoria", nimi: "Teoria",
+    kuvake: '<path d="M4 5.5A1.5 1.5 0 0 1 5.5 4H19v16H5.5A1.5 1.5 0 0 1 4 18.5z"/><path d="M8 8.5h7M8 12h7M8 15.5h4"/>' },
+];
+const AVAIN_VALILEHTI = "ruotsi.valilehti";
+
+let valilehti = "opi";
 const sijainnit = {};
+
+function piirraAlapalkki() {
+  const palkki = $("#alapalkki");
+  palkki.textContent = "";
+  const eraantyy = kortit.filter(erääntyy).length;
+  for (const lehti of VALILEHDET) {
+    const b = el("button", "valilehti");
+    b.type = "button";
+    const kuori = el("span");
+    kuori.style.position = "relative";
+    lisaa(kuori, ikoni(lehti.kuvake, 22));
+    if (lehti.id === "kertaa" && eraantyy) {
+      lisaa(kuori, el("span", "merkki", eraantyy > 99 ? "99+" : String(eraantyy)));
+    }
+    lisaa(b, kuori, el("span", "teksti", lehti.nimi));
+    if (lehti.id === valilehti) b.setAttribute("aria-current", "page");
+    b.addEventListener("click", () => vaihdaValilehti(lehti.id));
+    lisaa(palkki, b);
+  }
+}
+
+function piirraYlapalkki() {
+  const nimi = $("#palkin-nimi");
+  const lisa = $("#palkin-lisa");
+  lisa.textContent = "";
+  const asetusNappi = $("#asetukset-nappi");
+  asetusNappi.hidden = false;
+
+  if (valilehti === "teoria") {
+    nimi.hidden = true;
+    const haku = el("div", "hakupalkki");
+    const luuppi = ikoni('<circle cx="11" cy="11" r="6.5"/><path d="m20 20-3.6-3.6"/>', 17);
+    luuppi.classList.add("luuppi");
+    const kentta = el("input");
+    kentta.type = "search";
+    kentta.placeholder = "Hae ruotsista tai suomesta";
+    kentta.value = teoriaHaku;
+    kentta.setAttribute("aria-label", "Hae sanastosta");
+    let ajastin = null;
+    kentta.addEventListener("input", () => {
+      clearTimeout(ajastin);
+      // Lyhyt viive vain siksi, ettei koko sanasto piirry joka näppäimestä.
+      ajastin = setTimeout(() => { teoriaHaku = kentta.value; piirraSisalto(); }, 120);
+    });
+    lisaa(haku, luuppi, kentta);
+    if (teoriaHaku) {
+      const tyhjenna = el("button", "kuvakenappi tyhjenna");
+      tyhjenna.type = "button";
+      tyhjenna.setAttribute("aria-label", "Tyhjennä haku");
+      lisaa(tyhjenna, ikoni('<path d="M18 6 6 18M6 6l12 12"/>', 16));
+      tyhjenna.addEventListener("click", () => { teoriaHaku = ""; piirraYlapalkki(); piirraSisalto(); });
+      lisaa(haku, tyhjenna);
+    }
+    lisa.style.flex = "1";
+    lisaa(lisa, haku);
+  } else {
+    nimi.hidden = false;
+    lisa.style.flex = "";
+    const lehti = VALILEHDET.find((v) => v.id === valilehti);
+    let teksti = lehti.nimi;
+    if (kertausIstunto?.otsikko) teksti = kertausIstunto.otsikko;
+    else if (harjoitusIstunto) teksti = harjoitusIstunto.maaritys.nimi;
+    else if (edistyminen.asetukset.suodatin) teksti = lehti.nimi + " · " + suodattimenNimi();
+    $(".nimi", nimi).textContent = teksti;
+  }
+}
+
+function piirraSisalto() {
+  const sisalto =
+    valilehti === "opi" ? naytaOpi() :
+    valilehti === "kertaa" ? naytaKertaa() :
+    valilehti === "harjoitukset" ? naytaHarjoitukset() :
+    naytaTeoria();
+
+  naytto.textContent = "";
+  naytto.appendChild(sisalto);
+
+  if (valilehti === "teoria" && teoriaKohdistus) {
+    const kohde = document.getElementById("sana-" + teoriaKohdistus);
+    teoriaKohdistus = null;
+    if (kohde) {
+      kohde.scrollIntoView({ behavior: "auto", block: "center" });
+      korostaHetkeksi(kohde);
+    }
+  }
+}
+
+function korostaHetkeksi(solmu) {
+  if (kevytLiike.matches) return;
+  const jousi = new Jousi(0, {
+    vaimennus: 1, vaste: 0.5,
+    onPaivitys: (arvo) => {
+      const voima = Math.sin(Math.min(arvo, 1) * Math.PI);
+      solmu.style.backgroundColor = `color-mix(in srgb, var(--korostus-pehmea) ${voima * 100}%, transparent)`;
+    },
+    onValmis: () => { solmu.style.backgroundColor = ""; },
+  });
+  jousi.kohti(1);
+}
+
+function piirra() {
+  piirraYlapalkki();
+  piirraAlapalkki();
+  piirraSisalto();
+}
 
 function vaihdaValilehti(uusi) {
   if (uusi === valilehti) return;
   sijainnit[valilehti] = window.scrollY;
   valilehti = uusi;
-  localStorage.setItem(AVAIN_VALILEHTI, uusi);
-  piirraAlapalkki();
-  piirraNaytto();
+  try { localStorage.setItem(AVAIN_VALILEHTI, uusi); } catch (virhe) { /* ei kriittinen */ }
+  piirra();
   window.scrollTo(0, sijainnit[uusi] || 0);
+  naytto.focus({ preventScroll: true });
 }
 
-function piirraNaytto() {
-  naytto.textContent = "";
-  if (valilehti === "teoria") {
-    naytto.appendChild(piirraTeoria());
-  } else if (valilehti === "opi") {
-    naytto.appendChild(piirraTulossa("Opi", "Uudet sanat erissä, seitsemän kerrallaan."));
-  } else if (valilehti === "kertaa") {
-    naytto.appendChild(piirraTulossa("Kertaa", "Tänään erääntyvät kortit välitoiston mukaan."));
-  } else {
-    naytto.appendChild(piirraTulossa("Harjoitukset", "Taivutustreeni, rektiot, prepositiot ja vastakohdat."));
-  }
-}
+/* ==========================================================================
+   16. Käynnistys
+   ========================================================================== */
+$("#asetukset-nappi").addEventListener("click", avaaAsetukset);
 
-/* --- Kaynnistys --- */
 fetch("sanasto.json")
-  .then(vastaus => {
+  .then((vastaus) => {
     if (!vastaus.ok) throw new Error("HTTP " + vastaus.status);
     return vastaus.json();
   })
-  .then(data => {
+  .then((data) => {
     sanasto = data;
-    for (const luku of data.luvut)
-      for (const alaluku of luku.alaluvut)
-        for (const kohta of alaluku.sisalto)
-          if (kohta.tyyppi === "sana") sanatTunnuksella[kohta.id] = kohta;
-    document.getElementById("otsikko").textContent = data.otsikko;
-    document.getElementById("alaotsikko").textContent = data.alaotsikko;
+    kaikkiSanat = keraaSanat(data);
+    for (const sana of kaikkiSanat) sanatTunnuksella.set(sana.id, sana);
+    kortit = teeKortit(kaikkiSanat);
+    for (const kortti of kortit) kortitTunnuksella.set(kortti.id, kortti);
+
+    lataaEdistyminen();
+    try {
+      const tallennettu = localStorage.getItem(AVAIN_VALILEHTI);
+      if (VALILEHDET.some((v) => v.id === tallennettu)) valilehti = tallennettu;
+    } catch (virhe) { /* ei kriittinen */ }
+
     document.title = data.otsikko;
-    piirraAlapalkki();
-    piirraNaytto();
+    piirra();
   })
-  .catch(virhe => {
+  .catch((virhe) => {
     naytto.textContent = "";
-    const laatikko = el("div", "tyhja");
-    laatikko.appendChild(el("h2", null, "Sanastoa ei saatu ladattua"));
-    laatikko.appendChild(el("p", null, String(virhe)));
-    laatikko.appendChild(el("p", null, "Sivu pitää avata palvelimen kautta, ei suoraan tiedostona."));
-    naytto.appendChild(laatikko);
+    lisaa(naytto, tyhjaNakyma("Sanastoa ei saatu ladattua",
+      String(virhe) + ". Sivu pitää avata palvelimen kautta, ei suoraan tiedostona.", null, "!"));
   });
 </script>
 </body>
