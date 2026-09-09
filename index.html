@@ -225,6 +225,8 @@ main {
 }
 .kuvakenappi:active { transform: scale(0.9); background: var(--pinta-2); }
 .kuvakenappi svg { width: 21px; height: 21px; }
+#palkin-paluu:empty { display: none; }
+.paluunappi { margin-left: -0.45rem; color: var(--korostus); }
 
 .kentta {
   width: 100%; min-height: 3.1rem; padding: 0.7rem 0.9rem;
@@ -572,7 +574,8 @@ mark {
 <body>
 
 <header class="ylapalkki">
-  <h1 class="t-vali" id="palkin-nimi"><span class="nimi">Ruotsin sanasto</span></h1>
+  <span id="palkin-paluu"></span>
+  <h1 class="t-vali" id="palkin-nimi"><span class="nimi">Abisanakirja</span></h1>
   <div id="palkin-lisa"></div>
   <button class="kuvakenappi" id="asetukset-nappi" aria-label="Asetukset" hidden>
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
@@ -1113,9 +1116,25 @@ function vastauslomake({ paikanpitaja, kentat, onTarkista, onJatka }) {
     tapahtuma.preventDefault();
     if (vaihe === "kysyy") {
       const tulos = onTarkista(syotteet.map((k) => k.value));
-      const palaute = palautelohko(tulos.tulos, tulos.oikea, tulos.lisatieto,
-                                   tulos.kirjoitettu, tulos.taivutus);
+      let palaute = palautelohko(tulos.tulos, tulos.oikea, tulos.lisatieto,
+                                 tulos.kirjoitettu, tulos.taivutus);
       palaute.classList.add("saapuu");
+      /* Tarkistus ei tunne kaikkia kelvollisia käännöksiä – "jotakin" ja
+         "jotain" ovat kumpikin oikein. Käyttäjä saa kumota tuomion, jolloin
+         kortin tila palautetaan ja arvostellaan uudestaan oikeana. */
+      if (tulos.tulos !== "oikein" && tulos.onHyvaksy) {
+        const hyvaksy = nappi("Hyväksy oikeaksi", "hiljainen leve", () => {
+          tulos.onHyvaksy();
+          const uusi = palautelohko("oikein", tulos.oikea, "Merkitty oikeaksi.",
+                                    null, tulos.taivutus);
+          uusi.classList.add("saapuu");
+          palaute.replaceWith(uusi);
+          palaute = uusi;
+          if (!toiminto.disabled) toiminto.focus();
+        });
+        hyvaksy.style.marginTop = "0.6rem";
+        lisaa(palaute, hyvaksy);
+      }
       lisaa(alue, palaute);
       syotelohko.classList.add("poistuu");
       for (const kentta of syotteet) kentta.disabled = true;
@@ -1599,14 +1618,16 @@ function aloitaTreeni(treenitila) {
       if (!suunnat || suunnat.includes(kortti.suunta)) lista.push(kortti);
     }
   }
-  const otsikko = harjoitusValinta.otsikko;
+  const lahde = { otsikko: harjoitusValinta.otsikko, sanat: harjoitusValinta.sanat };
   harjoitusValinta = null;
   if (!lista.length) return;
-  aloitaKertaus(sekoita(lista));
-  kertausIstunto.vapaa = true;      // ei sotke välitoiston aikataulua
-  kertausIstunto.otsikko = otsikko;
-  kertausIstunto.tila = treenitila.id;
-  kertausIstunto.tilanNimi = treenitila.nimi;
+  aloitaKertaus(sekoita(lista), {
+    vapaa: true,                    // ei sotke välitoiston aikataulua
+    otsikko: lahde.otsikko,
+    tila: treenitila.id,
+    tilanNimi: treenitila.nimi,
+    lahde,                          // paluunappi vie takaisin tapavalintaan
+  });
 }
 
 function naytaHarjoitusvalinta() {
@@ -1665,12 +1686,15 @@ function naytaHarjoitusvalinta() {
   return lohko;
 }
 
-function aloitaKertaus(lista) {
+function aloitaKertaus(lista, asetukset = {}) {
   edistysArvot.delete("kertaus");
+  const jono = lista.slice(0, ISTUNNON_PITUUS);
   kertausIstunto = {
-    jono: lista.slice(0, ISTUNNON_PITUUS),
-    indeksi: 0, oikein: 0, vaarin: 0, vastattu: null,
+    jono, alkuperainen: jono.slice(),
+    indeksi: 0, oikein: 0, vaarin: 0, vastattu: null, vaarat: [],
+    vapaa: false, otsikko: null, tila: null, tilanNimi: null, lahde: null,
   };
+  Object.assign(kertausIstunto, asetukset);
 }
 
 function naytaKertaa() {
@@ -1704,17 +1728,32 @@ function naytaKertaa() {
 
   const { jono, indeksi } = kertausIstunto;
   if (indeksi >= jono.length) {
-    const { oikein, vaarin } = kertausIstunto;
+    // Talteen ennen nollausta, jotta samat asetukset voidaan ajaa uudestaan.
+    const { oikein, vaarin, vaarat, alkuperainen, vapaa, otsikko, tila: treeni,
+            tilanNimi, lahde } = kertausIstunto;
+    const asetukset = { vapaa, otsikko, tila: treeni, tilanNimi, lahde };
     kertausIstunto = null;
+
     const lohko = el("div", "pino");
     lisaa(lohko, tyhjaNakyma("Istunto valmis",
       `${oikein} oikein, ${vaarin} väärin.`, null, "✓"));
-    const napit = el("div", "napit");
-    if (eraantyvatKortit().length) {
-      lisaa(napit, nappi("Jatka kertausta", "ensisijainen",
-        () => { aloitaKertaus(eraantyvatKortit()); piirra(); }));
+
+    if (vaarat.length) {
+      lisaa(lohko, nappi(`Harjoittele väärin menneet (${vaarat.length})`, "ensisijainen leve",
+        () => { aloitaKertaus(sekoita(vaarat), asetukset); piirra(); }));
     }
-    lisaa(napit, nappi("Harjoitukset", "", () => vaihdaValilehti("harjoitukset")));
+    const napit = el("div", "napit");
+    lisaa(napit, nappi("Kaikki uudelleen", vaarat.length ? "" : "ensisijainen",
+      () => { aloitaKertaus(sekoita(alkuperainen), asetukset); piirra(); }));
+    if (lahde) {
+      lisaa(napit, nappi("Vaihda tapaa", "",
+        () => avaaHarjoitusvalinta(lahde.otsikko, lahde.sanat)));
+    } else if (eraantyvatKortit().length) {
+      lisaa(napit, nappi("Jatka kertausta", "",
+        () => { aloitaKertaus(eraantyvatKortit()); piirra(); }));
+    } else {
+      lisaa(napit, nappi("Harjoitukset", "", () => vaihdaValilehti("harjoitukset")));
+    }
     lisaa(lohko, napit);
     return lohko;
   }
@@ -1792,6 +1831,8 @@ function naytaKertaa() {
       onTarkista: ([arvo]) => {
         const tulos = tarkistaVastaus(arvo, sana, suunta);
         const osui = tulos.tulos === "oikein";
+        // Tilannekuva ennen arvostelua, jotta hyväksyntä voi palauttaa sen.
+        const ennen = tila(kortti) ? JSON.parse(JSON.stringify(tila(kortti))) : null;
         kirjaaKertausvastaus(kortti, osui ? 5 : (tulos.tulos === "melkein" ? 2 : 0),
                              osui, arvo, tulos.oikeat[0]);
         // Esimerkit napin alapuolelle: näin toimintonappi ei siirry pituuden mukaan.
@@ -1800,6 +1841,7 @@ function naytaKertaa() {
           tulos: tulos.tulos, oikea: tulos.oikeat.join(" / "), kirjoitettu: arvo,
           lisatieto: tulos.syy === "tarkkeet" ? "Kirjainmerkki ratkaisee: kokeessa tämä on virhe." : null,
           taivutus: taivutusMuodot(sana),
+          onHyvaksy: osui ? null : () => hyvaksyKertausvastaus(kortti, ennen),
         };
       },
       onJatka: seuraava,
@@ -1825,7 +1867,20 @@ function kirjaaKertausvastaus(kortti, laatu, osui, kirjoitettu, oikea) {
   }
   if (t.graduated || !kertausIstunto.vapaa) paivitaValitoisto(t, laatu);
   kertausIstunto[osui ? "oikein" : "vaarin"] += 1;
+  if (!osui && !kertausIstunto.vaarat.includes(kortti)) kertausIstunto.vaarat.push(kortti);
   tallenna();
+}
+
+/* Kumoaa juuri kirjatun väärän vastauksen: palauttaa kortin tilan
+   arvostelua edeltäneeksi ja arvostelee uudestaan oikeana. */
+function hyvaksyKertausvastaus(kortti, tilannekuva) {
+  if (tilannekuva) edistyminen.kortit[kortti.id] = tilannekuva;
+  else delete edistyminen.kortit[kortti.id];
+  kertausIstunto.vaarin = Math.max(0, kertausIstunto.vaarin - 1);
+  kertausIstunto.vaarat = kertausIstunto.vaarat.filter((k) => k !== kortti);
+  const i = edistyminen.virheloki.findIndex((v) => v.kortti === kortti.id);
+  if (i !== -1) edistyminen.virheloki.splice(i, 1);
+  kirjaaKertausvastaus(kortti, 5, true);
 }
 
 /* Harvinainen hetki – erän tai istunnon päätös. Ainoa paikka sovelluksessa,
@@ -2048,10 +2103,12 @@ function laatta(vari, sisalto, numero) {
 
 let harjoitusIstunto = null;
 
-function aloitaHarjoitus(maaritys) {
+function aloitaHarjoitus(maaritys, valmiitTehtavat) {
   edistysArvot.delete("harjoitus");
-  const tehtavat = sekoita(maaritys.tee()).slice(0, ISTUNNON_PITUUS);
-  harjoitusIstunto = { maaritys, tehtavat, indeksi: 0, oikein: 0, vaarin: 0 };
+  const tehtavat = valmiitTehtavat
+    ? sekoita(valmiitTehtavat)
+    : sekoita(maaritys.tee()).slice(0, ISTUNNON_PITUUS);
+  harjoitusIstunto = { maaritys, tehtavat, indeksi: 0, oikein: 0, vaarin: 0, vaarat: [] };
 }
 
 function naytaHarjoitukset() {
@@ -2088,12 +2145,22 @@ function naytaHarjoitukset() {
 
   const { tehtavat, indeksi, maaritys } = harjoitusIstunto;
   if (indeksi >= tehtavat.length) {
-    const { oikein, vaarin } = harjoitusIstunto;
+    const { oikein, vaarin, vaarat } = harjoitusIstunto;
+    const kaikki = tehtavat.slice();
     harjoitusIstunto = null;
+
     const lohko = el("div", "pino");
-    lisaa(lohko, tyhjaNakyma(maaritys.nimi + " valmis", `${oikein} oikein, ${vaarin} väärin.`, null, "✓"));
+    lisaa(lohko, tyhjaNakyma(maaritys.nimi + " valmis",
+      `${oikein} oikein, ${vaarin} väärin.`, null, "✓"));
+
+    if (vaarat.length) {
+      lisaa(lohko, nappi(`Harjoittele väärin menneet (${vaarat.length})`, "ensisijainen leve",
+        () => { aloitaHarjoitus(maaritys, vaarat); piirra(); }));
+    }
     const napit = el("div", "napit");
-    lisaa(napit, nappi("Uudestaan", "ensisijainen", () => { aloitaHarjoitus(maaritys); piirra(); }));
+    lisaa(napit, nappi("Kaikki uudelleen", vaarat.length ? "" : "ensisijainen",
+      () => { aloitaHarjoitus(maaritys, kaikki); piirra(); }));
+    lisaa(napit, nappi("Uusi erä", "", () => { aloitaHarjoitus(maaritys); piirra(); }));
     lisaa(napit, nappi("Muut harjoitukset", "", () => piirra()));
     lisaa(lohko, napit);
     return lohko;
@@ -2127,8 +2194,25 @@ function harjoitusNakyma(tehtava, indeksi, kokonais, otsikko, onJatka, onTulos) 
       t.nahty += 1;
       if (!osui) t.virheita += 1;
     }
-    if (!osui) kirjaaVirhe({ id: "harjoitus:" + tehtava.sana.id, sana: tehtava.sana, suunta: "harjoitus" },
-                           kirjoitettu || "", oikeaTeksti);
+    if (!osui) {
+      kirjaaVirhe({ id: "harjoitus:" + tehtava.sana.id, sana: tehtava.sana, suunta: "harjoitus" },
+                  kirjoitettu || "", oikeaTeksti);
+      if (!harjoitusIstunto.vaarat.includes(tehtava)) harjoitusIstunto.vaarat.push(tehtava);
+    }
+    tallenna();
+  };
+
+  /* Kumoaa juuri kirjatun väärän vastauksen harjoituksessa. */
+  const hyvaksy = () => {
+    onTulos(true);
+    harjoitusIstunto.vaarin = Math.max(0, harjoitusIstunto.vaarin - 1);
+    harjoitusIstunto.vaarat = harjoitusIstunto.vaarat.filter((t) => t !== tehtava);
+    for (const kortti of kortitSanalla.get(tehtava.sana.id) || []) {
+      const t = tila(kortti);
+      if (t && t.virheita > 0) t.virheita -= 1;
+    }
+    const i = edistyminen.virheloki.findIndex((v) => v.kortti === "harjoitus:" + tehtava.sana.id);
+    if (i !== -1) edistyminen.virheloki.splice(i, 1);
     tallenna();
   };
 
@@ -2160,6 +2244,7 @@ function harjoitusNakyma(tehtava, indeksi, kokonais, otsikko, onJatka, onTulos) 
           tulos: kaikkiOikein ? "oikein" : "vaarin", oikea: oikeaTeksti,
           kirjoitettu: arvot.filter(Boolean).join(", "), lisatieto: null,
           taivutus: taivutusMuodot(tehtava.sana),
+          onHyvaksy: kaikkiOikein ? null : hyvaksy,
         };
       },
       onJatka,
@@ -2180,6 +2265,7 @@ function harjoitusNakyma(tehtava, indeksi, kokonais, otsikko, onJatka, onTulos) 
           oikea: oikeaTeksti, kirjoitettu: arvo,
           lisatieto: tarkkeet ? "Kirjainmerkki ratkaisee: kokeessa tämä on virhe." : null,
           taivutus: taivutusMuodot(tehtava.sana),
+          onHyvaksy: osui ? null : hyvaksy,
         };
       },
       onJatka,
@@ -3063,7 +3149,43 @@ function piirraAlapalkki() {
   }
 }
 
+/* Mihin paluunuoli vie kustakin tilasta. null = ei paluuta. */
+function paluuToiminto() {
+  if (valilehti === "opi" && oppiIstunto) {
+    return () => { oppiIstunto = null; piirra(); };
+  }
+  if (valilehti === "kertaa") {
+    if (kertausIstunto) {
+      const lahde = kertausIstunto.lahde;
+      return () => {
+        kertausIstunto = null;
+        if (lahde) avaaHarjoitusvalinta(lahde.otsikko, lahde.sanat);
+        else piirra();
+      };
+    }
+    if (harjoitusValinta) {
+      return () => { harjoitusValinta = null; vaihdaValilehti("teoria"); };
+    }
+  }
+  if (valilehti === "harjoitukset" && harjoitusIstunto) {
+    return () => { harjoitusIstunto = null; piirra(); };
+  }
+  return null;
+}
+
 function piirraYlapalkki() {
+  const paluupaikka = $("#palkin-paluu");
+  paluupaikka.textContent = "";
+  const paluu = paluuToiminto();
+  if (paluu) {
+    const b = el("button", "kuvakenappi paluunappi");
+    b.type = "button";
+    b.setAttribute("aria-label", "Takaisin");
+    lisaa(b, ikoni('<path d="m14.5 5.5-6.5 6.5 6.5 6.5"/>', 22));
+    b.addEventListener("click", paluu);
+    lisaa(paluupaikka, b);
+  }
+
   const nimi = $("#palkin-nimi");
   const lisa = $("#palkin-lisa");
   lisa.textContent = "";

@@ -122,6 +122,32 @@ Kategoriaharjoittelu on **vapaata**: se ei muuta välitoiston aikataulua sanoill
 joita ei ole vielä opittu Opi-välilehdellä. Jo valmistuneilla korteilla arvio
 otetaan normaalisti huomioon. Virheet kirjautuvat aina virhelokiin.
 
+## Harjoitusistunnon hallinta
+
+**Paluunuoli** ylävasemmalla vie askeleen taaksepäin kesken harjoituksen:
+istunnosta tapavalintaan, tapavalinnasta Teoriaan, harjoituksesta
+harjoituslistaan, Opi-erästä erän aloitusnäkymään. Nuoli näkyy vain silloin,
+kun paluukohde on olemassa.
+
+**Väärin menneiden uusinta.** Istunto muistaa väärin menneet kortit ja
+tehtävät. Yhteenvedossa on kaksi nappia: *Harjoittele väärin menneet (N)* ja
+*Kaikki uudelleen*. Uusinta säilyttää istunnon asetukset – suunnan, tavan ja
+sen, oliko kyseessä vapaa kategoriaharjoittelu.
+
+**Vastauksen hyväksyminen oikeaksi.** Tarkistus ei voi tuntea kaikkia
+kelvollisia käännöksiä: *jotakin* ja *jotain* ovat kumpikin oikein. Väärän
+vastauksen palautteessa on nappi **Hyväksy oikeaksi**, joka
+
+1. palauttaa kortin välitoistotilan arvostelua edeltäneeksi (tilannekuva
+   otetaan ennen arvostelua),
+2. arvostelee sen uudestaan oikeana,
+3. poistaa merkinnän virhelokista ja väärin menneiden listalta,
+4. korjaa istunnon oikein/väärin-laskurit.
+
+Lopputulos on täsmälleen sama kuin jos vastaus olisi alun perin hyväksytty –
+myös helppokerroin ja väli. Nappi näkyy vain kirjoitustiloissa; monivalinnassa
+ja flashcardeissa vastaus on jo yksiselitteinen tai itse arvioitu.
+
 ## Lukurakenne
 
 | Luku | Sisältö | Kortteja |
