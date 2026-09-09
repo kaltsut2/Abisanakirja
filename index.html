@@ -978,7 +978,7 @@ const oletusEdistyminen = () => ({
   kortit: {},
   virheloki: [],
   asetukset: { aani: true, aaninimi: null, suodatin: null, naytaLuokka: true,
-               treeniSuunta: "molemmat" },
+               treeniSuunta: "molemmat", treeniMaara: "20" },
   istunto: { paiva: null, maara: 0 },
   omatSanat: [],
   viimeisinLisays: null,   // { aika, idt: [] } – peruutusta varten
@@ -1607,6 +1607,24 @@ const SUUNTAVALINNAT = [
 const suunnanNimi = (arvo) =>
   (SUUNTAVALINNAT.find((v) => v.arvo === arvo) || SUUNTAVALINNAT[0]).pitka;
 
+/* Kynnykset näytetään vain jos aihepiirissä on enemmän sanoja kuin kynnys –
+   pienessä alaluvussa "10 / 20 / Kaikki (6)" olisi kolme tapaa sanoa sama. */
+function maaraVaihtoehdot(kokonaismaara) {
+  const kynnykset = [10, 20].filter((n) => n < kokonaismaara);
+  return [...kynnykset.map((n) => ({ arvo: String(n), nimi: String(n) })),
+          { arvo: "kaikki", nimi: `Kaikki (${kokonaismaara})` }];
+}
+function valittuMaaraTunnus(kokonaismaara) {
+  const vaihtoehdot = maaraVaihtoehdot(kokonaismaara);
+  const tallennettu = edistyminen.asetukset.treeniMaara || "20";
+  return vaihtoehdot.some((v) => v.arvo === tallennettu)
+    ? tallennettu : vaihtoehdot[vaihtoehdot.length - 1].arvo;
+}
+function valittuMaaraLuku(kokonaismaara) {
+  const arvo = valittuMaaraTunnus(kokonaismaara);
+  return arvo === "kaikki" ? kokonaismaara : Math.min(Number(arvo), kokonaismaara);
+}
+
 let harjoitusValinta = null;   // { otsikko, sanat }
 
 function avaaHarjoitusvalinta(otsikko, sanat) {
@@ -1624,8 +1642,13 @@ function aloitaTreeni(treenitila) {
   const valittu = edistyminen.asetukset.treeniSuunta || "molemmat";
   const suunnat = treenitila.suunnat
     || (valittu === "molemmat" ? null : [valittu]);
+  // Sanamäärä rajataan ennen korttien muodostusta – "10 sanaa" tarkoittaa
+  // kymmentä sanaa, ei kymmentä korttia, vaikka molemmat-suunta tuottaisi
+  // kaksi korttia per sana.
+  const maara = valittuMaaraLuku(harjoitusValinta.sanat.length);
+  const valitutSanat = sekoita(harjoitusValinta.sanat).slice(0, maara);
   const lista = [];
-  for (const sana of harjoitusValinta.sanat) {
+  for (const sana of valitutSanat) {
     for (const kortti of kortitSanalla.get(sana.id) || []) {
       if (!suunnat || suunnat.includes(kortti.suunta)) lista.push(kortti);
     }
@@ -1639,39 +1662,65 @@ function aloitaTreeni(treenitila) {
     tila: treenitila.id,
     tilanNimi: treenitila.nimi,
     lahde,                          // paluunappi vie takaisin tapavalintaan
+    // Sanamäärä on jo rajattu yllä – kertausistunto ei saa katkaista listaa
+    // uudestaan oletuspituuteen, kun käyttäjä valitsi "Kaikki".
+    pituus: lista.length,
   });
+}
+
+function segmenttivalinta(vaihtoehdot, valittuArvo, ariaLabel, onValinta) {
+  const valitsin = el("div", "suuntavalinta");
+  valitsin.setAttribute("role", "group");
+  valitsin.setAttribute("aria-label", ariaLabel);
+  for (const vaihtoehto of vaihtoehdot) {
+    const b = el("button", null, vaihtoehto.nimi ?? vaihtoehto.lyhyt);
+    b.type = "button";
+    if (vaihtoehto.pitka) b.setAttribute("aria-label", vaihtoehto.pitka);
+    b.setAttribute("aria-pressed", String(vaihtoehto.arvo === valittuArvo));
+    b.addEventListener("click", () => onValinta(vaihtoehto.arvo));
+    lisaa(valitsin, b);
+  }
+  return valitsin;
 }
 
 function naytaHarjoitusvalinta() {
   const { otsikko, sanat } = harjoitusValinta;
   const lohko = el("div", "pino");
 
+  const maaraVaihtoehdotLista = maaraVaihtoehdot(sanat.length);
+  const maara = valittuMaaraTunnus(sanat.length);
+  const maaraLuku = valittuMaaraLuku(sanat.length);
+
   const ylin = el("div", "kysymys");
   lisaa(ylin, el("p", "kehote t-nano haalein", "HARJOITTELE"));
   lisaa(ylin, el("p", "sana t-otsikko", otsikko));
-  lisaa(ylin, el("p", "vihje t-pieni haalea", sanat.length + " sanaa · valitse tapa"));
+  lisaa(ylin, el("p", "vihje t-pieni haalea",
+    (maaraLuku === sanat.length ? sanat.length + " sanaa" : maaraLuku + " / " + sanat.length + " sanaa")
+    + " · valitse tapa"));
   lisaa(lohko, ylin);
+
+  if (maaraVaihtoehdotLista.length > 1) {
+    const maaralohko = el("div", "pino-tiivis");
+    lisaa(maaralohko, el("p", "t-nano haalein", "MÄÄRÄ"));
+    lisaa(maaralohko, segmenttivalinta(maaraVaihtoehdotLista, maara,
+      "Harjoiteltavien sanojen määrä", (arvo) => {
+        edistyminen.asetukset.treeniMaara = arvo;
+        tallenna();
+        piirra();
+      }));
+    lisaa(lohko, maaralohko);
+  }
 
   const suunta = edistyminen.asetukset.treeniSuunta || "molemmat";
 
   const suuntalohko = el("div", "pino-tiivis");
   lisaa(suuntalohko, el("p", "t-nano haalein", "SUUNTA"));
-  const valitsin = el("div", "suuntavalinta");
-  valitsin.setAttribute("role", "group");
-  valitsin.setAttribute("aria-label", "Harjoittelun suunta");
-  for (const vaihtoehto of SUUNTAVALINNAT) {
-    const b = el("button", null, vaihtoehto.lyhyt);
-    b.type = "button";
-    b.setAttribute("aria-label", vaihtoehto.pitka);
-    b.setAttribute("aria-pressed", String(vaihtoehto.arvo === suunta));
-    b.addEventListener("click", () => {
-      edistyminen.asetukset.treeniSuunta = vaihtoehto.arvo;
+  lisaa(suuntalohko, segmenttivalinta(SUUNTAVALINNAT, suunta,
+    "Harjoittelun suunta", (arvo) => {
+      edistyminen.asetukset.treeniSuunta = arvo;
       tallenna();
       piirra();
-    });
-    lisaa(valitsin, b);
-  }
-  lisaa(suuntalohko, valitsin);
+    }));
   lisaa(lohko, suuntalohko);
 
   const ruudukko = el("div", "vaihtoehdot ruudukko");
@@ -1700,11 +1749,13 @@ function naytaHarjoitusvalinta() {
 
 function aloitaKertaus(lista, asetukset = {}) {
   edistysArvot.delete("kertaus");
-  const jono = lista.slice(0, ISTUNNON_PITUUS);
+  const pituus = asetukset.pituus ?? ISTUNNON_PITUUS;
+  const jono = lista.slice(0, pituus);
   kertausIstunto = {
     jono, alkuperainen: jono.slice(),
     indeksi: 0, oikein: 0, vaarin: 0, vastattu: null, vaarat: [],
     vapaa: false, otsikko: null, tila: null, tilanNimi: null, lahde: null,
+    pituus,
   };
   Object.assign(kertausIstunto, asetukset);
 }
@@ -1742,8 +1793,8 @@ function naytaKertaa() {
   if (indeksi >= jono.length) {
     // Talteen ennen nollausta, jotta samat asetukset voidaan ajaa uudestaan.
     const { oikein, vaarin, vaarat, alkuperainen, vapaa, otsikko, tila: treeni,
-            tilanNimi, lahde } = kertausIstunto;
-    const asetukset = { vapaa, otsikko, tila: treeni, tilanNimi, lahde };
+            tilanNimi, lahde, pituus } = kertausIstunto;
+    const asetukset = { vapaa, otsikko, tila: treeni, tilanNimi, lahde, pituus };
     kertausIstunto = null;
 
     const lohko = el("div", "pino");

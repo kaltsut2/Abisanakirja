@@ -132,6 +132,20 @@ männen`), mutta väärä artikkeli hylätään edelleen. Väärä järjestys ei
 koska silloin ei voi enää päätellä, tunteeko kirjoittaja muotojen merkityksen
 vai on vain toistanut ne oikeassa muistijärjestyksessä.
 
+## Sanamäärän valinta
+
+Tapavalinnassa on **MÄÄRÄ**-valitsin ennen suuntaa: **10 · 20 · Kaikki (N)**.
+Se rajaa sanoja, ei kortteja – "10" tarkoittaa kymmentä sanaa, vaikka
+Flashcards ja Monivalinta molemmat-suunnalla tuottavat niistä 20 korttia.
+Valitut sanat arvotaan joka kerta uudestaan kategorian täydestä joukosta.
+
+Kynnys näkyy vain jos aihepiiri on sitä suurempi: alle 10 sanan alaluvussa
+näkyy pelkkä *Kaikki (N)* eikä koko valitsinta piirretä lainkaan, koska
+kolme vaihtoehtoa jotka tarkoittaisivat samaa olisi vain kohinaa. "Kaikki"
+ei enää katkea kertausistunnon oletuspituuteen (20 korttia) – valinta
+kunnioitetaan sellaisenaan, myös uudelleenkäynnistyksissä ("Kaikki
+uudelleen", "Harjoittele väärin menneet").
+
 ## Harjoitusistunnon hallinta
 
 **Paluunuoli** ylävasemmalla vie askeleen taaksepäin kesken harjoituksen:
