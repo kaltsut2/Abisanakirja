@@ -11256,6 +11256,652 @@
        "liittyy": "otroligt"
       }
      ]
+    },
+    {
+     "otsikko": "3.7 Lauseadverbit eli liikkuvat määreet",
+     "sisalto": [
+      {
+       "tyyppi": "teksti",
+       "teksti": "Nämä lyhyet adverbit kertovat ajan, taajuuden, varmuuden tai asenteen, ja ne liikkuvat lauseessa täsmälleen kuten inte. Paikkasääntö on luvussa 7.7; tässä ne ovat sanoina."
+      },
+      {
+       "tyyppi": "otsikko",
+       "teksti": "Taajuus ja toistuvuus"
+      },
+      {
+       "tyyppi": "sana",
+       "id": "alltid",
+       "sanaluokka": "adverbi",
+       "ruotsi": "alltid",
+       "suomi": [
+        "aina"
+       ],
+       "taivutus": [],
+       "luokka": "adv.",
+       "suku": null,
+       "kategoria": "3 Adjektiivit ja adverbit",
+       "alakategoria": "3.7 Lauseadverbit eli liikkuvat määreet",
+       "valiotsikko": "Taajuus ja toistuvuus",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "ofta",
+       "sanaluokka": "adverbi",
+       "ruotsi": "ofta",
+       "suomi": [
+        "usein"
+       ],
+       "taivutus": [],
+       "luokka": "adv.",
+       "suku": null,
+       "kategoria": "3 Adjektiivit ja adverbit",
+       "alakategoria": "3.7 Lauseadverbit eli liikkuvat määreet",
+       "valiotsikko": "Taajuus ja toistuvuus",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "ibland",
+       "sanaluokka": "adverbi",
+       "ruotsi": "ibland",
+       "suomi": [
+        "joskus",
+        "toisinaan"
+       ],
+       "taivutus": [],
+       "luokka": "adv.",
+       "suku": null,
+       "kategoria": "3 Adjektiivit ja adverbit",
+       "alakategoria": "3.7 Lauseadverbit eli liikkuvat määreet",
+       "valiotsikko": "Taajuus ja toistuvuus",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "någon-gång",
+       "sanaluokka": "adverbi",
+       "ruotsi": "någon gång",
+       "suomi": [
+        "joskus (tulevaisuudessa)"
+       ],
+       "taivutus": [],
+       "luokka": "adv.",
+       "suku": null,
+       "kategoria": "3 Adjektiivit ja adverbit",
+       "alakategoria": "3.7 Lauseadverbit eli liikkuvat määreet",
+       "valiotsikko": "Taajuus ja toistuvuus",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "aldrig",
+       "sanaluokka": "adverbi",
+       "ruotsi": "aldrig",
+       "suomi": [
+        "ei koskaan"
+       ],
+       "taivutus": [],
+       "luokka": "adv.",
+       "suku": null,
+       "kategoria": "3 Adjektiivit ja adverbit",
+       "alakategoria": "3.7 Lauseadverbit eli liikkuvat määreet",
+       "valiotsikko": "Taajuus ja toistuvuus",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "otsikko",
+       "teksti": "Aika"
+      },
+      {
+       "tyyppi": "sana",
+       "id": "nu",
+       "sanaluokka": "adverbi",
+       "ruotsi": "nu",
+       "suomi": [
+        "nyt"
+       ],
+       "taivutus": [],
+       "luokka": "adv.",
+       "suku": null,
+       "kategoria": "3 Adjektiivit ja adverbit",
+       "alakategoria": "3.7 Lauseadverbit eli liikkuvat määreet",
+       "valiotsikko": "Aika",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "redan",
+       "sanaluokka": "adverbi",
+       "ruotsi": "redan",
+       "suomi": [
+        "jo"
+       ],
+       "taivutus": [],
+       "luokka": "adv.",
+       "suku": null,
+       "kategoria": "3 Adjektiivit ja adverbit",
+       "alakategoria": "3.7 Lauseadverbit eli liikkuvat määreet",
+       "valiotsikko": "Aika",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "snart",
+       "sanaluokka": "adverbi",
+       "ruotsi": "snart",
+       "suomi": [
+        "pian"
+       ],
+       "taivutus": [],
+       "luokka": "adv.",
+       "suku": null,
+       "kategoria": "3 Adjektiivit ja adverbit",
+       "alakategoria": "3.7 Lauseadverbit eli liikkuvat määreet",
+       "valiotsikko": "Aika",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "genast",
+       "sanaluokka": "adverbi",
+       "ruotsi": "genast",
+       "suomi": [
+        "heti"
+       ],
+       "taivutus": [],
+       "luokka": "adv.",
+       "suku": null,
+       "kategoria": "3 Adjektiivit ja adverbit",
+       "alakategoria": "3.7 Lauseadverbit eli liikkuvat määreet",
+       "valiotsikko": "Aika",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "först",
+       "sanaluokka": "adverbi",
+       "ruotsi": "först",
+       "suomi": [
+        "ensin",
+        "vasta"
+       ],
+       "taivutus": [],
+       "luokka": "adv.",
+       "suku": null,
+       "kategoria": "3 Adjektiivit ja adverbit",
+       "alakategoria": "3.7 Lauseadverbit eli liikkuvat määreet",
+       "valiotsikko": "Aika",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "ännu",
+       "sanaluokka": "adverbi",
+       "ruotsi": "ännu",
+       "suomi": [
+        "vielä"
+       ],
+       "taivutus": [],
+       "luokka": "adv.",
+       "suku": null,
+       "kategoria": "3 Adjektiivit ja adverbit",
+       "alakategoria": "3.7 Lauseadverbit eli liikkuvat määreet",
+       "valiotsikko": "Aika",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "länge",
+       "sanaluokka": "adverbi",
+       "ruotsi": "länge",
+       "suomi": [
+        "kauan"
+       ],
+       "taivutus": [],
+       "luokka": "adv.",
+       "suku": null,
+       "kategoria": "3 Adjektiivit ja adverbit",
+       "alakategoria": "3.7 Lauseadverbit eli liikkuvat määreet",
+       "valiotsikko": "Aika",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "äntligen",
+       "sanaluokka": "adverbi",
+       "ruotsi": "äntligen",
+       "suomi": [
+        "vihdoin",
+        "lopultakin"
+       ],
+       "taivutus": [],
+       "luokka": "adv.",
+       "suku": null,
+       "kategoria": "3 Adjektiivit ja adverbit",
+       "alakategoria": "3.7 Lauseadverbit eli liikkuvat määreet",
+       "valiotsikko": "Aika",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "otsikko",
+       "teksti": "Varmuus ja epäilys"
+      },
+      {
+       "tyyppi": "sana",
+       "id": "säkert",
+       "sanaluokka": "adverbi",
+       "ruotsi": "säkert",
+       "suomi": [
+        "varmasti"
+       ],
+       "taivutus": [],
+       "luokka": "adv.",
+       "suku": null,
+       "kategoria": "3 Adjektiivit ja adverbit",
+       "alakategoria": "3.7 Lauseadverbit eli liikkuvat määreet",
+       "valiotsikko": "Varmuus ja epäilys",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "absolut",
+       "sanaluokka": "adverbi",
+       "ruotsi": "absolut",
+       "suomi": [
+        "ehdottomasti"
+       ],
+       "taivutus": [],
+       "luokka": "adv.",
+       "suku": null,
+       "kategoria": "3 Adjektiivit ja adverbit",
+       "alakategoria": "3.7 Lauseadverbit eli liikkuvat määreet",
+       "valiotsikko": "Varmuus ja epäilys",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "kanske",
+       "sanaluokka": "adverbi",
+       "ruotsi": "kanske",
+       "suomi": [
+        "ehkä"
+       ],
+       "taivutus": [],
+       "luokka": "adv.",
+       "suku": null,
+       "kategoria": "3 Adjektiivit ja adverbit",
+       "alakategoria": "3.7 Lauseadverbit eli liikkuvat määreet",
+       "valiotsikko": "Varmuus ja epäilys",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "troligen",
+       "sanaluokka": "adverbi",
+       "ruotsi": "troligen",
+       "suomi": [
+        "luultavasti"
+       ],
+       "taivutus": [],
+       "luokka": "adv.",
+       "suku": null,
+       "kategoria": "3 Adjektiivit ja adverbit",
+       "alakategoria": "3.7 Lauseadverbit eli liikkuvat määreet",
+       "valiotsikko": "Varmuus ja epäilys",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "faktiskt",
+       "sanaluokka": "adverbi",
+       "ruotsi": "faktiskt",
+       "suomi": [
+        "tosiaan",
+        "itse asiassa"
+       ],
+       "taivutus": [],
+       "luokka": "adv.",
+       "suku": null,
+       "kategoria": "3 Adjektiivit ja adverbit",
+       "alakategoria": "3.7 Lauseadverbit eli liikkuvat määreet",
+       "valiotsikko": "Varmuus ja epäilys",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "huomio",
+       "teksti": "Huomaa ero: faktiskt yllättää tai pehmentää, verkligen vahvistaa. Det var faktiskt roligt = se oli tosiaan hauskaa, vastoin odotusta. Det var verkligen roligt = se oli todella hauskaa.",
+       "liittyy": "faktiskt"
+      },
+      {
+       "tyyppi": "otsikko",
+       "teksti": "Asenne ja mieltymys"
+      },
+      {
+       "tyyppi": "sana",
+       "id": "gärna",
+       "sanaluokka": "adverbi",
+       "ruotsi": "gärna",
+       "suomi": [
+        "mielellään"
+       ],
+       "taivutus": [],
+       "luokka": "adv.",
+       "suku": null,
+       "kategoria": "3 Adjektiivit ja adverbit",
+       "alakategoria": "3.7 Lauseadverbit eli liikkuvat määreet",
+       "valiotsikko": "Asenne ja mieltymys",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "helst",
+       "sanaluokka": "adverbi",
+       "ruotsi": "helst",
+       "suomi": [
+        "mieluiten"
+       ],
+       "taivutus": [],
+       "luokka": "adv.",
+       "suku": null,
+       "kategoria": "3 Adjektiivit ja adverbit",
+       "alakategoria": "3.7 Lauseadverbit eli liikkuvat määreet",
+       "valiotsikko": "Asenne ja mieltymys",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "tyvärr",
+       "sanaluokka": "adverbi",
+       "ruotsi": "tyvärr",
+       "suomi": [
+        "valitettavasti"
+       ],
+       "taivutus": [],
+       "luokka": "adv.",
+       "suku": null,
+       "kategoria": "3 Adjektiivit ja adverbit",
+       "alakategoria": "3.7 Lauseadverbit eli liikkuvat määreet",
+       "valiotsikko": "Asenne ja mieltymys",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "vanligen",
+       "sanaluokka": "adverbi",
+       "ruotsi": "vanligen",
+       "suomi": [
+        "tavallisesti"
+       ],
+       "taivutus": [],
+       "luokka": "adv.",
+       "suku": null,
+       "kategoria": "3 Adjektiivit ja adverbit",
+       "alakategoria": "3.7 Lauseadverbit eli liikkuvat määreet",
+       "valiotsikko": "Asenne ja mieltymys",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "otsikko",
+       "teksti": "Lisäävät ja rajaavat"
+      },
+      {
+       "tyyppi": "sana",
+       "id": "också",
+       "sanaluokka": "adverbi",
+       "ruotsi": "också",
+       "suomi": [
+        "myös"
+       ],
+       "taivutus": [],
+       "luokka": "adv.",
+       "suku": null,
+       "kategoria": "3 Adjektiivit ja adverbit",
+       "alakategoria": "3.7 Lauseadverbit eli liikkuvat määreet",
+       "valiotsikko": "Lisäävät ja rajaavat",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "bara",
+       "sanaluokka": "adverbi",
+       "ruotsi": "bara",
+       "suomi": [
+        "vain"
+       ],
+       "taivutus": [],
+       "luokka": "adv.",
+       "suku": null,
+       "kategoria": "3 Adjektiivit ja adverbit",
+       "alakategoria": "3.7 Lauseadverbit eli liikkuvat määreet",
+       "valiotsikko": "Lisäävät ja rajaavat",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "otsikko",
+       "teksti": "Kieltävät liikkuvat määreet"
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Nämä käyttäytyvät täsmälleen kuten inte. Jos osaat inte-sanan paikan, osaat näiden paikan."
+      },
+      {
+       "tyyppi": "sana",
+       "id": "inte-alltid",
+       "sanaluokka": "adverbi",
+       "ruotsi": "inte alltid",
+       "suomi": [
+        "ei aina"
+       ],
+       "taivutus": [],
+       "luokka": "adv.",
+       "suku": null,
+       "kategoria": "3 Adjektiivit ja adverbit",
+       "alakategoria": "3.7 Lauseadverbit eli liikkuvat määreet",
+       "valiotsikko": "Kieltävät liikkuvat määreet",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "inte-ofta",
+       "sanaluokka": "adverbi",
+       "ruotsi": "inte ofta",
+       "suomi": [
+        "ei usein"
+       ],
+       "taivutus": [],
+       "luokka": "adv.",
+       "suku": null,
+       "kategoria": "3 Adjektiivit ja adverbit",
+       "alakategoria": "3.7 Lauseadverbit eli liikkuvat määreet",
+       "valiotsikko": "Kieltävät liikkuvat määreet",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "inte-alls",
+       "sanaluokka": "adverbi",
+       "ruotsi": "inte alls",
+       "suomi": [
+        "ei lainkaan"
+       ],
+       "taivutus": [],
+       "luokka": "adv.",
+       "suku": null,
+       "kategoria": "3 Adjektiivit ja adverbit",
+       "alakategoria": "3.7 Lauseadverbit eli liikkuvat määreet",
+       "valiotsikko": "Kieltävät liikkuvat määreet",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "inte-ens",
+       "sanaluokka": "adverbi",
+       "ruotsi": "inte ens",
+       "suomi": [
+        "ei edes"
+       ],
+       "taivutus": [],
+       "luokka": "adv.",
+       "suku": null,
+       "kategoria": "3 Adjektiivit ja adverbit",
+       "alakategoria": "3.7 Lauseadverbit eli liikkuvat määreet",
+       "valiotsikko": "Kieltävät liikkuvat määreet",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "inte-längre",
+       "sanaluokka": "adverbi",
+       "ruotsi": "inte längre",
+       "suomi": [
+        "ei enää"
+       ],
+       "taivutus": [],
+       "luokka": "adv.",
+       "suku": null,
+       "kategoria": "3 Adjektiivit ja adverbit",
+       "alakategoria": "3.7 Lauseadverbit eli liikkuvat määreet",
+       "valiotsikko": "Kieltävät liikkuvat määreet",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "inte-heller",
+       "sanaluokka": "adverbi",
+       "ruotsi": "inte heller",
+       "suomi": [
+        "ei myöskään"
+       ],
+       "taivutus": [],
+       "luokka": "adv.",
+       "suku": null,
+       "kategoria": "3 Adjektiivit ja adverbit",
+       "alakategoria": "3.7 Lauseadverbit eli liikkuvat määreet",
+       "valiotsikko": "Kieltävät liikkuvat määreet",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      }
+     ]
     }
    ]
   },
@@ -12238,26 +12884,6 @@
       },
       {
        "tyyppi": "sana",
-       "id": "tills",
-       "sanaluokka": "ilmaus",
-       "ruotsi": "tills",
-       "suomi": [
-        "kunnes"
-       ],
-       "taivutus": [],
-       "luokka": null,
-       "suku": null,
-       "kategoria": "5 Sidosteisuus ja pikkusanat",
-       "alakategoria": "5.1 Tekstin jäsentäminen",
-       "valiotsikko": null,
-       "vastakohta": null,
-       "rektio": null,
-       "esimerkit": [],
-       "muistiinpano": null,
-       "paallekkainen": false
-      },
-      {
-       "tyyppi": "sana",
        "id": "nämligen",
        "sanaluokka": "ilmaus",
        "ruotsi": "nämligen",
@@ -12349,27 +12975,6 @@
       },
       {
        "tyyppi": "sana",
-       "id": "så-att",
-       "sanaluokka": "ilmaus",
-       "ruotsi": "så att",
-       "suomi": [
-        "jotta",
-        "niin että"
-       ],
-       "taivutus": [],
-       "luokka": null,
-       "suku": null,
-       "kategoria": "5 Sidosteisuus ja pikkusanat",
-       "alakategoria": "5.1 Tekstin jäsentäminen",
-       "valiotsikko": null,
-       "vastakohta": null,
-       "rektio": null,
-       "esimerkit": [],
-       "muistiinpano": null,
-       "paallekkainen": false
-      },
-      {
-       "tyyppi": "sana",
        "id": "genom-att",
        "sanaluokka": "ilmaus",
        "ruotsi": "genom att",
@@ -12411,7 +13016,172 @@
      ]
     },
     {
-     "otsikko": "5.2 Parikonjunktiot",
+     "otsikko": "5.2 Rinnastuskonjunktiot",
+     "sisalto": [
+      {
+       "tyyppi": "teksti",
+       "teksti": "Näitä on vain kuusi. Ne yhdistävät samanarvoisia osia – kaksi substantiivia tai kaksi päälausetta – eivätkä vaikuta sanajärjestykseen lainkaan. Ero alistuskonjunktioihin on selitetty luvussa 7.5."
+      },
+      {
+       "tyyppi": "sana",
+       "id": "och",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "och",
+       "suomi": [
+        "ja"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "5 Sidosteisuus ja pikkusanat",
+       "alakategoria": "5.2 Rinnastuskonjunktiot",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Jag läser svenska och tyska.",
+         "fi": "Luen ruotsia ja saksaa."
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "eller",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "eller",
+       "suomi": [
+        "tai",
+        "vai"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "5 Sidosteisuus ja pikkusanat",
+       "alakategoria": "5.2 Rinnastuskonjunktiot",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Vill du ha kaffe eller te?",
+         "fi": "Haluatko kahvia vai teetä?"
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "men",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "men",
+       "suomi": [
+        "mutta"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "5 Sidosteisuus ja pikkusanat",
+       "alakategoria": "5.2 Rinnastuskonjunktiot",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Jag sökte till universitetet men jag kom inte in.",
+         "fi": "Hain yliopistoon, mutta en päässyt sisään."
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "för",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "för",
+       "suomi": [
+        "sillä (syy)"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "5 Sidosteisuus ja pikkusanat",
+       "alakategoria": "5.2 Rinnastuskonjunktiot",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Jag stannade hemma, för jag var sjuk.",
+         "fi": "Jäin kotiin, sillä olin kipeä."
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "huomio",
+       "teksti": "Huomaa: för on myös prepositio (ks. 6.9). Rinnastuskonjunktiona se ei voi aloittaa virkettä.",
+       "liittyy": "för"
+      },
+      {
+       "tyyppi": "sana",
+       "id": "så",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "så",
+       "suomi": [
+        "joten (seuraus, joka toteutui)"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "5 Sidosteisuus ja pikkusanat",
+       "alakategoria": "5.2 Rinnastuskonjunktiot",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Det regnade, så vi stannade hemma.",
+         "fi": "Satoi, joten jäimme kotiin."
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "utan",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "utan",
+       "suomi": [
+        "vaan (vain kielteisen lauseen jälkeen)"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "5 Sidosteisuus ja pikkusanat",
+       "alakategoria": "5.2 Rinnastuskonjunktiot",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Han är inte lärare utan läkare.",
+         "fi": "Hän ei ole opettaja vaan lääkäri."
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      }
+     ]
+    },
+    {
+     "otsikko": "5.3 Parikonjunktiot",
      "sisalto": [
       {
        "tyyppi": "sana",
@@ -12426,7 +13196,7 @@
        "luokka": null,
        "suku": null,
        "kategoria": "5 Sidosteisuus ja pikkusanat",
-       "alakategoria": "5.2 Parikonjunktiot",
+       "alakategoria": "5.3 Parikonjunktiot",
        "valiotsikko": null,
        "vastakohta": null,
        "rektio": null,
@@ -12456,7 +13226,7 @@
        "luokka": null,
        "suku": null,
        "kategoria": "5 Sidosteisuus ja pikkusanat",
-       "alakategoria": "5.2 Parikonjunktiot",
+       "alakategoria": "5.3 Parikonjunktiot",
        "valiotsikko": null,
        "vastakohta": null,
        "rektio": null,
@@ -12481,7 +13251,7 @@
        "luokka": null,
        "suku": null,
        "kategoria": "5 Sidosteisuus ja pikkusanat",
-       "alakategoria": "5.2 Parikonjunktiot",
+       "alakategoria": "5.3 Parikonjunktiot",
        "valiotsikko": null,
        "vastakohta": null,
        "rektio": null,
@@ -12506,7 +13276,7 @@
        "luokka": null,
        "suku": null,
        "kategoria": "5 Sidosteisuus ja pikkusanat",
-       "alakategoria": "5.2 Parikonjunktiot",
+       "alakategoria": "5.3 Parikonjunktiot",
        "valiotsikko": null,
        "vastakohta": null,
        "rektio": null,
@@ -12531,7 +13301,7 @@
        "luokka": null,
        "suku": null,
        "kategoria": "5 Sidosteisuus ja pikkusanat",
-       "alakategoria": "5.2 Parikonjunktiot",
+       "alakategoria": "5.3 Parikonjunktiot",
        "valiotsikko": null,
        "vastakohta": null,
        "rektio": null,
@@ -12543,11 +13313,653 @@
        ],
        "muistiinpano": null,
        "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "inte-bara-utan-också",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "inte bara – utan också",
+       "suomi": [
+        "ei ainoastaan – vaan myös"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "5 Sidosteisuus ja pikkusanat",
+       "alakategoria": "5.3 Parikonjunktiot",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Jag lär mig inte bara svenska utan också tyska.",
+         "fi": "En opiskele ainoastaan ruotsia vaan myös saksaa."
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "huomio",
+       "teksti": "Huomaa: varken – eller sisältää kiellon itse, joten lauseeseen ei tule erillistä inte-sanaa.",
+       "liittyy": "inte-bara-utan-också"
       }
      ]
     },
     {
-     "otsikko": "5.3 Mielipiteen ilmaiseminen – synonyymejä",
+     "otsikko": "5.4 Alistuskonjunktiot",
+     "sisalto": [
+      {
+       "tyyppi": "teksti",
+       "teksti": "Alistuskonjunktio tekee lauseesta sivulauseen, joka ei voi olla yksin. Sivulauseen sanajärjestys on aina sama riippumatta siitä, mistä sanasta se alkaa – kaava on luvussa 7.6, samoin näiden käyttöerot."
+      },
+      {
+       "tyyppi": "otsikko",
+       "teksti": "Että ja ehto"
+      },
+      {
+       "tyyppi": "sana",
+       "id": "att",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "att",
+       "suomi": [
+        "että"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "5 Sidosteisuus ja pikkusanat",
+       "alakategoria": "5.4 Alistuskonjunktiot",
+       "valiotsikko": "Että ja ehto",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Jag hoppas att du kommer.",
+         "fi": "Toivon, että tulet."
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "om",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "om",
+       "suomi": [
+        "jos"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "5 Sidosteisuus ja pikkusanat",
+       "alakategoria": "5.4 Alistuskonjunktiot",
+       "valiotsikko": "Että ja ehto",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Om det inte regnar går vi ut.",
+         "fi": "Jos ei sada, menemme ulos."
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "otsikko",
+       "teksti": "Aika"
+      },
+      {
+       "tyyppi": "sana",
+       "id": "när",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "när",
+       "suomi": [
+        "kun"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "5 Sidosteisuus ja pikkusanat",
+       "alakategoria": "5.4 Alistuskonjunktiot",
+       "valiotsikko": "Aika",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Daniel Ek blev berömd när han grundade Spotify.",
+         "fi": "Daniel Ek tuli kuuluisaksi, kun hän perusti Spotifyn."
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "då",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "då",
+       "suomi": [
+        "koska",
+        "kun"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "5 Sidosteisuus ja pikkusanat",
+       "alakategoria": "5.4 Alistuskonjunktiot",
+       "valiotsikko": "Aika",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Då du redan är här kan vi börja.",
+         "fi": "Kun sinä jo olet täällä, voimme aloittaa."
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "huomio",
+       "teksti": "Huomaa: samalla sanalla on kolme roolia – tässä konjunktio, relatiivisanana jolloin (5.5) ja liikkuvana määreenä silloin (7.7).",
+       "liittyy": "då"
+      },
+      {
+       "tyyppi": "sana",
+       "id": "medan",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "medan",
+       "suomi": [
+        "samalla kun",
+        "sillä aikaa kun",
+        "kun taas"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "5 Sidosteisuus ja pikkusanat",
+       "alakategoria": "5.4 Alistuskonjunktiot",
+       "valiotsikko": "Aika",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Jag lagade mat medan hon läste.",
+         "fi": "Laitoin ruokaa sillä aikaa kun hän luki."
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "innan",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "innan",
+       "suomi": [
+        "ennen kuin"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "5 Sidosteisuus ja pikkusanat",
+       "alakategoria": "5.4 Alistuskonjunktiot",
+       "valiotsikko": "Aika",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Jag ringer innan jag kommer.",
+         "fi": "Soitan ennen kuin tulen."
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "förrän",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "förrän",
+       "suomi": [
+        "ennen kuin (kielteisen lauseen jälkeen)"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "5 Sidosteisuus ja pikkusanat",
+       "alakategoria": "5.4 Alistuskonjunktiot",
+       "valiotsikko": "Aika",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Han kom inte förrän klockan tio.",
+         "fi": "Hän tuli vasta kello kymmenen."
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "sedan",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "sedan",
+       "suomi": [
+        "sen jälkeen kun",
+        "sitten kun"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "5 Sidosteisuus ja pikkusanat",
+       "alakategoria": "5.4 Alistuskonjunktiot",
+       "valiotsikko": "Aika",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Sedan vi hade ätit gick vi ut.",
+         "fi": "Sen jälkeen kun olimme syöneet, menimme ulos."
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "tills",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "tills",
+       "suomi": [
+        "kunnes"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "5 Sidosteisuus ja pikkusanat",
+       "alakategoria": "5.4 Alistuskonjunktiot",
+       "valiotsikko": "Aika",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Vi väntar tills bussen kommer.",
+         "fi": "Odotamme, kunnes bussi tulee."
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "otsikko",
+       "teksti": "Syy"
+      },
+      {
+       "tyyppi": "sana",
+       "id": "eftersom",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "eftersom",
+       "suomi": [
+        "koska"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "5 Sidosteisuus ja pikkusanat",
+       "alakategoria": "5.4 Alistuskonjunktiot",
+       "valiotsikko": "Syy",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Vi erbjuder hjälp eftersom området är tvåspråkigt.",
+         "fi": "Tarjoamme apua, koska alue on kaksikielinen."
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "därför-att",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "därför att",
+       "suomi": [
+        "siksi että",
+        "koska"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "5 Sidosteisuus ja pikkusanat",
+       "alakategoria": "5.4 Alistuskonjunktiot",
+       "valiotsikko": "Syy",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Jag stannade hemma därför att jag var sjuk.",
+         "fi": "Jäin kotiin, koska olin kipeä."
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "otsikko",
+       "teksti": "Tarkoitus ja seuraus"
+      },
+      {
+       "tyyppi": "sana",
+       "id": "så-att",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "så att",
+       "suomi": [
+        "jotta",
+        "niin että"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "5 Sidosteisuus ja pikkusanat",
+       "alakategoria": "5.4 Alistuskonjunktiot",
+       "valiotsikko": "Tarkoitus ja seuraus",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Tala högre så att alla hör.",
+         "fi": "Puhu kovempaa, jotta kaikki kuulevat."
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "huomio",
+       "teksti": "Huomaa: för att on myös tarkoituksen konjunktio – se on luvussa 6.6, koska sen perässä tulee infinitiivi.",
+       "liittyy": "så-att"
+      },
+      {
+       "tyyppi": "otsikko",
+       "teksti": "Myönnytys"
+      },
+      {
+       "tyyppi": "sana",
+       "id": "trots-att",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "trots att",
+       "suomi": [
+        "siitä huolimatta että"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "5 Sidosteisuus ja pikkusanat",
+       "alakategoria": "5.4 Alistuskonjunktiot",
+       "valiotsikko": "Myönnytys",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Trots att det regnade gick vi ut.",
+         "fi": "Siitä huolimatta että satoi, menimme ulos."
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "fastän",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "fastän",
+       "suomi": [
+        "vaikka",
+        "vaikkakin"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "5 Sidosteisuus ja pikkusanat",
+       "alakategoria": "5.4 Alistuskonjunktiot",
+       "valiotsikko": "Myönnytys",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Fastän det regnade gick vi ut.",
+         "fi": "Vaikka satoi, menimme ulos."
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "fast",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "fast",
+       "suomi": [
+        "vaikka (arkisempi)"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "5 Sidosteisuus ja pikkusanat",
+       "alakategoria": "5.4 Alistuskonjunktiot",
+       "valiotsikko": "Myönnytys",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Jag gick ut fast det regnade.",
+         "fi": "Menin ulos, vaikka satoi."
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "även-om",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "även om",
+       "suomi": [
+        "vaikka",
+        "siinäkin tapauksessa että"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "5 Sidosteisuus ja pikkusanat",
+       "alakategoria": "5.4 Alistuskonjunktiot",
+       "valiotsikko": "Myönnytys",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Även om det regnar går vi ut.",
+         "fi": "Vaikka sataisi, menemme ulos."
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      }
+     ]
+    },
+    {
+     "otsikko": "5.5 Relatiivisanat",
+     "sisalto": [
+      {
+       "tyyppi": "teksti",
+       "teksti": "Relatiivisana aloittaa relatiivilauseen ja viittaa edellä olevaan sanaan tai lauseeseen eli korrelaattiin. Viittauskohde ratkaisee, mikä sana valitaan; esimerkit ja valintasääntö ovat luvussa 7.6."
+      },
+      {
+       "tyyppi": "sana",
+       "id": "som",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "som",
+       "suomi": [
+        "joka",
+        "mikä",
+        "jotka",
+        "mitkä"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "5 Sidosteisuus ja pikkusanat",
+       "alakategoria": "5.5 Relatiivisanat",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Jag bor i en stad som jag verkligen gillar.",
+         "fi": "Asun kaupungissa, josta todella pidän."
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "vilket",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "vilket",
+       "suomi": [
+        "mikä (viittaa koko edellä olevaan lauseeseen)"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "5 Sidosteisuus ja pikkusanat",
+       "alakategoria": "5.5 Relatiivisanat",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Ibland är det för kallt i Finland vilket jag inte gillar.",
+         "fi": "Joskus Suomessa on liian kylmää, mistä en pidä."
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "vars",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "vars",
+       "suomi": [
+        "jonka",
+        "joiden (omistus)"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "5 Sidosteisuus ja pikkusanat",
+       "alakategoria": "5.5 Relatiivisanat",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Jag har en kompis vars pappa är läkare.",
+         "fi": "Minulla on kaveri, jonka isä on lääkäri."
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "allt-som-allt-vad",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "allt som / allt vad",
+       "suomi": [
+        "kaikki mikä",
+        "kaikki mitä"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "5 Sidosteisuus ja pikkusanat",
+       "alakategoria": "5.5 Relatiivisanat",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Du måste berätta allt som hände.",
+         "fi": "Sinun täytyy kertoa kaikki, mitä tapahtui."
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "där",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "där",
+       "suomi": [
+        "jossa"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "5 Sidosteisuus ja pikkusanat",
+       "alakategoria": "5.5 Relatiivisanat",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Uleåborg är en stad där jag inte har varit.",
+         "fi": "Oulu on kaupunki, jossa en ole ollut."
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "dit",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "dit",
+       "suomi": [
+        "jonne",
+        "johon"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "5 Sidosteisuus ja pikkusanat",
+       "alakategoria": "5.5 Relatiivisanat",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Nyslott, dit jag gärna reser, ligger i östra Finland.",
+         "fi": "Savonlinna, jonne matkustan mielelläni, sijaitsee Itä-Suomessa."
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      }
+     ]
+    },
+    {
+     "otsikko": "5.6 Mielipiteen ilmaiseminen – synonyymejä",
      "sisalto": [
       {
        "tyyppi": "sana",
@@ -12562,7 +13974,7 @@
        "luokka": null,
        "suku": null,
        "kategoria": "5 Sidosteisuus ja pikkusanat",
-       "alakategoria": "5.3 Mielipiteen ilmaiseminen – synonyymejä",
+       "alakategoria": "5.6 Mielipiteen ilmaiseminen – synonyymejä",
        "valiotsikko": null,
        "vastakohta": null,
        "rektio": null,
@@ -12583,7 +13995,7 @@
        "luokka": null,
        "suku": null,
        "kategoria": "5 Sidosteisuus ja pikkusanat",
-       "alakategoria": "5.3 Mielipiteen ilmaiseminen – synonyymejä",
+       "alakategoria": "5.6 Mielipiteen ilmaiseminen – synonyymejä",
        "valiotsikko": null,
        "vastakohta": null,
        "rektio": null,
@@ -12604,7 +14016,7 @@
        "luokka": null,
        "suku": null,
        "kategoria": "5 Sidosteisuus ja pikkusanat",
-       "alakategoria": "5.3 Mielipiteen ilmaiseminen – synonyymejä",
+       "alakategoria": "5.6 Mielipiteen ilmaiseminen – synonyymejä",
        "valiotsikko": null,
        "vastakohta": null,
        "rektio": null,
@@ -12624,7 +14036,7 @@
        "luokka": null,
        "suku": null,
        "kategoria": "5 Sidosteisuus ja pikkusanat",
-       "alakategoria": "5.3 Mielipiteen ilmaiseminen – synonyymejä",
+       "alakategoria": "5.6 Mielipiteen ilmaiseminen – synonyymejä",
        "valiotsikko": null,
        "vastakohta": null,
        "rektio": null,
@@ -12645,7 +14057,7 @@
        "luokka": null,
        "suku": null,
        "kategoria": "5 Sidosteisuus ja pikkusanat",
-       "alakategoria": "5.3 Mielipiteen ilmaiseminen – synonyymejä",
+       "alakategoria": "5.6 Mielipiteen ilmaiseminen – synonyymejä",
        "valiotsikko": null,
        "vastakohta": null,
        "rektio": null,
@@ -12666,7 +14078,7 @@
        "luokka": null,
        "suku": null,
        "kategoria": "5 Sidosteisuus ja pikkusanat",
-       "alakategoria": "5.3 Mielipiteen ilmaiseminen – synonyymejä",
+       "alakategoria": "5.6 Mielipiteen ilmaiseminen – synonyymejä",
        "valiotsikko": null,
        "vastakohta": null,
        "rektio": null,
@@ -12686,7 +14098,7 @@
        "luokka": null,
        "suku": null,
        "kategoria": "5 Sidosteisuus ja pikkusanat",
-       "alakategoria": "5.3 Mielipiteen ilmaiseminen – synonyymejä",
+       "alakategoria": "5.6 Mielipiteen ilmaiseminen – synonyymejä",
        "valiotsikko": null,
        "vastakohta": null,
        "rektio": null,
@@ -12706,7 +14118,7 @@
        "luokka": null,
        "suku": null,
        "kategoria": "5 Sidosteisuus ja pikkusanat",
-       "alakategoria": "5.3 Mielipiteen ilmaiseminen – synonyymejä",
+       "alakategoria": "5.6 Mielipiteen ilmaiseminen – synonyymejä",
        "valiotsikko": null,
        "vastakohta": null,
        "rektio": null,
@@ -12726,7 +14138,7 @@
        "luokka": null,
        "suku": null,
        "kategoria": "5 Sidosteisuus ja pikkusanat",
-       "alakategoria": "5.3 Mielipiteen ilmaiseminen – synonyymejä",
+       "alakategoria": "5.6 Mielipiteen ilmaiseminen – synonyymejä",
        "valiotsikko": null,
        "vastakohta": null,
        "rektio": null,
@@ -12746,7 +14158,7 @@
        "luokka": null,
        "suku": null,
        "kategoria": "5 Sidosteisuus ja pikkusanat",
-       "alakategoria": "5.3 Mielipiteen ilmaiseminen – synonyymejä",
+       "alakategoria": "5.6 Mielipiteen ilmaiseminen – synonyymejä",
        "valiotsikko": null,
        "vastakohta": null,
        "rektio": null,
@@ -17183,7 +18595,7 @@
       },
       {
        "tyyppi": "sana",
-       "id": "för",
+       "id": "för-2",
        "sanaluokka": "ilmaus",
        "ruotsi": "För",
        "suomi": [
@@ -17231,7 +18643,7 @@
         }
        ],
        "muistiinpano": null,
-       "paallekkainen": false
+       "paallekkainen": true
       }
      ]
     }
@@ -20881,170 +22293,277 @@
       {
        "tyyppi": "teksti",
        "teksti": "Tämä on kirjoitelman yleisin sanajärjestysvirhe. Päälauseessa jag kan inte, sivulauseessa om jag inte kan."
+      }
+     ]
+    },
+    {
+     "otsikko": "7.5 Rinnastuskonjunktiot",
+     "sisalto": [
+      {
+       "tyyppi": "teksti",
+       "teksti": "Rinnastuskonjunktioita on vain kuusi: och, eller, men, för, så ja utan (sanalista on luvussa 5.2). Ne yhdistävät samanarvoisia osia – kaksi substantiivia, kaksi adjektiivia tai kaksi päälausetta. Tärkein syy osata ne on se, että ne EIVÄT vaikuta sanajärjestykseen lainkaan."
       },
       {
        "tyyppi": "otsikko",
-       "teksti": "Relatiivilause"
+       "teksti": "Miksi sanajärjestys ei muutu"
       },
       {
        "tyyppi": "teksti",
-       "teksti": "Relatiivilause on sivulause, joka viittaa edellä olevaan sanaan tai lauseeseen. Viittauskohde ratkaisee, mikä relatiivisana valitaan."
+       "teksti": "Rinnastuskonjunktio ei ole osa kumpaakaan lausetta vaan seisoo niiden välissä. Se ei siis vie lauseen ensimmäistä paikkaa, eikä käänteinen sanajärjestys laukea. Alistuskonjunktio sen sijaan on osa sivulausetta: jos sivulause on virkkeen alussa, se toimii yhtenä isona aloitusmääreenä ja päälause kääntyy (ks. 7.4)."
       },
       {
-       "tyyppi": "sana",
-       "id": "som",
-       "sanaluokka": "ilmaus",
-       "ruotsi": "som",
-       "suomi": [
-        "joka",
-        "mikä – jotka",
-        "mitkä (viittaa edellä olevaan sanaan)"
-       ],
-       "taivutus": [],
-       "luokka": null,
-       "suku": null,
-       "kategoria": "7 Kielioppisäännöt",
-       "alakategoria": "7.4 Sanajärjestys",
-       "valiotsikko": "Relatiivilause",
-       "vastakohta": null,
-       "rektio": null,
+       "tyyppi": "esimerkki",
        "esimerkit": [
         {
-         "sv": "J. S. är en finsk kompositör som tonsatte Finlandia.",
-         "fi": "J. S. on suomalainen säveltäjä, joka sävelsi Finlandian."
-        },
-        {
-         "sv": "J. S. är en finländare (som) alla är stolta över.",
-         "fi": "J. S. on suomalainen, josta kaikki ovat ylpeitä."
+         "sv": "Jag sökte till universitetet men jag kom inte in.",
+         "fi": "Hain yliopistoon, mutta en päässyt sisään."
         }
-       ],
-       "muistiinpano": null,
-       "paallekkainen": false
+       ]
       },
       {
-       "tyyppi": "teksti",
-       "teksti": "Kun som on sivulauseen subjekti, sitä ei voi jättää pois. Kun som ei ole subjektina, se voi jäädä pois – kuten toisessa esimerkissä."
-      },
-      {
-       "tyyppi": "teksti",
-       "teksti": "Tonsättare on tavallisempi sana kuin kompositör."
-      },
-      {
-       "tyyppi": "sana",
-       "id": "vilket",
-       "sanaluokka": "ilmaus",
-       "ruotsi": "vilket",
-       "suomi": [
-        "mikä (viittaa koko edellä olevaan lauseeseen)"
-       ],
-       "taivutus": [],
-       "luokka": null,
-       "suku": null,
-       "kategoria": "7 Kielioppisäännöt",
-       "alakategoria": "7.4 Sanajärjestys",
-       "valiotsikko": "Relatiivilause",
-       "vastakohta": null,
-       "rektio": null,
+       "tyyppi": "esimerkki",
        "esimerkit": [
         {
-         "sv": "Finländarna badar bastu nakna vilket kan förvåna turister.",
-         "fi": "Suomalaiset saunovat alasti, mikä voi hämmästyttää turisteja."
+         "sv": "Jag kom inte in eftersom jag inte hade läst.",
+         "fi": "En päässyt sisään, koska en ollut lukenut."
         }
-       ],
-       "muistiinpano": null,
-       "paallekkainen": false
+       ]
       },
       {
-       "tyyppi": "sana",
-       "id": "där",
-       "sanaluokka": "ilmaus",
-       "ruotsi": "där",
-       "suomi": [
-        "jossa (viittaa edellä olevaan paikan ilmaisuun)"
-       ],
-       "taivutus": [],
-       "luokka": null,
-       "suku": null,
-       "kategoria": "7 Kielioppisäännöt",
-       "alakategoria": "7.4 Sanajärjestys",
-       "valiotsikko": "Relatiivilause",
-       "vastakohta": null,
-       "rektio": null,
+       "tyyppi": "esimerkki",
        "esimerkit": [
         {
-         "sv": "Åbo är en stad där jag verkligen trivs.",
-         "fi": "Turku on kaupunki, jossa viihdyn todella hyvin."
+         "sv": "Eftersom jag inte hade läst kom jag inte in.",
+         "fi": "Koska en ollut lukenut, en päässyt sisään."
         }
-       ],
-       "muistiinpano": null,
-       "paallekkainen": false
-      },
-      {
-       "tyyppi": "sana",
-       "id": "dit",
-       "sanaluokka": "ilmaus",
-       "ruotsi": "dit",
-       "suomi": [
-        "jonne",
-        "johon (viittaa edellä olevaan paikan ilmaisuun)"
-       ],
-       "taivutus": [],
-       "luokka": null,
-       "suku": null,
-       "kategoria": "7 Kielioppisäännöt",
-       "alakategoria": "7.4 Sanajärjestys",
-       "valiotsikko": "Relatiivilause",
-       "vastakohta": null,
-       "rektio": null,
-       "esimerkit": [
-        {
-         "sv": "Nyslott, dit jag gärna reser, ligger i östra Finland.",
-         "fi": "Savonlinna, jonne matkustan mielelläni, sijaitsee Itä-Suomessa."
-        }
-       ],
-       "muistiinpano": null,
-       "paallekkainen": false
-      },
-      {
-       "tyyppi": "sana",
-       "id": "då",
-       "sanaluokka": "ilmaus",
-       "ruotsi": "då",
-       "suomi": [
-        "jolloin (viittaa edellä olevaan ajan ilmaisuun)"
-       ],
-       "taivutus": [],
-       "luokka": null,
-       "suku": null,
-       "kategoria": "7 Kielioppisäännöt",
-       "alakategoria": "7.4 Sanajärjestys",
-       "valiotsikko": "Relatiivilause",
-       "vastakohta": null,
-       "rektio": null,
-       "esimerkit": [
-        {
-         "sv": "Kommer du ihåg sommaren då vi besökte Lappland för första gången?",
-         "fi": "Muistatko sen kesän, jolloin kävimme Lapissa ensimmäisen kerran?"
-        }
-       ],
-       "muistiinpano": null,
-       "paallekkainen": false
+       ]
       },
       {
        "tyyppi": "teksti",
-       "teksti": "Erottele där ja dit samoin kuin suomen jossa ja jonne: där on paikallaan oleminen, dit on liike sinne."
+       "teksti": "Kahdessa ensimmäisessä molemmat osat ovat suorassa järjestyksessä. Kolmannessa sivulause on virkkeen alussa ja päälause kääntyy: kom jag, ei jag kom. Tämä ero on ainoa, jonka takia rinnastus ja alistus pitää ylipäänsä erottaa toisistaan."
       },
       {
        "tyyppi": "teksti",
-       "teksti": "Upotetun sivulauseen ympärillä ei ruotsissa ole aina pilkkuja."
-      },
-      {
-       "tyyppi": "teksti",
-       "teksti": "Korjaus: Muistiinpanoissa \"ligger I östra Finland\" – prepositio i kirjoitetaan pienellä alkukirjaimella."
+       "teksti": "Pilkku tulee tavallisesti men-, för- ja så-sanan eteen, kun ne yhdistävät kaksi päälausetta. Och- ja eller-sanan eteen pilkkua ei panna."
       },
       {
        "tyyppi": "otsikko",
-       "teksti": "Epäsuora kysymyslause"
+       "teksti": "Sekaannuspari: men vai utan"
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Men on mutta ja liittää kaksi väitettä. Utan on vaan ja tulee vain kielteisen väitteen jälkeen korjaamaan sen."
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Han är lärare men han vill bli läkare.",
+         "fi": "Hän on opettaja, mutta hän haluaa lääkäriksi."
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Han är inte lärare utan läkare.",
+         "fi": "Hän ei ole opettaja vaan lääkäri."
+        }
+       ]
+      },
+      {
+       "tyyppi": "otsikko",
+       "teksti": "Sekaannuspari: för vai därför att vai för att"
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "För on rinnastuskonjunktio sillä, eikä se voi aloittaa virkettä. Därför att on alistuskonjunktio koska. För att on ensisijaisesti jotta eli tarkoitus."
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Jag stannade hemma, för jag var sjuk.",
+         "fi": "Jäin kotiin, sillä olin kipeä."
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Jag stannade hemma därför att jag var sjuk.",
+         "fi": "Jäin kotiin, koska olin kipeä."
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Jag stannade hemma för att bli frisk.",
+         "fi": "Jäin kotiin, jotta paranisin."
+        }
+       ]
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Muistiinpanoissa för att on käännetty myös koska. Puhekielessä se toimii syynä, mutta kirjoitelmassa syy sanotaan varmemmin eftersom tai därför att – jätä för att tarkoituksen merkitykseen."
+      },
+      {
+       "tyyppi": "otsikko",
+       "teksti": "Sekaannuspari: så vai så att"
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Så on rinnastuskonjunktio joten ja kertoo seurauksen, joka toteutui. Så att on alistuskonjunktio jotta, niin että."
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Det regnade, så vi stannade hemma.",
+         "fi": "Satoi, joten jäimme kotiin."
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Vi stannade hemma så att vi inte skulle bli blöta.",
+         "fi": "Jäimme kotiin, jotta emme kastuisi."
+        }
+       ]
+      },
+      {
+       "tyyppi": "otsikko",
+       "teksti": "Utan kolmessa roolissa"
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Sama sana on rinnastuskonjunktio vaan, prepositio ilman ja utan att tekemättä jotakin (ks. 6.6)."
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Han är inte lärare utan läkare.",
+         "fi": "Hän ei ole opettaja vaan lääkäri."
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Jag kom utan pengar.",
+         "fi": "Tulin ilman rahaa."
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Han gick utan att säga något.",
+         "fi": "Hän lähti sanomatta mitään."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "otsikko": "7.6 Alistuskonjunktiot ja sivulauseen kaava",
+     "sisalto": [
+      {
+       "tyyppi": "teksti",
+       "teksti": "Alistuskonjunktio tekee lauseesta sivulauseen, joka tarvitsee aina päälauseen rinnalleen. Sivulauseen sanajärjestys on sama riippumatta siitä, mistä sanasta se alkaa – ja sama kaava kattaa kaikki kolme sivulausetyyppiä: alistuskonjunktiolla alkavan, kysyvän ja relatiivilauseen. Sanalistat ovat luvuissa 5.4 ja 5.5."
+      },
+      {
+       "tyyppi": "otsikko",
+       "teksti": "Kaava: KON – SU – KIE – PRE"
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "KON on sivulauseen aloittava sana: alistuskonjunktio, kysymyssana tai relatiivisana. SU on subjekti, KIE kieltosana ja liikkuvat määreet (ks. 7.7), PRE predikaatti eli kaikki verbit. Olennaista on, että KIE tulee ENNEN predikaattia – päälauseessa se tulee ensimmäisen predikaatin jälkeen."
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Min syster läser gärna om hon bara har tid.",
+         "fi": "Siskoni lukee mielellään, jos hänellä vain on aikaa."
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "om (KON) – hon (SU) – bara (KIE) – har (PRE) tid",
+         "fi": "sivulauseen osat järjestyksessä"
+        }
+       ]
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Vertaa päälauseeseen: hon har bara tid, eli SU – PRE – KIE. Sivulauseessa bara hyppää verbin edelle. Tämä on kirjoitelman yleisin sanajärjestysvirhe."
+      },
+      {
+       "tyyppi": "otsikko",
+       "teksti": "Käyttöerot, jotka menevät kokeessa sekaisin"
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Innan on konjunktio ja sen perässä on kokonainen lause. Före on prepositio ja sen perässä pelkkä substantiivi: innan jag åker mutta före resan."
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Förrän esiintyy lähes aina kielteisen päälauseen jälkeen: inte … förrän tarkoittaa suomeksi useimmiten vasta."
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "När on arkinen kun. Då tarkoittaa sivulauseessa myös koska, relatiivilauseessa jolloin ja liikkuvana määreenä silloin – kolme roolia samalle sanalle, ja paikka lauseessa ratkaisee kumman se on."
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Fast on fastän-sanan lyhyempi ja arkisempi muoto. Även om painottaa, että asia on hypoteettinen: myös siinä tapauksessa että."
+      },
+      {
+       "tyyppi": "otsikko",
+       "teksti": "Ju – desto: sivulause ja päälause peräkkäin"
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Ju-osa on sivulause ja siinä on suora sanajärjestys. Desto-osa on päälause, ja koska desto + vertailumuoto on lauseen alussa, päälause kääntyy."
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Ju mer hon läser, desto bättre kan hon.",
+         "fi": "Mitä enemmän hän lukee, sen paremmin hän osaa."
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Ju mer jag läser om miljön, desto mindre vill jag konsumera.",
+         "fi": "Mitä enemmän luen ympäristöstä, sitä vähemmän haluan kuluttaa."
+        }
+       ]
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Katso desto-osan järjestys: kan hon ja vill jag, eli predikaatti ennen subjektia. Sama ilmiö kuin luvun 7.4 sääntö lauseen alussa on jokin muu kuin subjekti."
+      },
+      {
+       "tyyppi": "otsikko",
+       "teksti": "Kysyvä sivulause"
       },
       {
        "tyyppi": "teksti",
@@ -21052,7 +22571,7 @@
       },
       {
        "tyyppi": "teksti",
-       "teksti": "a) Kysymyslauseen käänteinen sanajärjestys suoristuu: sivulauseeseen tulee suora sanajärjestys."
+       "teksti": "a) Kysymyslauseen käänteinen sanajärjestys suoristuu kaavan mukaiseksi."
       },
       {
        "tyyppi": "esimerkki",
@@ -21074,7 +22593,7 @@
       },
       {
        "tyyppi": "teksti",
-       "teksti": "b) Inte ja liikkuvat määreet siirtyvät ennen predikaatteja."
+       "teksti": "b) Kieltosana ja liikkuvat määreet siirtyvät ennen predikaatteja."
       },
       {
        "tyyppi": "esimerkki",
@@ -21096,16 +22615,7 @@
       },
       {
        "tyyppi": "teksti",
-       "teksti": "c) Jos kysymyslauseessa ei ole kysymyssanaa, mukaan liitetään om."
-      },
-      {
-       "tyyppi": "esimerkki",
-       "esimerkit": [
-        {
-         "sv": "Har bussen redan gått?",
-         "fi": "Onko bussi jo lähtenyt?"
-        }
-       ]
+       "teksti": "c) Jos kysymyslauseessa ei ole kysymyssanaa, mukaan liitetään om. Suomessa tällainen kysyvä sivulause alkaa verbillä."
       },
       {
        "tyyppi": "esimerkki",
@@ -21118,7 +22628,7 @@
       },
       {
        "tyyppi": "teksti",
-       "teksti": "d) Jos suora kysymys alkaa kysymyssanalla, joka on lauseen subjekti tai sen osa, epäsuoraan kysymyslauseeseen lisätään som."
+       "teksti": "d) Jos kysymyssana on lauseen subjekti tai sen osa, subjektin paikalle lisätään som."
       },
       {
        "tyyppi": "esimerkki",
@@ -21142,8 +22652,8 @@
        "tyyppi": "esimerkki",
        "esimerkit": [
         {
-         "sv": "Vilken väska är din?",
-         "fi": "Mikä laukku on sinun?"
+         "sv": "Jag vet inte vilken väska som är din.",
+         "fi": "En tiedä, mikä laukku on sinun."
         }
        ]
       },
@@ -21151,70 +22661,144 @@
        "tyyppi": "esimerkki",
        "esimerkit": [
         {
-         "sv": "Jag vet inte vilken väska som är din.",
-         "fi": "En tiedä, mikä laukku on sinun."
+         "sv": "varför (KON) – han (SU) – inte (KIE) – är (PRE) här",
+         "fi": "kysyvän sivulauseen osat"
         }
        ]
       },
       {
-       "tyyppi": "sana",
-       "id": "om",
-       "sanaluokka": "ilmaus",
-       "ruotsi": "om",
-       "suomi": [
-        "jos",
-        "-ko / -kö (epäsuorassa kysymyslauseessa)"
-       ],
-       "taivutus": [],
-       "luokka": null,
-       "suku": null,
-       "kategoria": "7 Kielioppisäännöt",
-       "alakategoria": "7.4 Sanajärjestys",
-       "valiotsikko": "Epäsuora kysymyslause",
-       "vastakohta": null,
-       "rektio": null,
-       "esimerkit": [
-        {
-         "sv": "Jag kan inte säga om bussen redan har gått.",
-         "fi": "En osaa sanoa, onko bussi jo lähtenyt."
-        }
-       ],
-       "muistiinpano": null,
-       "paallekkainen": false
+       "tyyppi": "teksti",
+       "teksti": "Kysymysmerkki säilyy, jos päälause on kysyvä: Vet du om bussen redan har gått?"
       },
       {
-       "tyyppi": "sana",
-       "id": "vem-som",
-       "sanaluokka": "ilmaus",
-       "ruotsi": "vem som",
-       "suomi": [
-        "kuka (epäsuorassa kysymyslauseessa, kun kysymyssana on subjekti)"
-       ],
-       "taivutus": [],
-       "luokka": null,
-       "suku": null,
-       "kategoria": "7 Kielioppisäännöt",
-       "alakategoria": "7.4 Sanajärjestys",
-       "valiotsikko": "Epäsuora kysymyslause",
-       "vastakohta": null,
-       "rektio": null,
-       "esimerkit": [
-        {
-         "sv": "Jag undrar vem som grundade staden Lahtis.",
-         "fi": "Ihmettelen, kuka perusti Lahden kaupungin."
-        }
-       ],
-       "muistiinpano": null,
-       "paallekkainen": false
+       "tyyppi": "otsikko",
+       "teksti": "Relatiivilause"
       },
       {
        "tyyppi": "teksti",
-       "teksti": "Kysymysmerkki säilyy, jos päälause on kysyvä: Vet du om bussen redan har gått?"
+       "teksti": "Relatiivilause viittaa edellä olevaan sanaan tai lauseeseen eli korrelaattiin, ja korrelaatti ratkaisee relatiivisanan valinnan. Kaava on sama: relatiivisana on KON-paikalla."
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "J. S. är en finsk kompositör som tonsatte Finlandia.",
+         "fi": "J. S. on suomalainen säveltäjä, joka sävelsi Finlandian."
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "J. S. är en finländare (som) alla är stolta över.",
+         "fi": "J. S. on suomalainen, josta kaikki ovat ylpeitä."
+        }
+       ]
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Kun som on sivulauseen subjekti, sitä ei voi jättää pois. Kun som ei ole subjektina, se voi jäädä pois – kuten toisessa esimerkissä. Sama sääntö selittää eron pareissa allt som hände ja allt (vad) du vet: edellisessä som on subjekti eikä katoa, jälkimmäisessä relatiivisana on objekti ja voi kadota."
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Ibland är det för kallt i Finland vilket jag inte gillar.",
+         "fi": "Joskus Suomessa on liian kylmää, mistä en pidä."
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "vilket (KON) – jag (SU) – inte (KIE) – gillar (PRE)",
+         "fi": "relatiivilauseen osat"
+        }
+       ]
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Vilket viittaa koko edellä olevaan lauseeseen, som yhteen sanaan. Erottele där ja dit samoin kuin suomen jossa ja jonne: där on paikallaan oleminen, dit on liike sinne."
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Kommer du ihåg sommaren då vi besökte Lappland för första gången?",
+         "fi": "Muistatko sen kesän, jolloin kävimme Lapissa ensimmäisen kerran?"
+        }
+       ]
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Vars ja allt vad ovat kirjallisia; puheessa sanotaan allt som du vet tai pelkkä allt du vet. Yo-kokeen luetussa tekstissä vars kuitenkin esiintyy."
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Upotetun sivulauseen ympärillä ei ruotsissa ole aina pilkkuja. Tonsättare on tavallisempi sana kuin kompositör."
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Korjaus: Muistiinpanoissa \"ligger I östra Finland\" – prepositio i kirjoitetaan pienellä alkukirjaimella."
       }
      ]
     },
     {
-     "otsikko": "7.5 Verbien taivutusluokat",
+     "otsikko": "7.7 Liikkuvat määreet",
+     "sisalto": [
+      {
+       "tyyppi": "teksti",
+       "teksti": "Luku 7.4 puhuu koko ajan liikkuvista määreistä mutta ei kerro, mitä sanoja ne ovat. Ne ovat lyhyitä adverbeja, jotka kertovat ajan, taajuuden, varmuuden tai asenteen, ja jotka liikkuvat lauseessa samalla tavalla kuin inte. Siitä nimi. Sanalista on luvussa 3.7."
+      },
+      {
+       "tyyppi": "otsikko",
+       "teksti": "Sama sana, kolme paikkaa"
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Päälauseessa suorassa järjestyksessä määre on ensimmäisen predikaatin jälkeen. Käänteisessä järjestyksessä se on subjektin jälkeen. Sivulauseessa se on ennen kaikkia verbejä."
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Jag dansar ofta med katten.",
+         "fi": "Tanssin usein kissan kanssa."
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Idag dansar jag ofta med katten.",
+         "fi": "Tänään tanssin usein kissan kanssa."
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Jag vet att jag ofta dansar med katten.",
+         "fi": "Tiedän, että tanssin usein kissan kanssa."
+        }
+       ]
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Monet näistä voivat olla myös lauseen alussa. Silloin päälauseeseen tulee käänteinen sanajärjestys, koska ensimmäisellä paikalla on jokin muu kuin subjekti: Ibland dansar jag med katten."
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Kieltävät määreet – aldrig, sällan, knappast ja kaikki inte-alkuiset – käyttäytyvät täsmälleen kuten inte. Jos osaat inte-sanan paikan, osaat näiden paikan."
+      }
+     ]
+    },
+    {
+     "otsikko": "7.8 Verbien taivutusluokat",
      "sisalto": [
       {
        "tyyppi": "teksti",
@@ -21243,7 +22827,7 @@
      ]
     },
     {
-     "otsikko": "7.6 Substantiivien deklinaatiot",
+     "otsikko": "7.9 Substantiivien deklinaatiot",
      "sisalto": [
       {
        "tyyppi": "teksti",

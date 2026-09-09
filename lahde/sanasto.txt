@@ -610,6 +610,47 @@ däremot  (adv.)  –  sitä vastoin, toisaalta
 otroligt  (adv.)  –  uskomattoman
 	Sääntö: adjektiivi + t = adverbi. otrolig (uskomaton) → otroligt (uskomattoman).
 
+3.7 Lauseadverbit eli liikkuvat määreet
+Nämä lyhyet adverbit kertovat ajan, taajuuden, varmuuden tai asenteen, ja ne liikkuvat lauseessa täsmälleen kuten inte. Paikkasääntö on luvussa 7.7; tässä ne ovat sanoina.
+Taajuus ja toistuvuus
+alltid  (adv.)  –  aina
+ofta  (adv.)  –  usein
+ibland  (adv.)  –  joskus, toisinaan
+någon gång  (adv.)  –  joskus (tulevaisuudessa)
+aldrig  (adv.)  –  ei koskaan
+Aika
+nu  (adv.)  –  nyt
+redan  (adv.)  –  jo
+snart  (adv.)  –  pian
+genast  (adv.)  –  heti
+först  (adv.)  –  ensin, vasta
+ännu  (adv.)  –  vielä
+länge  (adv.)  –  kauan
+äntligen  (adv.)  –  vihdoin, lopultakin
+Varmuus ja epäilys
+säkert  (adv.)  –  varmasti
+absolut  (adv.)  –  ehdottomasti
+kanske  (adv.)  –  ehkä
+troligen  (adv.)  –  luultavasti
+faktiskt  (adv.)  –  tosiaan, itse asiassa
+	Huomaa ero: faktiskt yllättää tai pehmentää, verkligen vahvistaa. Det var faktiskt roligt = se oli tosiaan hauskaa, vastoin odotusta. Det var verkligen roligt = se oli todella hauskaa.
+Asenne ja mieltymys
+gärna  (adv.)  –  mielellään
+helst  (adv.)  –  mieluiten
+tyvärr  (adv.)  –  valitettavasti
+vanligen  (adv.)  –  tavallisesti
+Lisäävät ja rajaavat
+också  (adv.)  –  myös
+bara  (adv.)  –  vain
+Kieltävät liikkuvat määreet
+Nämä käyttäytyvät täsmälleen kuten inte. Jos osaat inte-sanan paikan, osaat näiden paikan.
+inte alltid  (adv.)  –  ei aina
+inte ofta  (adv.)  –  ei usein
+inte alls  (adv.)  –  ei lainkaan
+inte ens  (adv.)  –  ei edes
+inte längre  (adv.)  –  ei enää
+inte heller  (adv.)  –  ei myöskään
+
 Ilmaukset ja sanonnat
 
 4.1 Muodollinen kirjoittaminen ja asiointi
@@ -680,18 +721,32 @@ alltså  –  siis
 enligt  –  jonkun mukaan
 	enligt mig = minun mielestäni
 däremot / däremellan / därefter  –  sitä vastoin / niiden välissä / sen jälkeen
-tills  –  kunnes
 nämligen  –  nimittäin
 varav  –  joista, josta
 	Vi fick tre erbjudanden, varav ett var mycket bra. = Saimme kolme tarjousta, joista yksi oli hyvin hyvä.
 det vill säga  –  eli
 så att säga  –  niin sanotusti
 	Den har så att säga fastnat i läsarens tankar. = Se on niin sanotusti jumittunut lukijan ajatuksiin.
-så att  –  jotta, niin että
 genom att  –  tekemällä jotain
 utan att  –  tekemättä jotain
 
-5.2 Parikonjunktiot
+5.2 Rinnastuskonjunktiot
+Näitä on vain kuusi. Ne yhdistävät samanarvoisia osia – kaksi substantiivia tai kaksi päälausetta – eivätkä vaikuta sanajärjestykseen lainkaan. Ero alistuskonjunktioihin on selitetty luvussa 7.5.
+och  –  ja
+	Jag läser svenska och tyska. = Luen ruotsia ja saksaa.
+eller  –  tai, vai
+	Vill du ha kaffe eller te? = Haluatko kahvia vai teetä?
+men  –  mutta
+	Jag sökte till universitetet men jag kom inte in. = Hain yliopistoon, mutta en päässyt sisään.
+för  –  sillä (syy)
+	Jag stannade hemma, för jag var sjuk. = Jäin kotiin, sillä olin kipeä.
+	Huomaa: för on myös prepositio (ks. 6.9). Rinnastuskonjunktiona se ei voi aloittaa virkettä.
+så  –  joten (seuraus, joka toteutui)
+	Det regnade, så vi stannade hemma. = Satoi, joten jäimme kotiin.
+utan  –  vaan (vain kielteisen lauseen jälkeen)
+	Han är inte lärare utan läkare. = Hän ei ole opettaja vaan lääkäri.
+
+5.3 Parikonjunktiot
 Ju… desto…  –  mitä…, sitä…
 	Ju mer jag läser om miljön, desto mindre vill jag konsumera. = Mitä enemmän luen ympäristöstä, sitä vähemmän haluan kuluttaa.
 	Ju mer Otso läste, desto mer kom Zero Waste-filosofin att betyda i hans liv.
@@ -703,8 +758,68 @@ varken – eller  –  ei – eikä
 	De flesta av mina kompisar äter varken kött eller kyckling. = Useimmat kavereistani eivät syö lihaa eivätkä kanaa.
 antingen – eller  –  joko – tai
 	Jag kan tänka mig att bli antingen vegetarian eller vegan. = Voin kuvitella tulevani joko kasvissyöjäksi tai vegaaniksi.
+inte bara – utan också  –  ei ainoastaan – vaan myös
+	Jag lär mig inte bara svenska utan också tyska. = En opiskele ainoastaan ruotsia vaan myös saksaa.
+	Huomaa: varken – eller sisältää kiellon itse, joten lauseeseen ei tule erillistä inte-sanaa.
 
-5.3 Mielipiteen ilmaiseminen – synonyymejä
+5.4 Alistuskonjunktiot
+Alistuskonjunktio tekee lauseesta sivulauseen, joka ei voi olla yksin. Sivulauseen sanajärjestys on aina sama riippumatta siitä, mistä sanasta se alkaa – kaava on luvussa 7.6, samoin näiden käyttöerot.
+Että ja ehto
+att  –  että
+	Jag hoppas att du kommer. = Toivon, että tulet.
+om  –  jos
+	Om det inte regnar går vi ut. = Jos ei sada, menemme ulos.
+Aika
+när  –  kun
+	Daniel Ek blev berömd när han grundade Spotify. = Daniel Ek tuli kuuluisaksi, kun hän perusti Spotifyn.
+då  –  koska, kun
+	Då du redan är här kan vi börja. = Kun sinä jo olet täällä, voimme aloittaa.
+	Huomaa: samalla sanalla on kolme roolia – tässä konjunktio, relatiivisanana jolloin (5.5) ja liikkuvana määreenä silloin (7.7).
+medan  –  samalla kun, sillä aikaa kun, kun taas
+	Jag lagade mat medan hon läste. = Laitoin ruokaa sillä aikaa kun hän luki.
+innan  –  ennen kuin
+	Jag ringer innan jag kommer. = Soitan ennen kuin tulen.
+förrän  –  ennen kuin (kielteisen lauseen jälkeen)
+	Han kom inte förrän klockan tio. = Hän tuli vasta kello kymmenen.
+sedan  –  sen jälkeen kun, sitten kun
+	Sedan vi hade ätit gick vi ut. = Sen jälkeen kun olimme syöneet, menimme ulos.
+tills  –  kunnes
+	Vi väntar tills bussen kommer. = Odotamme, kunnes bussi tulee.
+Syy
+eftersom  –  koska
+	Vi erbjuder hjälp eftersom området är tvåspråkigt. = Tarjoamme apua, koska alue on kaksikielinen.
+därför att  –  siksi että, koska
+	Jag stannade hemma därför att jag var sjuk. = Jäin kotiin, koska olin kipeä.
+Tarkoitus ja seuraus
+så att  –  jotta, niin että
+	Tala högre så att alla hör. = Puhu kovempaa, jotta kaikki kuulevat.
+	Huomaa: för att on myös tarkoituksen konjunktio – se on luvussa 6.6, koska sen perässä tulee infinitiivi.
+Myönnytys
+trots att  –  siitä huolimatta että
+	Trots att det regnade gick vi ut. = Siitä huolimatta että satoi, menimme ulos.
+fastän  –  vaikka, vaikkakin
+	Fastän det regnade gick vi ut. = Vaikka satoi, menimme ulos.
+fast  –  vaikka (arkisempi)
+	Jag gick ut fast det regnade. = Menin ulos, vaikka satoi.
+även om  –  vaikka, siinäkin tapauksessa että
+	Även om det regnar går vi ut. = Vaikka sataisi, menemme ulos.
+
+5.5 Relatiivisanat
+Relatiivisana aloittaa relatiivilauseen ja viittaa edellä olevaan sanaan tai lauseeseen eli korrelaattiin. Viittauskohde ratkaisee, mikä sana valitaan; esimerkit ja valintasääntö ovat luvussa 7.6.
+som  –  joka, mikä, jotka, mitkä
+	Jag bor i en stad som jag verkligen gillar. = Asun kaupungissa, josta todella pidän.
+vilket  –  mikä (viittaa koko edellä olevaan lauseeseen)
+	Ibland är det för kallt i Finland vilket jag inte gillar. = Joskus Suomessa on liian kylmää, mistä en pidä.
+vars  –  jonka, joiden (omistus)
+	Jag har en kompis vars pappa är läkare. = Minulla on kaveri, jonka isä on lääkäri.
+allt som / allt vad  –  kaikki mikä, kaikki mitä
+	Du måste berätta allt som hände. = Sinun täytyy kertoa kaikki, mitä tapahtui.
+där  –  jossa
+	Uleåborg är en stad där jag inte har varit. = Oulu on kaupunki, jossa en ole ollut.
+dit  –  jonne, johon
+	Nyslott, dit jag gärna reser, ligger i östra Finland. = Savonlinna, jonne matkustan mielelläni, sijaitsee Itä-Suomessa.
+
+5.6 Mielipiteen ilmaiseminen – synonyymejä
 Jag tycker att… / Jag anser att…  –  Olen sitä mieltä, että…
 Jag tror att… / Jag antar att…  –  Uskon / oletan, että…
 Jag förstår att… / Jag inser att…  –  Ymmärrän / tajuan, että…
@@ -1369,47 +1484,92 @@ Sivulauseessa on aina suora sanajärjestys.
 Lisäksi sivulauseessa inte ja liikkuvat määreet tulevat ENNEN predikaatteja, kun ne päälauseessa tulevat ensimmäisen predikaatin jälkeen.
 	Om jag inte kan dansa med katten kan jag alltid sjunga vackra visor.  =  Jos en voi tanssia kissan kanssa, voin aina laulaa kauniita lauluja.
 Tämä on kirjoitelman yleisin sanajärjestysvirhe. Päälauseessa jag kan inte, sivulauseessa om jag inte kan.
-Relatiivilause
-Relatiivilause on sivulause, joka viittaa edellä olevaan sanaan tai lauseeseen. Viittauskohde ratkaisee, mikä relatiivisana valitaan.
-som  –  joka, mikä – jotka, mitkä (viittaa edellä olevaan sanaan)
-	J. S. är en finsk kompositör som tonsatte Finlandia.  =  J. S. on suomalainen säveltäjä, joka sävelsi Finlandian.
-	J. S. är en finländare (som) alla är stolta över.  =  J. S. on suomalainen, josta kaikki ovat ylpeitä.
-Kun som on sivulauseen subjekti, sitä ei voi jättää pois. Kun som ei ole subjektina, se voi jäädä pois – kuten toisessa esimerkissä.
-Tonsättare on tavallisempi sana kuin kompositör.
-vilket  –  mikä (viittaa koko edellä olevaan lauseeseen)
-	Finländarna badar bastu nakna vilket kan förvåna turister.  =  Suomalaiset saunovat alasti, mikä voi hämmästyttää turisteja.
-där  –  jossa (viittaa edellä olevaan paikan ilmaisuun)
-	Åbo är en stad där jag verkligen trivs.  =  Turku on kaupunki, jossa viihdyn todella hyvin.
-dit  –  jonne, johon (viittaa edellä olevaan paikan ilmaisuun)
-	Nyslott, dit jag gärna reser, ligger i östra Finland.  =  Savonlinna, jonne matkustan mielelläni, sijaitsee Itä-Suomessa.
-då  –  jolloin (viittaa edellä olevaan ajan ilmaisuun)
-	Kommer du ihåg sommaren då vi besökte Lappland för första gången?  =  Muistatko sen kesän, jolloin kävimme Lapissa ensimmäisen kerran?
-Erottele där ja dit samoin kuin suomen jossa ja jonne: där on paikallaan oleminen, dit on liike sinne.
-Upotetun sivulauseen ympärillä ei ruotsissa ole aina pilkkuja.
-Korjaus: Muistiinpanoissa "ligger I östra Finland" – prepositio i kirjoitetaan pienellä alkukirjaimella.
-Epäsuora kysymyslause
-Kysymyslauseesta tulee sivulause, kun se upotetaan leipätekstiin ja eteen tulee johtolause, esimerkiksi jag undrar, jag kan inte säga, vet du tai jag vill veta. Neljä asiaa muuttuu.
-a) Kysymyslauseen käänteinen sanajärjestys suoristuu: sivulauseeseen tulee suora sanajärjestys.
-	Hur kommer jag till torget?  =  Miten pääsen torille?
-	Jag undrar hur jag kommer till torget.  =  Ihmettelen, miten pääsen torille.
-b) Inte ja liikkuvat määreet siirtyvät ennen predikaatteja.
-	Har bussen redan gått?  =  Onko bussi jo lähtenyt?
-	Vet du om bussen redan har gått?  =  Tiedätkö, onko bussi jo lähtenyt?
-c) Jos kysymyslauseessa ei ole kysymyssanaa, mukaan liitetään om.
-	Har bussen redan gått?  =  Onko bussi jo lähtenyt?
-	Jag kan inte säga om bussen redan har gått.  =  En osaa sanoa, onko bussi jo lähtenyt.
-d) Jos suora kysymys alkaa kysymyssanalla, joka on lauseen subjekti tai sen osa, epäsuoraan kysymyslauseeseen lisätään som.
-	Vem grundade staden Lahtis?  =  Kuka perusti Lahden kaupungin?
-	Jag undrar vem som grundade staden Lahtis.  =  Ihmettelen, kuka perusti Lahden kaupungin.
-	Vilken väska är din?  =  Mikä laukku on sinun?
-	Jag vet inte vilken väska som är din.  =  En tiedä, mikä laukku on sinun.
-om  –  jos, -ko / -kö (epäsuorassa kysymyslauseessa)
-	Jag kan inte säga om bussen redan har gått.  =  En osaa sanoa, onko bussi jo lähtenyt.
-vem som  –  kuka (epäsuorassa kysymyslauseessa, kun kysymyssana on subjekti)
-	Jag undrar vem som grundade staden Lahtis.  =  Ihmettelen, kuka perusti Lahden kaupungin.
-Kysymysmerkki säilyy, jos päälause on kysyvä: Vet du om bussen redan har gått?
+7.5 Rinnastuskonjunktiot
+Rinnastuskonjunktioita on vain kuusi: och, eller, men, för, så ja utan (sanalista on luvussa 5.2). Ne yhdistävät samanarvoisia osia – kaksi substantiivia, kaksi adjektiivia tai kaksi päälausetta. Tärkein syy osata ne on se, että ne EIVÄT vaikuta sanajärjestykseen lainkaan.
+Miksi sanajärjestys ei muutu
+Rinnastuskonjunktio ei ole osa kumpaakaan lausetta vaan seisoo niiden välissä. Se ei siis vie lauseen ensimmäistä paikkaa, eikä käänteinen sanajärjestys laukea. Alistuskonjunktio sen sijaan on osa sivulausetta: jos sivulause on virkkeen alussa, se toimii yhtenä isona aloitusmääreenä ja päälause kääntyy (ks. 7.4).
+	Jag sökte till universitetet men jag kom inte in. = Hain yliopistoon, mutta en päässyt sisään.
+	Jag kom inte in eftersom jag inte hade läst. = En päässyt sisään, koska en ollut lukenut.
+	Eftersom jag inte hade läst kom jag inte in. = Koska en ollut lukenut, en päässyt sisään.
+Kahdessa ensimmäisessä molemmat osat ovat suorassa järjestyksessä. Kolmannessa sivulause on virkkeen alussa ja päälause kääntyy: kom jag, ei jag kom. Tämä ero on ainoa, jonka takia rinnastus ja alistus pitää ylipäänsä erottaa toisistaan.
+Pilkku tulee tavallisesti men-, för- ja så-sanan eteen, kun ne yhdistävät kaksi päälausetta. Och- ja eller-sanan eteen pilkkua ei panna.
+Sekaannuspari: men vai utan
+Men on mutta ja liittää kaksi väitettä. Utan on vaan ja tulee vain kielteisen väitteen jälkeen korjaamaan sen.
+	Han är lärare men han vill bli läkare. = Hän on opettaja, mutta hän haluaa lääkäriksi.
+	Han är inte lärare utan läkare. = Hän ei ole opettaja vaan lääkäri.
+Sekaannuspari: för vai därför att vai för att
+För on rinnastuskonjunktio sillä, eikä se voi aloittaa virkettä. Därför att on alistuskonjunktio koska. För att on ensisijaisesti jotta eli tarkoitus.
+	Jag stannade hemma, för jag var sjuk. = Jäin kotiin, sillä olin kipeä.
+	Jag stannade hemma därför att jag var sjuk. = Jäin kotiin, koska olin kipeä.
+	Jag stannade hemma för att bli frisk. = Jäin kotiin, jotta paranisin.
+Muistiinpanoissa för att on käännetty myös koska. Puhekielessä se toimii syynä, mutta kirjoitelmassa syy sanotaan varmemmin eftersom tai därför att – jätä för att tarkoituksen merkitykseen.
+Sekaannuspari: så vai så att
+Så on rinnastuskonjunktio joten ja kertoo seurauksen, joka toteutui. Så att on alistuskonjunktio jotta, niin että.
+	Det regnade, så vi stannade hemma. = Satoi, joten jäimme kotiin.
+	Vi stannade hemma så att vi inte skulle bli blöta. = Jäimme kotiin, jotta emme kastuisi.
+Utan kolmessa roolissa
+Sama sana on rinnastuskonjunktio vaan, prepositio ilman ja utan att tekemättä jotakin (ks. 6.6).
+	Han är inte lärare utan läkare. = Hän ei ole opettaja vaan lääkäri.
+	Jag kom utan pengar. = Tulin ilman rahaa.
+	Han gick utan att säga något. = Hän lähti sanomatta mitään.
 
-7.5 Verbien taivutusluokat
+7.6 Alistuskonjunktiot ja sivulauseen kaava
+Alistuskonjunktio tekee lauseesta sivulauseen, joka tarvitsee aina päälauseen rinnalleen. Sivulauseen sanajärjestys on sama riippumatta siitä, mistä sanasta se alkaa – ja sama kaava kattaa kaikki kolme sivulausetyyppiä: alistuskonjunktiolla alkavan, kysyvän ja relatiivilauseen. Sanalistat ovat luvuissa 5.4 ja 5.5.
+Kaava: KON – SU – KIE – PRE
+KON on sivulauseen aloittava sana: alistuskonjunktio, kysymyssana tai relatiivisana. SU on subjekti, KIE kieltosana ja liikkuvat määreet (ks. 7.7), PRE predikaatti eli kaikki verbit. Olennaista on, että KIE tulee ENNEN predikaattia – päälauseessa se tulee ensimmäisen predikaatin jälkeen.
+	Min syster läser gärna om hon bara har tid. = Siskoni lukee mielellään, jos hänellä vain on aikaa.
+	om (KON) – hon (SU) – bara (KIE) – har (PRE) tid = sivulauseen osat järjestyksessä
+Vertaa päälauseeseen: hon har bara tid, eli SU – PRE – KIE. Sivulauseessa bara hyppää verbin edelle. Tämä on kirjoitelman yleisin sanajärjestysvirhe.
+Käyttöerot, jotka menevät kokeessa sekaisin
+Innan on konjunktio ja sen perässä on kokonainen lause. Före on prepositio ja sen perässä pelkkä substantiivi: innan jag åker mutta före resan.
+Förrän esiintyy lähes aina kielteisen päälauseen jälkeen: inte … förrän tarkoittaa suomeksi useimmiten vasta.
+När on arkinen kun. Då tarkoittaa sivulauseessa myös koska, relatiivilauseessa jolloin ja liikkuvana määreenä silloin – kolme roolia samalle sanalle, ja paikka lauseessa ratkaisee kumman se on.
+Fast on fastän-sanan lyhyempi ja arkisempi muoto. Även om painottaa, että asia on hypoteettinen: myös siinä tapauksessa että.
+Ju – desto: sivulause ja päälause peräkkäin
+Ju-osa on sivulause ja siinä on suora sanajärjestys. Desto-osa on päälause, ja koska desto + vertailumuoto on lauseen alussa, päälause kääntyy.
+	Ju mer hon läser, desto bättre kan hon. = Mitä enemmän hän lukee, sen paremmin hän osaa.
+	Ju mer jag läser om miljön, desto mindre vill jag konsumera. = Mitä enemmän luen ympäristöstä, sitä vähemmän haluan kuluttaa.
+Katso desto-osan järjestys: kan hon ja vill jag, eli predikaatti ennen subjektia. Sama ilmiö kuin luvun 7.4 sääntö lauseen alussa on jokin muu kuin subjekti.
+Kysyvä sivulause
+Kysymyslauseesta tulee sivulause, kun se upotetaan leipätekstiin ja eteen tulee johtolause, esimerkiksi jag undrar, jag kan inte säga, vet du tai jag vill veta. Neljä asiaa muuttuu.
+a) Kysymyslauseen käänteinen sanajärjestys suoristuu kaavan mukaiseksi.
+	Hur kommer jag till torget? = Miten pääsen torille?
+	Jag undrar hur jag kommer till torget. = Ihmettelen, miten pääsen torille.
+b) Kieltosana ja liikkuvat määreet siirtyvät ennen predikaatteja.
+	Har bussen redan gått? = Onko bussi jo lähtenyt?
+	Vet du om bussen redan har gått? = Tiedätkö, onko bussi jo lähtenyt?
+c) Jos kysymyslauseessa ei ole kysymyssanaa, mukaan liitetään om. Suomessa tällainen kysyvä sivulause alkaa verbillä.
+	Jag kan inte säga om bussen redan har gått. = En osaa sanoa, onko bussi jo lähtenyt.
+d) Jos kysymyssana on lauseen subjekti tai sen osa, subjektin paikalle lisätään som.
+	Vem grundade staden Lahtis? = Kuka perusti Lahden kaupungin?
+	Jag undrar vem som grundade staden Lahtis. = Ihmettelen, kuka perusti Lahden kaupungin.
+	Jag vet inte vilken väska som är din. = En tiedä, mikä laukku on sinun.
+	varför (KON) – han (SU) – inte (KIE) – är (PRE) här = kysyvän sivulauseen osat
+Kysymysmerkki säilyy, jos päälause on kysyvä: Vet du om bussen redan har gått?
+Relatiivilause
+Relatiivilause viittaa edellä olevaan sanaan tai lauseeseen eli korrelaattiin, ja korrelaatti ratkaisee relatiivisanan valinnan. Kaava on sama: relatiivisana on KON-paikalla.
+	J. S. är en finsk kompositör som tonsatte Finlandia. = J. S. on suomalainen säveltäjä, joka sävelsi Finlandian.
+	J. S. är en finländare (som) alla är stolta över. = J. S. on suomalainen, josta kaikki ovat ylpeitä.
+Kun som on sivulauseen subjekti, sitä ei voi jättää pois. Kun som ei ole subjektina, se voi jäädä pois – kuten toisessa esimerkissä. Sama sääntö selittää eron pareissa allt som hände ja allt (vad) du vet: edellisessä som on subjekti eikä katoa, jälkimmäisessä relatiivisana on objekti ja voi kadota.
+	Ibland är det för kallt i Finland vilket jag inte gillar. = Joskus Suomessa on liian kylmää, mistä en pidä.
+	vilket (KON) – jag (SU) – inte (KIE) – gillar (PRE) = relatiivilauseen osat
+Vilket viittaa koko edellä olevaan lauseeseen, som yhteen sanaan. Erottele där ja dit samoin kuin suomen jossa ja jonne: där on paikallaan oleminen, dit on liike sinne.
+	Kommer du ihåg sommaren då vi besökte Lappland för första gången? = Muistatko sen kesän, jolloin kävimme Lapissa ensimmäisen kerran?
+Vars ja allt vad ovat kirjallisia; puheessa sanotaan allt som du vet tai pelkkä allt du vet. Yo-kokeen luetussa tekstissä vars kuitenkin esiintyy.
+Upotetun sivulauseen ympärillä ei ruotsissa ole aina pilkkuja. Tonsättare on tavallisempi sana kuin kompositör.
+Korjaus: Muistiinpanoissa "ligger I östra Finland" – prepositio i kirjoitetaan pienellä alkukirjaimella.
+
+7.7 Liikkuvat määreet
+Luku 7.4 puhuu koko ajan liikkuvista määreistä mutta ei kerro, mitä sanoja ne ovat. Ne ovat lyhyitä adverbeja, jotka kertovat ajan, taajuuden, varmuuden tai asenteen, ja jotka liikkuvat lauseessa samalla tavalla kuin inte. Siitä nimi. Sanalista on luvussa 3.7.
+Sama sana, kolme paikkaa
+Päälauseessa suorassa järjestyksessä määre on ensimmäisen predikaatin jälkeen. Käänteisessä järjestyksessä se on subjektin jälkeen. Sivulauseessa se on ennen kaikkia verbejä.
+	Jag dansar ofta med katten. = Tanssin usein kissan kanssa.
+	Idag dansar jag ofta med katten. = Tänään tanssin usein kissan kanssa.
+	Jag vet att jag ofta dansar med katten. = Tiedän, että tanssin usein kissan kanssa.
+Monet näistä voivat olla myös lauseen alussa. Silloin päälauseeseen tulee käänteinen sanajärjestys, koska ensimmäisellä paikalla on jokin muu kuin subjekti: Ibland dansar jag med katten.
+Kieltävät määreet – aldrig, sällan, knappast ja kaikki inte-alkuiset – käyttäytyvät täsmälleen kuten inte. Jos osaat inte-sanan paikan, osaat näiden paikan.
+
+7.8 Verbien taivutusluokat
 I (ar-verbit): tala – talar – talade – talat. Suurin ja säännöllisin ryhmä.
 IIa (de-verbit): ringa – ringer – ringde – ringt. Vartalo päättyy soinnilliseen äänteeseen.
 IIb (te-verbit): köpa – köper – köpte – köpt. Vartalo päättyy soinnittomaan äänteeseen (k, p, s, t, x).
@@ -1417,7 +1577,7 @@ III (r-verbit): bo – bor – bodde – bott. Lyhyt, vokaaliin päättyvä vart
 IV (vahvat verbit): skriva – skriver – skrev – skrivit. Vartalovokaali vaihtuu; opeteltava ulkoa.
 Deponenttiverbit (lyckas, umgås, andas, kännas) päättyvät aina s:ään, vaikka merkitys on aktiivinen.
 
-7.6 Substantiivien deklinaatiot
+7.9 Substantiivien deklinaatiot
 1. deklinaatio: en flicka, flickan, flickor, flickorna (en-sanat, monikko -or)
 2. deklinaatio: en bil, bilen, bilar, bilarna (en-sanat, monikko -ar)
 3. deklinaatio: en park, parken, parker, parkerna (en-sanat, monikko -er)

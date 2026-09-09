@@ -132,6 +132,28 @@ männen`), mutta väärä artikkeli hylätään edelleen. Väärä järjestys ei
 koska silloin ei voi enää päätellä, tunteeko kirjoittaja muotojen merkityksen
 vai on vain toistanut ne oikeassa muistijärjestyksessä.
 
+## Työnjako: luku 7 opettaa, luvut 3 ja 5 harjoituttavat
+
+Luku 7 ei tuota kortteja, joten sinne ei kannata kirjoittaa sanalistoja.
+Konjunktiot ja liikkuvat määreet on siksi jaettu kahtia:
+
+| Sisältö | Missä | Miksi |
+|---|---|---|
+| Konjunktioiden sanalistat | 5.2 Rinnastuskonjunktiot, 5.3 Parikonjunktiot, 5.4 Alistuskonjunktiot, 5.5 Relatiivisanat | kortteja ja harjoituksia |
+| Liikkuvien määreiden sanalista | 3.7 Lauseadverbit | kortteja ja harjoituksia |
+| Erot, käyttökohteet ja lauserakenne | 7.5, 7.6, 7.7 | luettavaa teoriaa |
+
+Samaa asiaa ei opeteta kahdesti. Kun luvun 7 teoriaan lisätään sivulauseen
+kaava KON – SU – KIE – PRE, relatiivilause ja epäsuora kysymyslause siirtyivät
+luvusta 7.4 sen alle (7.6), koska ne ovat saman kaavan sovelluksia – muuten
+som, vilket, där ja dit olisi selitetty kahdessa peräkkäisessä alaluvussa.
+
+Kun sana kuuluu useaan ryhmään, se on sanastossa kerran ja muut roolit
+mainitaan huomiona: `då` on konjunktio luvussa 5.4, mutta relatiivisanana
+(jolloin) ja liikkuvana määreenä (silloin) se on vain mainittuna. Sama koskee
+`för`-sanaa: rinnastuskonjunktiona (sillä) se on 5.2:ssa ja saa kortit,
+prepositiona se on yhä luettavissa luvussa 6.9.
+
 ## Sanamäärän valinta
 
 Tapavalinnassa on **MÄÄRÄ**-valitsin ennen suuntaa: **10 · 20 · Kaikki (N)**.
@@ -178,7 +200,7 @@ ja flashcardeissa vastaus on jo yksiselitteinen tai itse arvioitu.
 |---|---|---|
 | Skrivtavla | Välivarasto uusille sanoille | – |
 | 1–6 | Verbit, substantiivit, adjektiivit, ilmaukset, sidesanat, prepositiot | kyllä |
-| 7 Kielioppisäännöt | Pronominit, vertailumuodot, adjektiivi + substantiivi, sanajärjestys, taivutusluokat, deklinaatiot | **ei** |
+| 7 Kielioppisäännöt | Pronominit, vertailumuodot, adjektiivi + substantiivi, sanajärjestys, rinnastus- ja alistuskonjunktiot, liikkuvat määreet, taivutusluokat, deklinaatiot | **ei** |
 | 8 Pienet kielioppiknopit | Yksittäiset säännöt: apuverbi + infinitiivi, X av Y, adjektiivista adverbi, välkommen/välkomna, pronominien objektimuodot | ei |
 | 9 Muistilista ja tehtävät | Omat muistiinpanot opiskeltavasta | ei |
 
