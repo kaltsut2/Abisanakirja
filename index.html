@@ -43,7 +43,7 @@
   --korostus-syva:   #003f88;
   --korostus-pehmea: rgba(30, 150, 252, 0.12);
   --huomio:       #ffc600;
-  --huomio-teksti: #6b4f00;
+  --huomio-teksti: #6b4f00;   /* kirkas keltainen ei erotu valkoisesta */
   --oikein:       #1a7f4b;
   --oikein-pehmea: rgba(26, 127, 75, 0.1);
   --vaarin:       #c0362c;
@@ -234,6 +234,13 @@ main {
   box-shadow: 0 0 0 3.5px var(--korostus-pehmea);
 }
 .kentta::placeholder { color: var(--muste-3); }
+textarea.laatikko {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.78rem; line-height: 1.45; resize: vertical; min-height: 0;
+  white-space: pre; overflow-wrap: normal; overflow-x: auto;
+}
+.osio { padding-top: 0.9rem; border-top: 1px solid var(--viiva); }
+.osio:first-of-type { border-top: 0; padding-top: 0; }
 
 /* ==========================================================================
    4. Kortit ja tehtävänäkymät
@@ -244,7 +251,7 @@ main {
   padding: 1.4rem 1.25rem;
 }
 .kysymys { text-align: center; padding: 1.5rem 0.5rem 1.75rem; }
-.kysymys .kehote { margin: 0 0 0.6rem; }
+.kysymys .kehote { margin: 0 0 0.6rem; color: var(--huomio-teksti); }
 .kysymys .sana { margin: 0; overflow-wrap: anywhere; }
 .kysymys .vihje { margin: 0.5rem 0 0; }
 .kysymys .kaannos { margin: 0.65rem 0 0.9rem; }
@@ -304,17 +311,18 @@ main {
   margin-top: 0.5rem; padding-top: 0.5rem; font-size: 0.95rem; color: var(--muste);
   border-top: 1px solid color-mix(in srgb, currentColor 22%, transparent);
 }
+.palaute .taivutus .t-nano { color: var(--huomio-teksti); }
 .palaute del { text-decoration-color: currentColor; opacity: 0.75; }
 
 .edistyspalkki { height: 3px; border-radius: 999px; background: var(--viiva); overflow: hidden; }
-.edistyspalkki > i { display: block; height: 100%; background: var(--korostus-kirkas); border-radius: 999px; }
+.edistyspalkki > i { display: block; height: 100%; background: var(--huomio); border-radius: 999px; }
 
 .pisteet { display: flex; gap: 0.28rem; justify-content: center; }
 .pisteet i {
   width: 0.45rem; height: 0.45rem; border-radius: 999px;
   background: var(--viiva-vahva); display: block;
 }
-.pisteet i[data-tila="kesken"] { background: var(--korostus); }
+.pisteet i[data-tila="kesken"] { background: var(--huomio); transform: scale(1.25); }
 .pisteet i[data-tila="valmis"] { background: var(--oikein); }
 
 /* ==========================================================================
@@ -330,7 +338,7 @@ main {
 }
 .rivi:active { transform: scale(0.99); background: var(--pinta-2); }
 .rivi .kasvaa { flex: 1; min-width: 0; }
-.rivi .maara { color: var(--muste-3); font-variant-numeric: tabular-nums; }
+.rivi .maara { color: var(--huomio-teksti); font-variant-numeric: tabular-nums; font-weight: 600; }
 .rivi .nuoli { color: var(--muste-3); flex: none; }
 
 /* Värillinen laatta rivin alussa. Väri kertoo mitä sanaluokkaa tai aihetta
@@ -691,6 +699,128 @@ function keraaSanat(data) {
   return sanat;
 }
 
+/* ==========================================================================
+   3b. Omat sanat – JSONilla lisätyt, localStoragessa elävät sanat
+   --------------------------------------------------------------------------
+   Sanasto itse on kiinteä tiedosto repossa. Omat sanat ovat sen päälle tuleva
+   kerros: ne sijoitetaan samaan lukurakenteeseen joka latauksella, joten ne
+   näkyvät Teoriassa oikeassa kohdassa ja tuottavat kortteja kuten muutkin.
+   ========================================================================== */
+const OMA_ETULIITE = "oma-";
+
+/* Hyväksyy kolme muotoa: koko dokumentin (\{luvut: […]\}), listan sanoja tai
+   yhden sanan. Näin sanastodumpin tuloste kelpaa sellaisenaan. */
+function jasennaSanaSyote(teksti) {
+  const data = JSON.parse(teksti);
+  const kerätyt = [];
+  if (data && Array.isArray(data.luvut)) {
+    for (const luku of data.luvut) {
+      for (const alaluku of luku.alaluvut || []) {
+        for (const kohta of alaluku.sisalto || []) {
+          if (kohta && kohta.tyyppi === "sana") {
+            kerätyt.push(Object.assign({
+              kategoria: luku.otsikko, alakategoria: alaluku.otsikko,
+            }, kohta));
+          }
+        }
+      }
+    }
+  } else if (Array.isArray(data)) {
+    kerätyt.push(...data);
+  } else if (data && typeof data === "object") {
+    kerätyt.push(data);
+  }
+  return kerätyt.map(normalisoiOmaSana).filter(Boolean);
+}
+
+function normalisoiOmaSana(raaka) {
+  if (!raaka || typeof raaka !== "object") return null;
+  const ruotsi = String(raaka.ruotsi ?? raaka.sv ?? "").trim();
+  let suomi = raaka.suomi ?? raaka.fi ?? [];
+  if (typeof suomi === "string") suomi = suomi.split(",").map((o) => o.trim());
+  suomi = (Array.isArray(suomi) ? suomi : []).map((o) => String(o).trim()).filter(Boolean);
+  if (!ruotsi || !suomi.length) return null;
+
+  let taivutus = raaka.taivutus ?? [];
+  if (typeof taivutus === "string") taivutus = taivutus.split(",").map((o) => o.trim());
+  const esimerkit = (Array.isArray(raaka.esimerkit) ? raaka.esimerkit : [])
+    .map((e) => ({ sv: e && e.sv ? String(e.sv) : null, fi: e && e.fi ? String(e.fi) : null }))
+    .filter((e) => e.sv);
+
+  return {
+    tyyppi: "sana",
+    id: OMA_ETULIITE + Math.random().toString(36).slice(2, 9),
+    sanaluokka: raaka.sanaluokka || "ilmaus",
+    ruotsi,
+    suomi,
+    taivutus: (Array.isArray(taivutus) ? taivutus : []).map(String).filter(Boolean),
+    luokka: raaka.luokka ?? null,
+    suku: raaka.suku ?? null,
+    kategoria: raaka.kategoria ?? null,
+    alakategoria: raaka.alakategoria ?? null,
+    valiotsikko: null,
+    vastakohta: null,
+    rektio: raaka.rektio ?? null,
+    esimerkit,
+    muistiinpano: raaka.muistiinpano ?? null,
+    paallekkainen: false,
+    oma: true,
+  };
+}
+
+const OMA_LUKU = "Omat sanat";
+
+/* Sijoittaa sanan lukurakenteeseen: olemassa olevaan alalukuun jos nimi
+   täsmää, muuten omaan lukuunsa. Palauttaa alaluvun otsikon. */
+function sijoitaSana(sana) {
+  const etsiLuku = (otsikko) => sanasto.luvut.find((l) => l.otsikko === otsikko);
+  let luku = sana.kategoria ? etsiLuku(sana.kategoria) : null;
+  let alaluku = null;
+  if (luku && sana.alakategoria) {
+    alaluku = luku.alaluvut.find((a) => a.otsikko === sana.alakategoria);
+  }
+  if (!alaluku && sana.alakategoria) {
+    for (const l of sanasto.luvut) {
+      const osuma = l.alaluvut.find((a) => a.otsikko === sana.alakategoria);
+      if (osuma) { luku = l; alaluku = osuma; break; }
+    }
+  }
+  if (!alaluku) {
+    luku = etsiLuku(OMA_LUKU);
+    if (!luku) { luku = { otsikko: OMA_LUKU, alaluvut: [] }; sanasto.luvut.push(luku); }
+    const nimi = sana.alakategoria || "Lisätyt sanat";
+    alaluku = luku.alaluvut.find((a) => a.otsikko === nimi);
+    if (!alaluku) { alaluku = { otsikko: nimi, sisalto: [] }; luku.alaluvut.push(alaluku); }
+  }
+  alaluku.sisalto.push(sana);
+  sana.kategoria = luku.otsikko;
+  sana.alakategoria = alaluku.otsikko;
+  return alaluku.otsikko;
+}
+
+function poistaOmaSana(id) {
+  edistyminen.omatSanat = edistyminen.omatSanat.filter((s) => s.id !== id);
+  for (const kortti of kortitSanalla.get(id) || []) delete edistyminen.kortit[kortti.id];
+  for (const luku of sanasto.luvut) {
+    for (const alaluku of luku.alaluvut) {
+      alaluku.sisalto = alaluku.sisalto.filter((k) => k.id !== id);
+    }
+    luku.alaluvut = luku.alaluvut.filter((a) => a.otsikko !== OMA_LUKU || a.sisalto.length);
+  }
+  sanasto.luvut = sanasto.luvut.filter(
+    (l) => l.otsikko !== OMA_LUKU || l.alaluvut.some((a) => a.sisalto.length));
+  rakennaSanastoUudelleen();
+  tallenna();
+}
+
+function rakennaSanastoUudelleen() {
+  kaikkiSanat = keraaSanat(sanasto);
+  sanatTunnuksella = new Map(kaikkiSanat.map((s) => [s.id, s]));
+  kortitSanalla = new Map();
+  kortit = teeKortit(kaikkiSanat);
+  kortitTunnuksella = new Map(kortit.map((k) => [k.id, k]));
+}
+
 /* Kortiksi kelpaa sana, jolla on molemmat kielet eikä se toistu myöhemmästä
    luvusta. Kielioppiluvut eivät tuota kortteja lainkaan. */
 function kelpaaKortiksi(sana) {
@@ -781,6 +911,7 @@ const oletusEdistyminen = () => ({
   virheloki: [],
   asetukset: { aani: true, aaninimi: null, suodatin: null, naytaLuokka: true },
   istunto: { paiva: null, maara: 0 },
+  omatSanat: [],
 });
 
 let edistyminen = oletusEdistyminen();
@@ -2374,37 +2505,19 @@ function avaaAsetukset() {
       }
     }
 
-    /* Varmuuskopio */
-    const kopio = el("div", "pino-tiivis");
-    lisaa(kopio, el("p", "t-nano haalein", "VARMUUSKOPIO"));
-    lisaa(kopio, el("p", "t-pieni haalea",
-      "Edistyminen elää vain tämän selaimen muistissa. Se katoaa, jos selaimen tiedot " +
-      "tyhjennetään. Vie tiedosto silloin tällöin."));
-    const napit = el("div", "napit");
-    lisaa(napit, nappi("Vie tiedostoon", "", () => {
-      if (!vieEdistyminen()) naytaTeksti("Edistyminen", JSON.stringify(edistyminen));
-    }));
-    const tuoNappi = nappi("Tuo tiedostosta", "");
-    const tiedosto = el("input");
-    tiedosto.type = "file";
-    tiedosto.accept = "application/json,.json";
-    tiedosto.style.display = "none";
-    tiedosto.addEventListener("change", async () => {
-      const valittu = tiedosto.files?.[0];
-      if (!valittu) return;
-      try {
-        tuoEdistyminen(await valittu.text());
-        sulje();
-        piirra();
-        ilmoita("Edistyminen tuotu.");
-      } catch (virhe) {
-        alert("Tuonti epäonnistui: " + virhe.message);
-      }
-    });
-    tuoNappi.addEventListener("click", () => tiedosto.click());
-    lisaa(napit, tuoNappi);
-    lisaa(kopio, napit, tiedosto);
-    lisaa(sisus, kopio);
+    /* Varmuuskopiot omana näkymänään */
+    const omia = (edistyminen.omatSanat || []).length;
+    const kopiorivi = el("button", "rivi");
+    kopiorivi.type = "button";
+    const kopiokasvaa = el("div", "kasvaa");
+    lisaa(kopiokasvaa, el("div", "t-vali", "Varmuuskopiot ja omat sanat"));
+    lisaa(kopiokasvaa, el("div", "t-pieni haalea",
+      omia ? `Vie, palauta ja lisää sanoja – ${omia} omaa sanaa` : "Vie, palauta ja lisää sanoja"));
+    const kopionuoli = ikoni('<path d="m9 6 6 6-6 6"/>', 18);
+    kopionuoli.classList.add("nuoli");
+    lisaa(kopiorivi, kopiokasvaa, kopionuoli);
+    kopiorivi.addEventListener("click", () => { sulje(); avaaVarmuuskopiot(); });
+    lisaa(sisus, kopiorivi);
 
     /* Vaikeat sanat */
     const vaikeat = kortit.filter(onLeech);
@@ -2478,6 +2591,165 @@ function kytkinrivi(otsikko, selite, arvo, onMuutos) {
   kytkin.addEventListener("change", () => onMuutos(kytkin.checked));
   lisaa(kuori, teksti, kytkin);
   return kuori;
+}
+
+/* ==========================================================================
+   14b. Varmuuskopiot ja omat sanat
+   ========================================================================== */
+function tekstilaatikko(arvo, vainLuku, rivit = 5) {
+  const laatikko = el("textarea", "kentta laatikko");
+  laatikko.rows = rivit;
+  laatikko.spellcheck = false;
+  laatikko.autocapitalize = "off";
+  if (arvo != null) laatikko.value = arvo;
+  if (vainLuku) laatikko.readOnly = true;
+  return laatikko;
+}
+
+function osio(otsikko, selite) {
+  const lohko = el("div", "pino-tiivis osio");
+  lisaa(lohko, el("p", "t-nano haalein", otsikko.toUpperCase()));
+  if (selite) lisaa(lohko, el("p", "t-pieni haalea", selite));
+  return lohko;
+}
+
+async function kopioiLeikepoydalle(teksti, palaute) {
+  try {
+    await navigator.clipboard.writeText(teksti);
+    palaute("Kopioitu leikepöydälle.");
+  } catch (virhe) {
+    palaute("Selain ei antanut kopioida – valitse teksti ja kopioi käsin.");
+  }
+}
+
+function avaaVarmuuskopiot() {
+  avaaLevy("Varmuuskopiot ja omat sanat", (sisus, sulje) => {
+    const paluu = nappi("‹ Asetukset", "hiljainen", () => { sulje(); avaaAsetukset(); });
+    paluu.style.alignSelf = "flex-start";
+    lisaa(sisus, paluu);
+
+    /* --- Vie --- */
+    const vienti = osio("Vie edistyminen",
+      "Edistyminen elää vain tämän selaimen muistissa ja katoaa, jos selaimen tiedot " +
+      "tyhjennetään. Ota kopio silloin tällöin.");
+    const vientiViesti = el("p", "t-pieni haalea");
+    const vientiLaatikko = tekstilaatikko(JSON.stringify(edistyminen), true, 4);
+    const vientiNapit = el("div", "napit");
+    lisaa(vientiNapit, nappi("Vie tiedostoon", "ensisijainen", () => {
+      vientiViesti.textContent = vieEdistyminen()
+        ? "Tiedosto tallennettu." : "Lataus ei onnistunut – kopioi teksti alta.";
+    }));
+    lisaa(vientiNapit, nappi("Kopioi", "", () => {
+      vientiLaatikko.select();
+      kopioiLeikepoydalle(vientiLaatikko.value, (v) => { vientiViesti.textContent = v; });
+    }));
+    lisaa(vienti, vientiNapit, vientiLaatikko, vientiViesti);
+    lisaa(sisus, vienti);
+
+    /* --- Palauta --- */
+    const palautus = osio("Palauta varmuuskopiosta",
+      "Korvaa kaiken nykyisen edistymisen. Liitä varmuuskopion teksti tai valitse tiedosto.");
+    const palautusViesti = el("p", "t-pieni haalea");
+    const palautusLaatikko = tekstilaatikko("", false, 4);
+    palautusLaatikko.placeholder = "Liitä varmuuskopion JSON tähän";
+    const tiedosto = el("input");
+    tiedosto.type = "file";
+    tiedosto.accept = "application/json,.json";
+    tiedosto.style.display = "none";
+    const palautaTeksti = (teksti) => {
+      try {
+        tuoEdistyminen(teksti);
+        for (const sana of edistyminen.omatSanat || []) sijoitaSana(sana);
+        rakennaSanastoUudelleen();
+        sulje();
+        piirra();
+        ilmoita("Edistyminen palautettu.");
+      } catch (virhe) {
+        palautusViesti.textContent = "Ei onnistunut: " + virhe.message;
+      }
+    };
+    tiedosto.addEventListener("change", async () => {
+      const valittu = tiedosto.files?.[0];
+      if (valittu) palautaTeksti(await valittu.text());
+    });
+    const palautusNapit = el("div", "napit");
+    lisaa(palautusNapit, nappi("Palauta liitetystä", "", () => {
+      if (!palautusLaatikko.value.trim()) { palautusViesti.textContent = "Laatikko on tyhjä."; return; }
+      if (confirm("Tämä korvaa kaiken nykyisen edistymisen. Jatketaanko?")) palautaTeksti(palautusLaatikko.value);
+    }));
+    lisaa(palautusNapit, nappi("Tuo tiedostosta", "", () => tiedosto.click()));
+    lisaa(palautus, palautusLaatikko, palautusNapit, palautusViesti, tiedosto);
+    lisaa(sisus, palautus);
+
+    /* --- Lisää sanoja --- */
+    const lisays = osio("Lisää sanoja JSONilla",
+      "Liitä sanastodumpin tuloste sellaisenaan, tai lista sanoja. Sanat sijoittuvat " +
+      "niihin lukuihin, jotka niissä on merkitty – tuntemattomat menevät lukuun “Omat sanat”.");
+    const lisaysViesti = el("p", "t-pieni haalea");
+    const lisaysLaatikko = tekstilaatikko("", false, 6);
+    lisaysLaatikko.placeholder =
+      '[{"ruotsi": "en glass", "suomi": ["jäätelö"], "sanaluokka": "substantiivi",\n' +
+      '  "luokka": "3", "suku": "en", "taivutus": ["glassen", "glassar", "glassarna"]}]';
+    const sijoita = nappi("Sijoita sanastoon", "ensisijainen", () => {
+      const teksti = lisaysLaatikko.value.trim();
+      if (!teksti) { lisaysViesti.textContent = "Laatikko on tyhjä."; return; }
+      let sanat;
+      try {
+        sanat = jasennaSanaSyote(teksti);
+      } catch (virhe) {
+        lisaysViesti.textContent = "JSON ei jäsentynyt: " + virhe.message;
+        return;
+      }
+      if (!sanat.length) {
+        lisaysViesti.textContent =
+          "Yhtään sanaa ei löytynyt. Jokaisella pitää olla vähintään ruotsi ja suomi.";
+        return;
+      }
+      const kohteet = new Set();
+      for (const sana of sanat) {
+        edistyminen.omatSanat.push(sana);
+        kohteet.add(sijoitaSana(sana));
+      }
+      rakennaSanastoUudelleen();
+      tallenna();
+      lisaysLaatikko.value = "";
+      lisaysViesti.textContent =
+        `${sanat.length} sanaa sijoitettu: ${[...kohteet].join(", ")}.`;
+      ilmoita(sanat.length + " sanaa lisätty sanastoon.");
+      piirra();
+    });
+    lisaa(lisays, lisaysLaatikko, sijoita, lisaysViesti);
+    lisaa(sisus, lisays);
+
+    /* --- Omat sanat --- */
+    const omat = edistyminen.omatSanat || [];
+    if (omat.length) {
+      const lista = osio(`Omat sanat (${omat.length})`,
+        "Nämä elävät selaimen muistissa, eivät sanastotiedostossa. Ne kulkevat mukana " +
+        "varmuuskopiossa.");
+      for (const sana of omat.slice().reverse()) {
+        const rivi = el("div", "rivi");
+        const kasvaa = el("div", "kasvaa");
+        lisaa(kasvaa, el("div", "t-vali", sana.ruotsi));
+        lisaa(kasvaa, el("div", "t-pieni haalea",
+          sana.suomi.join(", ") + " · " + (sana.alakategoria || sana.kategoria || "")));
+        const poista = el("button", "kuvakenappi");
+        poista.type = "button";
+        poista.setAttribute("aria-label", "Poista " + sana.ruotsi);
+        lisaa(poista, ikoni('<path d="M18 6 6 18M6 6l12 12"/>', 18));
+        poista.addEventListener("click", () => {
+          if (!confirm(`Poistetaanko “${sana.ruotsi}” ja sen edistyminen?`)) return;
+          poistaOmaSana(sana.id);
+          sulje();
+          avaaVarmuuskopiot();
+          piirra();
+        });
+        lisaa(rivi, kasvaa, poista);
+        lisaa(lista, rivi);
+      }
+      lisaa(sisus, lista);
+    }
+  });
 }
 
 function naytaTeksti(otsikko, teksti) {
@@ -2650,12 +2922,11 @@ fetch("sanasto.json")
   })
   .then((data) => {
     sanasto = data;
-    kaikkiSanat = keraaSanat(data);
-    for (const sana of kaikkiSanat) sanatTunnuksella.set(sana.id, sana);
-    kortit = teeKortit(kaikkiSanat);
-    for (const kortti of kortit) kortitTunnuksella.set(kortti.id, kortti);
-
+    // Edistyminen ensin: omat sanat sijoitetaan lukurakenteeseen ennen kuin
+    // sanat kerätään ja kortit johdetaan.
     lataaEdistyminen();
+    for (const sana of edistyminen.omatSanat || []) sijoitaSana(sana);
+    rakennaSanastoUudelleen();
     try {
       const tallennettu = localStorage.getItem(AVAIN_VALILEHTI);
       if (VALILEHDET.some((v) => v.id === tallennettu)) valilehti = tallennettu;

@@ -67,6 +67,35 @@ Lähteen ensimmäinen luku `Skrivtavla` on tyhjä välivarasto. Liitä sinne uud
 sanat OneNotesta missä muodossa tahansa, ja pyydä minua luokittelemaan ne:
 ne siirretään oikeisiin lukuihin ja Skrivtavla tyhjennetään taas.
 
+## Varmuuskopiot ja omat sanat
+
+Asetuksissa on oma näkymänsä (**Asetukset → Varmuuskopiot ja omat sanat**):
+
+- **Vie edistyminen** – tiedostona tai kopioitavana tekstinä. Edistyminen elää
+  vain selaimen `localStorage`ssa ja katoaa selaimen tietoja tyhjentäessä.
+- **Palauta varmuuskopiosta** – liitetystä tekstistä tai tiedostosta.
+- **Lisää sanoja JSONilla** – liitä ja paina *Sijoita sanastoon*.
+
+Sanojen lisäys hyväksyy kolme muotoa:
+
+| Muoto | Esimerkki |
+|---|---|
+| Koko dokumentti | `{"luvut": [{"otsikko": "1 Verbit", "alaluvut": [...]}]}` |
+| Lista sanoja | `[{"ruotsi": "en glass", "suomi": ["jäätelö"]}]` |
+| Yksi sana | `{"ruotsi": "kanske", "suomi": "ehkä"}` |
+
+Pakollisia ovat vain `ruotsi` ja `suomi`; `suomi` saa olla lista tai
+pilkuilla eroteltu merkkijono. Muut kentät (`sanaluokka`, `luokka`, `suku`,
+`taivutus`, `rektio`, `esimerkit`) täydentävät korttia ja harjoituksia.
+
+**Sijoitus:** jos sanassa on `alakategoria`, joka täsmää olemassa olevaan
+alalukuun, sana menee sinne – muuten lukuun **Omat sanat**. Näin
+sanastodumppi-skillin tuloste menee suoraan oikeisiin lukuihin.
+
+Omat sanat elävät `localStorage`ssa, eivät `sanasto.json`issa, ja kulkevat
+mukana varmuuskopiossa. Pysyväksi osaksi sanastoa ne saa lisäämällä ne
+`lahde/sanasto.txt`:hen ja ajamalla muuntimen.
+
 ## Kehitys
 
 `fetch` ei toimi `file://`-osoitteesta, joten sivu avataan palvelimen kautta:
