@@ -1,4 +1,4 @@
-# Ruotsin sanasto
+# Abisanakirja
 
 Sanaston opiskelusovellus keskipitkän ruotsin ylioppilaskoetta varten.
 Rakennetaan `SPEC.md`:n mukaan. Ei palvelinta, ei tunnuksia, ei build-vaihetta.
@@ -139,9 +139,9 @@ Kotinäytön ikoni tehdään yhdestä lähdekuvasta:
 sh "tyokalut/tee_ikonit.sh"
 ```
 
-Skripti lukee `ikoni-lahde.png`:n (neliö, vähintään 1024 × 1024) ja tekee
-kaikki koot. Repossa on tällä hetkellä väliaikainen ikoni, joka on renderöity
-`ikoni.svg`:stä – korvaa `ikoni-lahde.png` oikealla kuvalla ja aja skripti.
+Skripti lukee `ikoni-lahde.png`:n ja tekee kaikki koot. Lähdekuvan on oltava
+**neliö, jossa ikoni ulottuu reunoihin asti** – iOS lisää oman pyöristyksensä
+ja varjonsa, joten kuvassa ei saa olla omaa kehystä tai marginaalia.
 
 > **Safari välimuistittaa kotinäytön ikonin tiedostonimen mukaan** eikä huomaa
 > sisällön muuttumista. Kun ikoni vaihdetaan, nosta versionumero (`v1` → `v2`)
@@ -149,9 +149,19 @@ kaikki koot. Repossa on tällä hetkellä väliaikainen ikoni, joka on renderöi
 
 ## Ääntäminen
 
-Pelkkä `lang: "sv-SE"` ei riitä – ilman nimettyä ääntä selain lausuu ruotsin
-suomalaisittain. Sovellus hakee ruotsinkielisen äänen erikseen ja kertoo
-asetuksissa, jos sitä ei ole asennettuna.
+Ruotsin ääntäminen kaatuu neljästä eri syystä, ja kaikki neljä on hoidettu:
+
+1. **Pelkkä `lang: "sv-SE"`** antaa selaimen valita oletusäänen, joka on tällä
+   koneella suomalainen (Satu). Ääni haetaan nimeltä.
+2. **`cancel()` ja `speak()` samalla tikillä** – WebKit pudottaa uuden lausuman
+   äänivalinnan. Uusi lausuma siirretään omalle tikilleen.
+3. **`lang`, joka ei täsmää valitun äänen kanssa** – `lang` asetetaan äänen omasta
+   `lang`-kentästä, ei kovakoodattuna.
+4. **Äänilista, joka ei ollut valmis sivun latautuessa** – ääni haetaan uudestaan
+   jokaisella puhekerralla, ei vain käynnistyksessä.
+
+Asetuksissa voi valita äänen, jos niitä on useampi, ja kokeilla sitä napista.
+Jos ruotsin ääntä ei ole lainkaan, asetukset kertoo mistä sen asentaa.
 
 ## Tilanne
 
