@@ -99,6 +99,23 @@ Omat sanat elävät `localStorage`ssa, eivät `sanasto.json`issa, ja kulkevat
 mukana varmuuskopiossa. Pysyväksi osaksi sanastoa ne saa lisäämällä ne
 `lahde/sanasto.txt`:hen ja ajamalla muuntimen.
 
+## Kategorian harjoittelu
+
+Teoriassa jokaisen luvun ja alaluvun otsikon oikealla on **Harjoittele**-nappi
+(näkyy, kun kohdassa on vähintään kolme korttikelpoista sanaa). Siitä avautuu
+koko ruudun valinta, jossa on neljä tapaa:
+
+| Tapa | Suunta | Mitä tekee |
+|---|---|---|
+| **Flashcards** | molemmat | Näytä vastaus, arvioi itse osasitko |
+| **Kirjoita ruotsiksi** | suomi → ruotsi | Kirjoitettu vastaus, tarkistus |
+| **Kirjoita suomeksi** | ruotsi → suomi | Kirjoitettu vastaus, tarkistus |
+| **Monivalinta** | molemmat | Neljä vaihtoehtoa 2×2-ruudukossa |
+
+Kategoriaharjoittelu on **vapaata**: se ei muuta välitoiston aikataulua sanoilla,
+joita ei ole vielä opittu Opi-välilehdellä. Jo valmistuneilla korteilla arvio
+otetaan normaalisti huomioon. Virheet kirjautuvat aina virhelokiin.
+
 ## Lukurakenne
 
 | Luku | Sisältö | Kortteja |

@@ -852,6 +852,56 @@
       },
       {
        "tyyppi": "sana",
+       "id": "påstå",
+       "sanaluokka": "verbi",
+       "ruotsi": "påstå",
+       "suomi": [
+        "väittää"
+       ],
+       "taivutus": [
+        "påstår",
+        "påstod",
+        "påstått"
+       ],
+       "luokka": "IV",
+       "suku": null,
+       "kategoria": "1 Verbit",
+       "alakategoria": "1.2 Puhuminen, kertominen ja vaikuttaminen",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "avvisa",
+       "sanaluokka": "verbi",
+       "ruotsi": "avvisa",
+       "suomi": [
+        "torjua",
+        "hylätä",
+        "käännyttää"
+       ],
+       "taivutus": [
+        "avvisar",
+        "avvisade",
+        "avvisat"
+       ],
+       "luokka": "I",
+       "suku": null,
+       "kategoria": "1 Verbit",
+       "alakategoria": "1.2 Puhuminen, kertominen ja vaikuttaminen",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
        "id": "berömma",
        "sanaluokka": "verbi",
        "ruotsi": "berömma",
@@ -1136,7 +1186,9 @@
        "ruotsi": "umgås",
        "suomi": [
         "seurustella",
-        "viettää aikaa yhdessä"
+        "viettää aikaa yhdessä",
+        "olla tekemisissä",
+        "pitää yhteyttä"
        ],
        "taivutus": [
         "umgås",
@@ -1425,6 +1477,30 @@
        "valiotsikko": null,
        "vastakohta": null,
        "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "delta",
+       "sanaluokka": "verbi",
+       "ruotsi": "delta",
+       "suomi": [
+        "osallistua johonkin"
+       ],
+       "taivutus": [
+        "deltar",
+        "deltog",
+        "deltagit"
+       ],
+       "luokka": "IV",
+       "suku": null,
+       "kategoria": "1 Verbit",
+       "alakategoria": "1.4 Ihmissuhteet ja vuorovaikutus",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": "i",
        "esimerkit": [],
        "muistiinpano": null,
        "paallekkainen": false
@@ -2245,6 +2321,30 @@
        "tyyppi": "huomio",
        "teksti": "Jag har bestämt mig för att sluta röka.",
        "liittyy": "bestämma-sig-för-ngt"
+      },
+      {
+       "tyyppi": "sana",
+       "id": "avvika",
+       "sanaluokka": "verbi",
+       "ruotsi": "avvika",
+       "suomi": [
+        "poiketa jostakin"
+       ],
+       "taivutus": [
+        "avviker",
+        "avvek",
+        "avvikit"
+       ],
+       "luokka": "IV",
+       "suku": null,
+       "kategoria": "1 Verbit",
+       "alakategoria": "1.6 Muutos, vaikuttaminen ja seuraukset",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": "från",
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
       }
      ]
     },
@@ -2525,6 +2625,30 @@
        ],
        "taivutus": [],
        "luokka": null,
+       "suku": null,
+       "kategoria": "1 Verbit",
+       "alakategoria": "1.7 Tapahtuminen ja havaitseminen",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "åka-fast",
+       "sanaluokka": "verbi",
+       "ruotsi": "åka fast",
+       "suomi": [
+        "jäädä kiinni"
+       ],
+       "taivutus": [
+        "åker fast",
+        "åkte fast",
+        "åkt fast"
+       ],
+       "luokka": "IIb",
        "suku": null,
        "kategoria": "1 Verbit",
        "alakategoria": "1.7 Tapahtuminen ja havaitseminen",
@@ -3796,6 +3920,35 @@
        "esimerkit": [],
        "muistiinpano": null,
        "paallekkainen": true
+      },
+      {
+       "tyyppi": "sana",
+       "id": "löna-sig",
+       "sanaluokka": "verbi",
+       "ruotsi": "löna sig",
+       "suomi": [
+        "kannattaa"
+       ],
+       "taivutus": [
+        "lönar sig",
+        "lönade sig",
+        "lönat sig"
+       ],
+       "luokka": "I",
+       "suku": null,
+       "kategoria": "1 Verbit",
+       "alakategoria": "1.10 Refleksiiviverbit (verbi + sig)",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Det lönar sig att öva varje dag.",
+         "fi": "Kannattaa harjoitella joka päivä."
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
       }
      ]
     },
@@ -6087,6 +6240,54 @@
       },
       {
        "tyyppi": "sana",
+       "id": "tanke",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "tanke",
+       "suomi": [
+        "ajatus"
+       ],
+       "taivutus": [
+        "tanken",
+        "tankar",
+        "tankarna"
+       ],
+       "luokka": "2",
+       "suku": "en",
+       "kategoria": "2 Substantiivit",
+       "alakategoria": "2.4 Näkökulma, suhde ja mielipide",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "påstående",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "påstående",
+       "suomi": [
+        "väite"
+       ],
+       "taivutus": [
+        "påståendet",
+        "påståenden",
+        "påståendena"
+       ],
+       "luokka": "4",
+       "suku": "ett",
+       "kategoria": "2 Substantiivit",
+       "alakategoria": "2.4 Näkökulma, suhde ja mielipide",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
        "id": "förutsättning",
        "sanaluokka": "substantiivi",
        "ruotsi": "förutsättning",
@@ -6958,6 +7159,150 @@
        "esimerkit": [],
        "muistiinpano": null,
        "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "korridor",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "korridor",
+       "suomi": [
+        "käytävä"
+       ],
+       "taivutus": [
+        "korridoren",
+        "korridorer",
+        "korridorerna"
+       ],
+       "luokka": "3",
+       "suku": "en",
+       "kategoria": "2 Substantiivit",
+       "alakategoria": "2.7 Matkustaminen, liikenne ja paikat",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "trottoar",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "trottoar",
+       "suomi": [
+        "jalkakäytävä"
+       ],
+       "taivutus": [
+        "trottoaren",
+        "trottoarer",
+        "trottoarerna"
+       ],
+       "luokka": "3",
+       "suku": "en",
+       "kategoria": "2 Substantiivit",
+       "alakategoria": "2.7 Matkustaminen, liikenne ja paikat",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "hastighetsbegränsning",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "hastighetsbegränsning",
+       "suomi": [
+        "nopeusrajoitus"
+       ],
+       "taivutus": [
+        "hastighetsbegränsningen",
+        "hastighetsbegränsningar",
+        "hastighetsbegränsningarna"
+       ],
+       "luokka": "2",
+       "suku": "en",
+       "kategoria": "2 Substantiivit",
+       "alakategoria": "2.7 Matkustaminen, liikenne ja paikat",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "rusningstid",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "rusningstid",
+       "suomi": [
+        "ruuhka-aika"
+       ],
+       "taivutus": [
+        "rusningstiden",
+        "rusningstider",
+        "rusningstiderna"
+       ],
+       "luokka": "3",
+       "suku": "en",
+       "kategoria": "2 Substantiivit",
+       "alakategoria": "2.7 Matkustaminen, liikenne ja paikat",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "vägmärke",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "vägmärke",
+       "suomi": [
+        "liikennemerkki"
+       ],
+       "taivutus": [
+        "vägmärket",
+        "vägmärken",
+        "vägmärkena"
+       ],
+       "luokka": "4",
+       "suku": "ett",
+       "kategoria": "2 Substantiivit",
+       "alakategoria": "2.7 Matkustaminen, liikenne ja paikat",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "cykelhjälm",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "cykelhjälm",
+       "suomi": [
+        "pyöräilykypärä"
+       ],
+       "taivutus": [
+        "cykelhjälmen",
+        "cykelhjälmar",
+        "cykelhjälmarna"
+       ],
+       "luokka": "2",
+       "suku": "en",
+       "kategoria": "2 Substantiivit",
+       "alakategoria": "2.7 Matkustaminen, liikenne ja paikat",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
       }
      ]
     },
@@ -7772,6 +8117,30 @@
        "tyyppi": "huomio",
        "teksti": "Muistiinpanoissa oli merkintä \"Ande ende\". Huomaa ero: en ande = henki, mutta den ende / det enda = ainoa (adjektiivista enda).",
        "liittyy": "ande"
+      },
+      {
+       "tyyppi": "sana",
+       "id": "sätt",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "sätt",
+       "suomi": [
+        "tapa"
+       ],
+       "taivutus": [
+        "sättet",
+        "sätt",
+        "sätten"
+       ],
+       "luokka": "5",
+       "suku": "ett",
+       "kategoria": "2 Substantiivit",
+       "alakategoria": "2.10 Määrät, osat ja abstraktit käsitteet",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
       }
      ]
     },
@@ -9532,6 +9901,122 @@
        "esimerkit": [],
        "muistiinpano": null,
        "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "trasig",
+       "sanaluokka": "adjektiivi",
+       "ruotsi": "trasig",
+       "suomi": [
+        "rikkinäinen"
+       ],
+       "taivutus": [
+        "trasigt",
+        "trasiga"
+       ],
+       "luokka": "adj.",
+       "suku": null,
+       "kategoria": "3 Adjektiivit ja adverbit",
+       "alakategoria": "3.2 Perusadjektiivit (en-muoto, ett-muoto, monikko/määräinen)",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "hotfull",
+       "sanaluokka": "adjektiivi",
+       "ruotsi": "hotfull",
+       "suomi": [
+        "uhkaava"
+       ],
+       "taivutus": [
+        "hotfullt",
+        "hotfulla"
+       ],
+       "luokka": "adj.",
+       "suku": null,
+       "kategoria": "3 Adjektiivit ja adverbit",
+       "alakategoria": "3.2 Perusadjektiivit (en-muoto, ett-muoto, monikko/määräinen)",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "ärlig",
+       "sanaluokka": "adjektiivi",
+       "ruotsi": "ärlig",
+       "suomi": [
+        "rehellinen"
+       ],
+       "taivutus": [
+        "ärligt",
+        "ärliga"
+       ],
+       "luokka": "adj.",
+       "suku": null,
+       "kategoria": "3 Adjektiivit ja adverbit",
+       "alakategoria": "3.2 Perusadjektiivit (en-muoto, ett-muoto, monikko/määräinen)",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "snål",
+       "sanaluokka": "adjektiivi",
+       "ruotsi": "snål",
+       "suomi": [
+        "saita",
+        "nuuka"
+       ],
+       "taivutus": [
+        "snålt",
+        "snåla"
+       ],
+       "luokka": "adj.",
+       "suku": null,
+       "kategoria": "3 Adjektiivit ja adverbit",
+       "alakategoria": "3.2 Perusadjektiivit (en-muoto, ett-muoto, monikko/määräinen)",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "flitig",
+       "sanaluokka": "adjektiivi",
+       "ruotsi": "flitig",
+       "suomi": [
+        "ahkera"
+       ],
+       "taivutus": [
+        "flitigt",
+        "flitiga"
+       ],
+       "luokka": "adj.",
+       "suku": null,
+       "kategoria": "3 Adjektiivit ja adverbit",
+       "alakategoria": "3.2 Perusadjektiivit (en-muoto, ett-muoto, monikko/määräinen)",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
       }
      ]
     },
@@ -10361,6 +10846,26 @@
        "ruotsi": "fort",
        "suomi": [
         "nopeasti"
+       ],
+       "taivutus": [],
+       "luokka": "adv.",
+       "suku": null,
+       "kategoria": "3 Adjektiivit ja adverbit",
+       "alakategoria": "3.6 Adverbit",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "framåt",
+       "sanaluokka": "adverbi",
+       "ruotsi": "framåt",
+       "suomi": [
+        "eteenpäin"
        ],
        "taivutus": [],
        "luokka": "adv.",
@@ -11472,6 +11977,46 @@
       },
       {
        "tyyppi": "sana",
+       "id": "sätt-att-tänka",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "sätt att tänka",
+       "suomi": [
+        "ajattelutapa"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": "ett",
+       "kategoria": "4 Ilmaukset ja sanonnat",
+       "alakategoria": "4.5 Muut käyttökelpoiset ilmaukset",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "dagens-tanke",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "dagens tanke",
+       "suomi": [
+        "päivän ajatus"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "4 Ilmaukset ja sanonnat",
+       "alakategoria": "4.5 Muut käyttökelpoiset ilmaukset",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
        "id": "på-egen-hand",
        "sanaluokka": "ilmaus",
        "ruotsi": "på egen hand",
@@ -11549,7 +12094,8 @@
        "sanaluokka": "ilmaus",
        "ruotsi": "dessutom",
        "suomi": [
-        "lisäksi"
+        "lisäksi",
+        "sitä paitsi"
        ],
        "taivutus": [],
        "luokka": null,
@@ -11624,7 +12170,8 @@
        "sanaluokka": "ilmaus",
        "ruotsi": "ändå",
        "suomi": [
-        "kuitenkin"
+        "kuitenkin",
+        "silti"
        ],
        "taivutus": [],
        "luokka": null,
@@ -11725,6 +12272,51 @@
        "vastakohta": null,
        "rektio": null,
        "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "det-vill-säga",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "det vill säga",
+       "suomi": [
+        "eli"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "5 Sidosteisuus ja pikkusanat",
+       "alakategoria": "5.1 Tekstin jäsentäminen",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "så-att-säga",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "så att säga",
+       "suomi": [
+        "niin sanotusti"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "5 Sidosteisuus ja pikkusanat",
+       "alakategoria": "5.1 Tekstin jäsentäminen",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Den har så att säga fastnat i läsarens tankar.",
+         "fi": "Se on niin sanotusti jumittunut lukijan ajatuksiin."
+        }
+       ],
        "muistiinpano": null,
        "paallekkainen": false
       },

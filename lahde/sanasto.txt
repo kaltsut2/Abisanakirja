@@ -54,6 +54,8 @@ klaga (på/över), klagar, klagade, klagat  (I)  –  valittaa
 vägra, vägrar, vägrade, vägrat  (I)  –  kieltäytyä
 	Han vägrar själv att söka hjälp. = Hän kieltäytyy itse hakemasta apua.
 göra anteckningar  –  tehdä muistiinpanoja
+påstå, påstår, påstod, påstått  (IV)  –  väittää
+avvisa, avvisar, avvisade, avvisat  (I)  –  torjua, hylätä, käännyttää
 berömma, berömmer, berömde, berömt  (IIa)  –  ylistää, kehua, kiittää
 berömma sig (av), berömmer sig, berömde sig, berömt sig  (IIa)  –  kerskua, leuhkia, kehuskella
 	Puhekielessä kerskumisesta käytetään useammin verbiä skryta (skryter, skröt, skrutit) + över tai med. Berömma sig av on kirjallisempi.
@@ -72,7 +74,7 @@ lita (på), litar, litade, litat  (I)  –  luottaa
 förutsätta, förutsätter, förutsatte, förutsatt  (IV)  –  edellyttää
 
 1.4 Ihmissuhteet ja vuorovaikutus
-umgås, umgås, umgicks, umgåtts  (dep.)  –  seurustella, viettää aikaa yhdessä
+umgås, umgås, umgicks, umgåtts  (dep.)  –  seurustella, viettää aikaa yhdessä, olla tekemisissä, pitää yhteyttä
 intressera sig (för), intresserar, intresserade, intresserat  (I)  –  kiinnostua jostakin
 påminna (om), påminner, påminde, påmint  (IIa)  –  muistuttaa jostakin
 likna, liknar, liknade, liknat  (I)  –  muistuttaa (näyttää samalta)
@@ -88,6 +90,7 @@ ta hänsyn till  –  ottaa huomioon
 	Visa hänsyn till alla andra passagerare. = Huomioi kanssamatkustajat.
 knyta kontakter (knyter, knöt, knutit)  –  solmia kontakteja
 lyckönska, lyckönskar, lyckönskade, lyckönskat  (I)  –  onnitella
+delta (i), deltar, deltog, deltagit  (IV)  –  osallistua johonkin
 
 1.5 Luominen, valmistaminen ja hankkiminen
 skapa, skapar, skapade, skapat  (I)  –  luoda
@@ -130,6 +133,7 @@ missbruka, missbrukar, missbrukade, missbrukat  (I)  –  väärinkäyttää
 besluta (om ngt), beslutar, beslutade/beslöt, beslutat  (I / IV)  –  päättää jostakin (muodollinen, esim. viranomainen)
 bestämma sig (för ngt), bestämmer, bestämde, bestämt  (IIa)  –  päättää (henkilökohtainen valinta)
 	Jag har bestämt mig för att sluta röka.
+avvika (från), avviker, avvek, avvikit  (IV)  –  poiketa jostakin
 
 1.7 Tapahtuminen ja havaitseminen
 ske, sker, skedde, skett  (III)  –  tapahtua
@@ -145,6 +149,7 @@ gäspa, gäspar, gäspade, gäspat  (I)  –  haukotella
 hamna (i), hamnar, hamnade, hamnat  (I)  –  päätyä, joutua
 råka ut för (råkar, råkade, råkat)  –  joutua johonkin (ikävään)
 få veta mer (får, fick, fått)  –  saada tietää lisää
+åka fast, åker fast, åkte fast, åkt fast  (IIb)  –  jäädä kiinni
 ta reda på  –  ottaa selvää
 
 1.8 Terveys, hyvinvointi ja tunteet
@@ -214,6 +219,8 @@ oroa sig för  –  huolestua jostakin
 förhålla sig till  –  suhtautua johonkin
 bete sig  –  käyttäytyä
 lämpa sig  –  soveltua
+löna sig, lönar sig, lönade sig, lönat sig  (I)  –  kannattaa
+	Det lönar sig att öva varje dag. = Kannattaa harjoitella joka päivä.
 
 1.11 Verbi → substantiivi -johdokset
 Näissä pareissa kannattaa opetella molemmat yhtä aikaa: verbi ja siitä muodostettu substantiivi.
@@ -342,6 +349,8 @@ ett förhållande (till), förhållandet, förhållanden, förhållandena  (4)  
 	olika förhållanden = erilaiset olosuhteet
 en avsikt, avsikten, avsikter, avsikterna  (3)  –  tarkoitus, aikomus, tahallisuus
 ett syfte, syftet, syften, syftena  (4)  –  tarkoitus, päämäärä
+en tanke, tanken, tankar, tankarna  (2)  –  ajatus
+ett påstående, påståendet, påståenden, påståendena  (4)  –  väite
 en förutsättning (för), förutsättningen, förutsättningar, förutsättningarna  (2)  –  edellytys, ehto, ennakkoehto
 	Verbi: förutsätta (förutsätter, förutsatte, förutsatt) = edellyttää; ks. luku 1.3.
 en föreställning (om), föreställningen, föreställningar, föreställningarna  (2)  –  esitys, näytäntö, käsitys, mielikuva
@@ -394,6 +403,12 @@ ett vägbygge, vägbygget, vägbyggen, vägbyggena  (4)  –  tietyömaa, tienra
 till utlandet ↔ till hemlandet  –  ulkomaille ↔ kotimaahan
 utomlands  –  ulkomailla
 Gräsviken / Träskända / Talludden  –  Ruoholahti / Järvenpää / Mäntyniemi
+en korridor, korridoren, korridorer, korridorerna  (3)  –  käytävä
+en trottoar, trottoaren, trottoarer, trottoarerna  (3)  –  jalkakäytävä
+en hastighetsbegränsning, hastighetsbegränsningen, hastighetsbegränsningar, hastighetsbegränsningarna  (2)  –  nopeusrajoitus
+en rusningstid, rusningstiden, rusningstider, rusningstiderna  (3)  –  ruuhka-aika
+ett vägmärke, vägmärket, vägmärken, vägmärkena  (4)  –  liikennemerkki
+en cykelhjälm, cykelhjälmen, cykelhjälmar, cykelhjälmarna  (2)  –  pyöräilykypärä
 
 2.8 Juhlat ja elämänvaiheet
 en present, presenten, presenter, presenterna  (3)  –  lahja
@@ -435,6 +450,7 @@ en balans, balansen  (–)  –  tasapaino
 oanade konsekvenser  –  odottamattomat seuraukset
 en ande, anden, andar, andarna  (2)  –  henki, haltija
 	Muistiinpanoissa oli merkintä "Ande ende". Huomaa ero: en ande = henki, mutta den ende / det enda = ainoa (adjektiivista enda).
+ett sätt, sättet, sätt, sätten  (5)  –  tapa
 
 2.11 Esineet ja arjen sanat
 en dräkt, dräkten, dräkter, dräkterna  (3)  –  puku, asu, asukokonaisuus
@@ -513,6 +529,11 @@ försiktig (med), försiktigt, försiktiga  (adj.)  –  varovainen
 ansvarsfull, ansvarsfullt, ansvarsfulla  (adj.)  –  vastuuntuntoinen, vastuullinen
 	Vrt. ansvarig för = vastuussa jostakin. Ansvarsfull kuvaa ihmisen luonnetta, ansvarig konkreettista vastuuta.
 saklig, sakligt, sakliga  (adj.)  –  asiallinen, asiapitoinen
+trasig, trasigt, trasiga  (adj.)  –  rikkinäinen
+hotfull, hotfullt, hotfulla  (adj.)  –  uhkaava
+ärlig, ärligt, ärliga  (adj.)  –  rehellinen
+snål, snålt, snåla  (adj.)  –  saita, nuuka
+flitig, flitigt, flitiga  (adj.)  –  ahkera
 
 3.3 Partisiippiadjektiivit
 Perfektin partisiipista muodostetut adjektiivit taipuvat kolmessa muodossa: en-muoto, ett-muoto (-t) ja monikko/määräinen (-a/-e).
@@ -565,6 +586,7 @@ sent  (adv.)  –  myöhään
 	Förlåt att jag kommer för sent. = Anteeksi että tulen myöhässä.
 nyss  (adv.)  –  vasta, äskettäin
 fort  (adv.)  –  nopeasti
+framåt  (adv.)  –  eteenpäin
 fortfarande  (adv.)  –  edelleen, jatkuvasti
 ständigt  (adv.)  –  jatkuvasti
 	ständigt trött = jatkuvasti väsynyt
@@ -635,6 +657,8 @@ lägga märke till  –  panna merkille
 Har du märkt…?  –  Oletko huomannut…?
 komplettera svaren  –  täydennä vastaukset
 	Muistisääntö "visa vinkuu": visa (IIb, visar, visade, visat) = näyttää; en visa = laulu.
+ett sätt att tänka  –  ajattelutapa
+dagens tanke  –  päivän ajatus
 på egen hand  –  omatoimisesti, omin päin, itsenäisesti
 
 Sidosteisuus ja pikkusanat
@@ -645,19 +669,22 @@ maanantai 7. syyskuuta 2026
 5.1 Tekstin jäsentäminen
 först och främst  –  ensinnäkin, ennen kaikkea
 framför allt  –  ennen kaikkea
-dessutom  –  lisäksi
+dessutom  –  lisäksi, sitä paitsi
 	Filmen var bra, och dessutom var biljetten billig. = Elokuva oli hyvä, ja lisäksi lippu oli halpa.
 förstås  –  tietysti
 	Du kan komma till festen, förstås! = Voit tulla juhliin, tietysti!
 alltså  –  siis
 	Vi behöver pengar. Alltså måste vi jobba. = Tarvitsemme rahaa. Siis meidän täytyy tehdä töitä.
-ändå  –  kuitenkin
+ändå  –  kuitenkin, silti
 	Det var kallt ute, men vi gick ändå till parken. = Ulkona oli kylmä, mutta menimme kuitenkin puistoon.
 enligt  –  jonkun mukaan
 	enligt mig = minun mielestäni
 däremot / däremellan / därefter  –  sitä vastoin / niiden välissä / sen jälkeen
 tills  –  kunnes
 nämligen  –  nimittäin
+det vill säga  –  eli
+så att säga  –  niin sanotusti
+	Den har så att säga fastnat i läsarens tankar. = Se on niin sanotusti jumittunut lukijan ajatuksiin.
 så att  –  jotta, niin että
 genom att  –  tekemällä jotain
 utan att  –  tekemättä jotain
