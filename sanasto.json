@@ -7981,11 +7981,6 @@
        "paallekkainen": false
       },
       {
-       "tyyppi": "korjaus",
-       "teksti": "Muistiinpanoissa esiintyi kaksi kertaa \"omjöligt\" – oikea kirjoitusasu on omöjligt.",
-       "liittyy": "möjlig"
-      },
-      {
        "tyyppi": "sana",
        "id": "läslig",
        "sanaluokka": "adjektiivi",
@@ -8510,11 +8505,6 @@
        "paallekkainen": false
       },
       {
-       "tyyppi": "korjaus",
-       "teksti": "Muistiinpanoissa \"Dyr/förmånlig – kallis\" – förmånlig on vastakohta: edullinen. Vrt. vara förmånlig = olla edullinen.",
-       "liittyy": "dyr"
-      },
-      {
        "tyyppi": "sana",
        "id": "rik",
        "sanaluokka": "adjektiivi",
@@ -8608,8 +8598,8 @@
        "paallekkainen": false
       },
       {
-       "tyyppi": "korjaus",
-       "teksti": "Muistiinpanoissa \"högljudd, högljudd, högljudda\" – neutrimuoto on högljutt (vrt. ett ljud = ääni).",
+       "tyyppi": "huomio",
+       "teksti": "Vrt. ett ljud = ääni – siitä tulee neutrimuoto högljutt.",
        "liittyy": "högljudd"
       },
       {
@@ -8831,8 +8821,8 @@
        "paallekkainen": false
       },
       {
-       "tyyppi": "korjaus",
-       "teksti": "\"oväntad = aavistamaton\" → odottamaton, yllättävä. Sana tulee verbistä vänta (odottaa), ei aavistamisesta.",
+       "tyyppi": "huomio",
+       "teksti": "Vrt. verbi vänta = odottaa; oväntad on siis odottamaton, ei aavistamaton.",
        "liittyy": "väntad"
       }
      ]
@@ -16632,76 +16622,3980 @@
    "otsikko": "7 Kielioppisäännöt",
    "alaluvut": [
     {
-     "otsikko": "7.1 Apuverbi + infinitiivi",
+     "otsikko": null,
      "sisalto": [
       {
        "tyyppi": "teksti",
-       "teksti": "Apuverbin (skulle, ska, kan, måste, vill) jälkeen tulee aina infinitiivi. Har on preesensin persoonamuoto, ha on infinitiivi."
+       "teksti": "Tämä luku on luettavaa teoriaa, ei korttiharjoittelua. Sisältö on sääntöjä: pronominit, adjektiivin vertailu, adjektiivin taivutus substantiivin kanssa ja sanajärjestys. Jokainen sääntö on kirjoitettu niin, että sen perässä on esimerkkilause – sääntö ilman lausetta ei jää mieleen. Kaikissa neljässä aiheessa toistuu sama kysymys: onko pääsana en- vai ett-sukuinen, yksikössä vai monikossa, epämääräisessä vai määräisessä muodossa. Kun se on ratkaistu, muoto seuraa siitä. Luvun sanarivit näkyvät haussa ja luettavina, mutta niistä ei tehdä kortteja."
+      }
+     ]
+    },
+    {
+     "otsikko": "7.1 Pronominit",
+     "sisalto": [
+      {
+       "tyyppi": "teksti",
+       "teksti": "Pronominissa ratkaisee kaksi asiaa. Ensin: onko pronomini substantiivin kanssa vai yksinään ilman substantiivia – tämä valitsee koko sarjan. Sitten: mikä on pääsanan suku ja luku – tämä valitsee muodon sarjan sisältä. Lähes joka ryhmässä on kolme muotoa: en-muoto, ett-muoto ja monikko."
       },
       {
-       "tyyppi": "huomio",
-       "teksti": "Sama pätee: jag kan ha, du måste ha, hon vill ha.",
-       "liittyy": null
-      }
-     ]
-    },
-    {
-     "otsikko": "7.2 Omistusrakenne",
-     "sisalto": [
-      {
-       "tyyppi": "teksti",
-       "teksti": "Omistusrakenteessa määräinen omistaja + epämääräinen muoto pääsanassa: MÄÄRÄINEN A + EPÄMÄÄRÄINEN MUOTO."
-      }
-     ]
-    },
-    {
-     "otsikko": "7.3 X av Y -rakenne",
-     "sisalto": [
-      {
-       "tyyppi": "teksti",
-       "teksti": "\"Slutet av hösten\" on kaksi eri substantiivia peräkkäin genetiivityyppisessä rakenteessa (X av Y): slutet on pääsana ja hösten määrittää sitä prepositiolla av. Sanat eivät taivu toistensa mukaan – kumpikin noudattaa omaa sukuaan."
+       "tyyppi": "otsikko",
+       "teksti": "Interrogatiivipronominit – kysyvät pronominit"
       },
       {
-       "tyyppi": "huomio",
-       "teksti": "ett slut → slutet (ett-sana)",
-       "liittyy": null
+       "tyyppi": "teksti",
+       "teksti": "Vad on yksinään ilman substantiivia. Vilken-sarja on substantiivin kanssa, ja vastauksena on substantiivi. Hurdan-sarja on myös substantiivin kanssa, mutta vastauksena on adjektiivi."
       },
       {
-       "tyyppi": "huomio",
-       "teksti": "en höst → hösten (en-sana)",
-       "liittyy": null
+       "tyyppi": "sana",
+       "id": "vad",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "vad",
+       "suomi": [
+        "mitä",
+        "mikä (yksinään, ilman substantiivia)"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.1 Pronominit",
+       "valiotsikko": "Interrogatiivipronominit – kysyvät pronominit",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Vad läser du?",
+         "fi": "Mitä luet?"
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "vilken",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "vilken",
+       "suomi": [
+        "mikä",
+        "kuka",
+        "kumpi (substantiivin kanssa – vastaus on substantiivi)"
+       ],
+       "taivutus": [
+        "vilket",
+        "vilka"
+       ],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.1 Pronominit",
+       "valiotsikko": "Interrogatiivipronominit – kysyvät pronominit",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Vilken bok läser du? – Jag läser en deckare.",
+         "fi": "Minkä kirjan luet? – Luen dekkaria."
+        },
+        {
+         "sv": "Vilket spel tycker du om?",
+         "fi": "Mistä pelistä pidät?"
+        },
+        {
+         "sv": "Vilka böcker läser ni?",
+         "fi": "Mitä kirjoja te luette?"
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "hurdan",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "hurdan",
+       "suomi": [
+        "millainen (substantiivin kanssa – vastaus on adjektiivi)"
+       ],
+       "taivutus": [
+        "hurdant",
+        "hurdana"
+       ],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.1 Pronominit",
+       "valiotsikko": "Interrogatiivipronominit – kysyvät pronominit",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Hurdan är din bil? – Den är blå och jättesnabb.",
+         "fi": "Millainen autosi on? – Se on sininen ja tosi nopea."
+        },
+        {
+         "sv": "Hurdant är ditt äpple? – Det är jättestort.",
+         "fi": "Millainen omenasi on? – Se on tosi iso."
+        },
+        {
+         "sv": "Hurdana är dina bilar? – De är små.",
+         "fi": "Millaisia autosi ovat? – Ne ovat pieniä."
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Muoto tulee pääsanasta, ei kysyjästä: vilken bok (en-sana), vilket spel (ett-sana), vilka böcker (monikko)."
+      },
+      {
+       "tyyppi": "otsikko",
+       "teksti": "Pronominit man ja det"
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Man on passiivin vastine. Se on yksiköllinen ja kolmannessa persoonassa, ja omistuspronominina käytetään sin, sitt, sina."
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Man ska sköta sitt eget hem.",
+         "fi": "Omasta kodista pitää huolehtia."
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Man får inte glömma sina läxor.",
+         "fi": "Läksyjään ei saa unohtaa."
+        }
+       ]
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Det-subjektia käytetään neljässä tilanteessa. Ensimmäinen: kuvaillaan millaista jossakin on tai millaista jokin on."
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Det är varmt här inne.",
+         "fi": "Täällä sisällä on lämmintä."
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Det var trevligt att träffas!",
+         "fi": "Oli mukava tavata!"
+        }
+       ]
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Toinen: puhutaan säätilasta ja luonnonilmiöistä."
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Det är soligt i dag.",
+         "fi": "Tänään on aurinkoista."
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Snart blir det vår.",
+         "fi": "Kohta tulee kevät."
+        }
+       ]
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Kolmas: käytetään aistihavaintoverbejä."
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Det känns härligt.",
+         "fi": "Tuntuu ihanalta."
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Det låter jättebra.",
+         "fi": "Kuulostaa oikein hyvältä."
+        }
+       ]
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Neljäs: ilmaistaan, että jossakin on jotakin – det finns / det fanns -rakenne."
+      },
+      {
+       "tyyppi": "sana",
+       "id": "det-finns-det-fanns",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "det finns / det fanns",
+       "suomi": [
+        "jossakin on / oli jotakin"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.1 Pronominit",
+       "valiotsikko": "Pronominit man ja det",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Det finns mycket folk här.",
+         "fi": "Täällä on paljon ihmisiä."
+        },
+        {
+         "sv": "Det finns inte tusentals sjöar i Sverige.",
+         "fi": "Ruotsissa ei ole tuhansia järviä."
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "otsikko",
+       "teksti": "Demonstratiivipronominit"
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Demonstratiivipronominien pohja on adjektiivin epämääräinen ja määräinen muoto. Kun eteen tulee den, det tai de, adjektiivi menee määräiseen a-muotoon ja substantiivi määräiseen muotoon."
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "en röd bil → den röda bilen",
+         "fi": "punainen auto → se punainen auto"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "ett rött hus → det röda huset",
+         "fi": "punainen talo → se punainen talo"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "röda bilar / hus → de röda bilarna / husen",
+         "fi": "punaisia autoja / taloja → ne punaiset autot / talot"
+        }
+       ]
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "TÄMÄ, NÄMÄ voidaan sanoa kahdella tavalla. Den här + substantiivi määräisessä muodossa, tai denna + substantiivi epämääräisessä muodossa."
+      },
+      {
+       "tyyppi": "sana",
+       "id": "den-här-det-här-de-här",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "den här / det här / de här",
+       "suomi": [
+        "tämä",
+        "nämä (substantiivi MÄÄRÄISESSÄ muodossa)"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.1 Pronominit",
+       "valiotsikko": "Demonstratiivipronominit",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "den här röda bilen",
+         "fi": "tämä punainen auto"
+        },
+        {
+         "sv": "det här röda huset",
+         "fi": "tämä punainen talo"
+        },
+        {
+         "sv": "de här röda bilarna / husen",
+         "fi": "nämä punaiset autot / talot"
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "denna-detta-dessa",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "denna / detta / dessa",
+       "suomi": [
+        "tämä",
+        "nämä (substantiivi EPÄMÄÄRÄISESSÄ muodossa)"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.1 Pronominit",
+       "valiotsikko": "Demonstratiivipronominit",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "denna röda bil",
+         "fi": "tämä punainen auto"
+        },
+        {
+         "sv": "detta röda hus",
+         "fi": "tämä punainen talo"
+        },
+        {
+         "sv": "dessa röda bilar / hus",
+         "fi": "nämä punaiset autot / talot"
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Älä sekoita sarjoja keskenään: den här bilen tai denna bil – ei denna bilen. Denna-muoto on kirjoitelmassa hieman muodollisempi."
+      },
+      {
+       "tyyppi": "sana",
+       "id": "den-där-det-där-de-där",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "den där / det där / de där",
+       "suomi": [
+        "tuo",
+        "nuo"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.1 Pronominit",
+       "valiotsikko": "Demonstratiivipronominit",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "den där röda bilen",
+         "fi": "tuo punainen auto"
+        },
+        {
+         "sv": "det där röda huset",
+         "fi": "tuo punainen talo"
+        },
+        {
+         "sv": "de där röda bilarna / husen",
+         "fi": "nuo punaiset autot / talot"
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "SAMA jakautuu kahtia sen mukaan, onko substantiivi perässä vai ei."
+      },
+      {
+       "tyyppi": "sana",
+       "id": "samma",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "samma",
+       "suomi": [
+        "sama (taipumaton, substantiivin kanssa – yksikkö ja monikko)"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.1 Pronominit",
+       "valiotsikko": "Demonstratiivipronominit",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Jag har samma fina bil som min syster.",
+         "fi": "Minulla on sama hieno auto kuin siskollani."
+        },
+        {
+         "sv": "Jag har samma fina bilar som min syster.",
+         "fi": "Minulla on samat hienot autot kuin siskollani."
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "densamma",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "densamma",
+       "suomi": [
+        "sama (yksinään, ilman substantiivia)"
+       ],
+       "taivutus": [
+        "detsamma",
+        "desamma"
+       ],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.1 Pronominit",
+       "valiotsikko": "Demonstratiivipronominit",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Bilen har varit densamma i tre år.",
+         "fi": "Auto on ollut sama kolme vuotta."
+        },
+        {
+         "sv": "Hotellet har varit detsamma hela mitt liv.",
+         "fi": "Hotelli on ollut sama koko elämäni."
+        },
+        {
+         "sv": "Vitsarna har säkert varit desamma under hela hans karriär.",
+         "fi": "Vitsit ovat varmasti olleet samat koko hänen uransa ajan."
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Muoto tulee siitä sanasta, johon viitataan: bilen → densamma (en-sana), hotellet → detsamma (ett-sana), vitsarna → desamma (monikko)."
+      },
+      {
+       "tyyppi": "sana",
+       "id": "tack-detsamma",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "Tack detsamma!",
+       "suomi": [
+        "Kiitos samoin!"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.1 Pronominit",
+       "valiotsikko": "Demonstratiivipronominit",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "med-detsamma",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "med detsamma",
+       "suomi": [
+        "heti",
+        "saman tien"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.1 Pronominit",
+       "valiotsikko": "Demonstratiivipronominit",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Kom hit med detsamma!",
+         "fi": "Tule heti tänne!"
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "sådan",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "sådan",
+       "suomi": [
+        "sellainen"
+       ],
+       "taivutus": [
+        "sådant",
+        "sådana"
+       ],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.1 Pronominit",
+       "valiotsikko": "Demonstratiivipronominit",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "en sådan röd bil",
+         "fi": "sellainen punainen auto"
+        },
+        {
+         "sv": "ett sådant rött hus",
+         "fi": "sellainen punainen talo"
+        },
+        {
+         "sv": "sådana röda böcker",
+         "fi": "sellaisia punaisia kirjoja"
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "likadan",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "likadan",
+       "suomi": [
+        "samanlainen"
+       ],
+       "taivutus": [
+        "likadant",
+        "likadana"
+       ],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.1 Pronominit",
+       "valiotsikko": "Demonstratiivipronominit",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "en likadan röd bil",
+         "fi": "samanlainen punainen auto"
+        },
+        {
+         "sv": "ett likadant rött hus",
+         "fi": "samanlainen punainen talo"
+        },
+        {
+         "sv": "likadana röda böcker",
+         "fi": "samanlaisia punaisia kirjoja"
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Sådan ja likadan taipuvat itse pääsanan mukaan, mutta niiden jälkeen tuleva adjektiivi noudattaa tavallista epämääräistä taivutusta: en sådan röd bil, ett sådant rött hus, sådana röda böcker."
+      },
+      {
+       "tyyppi": "otsikko",
+       "teksti": "Indefiniittipronominit"
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Sama kolmen muodon kaava toistuu: en-muoto, ett-muoto, monikko. Pääsana on epämääräisessä muodossa ja adjektiivi taipuu normaalisti."
+      },
+      {
+       "tyyppi": "sana",
+       "id": "någon",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "någon",
+       "suomi": [
+        "joku",
+        "jotkut"
+       ],
+       "taivutus": [
+        "något",
+        "några"
+       ],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.1 Pronominit",
+       "valiotsikko": "Indefiniittipronominit",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "någon fin resa",
+         "fi": "joku hieno matka"
+        },
+        {
+         "sv": "något fint hus",
+         "fi": "joku hieno talo"
+        },
+        {
+         "sv": "några fina resor / hus",
+         "fi": "jotkut hienot matkat / talot"
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "någon-annan",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "någon annan",
+       "suomi": [
+        "joku toinen / muu",
+        "jotkut toiset / muut"
+       ],
+       "taivutus": [
+        "något annat",
+        "några andra"
+       ],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.1 Pronominit",
+       "valiotsikko": "Indefiniittipronominit",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "någon annan fin resa",
+         "fi": "joku toinen hieno matka"
+        },
+        {
+         "sv": "något annat fint hus",
+         "fi": "joku toinen hieno talo"
+        },
+        {
+         "sv": "några andra fina resor / hus",
+         "fi": "jotkut muut hienot matkat / talot"
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "ingen",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "ingen",
+       "suomi": [
+        "ei kukaan",
+        "ei mikään (inte-sana sisällä!)"
+       ],
+       "taivutus": [
+        "inget",
+        "inga"
+       ],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.1 Pronominit",
+       "valiotsikko": "Indefiniittipronominit",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "ingen fin resa",
+         "fi": "ei yhtään hienoa matkaa"
+        },
+        {
+         "sv": "inget fint hus",
+         "fi": "ei yhtään hienoa taloa"
+        },
+        {
+         "sv": "inga fina resor / hus",
+         "fi": "ei yhtään hienoja matkoja / taloja"
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Ingen-sarjassa kielto on jo sisällä, joten lauseeseen ei tule erillistä inte-sanaa."
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Kun viitataan asiaan eikä substantiiviin, käytetään -ting-sarjaa: något / någonting (jotakin), något annat / någonting annat (jotakin muuta), inget / ingenting (ei mitään) ja allt / allting (kaikkea)."
+      },
+      {
+       "tyyppi": "sana",
+       "id": "något-någonting",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "något / någonting",
+       "suomi": [
+        "jotakin"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.1 Pronominit",
+       "valiotsikko": "Indefiniittipronominit",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Har du hört något?",
+         "fi": "Oletko kuullut jotakin?"
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "något-annat-någonting-annat",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "något annat / någonting annat",
+       "suomi": [
+        "jotakin muuta"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.1 Pronominit",
+       "valiotsikko": "Indefiniittipronominit",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "inget-ingenting",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "inget / ingenting",
+       "suomi": [
+        "ei mitään (inte-sana sisällä!)"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.1 Pronominit",
+       "valiotsikko": "Indefiniittipronominit",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "allt-allting",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "allt / allting",
+       "suomi": [
+        "kaikki",
+        "kaikkea"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.1 Pronominit",
+       "valiotsikko": "Indefiniittipronominit",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Ingen, inget ja inga jaetaan kahteen osaan – inte + någon / något / några – kahdessa tapauksessa: kun päälauseessa on useampi verbi, ja kun pronomini on sivulauseessa."
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Han har inte sagt något / någonting.",
+         "fi": "Hän ei ole sanonut mitään."
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Han ska inte säga något / någonting.",
+         "fi": "Hän ei aio sanoa mitään."
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Jag vet att han inte säger något / någonting.",
+         "fi": "Tiedän, ettei hän sano mitään."
+        }
+       ]
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Jakoa ei tehdä, kun pronomini on lauseen subjektina."
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Ingenting händer om ingen gör någonting.",
+         "fi": "Mitään ei tapahdu, jos kukaan ei tee mitään."
+        }
+       ]
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "JOKA, JOKAINEN -ryhmässä ratkaisee jälleen se, onko substantiivi perässä. Kaikki nämä ovat vain yksikössä."
+      },
+      {
+       "tyyppi": "sana",
+       "id": "varje",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "varje",
+       "suomi": [
+        "joka",
+        "jokainen (substantiivin kanssa, vain yksikkö)"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.1 Pronominit",
+       "valiotsikko": "Indefiniittipronominit",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Vi träffas varje vacker dag.",
+         "fi": "Tapaamme joka kauniina päivänä."
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "var-och-en-vart-och-ett",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "var och en / vart och ett",
+       "suomi": [
+        "jokainen (yksinään, ilman substantiivia, vain yksikkö)"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.1 Pronominit",
+       "valiotsikko": "Indefiniittipronominit",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Var och en vet det.",
+         "fi": "Jokainen tietää sen."
+        },
+        {
+         "sv": "Var och en av oss vet det.",
+         "fi": "Jokainen meistä tietää sen."
+        },
+        {
+         "sv": "Vart och ett av barnen vet det.",
+         "fi": "Jokainen lapsista tietää sen."
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Ihminen on en-sukuinen, siksi var och en. Vart och ett viittaa ett-sanaan, esimerkiksi barn."
+      },
+      {
+       "tyyppi": "sana",
+       "id": "vars-och-ens",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "vars och ens",
+       "suomi": [
+        "jokaisen (var och en -pronominin omistusmuoto)"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.1 Pronominit",
+       "valiotsikko": "Indefiniittipronominit",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Vars och ens åsikt är viktig.",
+         "fi": "Jokaisen mielipide on tärkeä."
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "varenda-vartenda",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "varenda / vartenda",
+       "suomi": [
+        "jokainen",
+        "jokaikinen (substantiivin kanssa, vain yksikkö)"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.1 Pronominit",
+       "valiotsikko": "Indefiniittipronominit",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Jag köper blommor varenda vacker dag.",
+         "fi": "Ostan kukkia jokaikisenä kauniina päivänä."
+        },
+        {
+         "sv": "vartenda vackert år",
+         "fi": "jokaikinen kaunis vuosi"
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Var / vart + järjestysluku + substantiivi ilmaisee toistuvan välin."
+      },
+      {
+       "tyyppi": "sana",
+       "id": "var-tredje-dag",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "var tredje dag",
+       "suomi": [
+        "joka kolmas päivä"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.1 Pronominit",
+       "valiotsikko": "Indefiniittipronominit",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "vart-fjärde-år",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "vart fjärde år",
+       "suomi": [
+        "joka neljäs vuosi"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.1 Pronominit",
+       "valiotsikko": "Indefiniittipronominit",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "varannan-vartannat",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "varannan / vartannat",
+       "suomi": [
+        "joka toinen"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.1 Pronominit",
+       "valiotsikko": "Indefiniittipronominit",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Jag går på bio varannan vecka.",
+         "fi": "Käyn elokuvissa joka toinen viikko."
+        },
+        {
+         "sv": "Jag går på bio vartannat år.",
+         "fi": "Käyn elokuvissa joka toinen vuosi."
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "annan",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "annan",
+       "suomi": [
+        "toinen",
+        "toiset"
+       ],
+       "taivutus": [
+        "ett annat",
+        "andra"
+       ],
+       "luokka": null,
+       "suku": "en",
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.1 Pronominit",
+       "valiotsikko": "Indefiniittipronominit",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "en annan röd tröja",
+         "fi": "toinen punainen paita"
+        },
+        {
+         "sv": "ett annat vackert café",
+         "fi": "toinen kaunis kahvila"
+        },
+        {
+         "sv": "andra roliga planer",
+         "fi": "toiset hauskat suunnitelmat"
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "den-ena-den-andra-det-ena-det-andra",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "den ena – den andra / det ena – det andra",
+       "suomi": [
+        "toinen – toinen (yksinään, vain yksikkö)"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.1 Pronominit",
+       "valiotsikko": "Indefiniittipronominit",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "De två flickorna är i skolan. Den ena sjunger och den andra skriver.",
+         "fi": "Ne kaksi tyttöä ovat koulussa. Toinen laulaa ja toinen kirjoittaa."
+        },
+        {
+         "sv": "De två barnen är i skolan. Det ena sjunger och det andra skriver.",
+         "fi": "Ne kaksi lasta ovat koulussa. Toinen laulaa ja toinen kirjoittaa."
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "några-andra",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "några – andra",
+       "suomi": [
+        "jotkut – toiset (yksinään, monikko)"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.1 Pronominit",
+       "valiotsikko": "Indefiniittipronominit",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "själv",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "själv",
+       "suomi": [
+        "itse (taipuu lauseen tekijän mukaan)"
+       ],
+       "taivutus": [
+        "självt",
+        "själva"
+       ],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.1 Pronominit",
+       "valiotsikko": "Indefiniittipronominit",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Eleven gjorde det själv.",
+         "fi": "Oppilas teki sen itse."
+        },
+        {
+         "sv": "Eleverna gjorde det själva.",
+         "fi": "Oppilaat tekivät sen itse."
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Huomaa, että substantiivin EDESSÄ själva on taipumaton. Själva presidenten besökte samma stad. = Itse presidentti vieraili samassa kaupungissa."
+      },
+      {
+       "tyyppi": "sana",
+       "id": "hela",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "hela",
+       "suomi": [
+        "koko (substantiivin kanssa)"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.1 Pronominit",
+       "valiotsikko": "Indefiniittipronominit",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Jag tillbringade hela (den) fina dagen med henne.",
+         "fi": "Vietin koko sen hienon päivän hänen kanssaan."
+        },
+        {
+         "sv": "Jag byggde hela (det) fina huset med honom.",
+         "fi": "Rakensin koko sen hienon talon hänen kanssaan."
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "båda-bägge",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "båda / bägge",
+       "suomi": [
+        "molemmat (substantiivin kanssa)"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.1 Pronominit",
+       "valiotsikko": "Indefiniittipronominit",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "båda fina föräldrarna",
+         "fi": "molemmat hienot vanhemmat"
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "otsikko",
+       "teksti": "Paljoussanat"
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Paljoussanan jälkeen laskettava sana on monikon epämääräisessä muodossa ja ei-laskettava sana yksikön epämääräisessä muodossa. Sarjat kannattaa opetella vierekkäin, koska niiden jäsenet vastaavat toisiaan."
+      },
+      {
+       "tyyppi": "sana",
+       "id": "många-kompisar",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "många kompisar",
+       "suomi": [
+        "monta kaveria (laskettava)"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.1 Pronominit",
+       "valiotsikko": "Paljoussanat",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "mycket-socker",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "mycket socker",
+       "suomi": [
+        "paljon sokeria (ei-laskettava)"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.1 Pronominit",
+       "valiotsikko": "Paljoussanat",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "flera-vänner",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "flera vänner",
+       "suomi": [
+        "useampi ystävä (laskettava)"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.1 Pronominit",
+       "valiotsikko": "Paljoussanat",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "mera-kaffe",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "mera kaffe",
+       "suomi": [
+        "enemmän kahvia (ei-laskettava)"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.1 Pronominit",
+       "valiotsikko": "Paljoussanat",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "de-flesta-människor",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "de flesta människor",
+       "suomi": [
+        "useimmat ihmiset (laskettava)"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.1 Pronominit",
+       "valiotsikko": "Paljoussanat",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "mest-tid",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "mest tid",
+       "suomi": [
+        "eniten aikaa (ei-laskettava)"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.1 Pronominit",
+       "valiotsikko": "Paljoussanat",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "få-flickor",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "få flickor",
+       "suomi": [
+        "harvat tytöt (laskettava)"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.1 Pronominit",
+       "valiotsikko": "Paljoussanat",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "lite-t-salt",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "lite(t) salt",
+       "suomi": [
+        "vähän suolaa (ei-laskettava)"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.1 Pronominit",
+       "valiotsikko": "Paljoussanat",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "färre-pojkar",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "färre pojkar",
+       "suomi": [
+        "harvemmat pojat (laskettava)"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.1 Pronominit",
+       "valiotsikko": "Paljoussanat",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "mindre-vatten",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "mindre vatten",
+       "suomi": [
+        "vähemmän vettä (ei-laskettava)"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.1 Pronominit",
+       "valiotsikko": "Paljoussanat",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "färst-människor",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "färst människor",
+       "suomi": [
+        "harvimmat ihmiset (laskettava)"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.1 Pronominit",
+       "valiotsikko": "Paljoussanat",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "minst-tid",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "minst tid",
+       "suomi": [
+        "vähiten aikaa (ei-laskettava)"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.1 Pronominit",
+       "valiotsikko": "Paljoussanat",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Sarjat ovat vertailuasteita: många – flera – de flesta rinnastuu sarjaan mycket – mera – mest, ja få – färre – färst sarjaan lite – mindre – minst."
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Färst on harvinainen muoto. Luontevampi tapa sanoa sama on esimerkiksi minst antal människor."
       }
      ]
     },
     {
-     "otsikko": "7.4 Adjektiivista adverbi",
+     "otsikko": "7.2 Vertailumuodot",
      "sisalto": [
       {
        "tyyppi": "teksti",
-       "teksti": "Adjektiivin neutrimuoto (-t) toimii adverbina: otrolig → otroligt (uskomattoman), verklig → verkligen (poikkeus), sen → sent."
+       "teksti": "Vertailussa on kolme astetta ja kolme tapaa muodostaa ne. Säännöllinen vertailu lisää -are ja -ast. Epäsäännöllinen muuttaa perusmuodon vokaalin (å → ä, u → y, o → ö) ja lisää -re ja -st. Kolme adjektiivityyppiä ei taivu lainkaan vaan vertaillaan sanoilla mer ja mest. Kuin on aina än."
+      },
+      {
+       "tyyppi": "otsikko",
+       "teksti": "Positiivi – yhtä pieni kuin"
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Positiivissa adjektiivi taipuu edellä olevan substantiivin mukaan. Myönteisessä lauseessa lika – som, kielteisessä så – som."
+      },
+      {
+       "tyyppi": "sana",
+       "id": "lika-som",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "lika … som",
+       "suomi": [
+        "yhtä … kuin (myönteinen lause)"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.2 Vertailumuodot",
+       "valiotsikko": "Positiivi – yhtä pieni kuin",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Min bostad är lika liten som din.",
+         "fi": "Asuntoni on yhtä pieni kuin sinun."
+        },
+        {
+         "sv": "Mitt hus är lika litet som ditt.",
+         "fi": "Taloni on yhtä pieni kuin sinun."
+        },
+        {
+         "sv": "Mina bostäder / hus är lika små som dina.",
+         "fi": "Asuntoni / taloni ovat yhtä pieniä kuin sinun."
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "inte-så-som",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "inte så … som",
+       "suomi": [
+        "ei niin … kuin (kielteinen lause)"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.2 Vertailumuodot",
+       "valiotsikko": "Positiivi – yhtä pieni kuin",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Min bostad är inte så liten som din.",
+         "fi": "Asuntoni ei ole niin pieni kuin sinun."
+        },
+        {
+         "sv": "Mitt hus är inte så litet som ditt.",
+         "fi": "Taloni ei ole niin pieni kuin sinun."
+        },
+        {
+         "sv": "Mina bostäder / hus är inte så små som dina.",
+         "fi": "Asuntoni / taloni eivät ole niin pieniä kuin sinun."
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "otsikko",
+       "teksti": "Komparatiivi – pienempi kuin"
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Säännöllinen vertailu: perusmuodon perään -are. Komparatiivi on taipumaton – se ei saa -t- eikä -a-päätettä, vaikka pääsana olisi ett-sana tai monikossa."
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Vardagsrummet är mysigare än arbetsrummet.",
+         "fi": "Olohuone on kodikkaampi kuin työhuone."
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Tvåan är rymligare än ettan.",
+         "fi": "Kaksio on tilavampi kuin yksiö."
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Lampan är vackrare än sängen.",
+         "fi": "Lamppu on kauniimpi kuin sänky."
+        }
+       ]
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Kirjainmuutokset: vacker → vackrare (-er, -el, -en pudottavat vokaalin), dum → dummare (lyhyt vokaali kaksintaa konsonantin), nära → närmare."
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Epäsäännöllinen vertailu: perusmuodossa vokaalimuutos å → ä, u → y tai o → ö, ja perään -re."
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Soffan är större än fåtöljen.",
+         "fi": "Sohva on suurempi kuin nojatuoli."
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Mattan är längre än bordet.",
+         "fi": "Matto on pitempi kuin pöytä."
+        }
+       ]
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Nämä kolmetoista ovat ne, jotka pitää osata ulkoa. Viisi alimmaista ovat täysin epäsäännöllisiä – niissä ei ole edes vokaalimuutosta vaan kokonaan eri sana."
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "lång – längre – längst",
+         "fi": "pitkä – pitempi – pisin"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "låg – lägre – lägst",
+         "fi": "matala – matalampi – matalin"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "trång – trängre – trängst",
+         "fi": "ahdas – ahtaampi – ahtain"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "ung – yngre – yngst",
+         "fi": "nuori – nuorempi – nuorin"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "tung – tyngre – tyngst",
+         "fi": "painava – painavampi – painavin"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "stor – större – störst",
+         "fi": "suuri – suurempi – suurin"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "grov – grövre – grövst",
+         "fi": "karkea – karkeampi – karkein"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "hög – högre – högst",
+         "fi": "korkea – korkeampi – korkein"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "bra – bättre – bäst",
+         "fi": "hyvä – parempi – paras"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "dålig – sämre – sämst",
+         "fi": "huono – huonompi – huonoin"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "gammal – äldre – äldst",
+         "fi": "vanha – vanhempi – vanhin"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "liten – mindre – minst",
+         "fi": "pieni – pienempi – pienin"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "ond – värre – värst",
+         "fi": "paha – pahempi – pahin"
+        }
+       ]
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Mer(a)-vertailu koskee kolmea adjektiivityyppiä. Ensimmäinen: -ande / -ende -päätteiset eli preesensin partisiipit. Ne ovat taipumattomia."
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Min hemort är mer spännande än din by.",
+         "fi": "Kotiseutuni on jännittävämpi kuin sinun kyläsi."
+        }
+       ]
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Toinen: esimerkiksi -ad-päätteiset eli perfektin partisiipit. Nämä taipuvat edellä olevan substantiivin mukaan."
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Balkongen är mer möblerad än toaletten.",
+         "fi": "Parveke on kalustetumpi kuin vessa."
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Sovrummet är mer möblerat än bastun.",
+         "fi": "Makuuhuone on kalustetumpi kuin sauna."
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Våra gästrum är mer möblerade än era gästrum.",
+         "fi": "Meidän vierashuoneemme ovat kalustetumpia kuin teidän."
+        }
+       ]
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Kolmas: -isk-päätteiset. Nämäkin taipuvat edellä olevan substantiivin mukaan."
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Studentbostaden är mer exotisk än hyreslägenheten.",
+         "fi": "Opiskelija-asunto on eksoottisempi kuin vuokrakerrostaloasunto."
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Höghuset är mer exotiskt än parhuset.",
+         "fi": "Kerrostalo on eksoottisempi kuin paritalo."
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Bondgårdarna är mer exotiska än radhusen.",
+         "fi": "Maatilat ovat eksoottisempia kuin rivitalot."
+        }
+       ]
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Muista ero: mer-vertailussa itse mer ei taivu koskaan, mutta adjektiivi taipuu kahdessa tapauksessa kolmesta. Vain -ande / -ende -partisiipit ovat täysin taipumattomia."
+      },
+      {
+       "tyyppi": "otsikko",
+       "teksti": "Superlatiivi – pienin"
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Superlatiivilla on kaksi muotoa, lyhyt ja pitkä. Lyhyttä käytetään silloin, kun perässä EI ole substantiivia, ja se on taipumaton."
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Säännöllinen lyhyt superlatiivi: perusmuodon perään -ast."
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Hallen är ljusast och rymligast.",
+         "fi": "Eteinen on valoisin ja tilavin."
+        }
+       ]
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Kirjainmuutokset kulkevat läpi koko sarjan: vacker – vackrare – vackrast, dum – dummare – dummast, nära – närmare – närmast."
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Epäsäännöllinen lyhyt superlatiivi: vokaalimuutos ja perään -st."
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Tavlan är äldst och bäst.",
+         "fi": "Taulu on vanhin ja paras."
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Vardagsrummet är trängst.",
+         "fi": "Olohuone on ahtain."
+        }
+       ]
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Mest-vertailu toimii samoilla kolmella adjektiivityypillä kuin mer-vertailu."
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Min hemort är mest spännande.",
+         "fi": "Kotiseutuni on jännittävin."
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Balkongen är mest möblerad.",
+         "fi": "Parveke on kalustetuin."
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Sovrummet är mest möblerat.",
+         "fi": "Makuuhuone on kalustetuin."
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Våra gästrum är mest möblerade.",
+         "fi": "Vierashuoneemme ovat kalustetuimmat."
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Studentbostaden är mest exotisk.",
+         "fi": "Opiskelija-asunto on eksoottisin."
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Höghuset är mest exotiskt.",
+         "fi": "Kerrostalo on eksoottisin."
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Bondgårdarna är mest exotiska.",
+         "fi": "Maatilat ovat eksoottisimmat."
+        }
+       ]
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Pitkää superlatiivimuotoa käytetään substantiivin kanssa – aina. Eteen tulee den, det tai de, superlatiivi menee määräiseen muotoon (-aste säännöllisessä, -sta epäsäännöllisessä) ja substantiivi määräiseen muotoon."
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "den hemtrevligaste lägenheten",
+         "fi": "kodikkain asunto"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "den mysigaste trean",
+         "fi": "kodikkain kolmio"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "de vackraste våningarna",
+         "fi": "kauneimmat huoneistot"
+        }
+       ]
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Korjaus: Muistiinpanoissa \"det mysigaste trean\" – trea on en-sana (en trea), joten oikein on den mysigaste trean."
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Epäsäännöllisessä vertailussa määräinen pääte on -sta."
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "den största villan",
+         "fi": "suurin huvila"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "det minsta egnahemshuset",
+         "fi": "pienin omakotitalo"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "de bästa trädgårdarna",
+         "fi": "parhaat puutarhat"
+        }
+       ]
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Mest-vertailussa adjektiivi on määräisessä muodossa mest-sanan jäljessä."
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "den mest spännande möbeln",
+         "fi": "jännittävin huonekalu"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "det mest spännande skåpet",
+         "fi": "jännittävin kaappi"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "de mest spännande möblerna / skåpen",
+         "fi": "jännittävimmät huonekalut / kaapit"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "den mest inredda villan",
+         "fi": "sisustetuin huvila"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "det mest inredda rummet",
+         "fi": "sisustetuin huone"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "de mest inredda villorna / rummen",
+         "fi": "sisustetuimmat huvilat / huoneet"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "den mest exotiska mattan",
+         "fi": "eksoottisin matto"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "det mest exotiska bordet",
+         "fi": "eksoottisin pöytä"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "de mest exotiska mattorna / borden",
+         "fi": "eksoottisimmat matot / pöydät"
+        }
+       ]
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Omistusrakenne kumoaa määräisen muodon myös superlatiivissa: omistaja + superlatiivi määräisessä muodossa + substantiivi EPÄMÄÄRÄISESSÄ muodossa. Den / det / de jää pois."
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "min vackraste matta",
+         "fi": "kaunein mattoni"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Lasses största skåp",
+         "fi": "Lassen suurin kaappi"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "svenskarnas bästa trädgårdar",
+         "fi": "ruotsalaisten parhaat puutarhat"
+        }
+       ]
+      },
+      {
+       "tyyppi": "otsikko",
+       "teksti": "Vertailumuotojen vahvikesanat"
+      },
+      {
+       "tyyppi": "sana",
+       "id": "ännu-bättre",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "ännu bättre",
+       "suomi": [
+        "vielä parempi"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.2 Vertailumuodot",
+       "valiotsikko": "Vertailumuotojen vahvikesanat",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Den här lägenheten är ännu bättre.",
+         "fi": "Tämä asunto on vielä parempi."
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "allt-bättre",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "allt bättre",
+       "suomi": [
+        "yhä parempi (komparatiivin vahvike)"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.2 Vertailumuodot",
+       "valiotsikko": "Vertailumuotojen vahvikesanat",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Läget blir allt bättre.",
+         "fi": "Tilanne muuttuu yhä paremmaksi."
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "allra-bäst",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "allra bäst",
+       "suomi": [
+        "kaikkein paras (superlatiivin vahvike)"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.2 Vertailumuodot",
+       "valiotsikko": "Vertailumuotojen vahvikesanat",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Den här är allra bäst.",
+         "fi": "Tämä on kaikkein paras."
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
       }
      ]
     },
     {
-     "otsikko": "7.5 Välkommen / välkomna",
+     "otsikko": "7.3 Adjektiivi + substantiivi: epämääräinen ja määräinen muoto",
      "sisalto": [
       {
        "tyyppi": "teksti",
-       "teksti": "Yhdelle sanotaan välkommen, usealle välkomna: Välkomna allihop! = Tervetuloa kaikki!"
+       "teksti": "Adjektiivilla on kaksi taivutusta. Epämääräinen eli lyhyt muoto taipuu pääsanan suvun ja luvun mukaan: kolme muotoa, en-muoto, ett-muoto (-t) ja monikko (-a). Määräinen eli pitkä muoto on aina -a (partisiipeilla -ade / -de) riippumatta suvusta ja luvusta. Määräinen muoto tulee aina, kun edessä on den, det, de tai omistaja."
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Kaava on nelirivinen, ja se kannattaa osata ulkoa jokaisesta paritettavasta sanasta: yksikön epämääräinen, yksikön määräinen, monikon epämääräinen, monikon määräinen. Monikon epämääräisessä muodossa ei ole artikkelia lainkaan – siinä kohdassa on alkuperäisissä muistiinpanoissa pelkkä alleviivaus."
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "en röd skjorta – den röda skjortan – röda skjortor – de röda skjortorna",
+         "fi": "punainen paita – se punainen paita – punaisia paitoja – ne punaiset paidat"
+        }
+       ]
+      },
+      {
+       "tyyppi": "otsikko",
+       "teksti": "en-sanat"
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "en röd skjorta – den röda skjortan – röda skjortor – de röda skjortorna",
+         "fi": "punainen paita (1. deklinaatio)"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "en snygg keps – den snygga kepsen – snygga kepsar – de snygga kepsarna",
+         "fi": "siisti lippalakki (2. deklinaatio)"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "en mörk kostym – den mörka kostymen – mörka kostymer – de mörka kostymerna",
+         "fi": "tumma puku (3. deklinaatio)"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "en sällsynt värmebölja – den sällsynta värmeböljan – sällsynta värmeböljor – de sällsynta värmeböljorna",
+         "fi": "harvinainen hellejakso (1. deklinaatio)"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "en fridlyst svan – den fridlysta svanen – fridlysta svanar – de fridlysta svanarna",
+         "fi": "rauhoitettu joutsen (2. deklinaatio)"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "en orörd kust – den orörda kusten – orörda kuster – de orörda kusterna",
+         "fi": "koskematon rannikko (3. deklinaatio)"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "en skadlig förmåga – den skadliga förmågan – skadliga förmågor – de skadliga förmågorna",
+         "fi": "vahingollinen kyky (1. deklinaatio)"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "en demokratisk värdering – den demokratiska värderingen – demokratiska värderingar – de demokratiska värderingarna",
+         "fi": "demokraattinen arvo (2. deklinaatio)"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "en oanad konsekvens – den oanade konsekvensen – oanade konsekvenser – de oanade konsekvenserna",
+         "fi": "aavistamaton seuraus (3. deklinaatio)"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "en vild natur – den vilda naturen",
+         "fi": "villi luonto (ei monikkoa)"
+        }
+       ]
+      },
+      {
+       "tyyppi": "otsikko",
+       "teksti": "ett-sanat"
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "ett vackert bälte – det vackra bältet – vackra bälten – de vackra bältena",
+         "fi": "kaunis vyö (4. deklinaatio)"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "ett sportigt klädesplagg – det sportiga klädesplagget – sportiga klädesplagg – de sportiga klädesplaggen",
+         "fi": "sporttinen vaate (5. deklinaatio)"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "ett naturskönt ställe – det natursköna stället – natursköna ställen – de natursköna ställena",
+         "fi": "luonnonkaunis paikka (4. deklinaatio)"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "ett utrotningshotat lövträd – det utrotningshotade lövträdet – utrotningshotade lövträd – de utrotningshotade lövträden",
+         "fi": "uhanalainen lehtipuu (5. deklinaatio)"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "ett skyddat samhälle – det skyddade samhället – skyddade samhällen – de skyddade samhällena",
+         "fi": "suojattu yhteiskunta (4. deklinaatio)"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "ett falskt medieinnehåll – det falska medieinnehållet – falska medieinnehåll – de falska medieinnehållen",
+         "fi": "valheellinen mediasisältö (5. deklinaatio)"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "ett farligt snöoväder – det farliga snöovädret",
+         "fi": "vaarallinen lumimyrsky"
+        }
+       ]
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Kaavassa näkyy suoraan deklinaatio: -or (1), -ar (2), -er (3), -n (4) ja päätteetön monikko (5). Kun adjektiivi on paikallaan, substantiivin monikko on se osa, joka pitää tietää erikseen."
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Adjektiivin määräinen muoto on -a, mutta -ad-partisiipeilla se on -ade: den oanade konsekvensen, det skyddade samhället, de utrotningshotade lövträden."
+      },
+      {
+       "tyyppi": "otsikko",
+       "teksti": "Abstraktisanat ja ainesanat – ei artikkelia"
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Abstraktisanoilla ja ainesanoilla ei ole yksikön epämääräistä artikkelia, joten kaava alkaa suoraan adjektiivista. Määräinen muoto ja superlatiivi toimivat muuten täsmälleen samoin."
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "snygg klädsel – den snygga klädseln – den snyggaste klädseln",
+         "fi": "siisti pukeutuminen – se siisti pukeutuminen – siistein pukeutuminen"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "trivsamt boende – det trivsamma boendet – det trivsammaste boendet",
+         "fi": "viihtyisä asuminen – se viihtyisä asuminen – viihtyisin asuminen"
+        }
+       ]
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Superlatiivi menee samaan kohtaan kuin määräinen adjektiivi: eteen den / det, adjektiiviin -aste, substantiivi määräisessä muodossa. Trivsam kaksintaa m-kirjaimen: trivsam, trivsamt, trivsamma, trivsammaste."
+      },
+      {
+       "tyyppi": "otsikko",
+       "teksti": "Omistusrakenne"
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Omistajana voi olla persoonapronomini, erisnimi tai substantiivi määräisessä eli pitkässä muodossa. Adjektiivi tai superlatiivi on määräisessä eli pitkässä muodossa, mutta omistettava on EPÄMÄÄRÄISESSÄ eli lyhyessä muodossa."
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "min fina bil – min finaste bil",
+         "fi": "hieno autoni – hienoin autoni"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "mitt spännande hus – mitt mest spännande hus",
+         "fi": "jännittävä taloni – jännittävin taloni"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "mina stora möbler – mina största möbler",
+         "fi": "suuret huonekaluni – suurimmat huonekaluni"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Åkes exotiska klädesplagg / kläder – Åkes mest exotiska kläder",
+         "fi": "Åken eksoottinen vaate / vaatteet – Åken eksoottisimmat vaatteet"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Finlands lilla stad – Finlands minsta stad",
+         "fi": "Suomen pieni kaupunki – Suomen pienin kaupunki"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Finlands små städer – Finlands minsta städer",
+         "fi": "Suomen pienet kaupungit – Suomen pienimmät kaupungit"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "lärarens bra penna / pennor – lärarens bästa penna",
+         "fi": "opettajan hyvä kynä / kynät – opettajan paras kynä"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "lärarnas dåliga bok / böcker – lärarnas sämsta böcker",
+         "fi": "opettajien huono kirja / kirjat – opettajien huonoimmat kirjat"
+        }
+       ]
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Sama rakenne pariharjoituksen sanoilla. Huomaa, että omistettava pysyy epämääräisenä myös monikossa."
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Saanas röda skjorta – Saanas röda skjortor",
+         "fi": "Saanan punainen paita – Saanan punaiset paidat"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "min snygga keps – mina snygga kepsar",
+         "fi": "siisti lippalakkini – siistit lippalakkini"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "lärarens mörka kostym – lärarens mörka kostymer",
+         "fi": "opettajan tumma puku – opettajan tummat puvut"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "lärarnas vackra bälte – lärarnas vackra bälten",
+         "fi": "opettajien kaunis vyö – opettajien kauniit vyöt"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Åkes sportiga klädesplagg",
+         "fi": "Åken sporttinen vaate / vaatteet"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Finlands fridlysta svan – Finlands fridlysta svanar",
+         "fi": "Suomen rauhoitettu joutsen – Suomen rauhoitetut joutsenet"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "kommunens orörda kust – kommunernas orörda kuster",
+         "fi": "kunnan koskematon rannikko – kuntien koskemattomat rannikot"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "familjens natursköna sommarställe – familjernas natursköna sommarställen",
+         "fi": "perheen luonnonkaunis kesäpaikka – perheiden luonnonkauniit kesäpaikat"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "mitt utrotningshotade lövträd – mina utrotningshotade lövträd",
+         "fi": "uhanalainen lehtipuuni – uhanalaiset lehtipuuni"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "människans skadliga förmåga – människornas skadliga förmågor",
+         "fi": "ihmisen vahingollinen kyky – ihmisten vahingolliset kyvyt"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Finlands demokratiska värdering – Finlands demokratiska värderingar",
+         "fi": "Suomen demokraattinen arvo – Suomen demokraattiset arvot"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "min oanade konsekvens – mina oanade konsekvenser",
+         "fi": "aavistamaton seuraukseni – aavistamattomat seuraukseni"
+        }
+       ]
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Vertaa kahta rakennetta vierekkäin: den fina bilen (määräinen artikkeli + määräinen substantiivi) mutta min fina bil (omistaja + epämääräinen substantiivi). Tämä on se kohta, jossa suomenkielinen kirjoittaja lisää helposti ylimääräisen -n-päätteen."
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Bra on taipumaton, joten omistusrakenteessakin lärarens bra penna. Liten on epäsäännöllinen: liten, litet, små, ja määräinen muoto on lilla – siitä Finlands lilla stad."
+      },
+      {
+       "tyyppi": "otsikko",
+       "teksti": "Kaavan sanat erikseen"
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Nämä ovat kaavan sanat omina riveinään, jotta kaikki taivutusmuodot ja deklinaatiot löytyvät yhdestä paikasta ja haku löytää ne. Adjektiiveilla on kirjattuna ett-muoto ja monikko, substantiiveilla yksikön määräinen, monikon epämääräinen ja monikon määräinen muoto."
+      },
+      {
+       "tyyppi": "sana",
+       "id": "röd",
+       "sanaluokka": "adjektiivi",
+       "ruotsi": "röd",
+       "suomi": [
+        "punainen"
+       ],
+       "taivutus": [
+        "rött",
+        "röda"
+       ],
+       "luokka": "adj.",
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.3 Adjektiivi + substantiivi: epämääräinen ja määräinen muoto",
+       "valiotsikko": "Kaavan sanat erikseen",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "snygg",
+       "sanaluokka": "adjektiivi",
+       "ruotsi": "snygg",
+       "suomi": [
+        "siisti",
+        "näyttävä"
+       ],
+       "taivutus": [
+        "snyggt",
+        "snygga"
+       ],
+       "luokka": "adj.",
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.3 Adjektiivi + substantiivi: epämääräinen ja määräinen muoto",
+       "valiotsikko": "Kaavan sanat erikseen",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "mörk",
+       "sanaluokka": "adjektiivi",
+       "ruotsi": "mörk",
+       "suomi": [
+        "tumma",
+        "pimeä"
+       ],
+       "taivutus": [
+        "mörkt",
+        "mörka"
+       ],
+       "luokka": "adj.",
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.3 Adjektiivi + substantiivi: epämääräinen ja määräinen muoto",
+       "valiotsikko": "Kaavan sanat erikseen",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "vacker-2",
+       "sanaluokka": "adjektiivi",
+       "ruotsi": "vacker",
+       "suomi": [
+        "kaunis"
+       ],
+       "taivutus": [
+        "vackert",
+        "vackra"
+       ],
+       "luokka": "adj.",
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.3 Adjektiivi + substantiivi: epämääräinen ja määräinen muoto",
+       "valiotsikko": "Kaavan sanat erikseen",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": true
+      },
+      {
+       "tyyppi": "sana",
+       "id": "sportig",
+       "sanaluokka": "adjektiivi",
+       "ruotsi": "sportig",
+       "suomi": [
+        "sporttinen"
+       ],
+       "taivutus": [
+        "sportigt",
+        "sportiga"
+       ],
+       "luokka": "adj.",
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.3 Adjektiivi + substantiivi: epämääräinen ja määräinen muoto",
+       "valiotsikko": "Kaavan sanat erikseen",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "sällsynt",
+       "sanaluokka": "adjektiivi",
+       "ruotsi": "sällsynt",
+       "suomi": [
+        "harvinainen"
+       ],
+       "taivutus": [
+        "sällsynt",
+        "sällsynta"
+       ],
+       "luokka": "adj.",
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.3 Adjektiivi + substantiivi: epämääräinen ja määräinen muoto",
+       "valiotsikko": "Kaavan sanat erikseen",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "fridlyst",
+       "sanaluokka": "adjektiivi",
+       "ruotsi": "fridlyst",
+       "suomi": [
+        "rauhoitettu (luonnonsuojelu)"
+       ],
+       "taivutus": [
+        "fridlyst",
+        "fridlysta"
+       ],
+       "luokka": "part.",
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.3 Adjektiivi + substantiivi: epämääräinen ja määräinen muoto",
+       "valiotsikko": "Kaavan sanat erikseen",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "orörd",
+       "sanaluokka": "adjektiivi",
+       "ruotsi": "orörd",
+       "suomi": [
+        "koskematon"
+       ],
+       "taivutus": [
+        "orört",
+        "orörda"
+       ],
+       "luokka": "part.",
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.3 Adjektiivi + substantiivi: epämääräinen ja määräinen muoto",
+       "valiotsikko": "Kaavan sanat erikseen",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "naturskön",
+       "sanaluokka": "adjektiivi",
+       "ruotsi": "naturskön",
+       "suomi": [
+        "luonnonkaunis"
+       ],
+       "taivutus": [
+        "naturskönt",
+        "natursköna"
+       ],
+       "luokka": "adj.",
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.3 Adjektiivi + substantiivi: epämääräinen ja määräinen muoto",
+       "valiotsikko": "Kaavan sanat erikseen",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "utrotningshotad-2",
+       "sanaluokka": "adjektiivi",
+       "ruotsi": "utrotningshotad",
+       "suomi": [
+        "uhanalainen"
+       ],
+       "taivutus": [
+        "utrotningshotat",
+        "utrotningshotade"
+       ],
+       "luokka": "part.",
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.3 Adjektiivi + substantiivi: epämääräinen ja määräinen muoto",
+       "valiotsikko": "Kaavan sanat erikseen",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": true
+      },
+      {
+       "tyyppi": "sana",
+       "id": "vild",
+       "sanaluokka": "adjektiivi",
+       "ruotsi": "vild",
+       "suomi": [
+        "villi"
+       ],
+       "taivutus": [
+        "vilt",
+        "vilda"
+       ],
+       "luokka": "adj.",
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.3 Adjektiivi + substantiivi: epämääräinen ja määräinen muoto",
+       "valiotsikko": "Kaavan sanat erikseen",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "farlig",
+       "sanaluokka": "adjektiivi",
+       "ruotsi": "farlig",
+       "suomi": [
+        "vaarallinen"
+       ],
+       "taivutus": [
+        "farligt",
+        "farliga"
+       ],
+       "luokka": "adj.",
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.3 Adjektiivi + substantiivi: epämääräinen ja määräinen muoto",
+       "valiotsikko": "Kaavan sanat erikseen",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "skadlig-2",
+       "sanaluokka": "adjektiivi",
+       "ruotsi": "skadlig",
+       "suomi": [
+        "vahingollinen",
+        "haitallinen"
+       ],
+       "taivutus": [
+        "skadligt",
+        "skadliga"
+       ],
+       "luokka": "adj.",
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.3 Adjektiivi + substantiivi: epämääräinen ja määräinen muoto",
+       "valiotsikko": "Kaavan sanat erikseen",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": true
+      },
+      {
+       "tyyppi": "sana",
+       "id": "demokratisk",
+       "sanaluokka": "adjektiivi",
+       "ruotsi": "demokratisk",
+       "suomi": [
+        "demokraattinen"
+       ],
+       "taivutus": [
+        "demokratiskt",
+        "demokratiska"
+       ],
+       "luokka": "adj.",
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.3 Adjektiivi + substantiivi: epämääräinen ja määräinen muoto",
+       "valiotsikko": "Kaavan sanat erikseen",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "oanad",
+       "sanaluokka": "adjektiivi",
+       "ruotsi": "oanad",
+       "suomi": [
+        "aavistamaton",
+        "odottamaton"
+       ],
+       "taivutus": [
+        "oanat",
+        "oanade"
+       ],
+       "luokka": "part.",
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.3 Adjektiivi + substantiivi: epämääräinen ja määräinen muoto",
+       "valiotsikko": "Kaavan sanat erikseen",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "skyddad",
+       "sanaluokka": "adjektiivi",
+       "ruotsi": "skyddad",
+       "suomi": [
+        "suojattu"
+       ],
+       "taivutus": [
+        "skyddat",
+        "skyddade"
+       ],
+       "luokka": "part.",
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.3 Adjektiivi + substantiivi: epämääräinen ja määräinen muoto",
+       "valiotsikko": "Kaavan sanat erikseen",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "falsk",
+       "sanaluokka": "adjektiivi",
+       "ruotsi": "falsk",
+       "suomi": [
+        "valheellinen",
+        "väärä"
+       ],
+       "taivutus": [
+        "falskt",
+        "falska"
+       ],
+       "luokka": "adj.",
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.3 Adjektiivi + substantiivi: epämääräinen ja määräinen muoto",
+       "valiotsikko": "Kaavan sanat erikseen",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "trivsam",
+       "sanaluokka": "adjektiivi",
+       "ruotsi": "trivsam",
+       "suomi": [
+        "viihtyisä"
+       ],
+       "taivutus": [
+        "trivsamt",
+        "trivsamma"
+       ],
+       "luokka": "adj.",
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.3 Adjektiivi + substantiivi: epämääräinen ja määräinen muoto",
+       "valiotsikko": "Kaavan sanat erikseen",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "skjorta",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "skjorta",
+       "suomi": [
+        "paita (kauluspaita)"
+       ],
+       "taivutus": [
+        "skjortan",
+        "skjortor",
+        "skjortorna"
+       ],
+       "luokka": "1",
+       "suku": "en",
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.3 Adjektiivi + substantiivi: epämääräinen ja määräinen muoto",
+       "valiotsikko": "Kaavan sanat erikseen",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "keps",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "keps",
+       "suomi": [
+        "lippalakki"
+       ],
+       "taivutus": [
+        "kepsen",
+        "kepsar",
+        "kepsarna"
+       ],
+       "luokka": "2",
+       "suku": "en",
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.3 Adjektiivi + substantiivi: epämääräinen ja määräinen muoto",
+       "valiotsikko": "Kaavan sanat erikseen",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "kostym",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "kostym",
+       "suomi": [
+        "puku (miesten)"
+       ],
+       "taivutus": [
+        "kostymen",
+        "kostymer",
+        "kostymerna"
+       ],
+       "luokka": "3",
+       "suku": "en",
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.3 Adjektiivi + substantiivi: epämääräinen ja määräinen muoto",
+       "valiotsikko": "Kaavan sanat erikseen",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "bälte",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "bälte",
+       "suomi": [
+        "vyö"
+       ],
+       "taivutus": [
+        "bältet",
+        "bälten",
+        "bältena"
+       ],
+       "luokka": "4",
+       "suku": "ett",
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.3 Adjektiivi + substantiivi: epämääräinen ja määräinen muoto",
+       "valiotsikko": "Kaavan sanat erikseen",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "klädesplagg",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "klädesplagg",
+       "suomi": [
+        "vaate",
+        "vaatekappale"
+       ],
+       "taivutus": [
+        "klädesplagget",
+        "klädesplagg",
+        "klädesplaggen"
+       ],
+       "luokka": "5",
+       "suku": "ett",
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.3 Adjektiivi + substantiivi: epämääräinen ja määräinen muoto",
+       "valiotsikko": "Kaavan sanat erikseen",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "värmebölja",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "värmebölja",
+       "suomi": [
+        "hellejakso",
+        "helleaalto"
+       ],
+       "taivutus": [
+        "värmeböljan",
+        "värmeböljor",
+        "värmeböljorna"
+       ],
+       "luokka": "1",
+       "suku": "en",
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.3 Adjektiivi + substantiivi: epämääräinen ja määräinen muoto",
+       "valiotsikko": "Kaavan sanat erikseen",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "svan-2",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "svan",
+       "suomi": [
+        "joutsen"
+       ],
+       "taivutus": [
+        "svanen",
+        "svanar",
+        "svanarna"
+       ],
+       "luokka": "2",
+       "suku": "en",
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.3 Adjektiivi + substantiivi: epämääräinen ja määräinen muoto",
+       "valiotsikko": "Kaavan sanat erikseen",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": true
+      },
+      {
+       "tyyppi": "sana",
+       "id": "kust",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "kust",
+       "suomi": [
+        "rannikko"
+       ],
+       "taivutus": [
+        "kusten",
+        "kuster",
+        "kusterna"
+       ],
+       "luokka": "3",
+       "suku": "en",
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.3 Adjektiivi + substantiivi: epämääräinen ja määräinen muoto",
+       "valiotsikko": "Kaavan sanat erikseen",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "ställe",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "ställe",
+       "suomi": [
+        "paikka"
+       ],
+       "taivutus": [
+        "stället",
+        "ställen",
+        "ställena"
+       ],
+       "luokka": "4",
+       "suku": "ett",
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.3 Adjektiivi + substantiivi: epämääräinen ja määräinen muoto",
+       "valiotsikko": "Kaavan sanat erikseen",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "sommarställe",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "sommarställe",
+       "suomi": [
+        "kesäpaikka",
+        "kesämökki"
+       ],
+       "taivutus": [
+        "sommarstället",
+        "sommarställen",
+        "sommarställena"
+       ],
+       "luokka": "4",
+       "suku": "ett",
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.3 Adjektiivi + substantiivi: epämääräinen ja määräinen muoto",
+       "valiotsikko": "Kaavan sanat erikseen",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "lövträd",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "lövträd",
+       "suomi": [
+        "lehtipuu"
+       ],
+       "taivutus": [
+        "lövträdet",
+        "lövträd",
+        "lövträden"
+       ],
+       "luokka": "5",
+       "suku": "ett",
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.3 Adjektiivi + substantiivi: epämääräinen ja määräinen muoto",
+       "valiotsikko": "Kaavan sanat erikseen",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "förmåga-2",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "förmåga",
+       "suomi": [
+        "kyky"
+       ],
+       "taivutus": [
+        "förmågan",
+        "förmågor",
+        "förmågorna"
+       ],
+       "luokka": "1",
+       "suku": "en",
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.3 Adjektiivi + substantiivi: epämääräinen ja määräinen muoto",
+       "valiotsikko": "Kaavan sanat erikseen",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": true
+      },
+      {
+       "tyyppi": "sana",
+       "id": "värdering-2",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "värdering",
+       "suomi": [
+        "arvo",
+        "arvostus"
+       ],
+       "taivutus": [
+        "värderingen",
+        "värderingar",
+        "värderingarna"
+       ],
+       "luokka": "2",
+       "suku": "en",
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.3 Adjektiivi + substantiivi: epämääräinen ja määräinen muoto",
+       "valiotsikko": "Kaavan sanat erikseen",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": true
+      },
+      {
+       "tyyppi": "sana",
+       "id": "konsekvens",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "konsekvens",
+       "suomi": [
+        "seuraus"
+       ],
+       "taivutus": [
+        "konsekvensen",
+        "konsekvenser",
+        "konsekvenserna"
+       ],
+       "luokka": "3",
+       "suku": "en",
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.3 Adjektiivi + substantiivi: epämääräinen ja määräinen muoto",
+       "valiotsikko": "Kaavan sanat erikseen",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "samhälle-2",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "samhälle",
+       "suomi": [
+        "yhteiskunta"
+       ],
+       "taivutus": [
+        "samhället",
+        "samhällen",
+        "samhällena"
+       ],
+       "luokka": "4",
+       "suku": "ett",
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.3 Adjektiivi + substantiivi: epämääräinen ja määräinen muoto",
+       "valiotsikko": "Kaavan sanat erikseen",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": true
+      },
+      {
+       "tyyppi": "sana",
+       "id": "medieinnehåll",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "medieinnehåll",
+       "suomi": [
+        "mediasisältö"
+       ],
+       "taivutus": [
+        "medieinnehållet",
+        "medieinnehåll",
+        "medieinnehållen"
+       ],
+       "luokka": "5",
+       "suku": "ett",
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.3 Adjektiivi + substantiivi: epämääräinen ja määräinen muoto",
+       "valiotsikko": "Kaavan sanat erikseen",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "snöoväder",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "snöoväder",
+       "suomi": [
+        "lumimyrsky"
+       ],
+       "taivutus": [
+        "snöovädret",
+        "snöoväder",
+        "snöovädren"
+       ],
+       "luokka": "5",
+       "suku": "ett",
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.3 Adjektiivi + substantiivi: epämääräinen ja määräinen muoto",
+       "valiotsikko": "Kaavan sanat erikseen",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "klädsel",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "klädsel",
+       "suomi": [
+        "pukeutuminen",
+        "vaatetus"
+       ],
+       "taivutus": [
+        "klädseln",
+        "klädslar",
+        "klädslarna"
+       ],
+       "luokka": "2",
+       "suku": "en",
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.3 Adjektiivi + substantiivi: epämääräinen ja määräinen muoto",
+       "valiotsikko": "Kaavan sanat erikseen",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "boende",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "boende",
+       "suomi": [
+        "asuminen"
+       ],
+       "taivutus": [
+        "boendet",
+        "boenden",
+        "boendena"
+       ],
+       "luokka": "4",
+       "suku": "ett",
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.3 Adjektiivi + substantiivi: epämääräinen ja määräinen muoto",
+       "valiotsikko": "Kaavan sanat erikseen",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Seitsemän näistä on jo muualla sanastossa: vacker (3.1), skadlig (3.2), utrotningshotad (3.3), förmåga (2.2), värdering (2.3), samhälle (2.3) ja svan (2.9). Ne ovat tässä mukana, jotta kaava on kokonainen."
       }
      ]
     },
     {
-     "otsikko": "7.6 Pronominit",
+     "otsikko": "7.4 Sanajärjestys",
      "sisalto": [
       {
        "tyyppi": "teksti",
-       "teksti": "Ihmiseen viitataan pronominilla hon/han; objektimuoto on henne/honom."
+       "teksti": "Ruotsissa on vain kaksi sanajärjestystä, suora ja käänteinen, ja niiden ero on yhden vaihdon kokoinen: käänteisessä subjekti ja ensimmäinen predikaatti vaihtavat paikkaa keskenään. Kaikki muut sanat pysyvät paikoillaan. Tämän takia riittää tietää, milloin vaihto tehdään."
+      },
+      {
+       "tyyppi": "otsikko",
+       "teksti": "Kaksi mallia"
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "SUORA sanajärjestys: subjekti + 1. predikaatti + inte / liikkuva määre + loput verbit."
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Jag kan inte dansa med katten.",
+         "fi": "En voi tanssia kissan kanssa."
+        }
+       ]
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "KÄÄNTEINEN sanajärjestys: 1. predikaatti + subjekti + inte / liikkuva määre + loput verbit."
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Idag kan jag inte dansa med katten.",
+         "fi": "Tänään en voi tanssia kissan kanssa."
+        }
+       ]
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Vertaa lauseita: vain jag ja kan vaihtoivat paikkaa. Inte, dansa ja med katten pysyivät täsmälleen samassa järjestyksessä."
+      },
+      {
+       "tyyppi": "otsikko",
+       "teksti": "Päälause"
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Päälauseessa on yleensä suora sanajärjestys. Käänteinen tulee neljässä tapauksessa. Ensimmäinen: lauseen alussa on jokin muu kuin subjekti – aika, paikka, objekti tai tapa."
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Idag kan jag inte dansa med katten.",
+         "fi": "Tänään en voi tanssia kissan kanssa."
+        }
+       ]
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Toinen: kyseessä on kysymyslause."
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Kan jag (inte) dansa med katten idag?",
+         "fi": "Voinko (enkö voi) tanssia kissan kanssa tänään?"
+        }
+       ]
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Kolmas: virke alkaa sivulauseella. Sivulause on tällöin kuin yksi iso aloitusmääre, joten päälause jatkuu predikaatilla."
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Om det inte regnar kan jag dansa med katten idag.",
+         "fi": "Jos ei sada, voin tanssia kissan kanssa tänään."
+        }
+       ]
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Neljäs: suoran lainauksen jälkeen tuleva johtolause."
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "”Jag kan inte dansa med katten idag”, säger hon.",
+         "fi": "”En voi tanssia kissan kanssa tänään”, hän sanoo."
+        }
+       ]
+      },
+      {
+       "tyyppi": "otsikko",
+       "teksti": "Sivulause"
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Sivulauseessa on aina suora sanajärjestys."
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Om jag kan dansa med katten blir jag jätteglad.",
+         "fi": "Jos voin tanssia kissan kanssa, tulen tosi iloiseksi."
+        }
+       ]
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Lisäksi sivulauseessa inte ja liikkuvat määreet tulevat ENNEN predikaatteja, kun ne päälauseessa tulevat ensimmäisen predikaatin jälkeen."
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Om jag inte kan dansa med katten kan jag alltid sjunga vackra visor.",
+         "fi": "Jos en voi tanssia kissan kanssa, voin aina laulaa kauniita lauluja."
+        }
+       ]
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Tämä on kirjoitelman yleisin sanajärjestysvirhe. Päälauseessa jag kan inte, sivulauseessa om jag inte kan."
+      },
+      {
+       "tyyppi": "otsikko",
+       "teksti": "Relatiivilause"
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Relatiivilause on sivulause, joka viittaa edellä olevaan sanaan tai lauseeseen. Viittauskohde ratkaisee, mikä relatiivisana valitaan."
+      },
+      {
+       "tyyppi": "sana",
+       "id": "som",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "som",
+       "suomi": [
+        "joka",
+        "mikä – jotka",
+        "mitkä (viittaa edellä olevaan sanaan)"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.4 Sanajärjestys",
+       "valiotsikko": "Relatiivilause",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "J. S. är en finsk kompositör som tonsatte Finlandia.",
+         "fi": "J. S. on suomalainen säveltäjä, joka sävelsi Finlandian."
+        },
+        {
+         "sv": "J. S. är en finländare (som) alla är stolta över.",
+         "fi": "J. S. on suomalainen, josta kaikki ovat ylpeitä."
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Kun som on sivulauseen subjekti, sitä ei voi jättää pois. Kun som ei ole subjektina, se voi jäädä pois – kuten toisessa esimerkissä."
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Tonsättare on tavallisempi sana kuin kompositör."
+      },
+      {
+       "tyyppi": "sana",
+       "id": "vilket",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "vilket",
+       "suomi": [
+        "mikä (viittaa koko edellä olevaan lauseeseen)"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.4 Sanajärjestys",
+       "valiotsikko": "Relatiivilause",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Finländarna badar bastu nakna vilket kan förvåna turister.",
+         "fi": "Suomalaiset saunovat alasti, mikä voi hämmästyttää turisteja."
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "där",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "där",
+       "suomi": [
+        "jossa (viittaa edellä olevaan paikan ilmaisuun)"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.4 Sanajärjestys",
+       "valiotsikko": "Relatiivilause",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Åbo är en stad där jag verkligen trivs.",
+         "fi": "Turku on kaupunki, jossa viihdyn todella hyvin."
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "dit",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "dit",
+       "suomi": [
+        "jonne",
+        "johon (viittaa edellä olevaan paikan ilmaisuun)"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.4 Sanajärjestys",
+       "valiotsikko": "Relatiivilause",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Nyslott, dit jag gärna reser, ligger i östra Finland.",
+         "fi": "Savonlinna, jonne matkustan mielelläni, sijaitsee Itä-Suomessa."
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "då",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "då",
+       "suomi": [
+        "jolloin (viittaa edellä olevaan ajan ilmaisuun)"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.4 Sanajärjestys",
+       "valiotsikko": "Relatiivilause",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Kommer du ihåg sommaren då vi besökte Lappland för första gången?",
+         "fi": "Muistatko sen kesän, jolloin kävimme Lapissa ensimmäisen kerran?"
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Erottele där ja dit samoin kuin suomen jossa ja jonne: där on paikallaan oleminen, dit on liike sinne."
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Upotetun sivulauseen ympärillä ei ruotsissa ole aina pilkkuja."
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Korjaus: Muistiinpanoissa \"ligger I östra Finland\" – prepositio i kirjoitetaan pienellä alkukirjaimella."
+      },
+      {
+       "tyyppi": "otsikko",
+       "teksti": "Epäsuora kysymyslause"
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Kysymyslauseesta tulee sivulause, kun se upotetaan leipätekstiin ja eteen tulee johtolause, esimerkiksi jag undrar, jag kan inte säga, vet du tai jag vill veta. Neljä asiaa muuttuu."
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "a) Kysymyslauseen käänteinen sanajärjestys suoristuu: sivulauseeseen tulee suora sanajärjestys."
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Hur kommer jag till torget?",
+         "fi": "Miten pääsen torille?"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Jag undrar hur jag kommer till torget.",
+         "fi": "Ihmettelen, miten pääsen torille."
+        }
+       ]
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "b) Inte ja liikkuvat määreet siirtyvät ennen predikaatteja."
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Har bussen redan gått?",
+         "fi": "Onko bussi jo lähtenyt?"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Vet du om bussen redan har gått?",
+         "fi": "Tiedätkö, onko bussi jo lähtenyt?"
+        }
+       ]
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "c) Jos kysymyslauseessa ei ole kysymyssanaa, mukaan liitetään om."
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Har bussen redan gått?",
+         "fi": "Onko bussi jo lähtenyt?"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Jag kan inte säga om bussen redan har gått.",
+         "fi": "En osaa sanoa, onko bussi jo lähtenyt."
+        }
+       ]
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "d) Jos suora kysymys alkaa kysymyssanalla, joka on lauseen subjekti tai sen osa, epäsuoraan kysymyslauseeseen lisätään som."
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Vem grundade staden Lahtis?",
+         "fi": "Kuka perusti Lahden kaupungin?"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Jag undrar vem som grundade staden Lahtis.",
+         "fi": "Ihmettelen, kuka perusti Lahden kaupungin."
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Vilken väska är din?",
+         "fi": "Mikä laukku on sinun?"
+        }
+       ]
+      },
+      {
+       "tyyppi": "esimerkki",
+       "esimerkit": [
+        {
+         "sv": "Jag vet inte vilken väska som är din.",
+         "fi": "En tiedä, mikä laukku on sinun."
+        }
+       ]
+      },
+      {
+       "tyyppi": "sana",
+       "id": "om",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "om",
+       "suomi": [
+        "jos",
+        "-ko / -kö (epäsuorassa kysymyslauseessa)"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.4 Sanajärjestys",
+       "valiotsikko": "Epäsuora kysymyslause",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Jag kan inte säga om bussen redan har gått.",
+         "fi": "En osaa sanoa, onko bussi jo lähtenyt."
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "vem-som",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "vem som",
+       "suomi": [
+        "kuka (epäsuorassa kysymyslauseessa, kun kysymyssana on subjekti)"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "7 Kielioppisäännöt",
+       "alakategoria": "7.4 Sanajärjestys",
+       "valiotsikko": "Epäsuora kysymyslause",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Jag undrar vem som grundade staden Lahtis.",
+         "fi": "Ihmettelen, kuka perusti Lahden kaupungin."
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "teksti",
+       "teksti": "Kysymysmerkki säilyy, jos päälause on kysyvä: Vet du om bussen redan har gått?"
       }
      ]
     },
     {
-     "otsikko": "7.7 Verbien taivutusluokat",
+     "otsikko": "7.5 Verbien taivutusluokat",
      "sisalto": [
       {
        "tyyppi": "teksti",
@@ -16730,7 +20624,7 @@
      ]
     },
     {
-     "otsikko": "7.8 Substantiivien deklinaatiot",
+     "otsikko": "7.6 Substantiivien deklinaatiot",
      "sisalto": [
       {
        "tyyppi": "teksti",
@@ -16757,7 +20651,81 @@
    ]
   },
   {
-   "otsikko": "8 Muistilista ja tehtävät",
+   "otsikko": "8 Pienet kielioppiknopit",
+   "alaluvut": [
+    {
+     "otsikko": "8.1 Apuverbi + infinitiivi",
+     "sisalto": [
+      {
+       "tyyppi": "teksti",
+       "teksti": "Apuverbin (skulle, ska, kan, måste, vill) jälkeen tulee aina infinitiivi. Har on preesensin persoonamuoto, ha on infinitiivi."
+      },
+      {
+       "tyyppi": "huomio",
+       "teksti": "Sama pätee: jag kan ha, du måste ha, hon vill ha.",
+       "liittyy": null
+      }
+     ]
+    },
+    {
+     "otsikko": "8.2 Omistusrakenne",
+     "sisalto": [
+      {
+       "tyyppi": "teksti",
+       "teksti": "Omistusrakenteessa määräinen omistaja + epämääräinen muoto pääsanassa: MÄÄRÄINEN A + EPÄMÄÄRÄINEN MUOTO."
+      }
+     ]
+    },
+    {
+     "otsikko": "8.3 X av Y -rakenne",
+     "sisalto": [
+      {
+       "tyyppi": "teksti",
+       "teksti": "\"Slutet av hösten\" on kaksi eri substantiivia peräkkäin genetiivityyppisessä rakenteessa (X av Y): slutet on pääsana ja hösten määrittää sitä prepositiolla av. Sanat eivät taivu toistensa mukaan – kumpikin noudattaa omaa sukuaan."
+      },
+      {
+       "tyyppi": "huomio",
+       "teksti": "ett slut → slutet (ett-sana)",
+       "liittyy": null
+      },
+      {
+       "tyyppi": "huomio",
+       "teksti": "en höst → hösten (en-sana)",
+       "liittyy": null
+      }
+     ]
+    },
+    {
+     "otsikko": "8.4 Adjektiivista adverbi",
+     "sisalto": [
+      {
+       "tyyppi": "teksti",
+       "teksti": "Adjektiivin neutrimuoto (-t) toimii adverbina: otrolig → otroligt (uskomattoman), verklig → verkligen (poikkeus), sen → sent."
+      }
+     ]
+    },
+    {
+     "otsikko": "8.5 Välkommen / välkomna",
+     "sisalto": [
+      {
+       "tyyppi": "teksti",
+       "teksti": "Yhdelle sanotaan välkommen, usealle välkomna: Välkomna allihop! = Tervetuloa kaikki!"
+      }
+     ]
+    },
+    {
+     "otsikko": "8.6 Pronominien objektimuodot",
+     "sisalto": [
+      {
+       "tyyppi": "teksti",
+       "teksti": "Ihmiseen viitataan pronominilla hon/han; objektimuoto on henne/honom."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "otsikko": "9 Muistilista ja tehtävät",
    "alaluvut": [
     {
      "otsikko": null,

@@ -75,6 +75,9 @@ Asetuksissa on oma näkymänsä (**Asetukset → Varmuuskopiot ja omat sanat**):
   vain selaimen `localStorage`ssa ja katoaa selaimen tietoja tyhjentäessä.
 - **Palauta varmuuskopiosta** – liitetystä tekstistä tai tiedostosta.
 - **Lisää sanoja JSONilla** – liitä ja paina *Sijoita sanastoon*.
+- **Peru viimeisin lisäys** – nappi ilmestyy liittämislaatikon alle heti
+  lisäyksen jälkeen ja poistaa koko erän kerralla. Se katoaa, kun erä on
+  peruttu tai sen sanat on poistettu yksitellen.
 
 Sanojen lisäys hyväksyy kolme muotoa:
 
@@ -95,6 +98,22 @@ sanastodumppi-skillin tuloste menee suoraan oikeisiin lukuihin.
 Omat sanat elävät `localStorage`ssa, eivät `sanasto.json`issa, ja kulkevat
 mukana varmuuskopiossa. Pysyväksi osaksi sanastoa ne saa lisäämällä ne
 `lahde/sanasto.txt`:hen ja ajamalla muuntimen.
+
+## Lukurakenne
+
+| Luku | Sisältö | Kortteja |
+|---|---|---|
+| Skrivtavla | Välivarasto uusille sanoille | – |
+| 1–6 | Verbit, substantiivit, adjektiivit, ilmaukset, sidesanat, prepositiot | kyllä |
+| 7 Kielioppisäännöt | Pronominit, vertailumuodot, adjektiivi + substantiivi, sanajärjestys, taivutusluokat, deklinaatiot | **ei** |
+| 8 Pienet kielioppiknopit | Yksittäiset säännöt: apuverbi + infinitiivi, X av Y, adjektiivista adverbi, välkommen/välkomna, pronominien objektimuodot | ei |
+| 9 Muistilista ja tehtävät | Omat muistiinpanot opiskeltavasta | ei |
+
+Luku 7 on **luettavaa teoriaa**, ei korttiharjoittelua: `kelpaaKortiksi`
+sulkee pois luvut, joiden otsikko alkaa `7 `. Luvun 94 sanariviä näkyvät
+Teoriassa ja löytyvät haulla, mutta niistä ei synny kortteja eivätkä ne
+päädy harjoituspooleihin. Jos jokin luvun 7 sana halutaan korteiksi, se
+lisätään erikseen lukuun 1–6.
 
 ## Kehitys
 

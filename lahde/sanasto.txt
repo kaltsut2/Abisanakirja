@@ -450,7 +450,6 @@ Nämä kannattaa opetella pareittain – vastakohta syntyy usein etuliitteellä 
 tillåten, tillåtet, tillåtna ↔ förbjuden, förbjudet, förbjudna  –  sallittu ↔ kielletty
 rättvis, rättvist, rättvisa ↔ orättvis, orättvist, orättvisa  –  oikeudenmukainen ↔ epäoikeudenmukainen
 möjlig, möjligt, möjliga ↔ omöjlig, omöjligt, omöjliga  –  mahdollinen ↔ mahdoton
-	Korjaus: Muistiinpanoissa esiintyi kaksi kertaa "omjöligt" – oikea kirjoitusasu on omöjligt.
 läslig, läsligt, läsliga ↔ oläslig, oläsligt, oläsliga  –  helppolukuinen ↔ lukukelvoton
 avsiktlig, avsiktligt, avsiktliga ↔ oavsiktlig, oavsiktligt, oavsiktliga  –  tahallinen ↔ tahaton
 sannolik, sannolikt, sannolika ↔ osannolik, osannolikt, osannolika  –  todennäköinen ↔ epätodennäköinen
@@ -466,16 +465,15 @@ mätt, mätt, mätta ↔ hungrig, hungrigt, hungriga  –  kylläinen ↔ nälk�
 	mätt = kylläinen, mutta full (ihmisestä) = humalassa.
 vacker, vackert, vackra ↔ ful, fult, fula  –  kaunis ↔ ruma
 dyr, dyrt, dyra ↔ förmånlig, förmånligt, förmånliga  –  kallis ↔ edullinen
-	Korjaus: Muistiinpanoissa "Dyr/förmånlig – kallis" – förmånlig on vastakohta: edullinen. Vrt. vara förmånlig = olla edullinen.
 rik, rikt, rika / förmögen, förmöget, förmögna  –  rikas / varakas
 högljudd, högljutt, högljudda ↔ tystlåten, tystlåtet, tystlåtna  –  äänekäs ↔ hiljainen, vaitelias
-	Korjaus: Muistiinpanoissa "högljudd, högljudd, högljudda" – neutrimuoto on högljutt (vrt. ett ljud = ääni).
+	Vrt. ett ljud = ääni – siitä tulee neutrimuoto högljutt.
 pratsam, pratsamt, pratsamma ↔ kortfattad, kortfattat, kortfattade  –  puhelias ↔ lyhytsanainen
 avtagande ↔ tilltagande  –  vähenevä ↔ kasvava
 förbättra ↔ försämra  –  parantaa ↔ heikentää
 förberedd, förberett, förberedda ↔ oförberedd, oförberett, oförberedda  –  valmistautunut ↔ valmistautumaton
 väntad, väntat, väntade ↔ oväntad, oväntat, oväntade  –  odotettu ↔ odottamaton
-	Korjaus: "oväntad = aavistamaton" → odottamaton, yllättävä. Sana tulee verbistä vänta (odottaa), ei aavistamisesta.
+	Vrt. verbi vänta = odottaa; oväntad on siis odottamaton, ei aavistamaton.
 
 3.2 Perusadjektiivit (en-muoto, ett-muoto, monikko/määräinen)
 nöjd, nöjt, nöjda  (adj.)  –  tyytyväinen
@@ -976,28 +974,413 @@ Kielioppisäännöt
 maanantai 7. syyskuuta 2026
 21.19
 
-7.1 Apuverbi + infinitiivi
-Apuverbin (skulle, ska, kan, måste, vill) jälkeen tulee aina infinitiivi. Har on preesensin persoonamuoto, ha on infinitiivi.
-	Sama pätee: jag kan ha, du måste ha, hon vill ha.
+Tämä luku on luettavaa teoriaa, ei korttiharjoittelua. Sisältö on sääntöjä: pronominit, adjektiivin vertailu, adjektiivin taivutus substantiivin kanssa ja sanajärjestys. Jokainen sääntö on kirjoitettu niin, että sen perässä on esimerkkilause – sääntö ilman lausetta ei jää mieleen. Kaikissa neljässä aiheessa toistuu sama kysymys: onko pääsana en- vai ett-sukuinen, yksikössä vai monikossa, epämääräisessä vai määräisessä muodossa. Kun se on ratkaistu, muoto seuraa siitä. Luvun sanarivit näkyvät haussa ja luettavina, mutta niistä ei tehdä kortteja.
 
-7.2 Omistusrakenne
-Omistusrakenteessa määräinen omistaja + epämääräinen muoto pääsanassa: MÄÄRÄINEN A + EPÄMÄÄRÄINEN MUOTO.
+7.1 Pronominit
+Pronominissa ratkaisee kaksi asiaa. Ensin: onko pronomini substantiivin kanssa vai yksinään ilman substantiivia – tämä valitsee koko sarjan. Sitten: mikä on pääsanan suku ja luku – tämä valitsee muodon sarjan sisältä. Lähes joka ryhmässä on kolme muotoa: en-muoto, ett-muoto ja monikko.
+Interrogatiivipronominit – kysyvät pronominit
+Vad on yksinään ilman substantiivia. Vilken-sarja on substantiivin kanssa, ja vastauksena on substantiivi. Hurdan-sarja on myös substantiivin kanssa, mutta vastauksena on adjektiivi.
+vad  –  mitä, mikä (yksinään, ilman substantiivia)
+	Vad läser du?  =  Mitä luet?
+vilken, vilket, vilka  –  mikä, kuka, kumpi (substantiivin kanssa – vastaus on substantiivi)
+	Vilken bok läser du? – Jag läser en deckare.  =  Minkä kirjan luet? – Luen dekkaria.
+	Vilket spel tycker du om?  =  Mistä pelistä pidät?
+	Vilka böcker läser ni?  =  Mitä kirjoja te luette?
+hurdan, hurdant, hurdana  –  millainen (substantiivin kanssa – vastaus on adjektiivi)
+	Hurdan är din bil? – Den är blå och jättesnabb.  =  Millainen autosi on? – Se on sininen ja tosi nopea.
+	Hurdant är ditt äpple? – Det är jättestort.  =  Millainen omenasi on? – Se on tosi iso.
+	Hurdana är dina bilar? – De är små.  =  Millaisia autosi ovat? – Ne ovat pieniä.
+Muoto tulee pääsanasta, ei kysyjästä: vilken bok (en-sana), vilket spel (ett-sana), vilka böcker (monikko).
+Pronominit man ja det
+Man on passiivin vastine. Se on yksiköllinen ja kolmannessa persoonassa, ja omistuspronominina käytetään sin, sitt, sina.
+	Man ska sköta sitt eget hem.  =  Omasta kodista pitää huolehtia.
+	Man får inte glömma sina läxor.  =  Läksyjään ei saa unohtaa.
+Det-subjektia käytetään neljässä tilanteessa. Ensimmäinen: kuvaillaan millaista jossakin on tai millaista jokin on.
+	Det är varmt här inne.  =  Täällä sisällä on lämmintä.
+	Det var trevligt att träffas!  =  Oli mukava tavata!
+Toinen: puhutaan säätilasta ja luonnonilmiöistä.
+	Det är soligt i dag.  =  Tänään on aurinkoista.
+	Snart blir det vår.  =  Kohta tulee kevät.
+Kolmas: käytetään aistihavaintoverbejä.
+	Det känns härligt.  =  Tuntuu ihanalta.
+	Det låter jättebra.  =  Kuulostaa oikein hyvältä.
+Neljäs: ilmaistaan, että jossakin on jotakin – det finns / det fanns -rakenne.
+det finns / det fanns  –  jossakin on / oli jotakin
+	Det finns mycket folk här.  =  Täällä on paljon ihmisiä.
+	Det finns inte tusentals sjöar i Sverige.  =  Ruotsissa ei ole tuhansia järviä.
+Demonstratiivipronominit
+Demonstratiivipronominien pohja on adjektiivin epämääräinen ja määräinen muoto. Kun eteen tulee den, det tai de, adjektiivi menee määräiseen a-muotoon ja substantiivi määräiseen muotoon.
+	en röd bil → den röda bilen  =  punainen auto → se punainen auto
+	ett rött hus → det röda huset  =  punainen talo → se punainen talo
+	röda bilar / hus → de röda bilarna / husen  =  punaisia autoja / taloja → ne punaiset autot / talot
+TÄMÄ, NÄMÄ voidaan sanoa kahdella tavalla. Den här + substantiivi määräisessä muodossa, tai denna + substantiivi epämääräisessä muodossa.
+den här / det här / de här  –  tämä, nämä (substantiivi MÄÄRÄISESSÄ muodossa)
+	den här röda bilen  =  tämä punainen auto
+	det här röda huset  =  tämä punainen talo
+	de här röda bilarna / husen  =  nämä punaiset autot / talot
+denna / detta / dessa  –  tämä, nämä (substantiivi EPÄMÄÄRÄISESSÄ muodossa)
+	denna röda bil  =  tämä punainen auto
+	detta röda hus  =  tämä punainen talo
+	dessa röda bilar / hus  =  nämä punaiset autot / talot
+Älä sekoita sarjoja keskenään: den här bilen tai denna bil – ei denna bilen. Denna-muoto on kirjoitelmassa hieman muodollisempi.
+den där / det där / de där  –  tuo, nuo
+	den där röda bilen  =  tuo punainen auto
+	det där röda huset  =  tuo punainen talo
+	de där röda bilarna / husen  =  nuo punaiset autot / talot
+SAMA jakautuu kahtia sen mukaan, onko substantiivi perässä vai ei.
+samma  –  sama (taipumaton, substantiivin kanssa – yksikkö ja monikko)
+	Jag har samma fina bil som min syster.  =  Minulla on sama hieno auto kuin siskollani.
+	Jag har samma fina bilar som min syster.  =  Minulla on samat hienot autot kuin siskollani.
+densamma, detsamma, desamma  –  sama (yksinään, ilman substantiivia)
+	Bilen har varit densamma i tre år.  =  Auto on ollut sama kolme vuotta.
+	Hotellet har varit detsamma hela mitt liv.  =  Hotelli on ollut sama koko elämäni.
+	Vitsarna har säkert varit desamma under hela hans karriär.  =  Vitsit ovat varmasti olleet samat koko hänen uransa ajan.
+Muoto tulee siitä sanasta, johon viitataan: bilen → densamma (en-sana), hotellet → detsamma (ett-sana), vitsarna → desamma (monikko).
+Tack detsamma!  –  Kiitos samoin!
+med detsamma  –  heti, saman tien
+	Kom hit med detsamma!  =  Tule heti tänne!
+sådan, sådant, sådana  –  sellainen
+	en sådan röd bil  =  sellainen punainen auto
+	ett sådant rött hus  =  sellainen punainen talo
+	sådana röda böcker  =  sellaisia punaisia kirjoja
+likadan, likadant, likadana  –  samanlainen
+	en likadan röd bil  =  samanlainen punainen auto
+	ett likadant rött hus  =  samanlainen punainen talo
+	likadana röda böcker  =  samanlaisia punaisia kirjoja
+Sådan ja likadan taipuvat itse pääsanan mukaan, mutta niiden jälkeen tuleva adjektiivi noudattaa tavallista epämääräistä taivutusta: en sådan röd bil, ett sådant rött hus, sådana röda böcker.
+Indefiniittipronominit
+Sama kolmen muodon kaava toistuu: en-muoto, ett-muoto, monikko. Pääsana on epämääräisessä muodossa ja adjektiivi taipuu normaalisti.
+någon, något, några  –  joku, jotkut
+	någon fin resa  =  joku hieno matka
+	något fint hus  =  joku hieno talo
+	några fina resor / hus  =  jotkut hienot matkat / talot
+någon annan, något annat, några andra  –  joku toinen / muu, jotkut toiset / muut
+	någon annan fin resa  =  joku toinen hieno matka
+	något annat fint hus  =  joku toinen hieno talo
+	några andra fina resor / hus  =  jotkut muut hienot matkat / talot
+ingen, inget, inga  –  ei kukaan, ei mikään (inte-sana sisällä!)
+	ingen fin resa  =  ei yhtään hienoa matkaa
+	inget fint hus  =  ei yhtään hienoa taloa
+	inga fina resor / hus  =  ei yhtään hienoja matkoja / taloja
+Ingen-sarjassa kielto on jo sisällä, joten lauseeseen ei tule erillistä inte-sanaa.
+Kun viitataan asiaan eikä substantiiviin, käytetään -ting-sarjaa: något / någonting (jotakin), något annat / någonting annat (jotakin muuta), inget / ingenting (ei mitään) ja allt / allting (kaikkea).
+något / någonting  –  jotakin
+	Har du hört något?  =  Oletko kuullut jotakin?
+något annat / någonting annat  –  jotakin muuta
+inget / ingenting  –  ei mitään (inte-sana sisällä!)
+allt / allting  –  kaikki, kaikkea
+Ingen, inget ja inga jaetaan kahteen osaan – inte + någon / något / några – kahdessa tapauksessa: kun päälauseessa on useampi verbi, ja kun pronomini on sivulauseessa.
+	Han har inte sagt något / någonting.  =  Hän ei ole sanonut mitään.
+	Han ska inte säga något / någonting.  =  Hän ei aio sanoa mitään.
+	Jag vet att han inte säger något / någonting.  =  Tiedän, ettei hän sano mitään.
+Jakoa ei tehdä, kun pronomini on lauseen subjektina.
+	Ingenting händer om ingen gör någonting.  =  Mitään ei tapahdu, jos kukaan ei tee mitään.
+JOKA, JOKAINEN -ryhmässä ratkaisee jälleen se, onko substantiivi perässä. Kaikki nämä ovat vain yksikössä.
+varje  –  joka, jokainen (substantiivin kanssa, vain yksikkö)
+	Vi träffas varje vacker dag.  =  Tapaamme joka kauniina päivänä.
+var och en / vart och ett  –  jokainen (yksinään, ilman substantiivia, vain yksikkö)
+	Var och en vet det.  =  Jokainen tietää sen.
+	Var och en av oss vet det.  =  Jokainen meistä tietää sen.
+	Vart och ett av barnen vet det.  =  Jokainen lapsista tietää sen.
+Ihminen on en-sukuinen, siksi var och en. Vart och ett viittaa ett-sanaan, esimerkiksi barn.
+vars och ens  –  jokaisen (var och en -pronominin omistusmuoto)
+	Vars och ens åsikt är viktig.  =  Jokaisen mielipide on tärkeä.
+varenda / vartenda  –  jokainen, jokaikinen (substantiivin kanssa, vain yksikkö)
+	Jag köper blommor varenda vacker dag.  =  Ostan kukkia jokaikisenä kauniina päivänä.
+	vartenda vackert år  =  jokaikinen kaunis vuosi
+Var / vart + järjestysluku + substantiivi ilmaisee toistuvan välin.
+var tredje dag  –  joka kolmas päivä
+vart fjärde år  –  joka neljäs vuosi
+varannan / vartannat  –  joka toinen
+	Jag går på bio varannan vecka.  =  Käyn elokuvissa joka toinen viikko.
+	Jag går på bio vartannat år.  =  Käyn elokuvissa joka toinen vuosi.
+en annan, ett annat, andra  –  toinen, toiset
+	en annan röd tröja  =  toinen punainen paita
+	ett annat vackert café  =  toinen kaunis kahvila
+	andra roliga planer  =  toiset hauskat suunnitelmat
+den ena – den andra / det ena – det andra  –  toinen – toinen (yksinään, vain yksikkö)
+	De två flickorna är i skolan. Den ena sjunger och den andra skriver.  =  Ne kaksi tyttöä ovat koulussa. Toinen laulaa ja toinen kirjoittaa.
+	De två barnen är i skolan. Det ena sjunger och det andra skriver.  =  Ne kaksi lasta ovat koulussa. Toinen laulaa ja toinen kirjoittaa.
+några – andra  –  jotkut – toiset (yksinään, monikko)
+själv, självt, själva  –  itse (taipuu lauseen tekijän mukaan)
+	Eleven gjorde det själv.  =  Oppilas teki sen itse.
+	Eleverna gjorde det själva.  =  Oppilaat tekivät sen itse.
+Huomaa, että substantiivin EDESSÄ själva on taipumaton. Själva presidenten besökte samma stad. = Itse presidentti vieraili samassa kaupungissa.
+hela  –  koko (substantiivin kanssa)
+	Jag tillbringade hela (den) fina dagen med henne.  =  Vietin koko sen hienon päivän hänen kanssaan.
+	Jag byggde hela (det) fina huset med honom.  =  Rakensin koko sen hienon talon hänen kanssaan.
+båda / bägge  –  molemmat (substantiivin kanssa)
+	båda fina föräldrarna  =  molemmat hienot vanhemmat
+Paljoussanat
+Paljoussanan jälkeen laskettava sana on monikon epämääräisessä muodossa ja ei-laskettava sana yksikön epämääräisessä muodossa. Sarjat kannattaa opetella vierekkäin, koska niiden jäsenet vastaavat toisiaan.
+många kompisar  –  monta kaveria (laskettava)
+mycket socker  –  paljon sokeria (ei-laskettava)
+flera vänner  –  useampi ystävä (laskettava)
+mera kaffe  –  enemmän kahvia (ei-laskettava)
+de flesta människor  –  useimmat ihmiset (laskettava)
+mest tid  –  eniten aikaa (ei-laskettava)
+få flickor  –  harvat tytöt (laskettava)
+lite(t) salt  –  vähän suolaa (ei-laskettava)
+färre pojkar  –  harvemmat pojat (laskettava)
+mindre vatten  –  vähemmän vettä (ei-laskettava)
+färst människor  –  harvimmat ihmiset (laskettava)
+minst tid  –  vähiten aikaa (ei-laskettava)
+Sarjat ovat vertailuasteita: många – flera – de flesta rinnastuu sarjaan mycket – mera – mest, ja få – färre – färst sarjaan lite – mindre – minst.
+Färst on harvinainen muoto. Luontevampi tapa sanoa sama on esimerkiksi minst antal människor.
 
-7.3 X av Y -rakenne
-"Slutet av hösten" on kaksi eri substantiivia peräkkäin genetiivityyppisessä rakenteessa (X av Y): slutet on pääsana ja hösten määrittää sitä prepositiolla av. Sanat eivät taivu toistensa mukaan – kumpikin noudattaa omaa sukuaan.
-	ett slut → slutet (ett-sana)
-	en höst → hösten (en-sana)
+7.2 Vertailumuodot
+Vertailussa on kolme astetta ja kolme tapaa muodostaa ne. Säännöllinen vertailu lisää -are ja -ast. Epäsäännöllinen muuttaa perusmuodon vokaalin (å → ä, u → y, o → ö) ja lisää -re ja -st. Kolme adjektiivityyppiä ei taivu lainkaan vaan vertaillaan sanoilla mer ja mest. Kuin on aina än.
+Positiivi – yhtä pieni kuin
+Positiivissa adjektiivi taipuu edellä olevan substantiivin mukaan. Myönteisessä lauseessa lika – som, kielteisessä så – som.
+lika … som  –  yhtä … kuin (myönteinen lause)
+	Min bostad är lika liten som din.  =  Asuntoni on yhtä pieni kuin sinun.
+	Mitt hus är lika litet som ditt.  =  Taloni on yhtä pieni kuin sinun.
+	Mina bostäder / hus är lika små som dina.  =  Asuntoni / taloni ovat yhtä pieniä kuin sinun.
+inte så … som  –  ei niin … kuin (kielteinen lause)
+	Min bostad är inte så liten som din.  =  Asuntoni ei ole niin pieni kuin sinun.
+	Mitt hus är inte så litet som ditt.  =  Taloni ei ole niin pieni kuin sinun.
+	Mina bostäder / hus är inte så små som dina.  =  Asuntoni / taloni eivät ole niin pieniä kuin sinun.
+Komparatiivi – pienempi kuin
+Säännöllinen vertailu: perusmuodon perään -are. Komparatiivi on taipumaton – se ei saa -t- eikä -a-päätettä, vaikka pääsana olisi ett-sana tai monikossa.
+	Vardagsrummet är mysigare än arbetsrummet.  =  Olohuone on kodikkaampi kuin työhuone.
+	Tvåan är rymligare än ettan.  =  Kaksio on tilavampi kuin yksiö.
+	Lampan är vackrare än sängen.  =  Lamppu on kauniimpi kuin sänky.
+Kirjainmuutokset: vacker → vackrare (-er, -el, -en pudottavat vokaalin), dum → dummare (lyhyt vokaali kaksintaa konsonantin), nära → närmare.
+Epäsäännöllinen vertailu: perusmuodossa vokaalimuutos å → ä, u → y tai o → ö, ja perään -re.
+	Soffan är större än fåtöljen.  =  Sohva on suurempi kuin nojatuoli.
+	Mattan är längre än bordet.  =  Matto on pitempi kuin pöytä.
+Nämä kolmetoista ovat ne, jotka pitää osata ulkoa. Viisi alimmaista ovat täysin epäsäännöllisiä – niissä ei ole edes vokaalimuutosta vaan kokonaan eri sana.
+	lång – längre – längst  =  pitkä – pitempi – pisin
+	låg – lägre – lägst  =  matala – matalampi – matalin
+	trång – trängre – trängst  =  ahdas – ahtaampi – ahtain
+	ung – yngre – yngst  =  nuori – nuorempi – nuorin
+	tung – tyngre – tyngst  =  painava – painavampi – painavin
+	stor – större – störst  =  suuri – suurempi – suurin
+	grov – grövre – grövst  =  karkea – karkeampi – karkein
+	hög – högre – högst  =  korkea – korkeampi – korkein
+	bra – bättre – bäst  =  hyvä – parempi – paras
+	dålig – sämre – sämst  =  huono – huonompi – huonoin
+	gammal – äldre – äldst  =  vanha – vanhempi – vanhin
+	liten – mindre – minst  =  pieni – pienempi – pienin
+	ond – värre – värst  =  paha – pahempi – pahin
+Mer(a)-vertailu koskee kolmea adjektiivityyppiä. Ensimmäinen: -ande / -ende -päätteiset eli preesensin partisiipit. Ne ovat taipumattomia.
+	Min hemort är mer spännande än din by.  =  Kotiseutuni on jännittävämpi kuin sinun kyläsi.
+Toinen: esimerkiksi -ad-päätteiset eli perfektin partisiipit. Nämä taipuvat edellä olevan substantiivin mukaan.
+	Balkongen är mer möblerad än toaletten.  =  Parveke on kalustetumpi kuin vessa.
+	Sovrummet är mer möblerat än bastun.  =  Makuuhuone on kalustetumpi kuin sauna.
+	Våra gästrum är mer möblerade än era gästrum.  =  Meidän vierashuoneemme ovat kalustetumpia kuin teidän.
+Kolmas: -isk-päätteiset. Nämäkin taipuvat edellä olevan substantiivin mukaan.
+	Studentbostaden är mer exotisk än hyreslägenheten.  =  Opiskelija-asunto on eksoottisempi kuin vuokrakerrostaloasunto.
+	Höghuset är mer exotiskt än parhuset.  =  Kerrostalo on eksoottisempi kuin paritalo.
+	Bondgårdarna är mer exotiska än radhusen.  =  Maatilat ovat eksoottisempia kuin rivitalot.
+Muista ero: mer-vertailussa itse mer ei taivu koskaan, mutta adjektiivi taipuu kahdessa tapauksessa kolmesta. Vain -ande / -ende -partisiipit ovat täysin taipumattomia.
+Superlatiivi – pienin
+Superlatiivilla on kaksi muotoa, lyhyt ja pitkä. Lyhyttä käytetään silloin, kun perässä EI ole substantiivia, ja se on taipumaton.
+Säännöllinen lyhyt superlatiivi: perusmuodon perään -ast.
+	Hallen är ljusast och rymligast.  =  Eteinen on valoisin ja tilavin.
+Kirjainmuutokset kulkevat läpi koko sarjan: vacker – vackrare – vackrast, dum – dummare – dummast, nära – närmare – närmast.
+Epäsäännöllinen lyhyt superlatiivi: vokaalimuutos ja perään -st.
+	Tavlan är äldst och bäst.  =  Taulu on vanhin ja paras.
+	Vardagsrummet är trängst.  =  Olohuone on ahtain.
+Mest-vertailu toimii samoilla kolmella adjektiivityypillä kuin mer-vertailu.
+	Min hemort är mest spännande.  =  Kotiseutuni on jännittävin.
+	Balkongen är mest möblerad.  =  Parveke on kalustetuin.
+	Sovrummet är mest möblerat.  =  Makuuhuone on kalustetuin.
+	Våra gästrum är mest möblerade.  =  Vierashuoneemme ovat kalustetuimmat.
+	Studentbostaden är mest exotisk.  =  Opiskelija-asunto on eksoottisin.
+	Höghuset är mest exotiskt.  =  Kerrostalo on eksoottisin.
+	Bondgårdarna är mest exotiska.  =  Maatilat ovat eksoottisimmat.
+Pitkää superlatiivimuotoa käytetään substantiivin kanssa – aina. Eteen tulee den, det tai de, superlatiivi menee määräiseen muotoon (-aste säännöllisessä, -sta epäsäännöllisessä) ja substantiivi määräiseen muotoon.
+	den hemtrevligaste lägenheten  =  kodikkain asunto
+	den mysigaste trean  =  kodikkain kolmio
+	de vackraste våningarna  =  kauneimmat huoneistot
+Korjaus: Muistiinpanoissa "det mysigaste trean" – trea on en-sana (en trea), joten oikein on den mysigaste trean.
+Epäsäännöllisessä vertailussa määräinen pääte on -sta.
+	den största villan  =  suurin huvila
+	det minsta egnahemshuset  =  pienin omakotitalo
+	de bästa trädgårdarna  =  parhaat puutarhat
+Mest-vertailussa adjektiivi on määräisessä muodossa mest-sanan jäljessä.
+	den mest spännande möbeln  =  jännittävin huonekalu
+	det mest spännande skåpet  =  jännittävin kaappi
+	de mest spännande möblerna / skåpen  =  jännittävimmät huonekalut / kaapit
+	den mest inredda villan  =  sisustetuin huvila
+	det mest inredda rummet  =  sisustetuin huone
+	de mest inredda villorna / rummen  =  sisustetuimmat huvilat / huoneet
+	den mest exotiska mattan  =  eksoottisin matto
+	det mest exotiska bordet  =  eksoottisin pöytä
+	de mest exotiska mattorna / borden  =  eksoottisimmat matot / pöydät
+Omistusrakenne kumoaa määräisen muodon myös superlatiivissa: omistaja + superlatiivi määräisessä muodossa + substantiivi EPÄMÄÄRÄISESSÄ muodossa. Den / det / de jää pois.
+	min vackraste matta  =  kaunein mattoni
+	Lasses största skåp  =  Lassen suurin kaappi
+	svenskarnas bästa trädgårdar  =  ruotsalaisten parhaat puutarhat
+Vertailumuotojen vahvikesanat
+ännu bättre  –  vielä parempi
+	Den här lägenheten är ännu bättre.  =  Tämä asunto on vielä parempi.
+allt bättre  –  yhä parempi (komparatiivin vahvike)
+	Läget blir allt bättre.  =  Tilanne muuttuu yhä paremmaksi.
+allra bäst  –  kaikkein paras (superlatiivin vahvike)
+	Den här är allra bäst.  =  Tämä on kaikkein paras.
 
-7.4 Adjektiivista adverbi
-Adjektiivin neutrimuoto (-t) toimii adverbina: otrolig → otroligt (uskomattoman), verklig → verkligen (poikkeus), sen → sent.
+7.3 Adjektiivi + substantiivi: epämääräinen ja määräinen muoto
+Adjektiivilla on kaksi taivutusta. Epämääräinen eli lyhyt muoto taipuu pääsanan suvun ja luvun mukaan: kolme muotoa, en-muoto, ett-muoto (-t) ja monikko (-a). Määräinen eli pitkä muoto on aina -a (partisiipeilla -ade / -de) riippumatta suvusta ja luvusta. Määräinen muoto tulee aina, kun edessä on den, det, de tai omistaja.
+Kaava on nelirivinen, ja se kannattaa osata ulkoa jokaisesta paritettavasta sanasta: yksikön epämääräinen, yksikön määräinen, monikon epämääräinen, monikon määräinen. Monikon epämääräisessä muodossa ei ole artikkelia lainkaan – siinä kohdassa on alkuperäisissä muistiinpanoissa pelkkä alleviivaus.
+	en röd skjorta – den röda skjortan – röda skjortor – de röda skjortorna  =  punainen paita – se punainen paita – punaisia paitoja – ne punaiset paidat
+en-sanat
+	en röd skjorta – den röda skjortan – röda skjortor – de röda skjortorna  =  punainen paita (1. deklinaatio)
+	en snygg keps – den snygga kepsen – snygga kepsar – de snygga kepsarna  =  siisti lippalakki (2. deklinaatio)
+	en mörk kostym – den mörka kostymen – mörka kostymer – de mörka kostymerna  =  tumma puku (3. deklinaatio)
+	en sällsynt värmebölja – den sällsynta värmeböljan – sällsynta värmeböljor – de sällsynta värmeböljorna  =  harvinainen hellejakso (1. deklinaatio)
+	en fridlyst svan – den fridlysta svanen – fridlysta svanar – de fridlysta svanarna  =  rauhoitettu joutsen (2. deklinaatio)
+	en orörd kust – den orörda kusten – orörda kuster – de orörda kusterna  =  koskematon rannikko (3. deklinaatio)
+	en skadlig förmåga – den skadliga förmågan – skadliga förmågor – de skadliga förmågorna  =  vahingollinen kyky (1. deklinaatio)
+	en demokratisk värdering – den demokratiska värderingen – demokratiska värderingar – de demokratiska värderingarna  =  demokraattinen arvo (2. deklinaatio)
+	en oanad konsekvens – den oanade konsekvensen – oanade konsekvenser – de oanade konsekvenserna  =  aavistamaton seuraus (3. deklinaatio)
+	en vild natur – den vilda naturen  =  villi luonto (ei monikkoa)
+ett-sanat
+	ett vackert bälte – det vackra bältet – vackra bälten – de vackra bältena  =  kaunis vyö (4. deklinaatio)
+	ett sportigt klädesplagg – det sportiga klädesplagget – sportiga klädesplagg – de sportiga klädesplaggen  =  sporttinen vaate (5. deklinaatio)
+	ett naturskönt ställe – det natursköna stället – natursköna ställen – de natursköna ställena  =  luonnonkaunis paikka (4. deklinaatio)
+	ett utrotningshotat lövträd – det utrotningshotade lövträdet – utrotningshotade lövträd – de utrotningshotade lövträden  =  uhanalainen lehtipuu (5. deklinaatio)
+	ett skyddat samhälle – det skyddade samhället – skyddade samhällen – de skyddade samhällena  =  suojattu yhteiskunta (4. deklinaatio)
+	ett falskt medieinnehåll – det falska medieinnehållet – falska medieinnehåll – de falska medieinnehållen  =  valheellinen mediasisältö (5. deklinaatio)
+	ett farligt snöoväder – det farliga snöovädret  =  vaarallinen lumimyrsky
+Kaavassa näkyy suoraan deklinaatio: -or (1), -ar (2), -er (3), -n (4) ja päätteetön monikko (5). Kun adjektiivi on paikallaan, substantiivin monikko on se osa, joka pitää tietää erikseen.
+Adjektiivin määräinen muoto on -a, mutta -ad-partisiipeilla se on -ade: den oanade konsekvensen, det skyddade samhället, de utrotningshotade lövträden.
+Abstraktisanat ja ainesanat – ei artikkelia
+Abstraktisanoilla ja ainesanoilla ei ole yksikön epämääräistä artikkelia, joten kaava alkaa suoraan adjektiivista. Määräinen muoto ja superlatiivi toimivat muuten täsmälleen samoin.
+	snygg klädsel – den snygga klädseln – den snyggaste klädseln  =  siisti pukeutuminen – se siisti pukeutuminen – siistein pukeutuminen
+	trivsamt boende – det trivsamma boendet – det trivsammaste boendet  =  viihtyisä asuminen – se viihtyisä asuminen – viihtyisin asuminen
+Superlatiivi menee samaan kohtaan kuin määräinen adjektiivi: eteen den / det, adjektiiviin -aste, substantiivi määräisessä muodossa. Trivsam kaksintaa m-kirjaimen: trivsam, trivsamt, trivsamma, trivsammaste.
+Omistusrakenne
+Omistajana voi olla persoonapronomini, erisnimi tai substantiivi määräisessä eli pitkässä muodossa. Adjektiivi tai superlatiivi on määräisessä eli pitkässä muodossa, mutta omistettava on EPÄMÄÄRÄISESSÄ eli lyhyessä muodossa.
+	min fina bil – min finaste bil  =  hieno autoni – hienoin autoni
+	mitt spännande hus – mitt mest spännande hus  =  jännittävä taloni – jännittävin taloni
+	mina stora möbler – mina största möbler  =  suuret huonekaluni – suurimmat huonekaluni
+	Åkes exotiska klädesplagg / kläder – Åkes mest exotiska kläder  =  Åken eksoottinen vaate / vaatteet – Åken eksoottisimmat vaatteet
+	Finlands lilla stad – Finlands minsta stad  =  Suomen pieni kaupunki – Suomen pienin kaupunki
+	Finlands små städer – Finlands minsta städer  =  Suomen pienet kaupungit – Suomen pienimmät kaupungit
+	lärarens bra penna / pennor – lärarens bästa penna  =  opettajan hyvä kynä / kynät – opettajan paras kynä
+	lärarnas dåliga bok / böcker – lärarnas sämsta böcker  =  opettajien huono kirja / kirjat – opettajien huonoimmat kirjat
+Sama rakenne pariharjoituksen sanoilla. Huomaa, että omistettava pysyy epämääräisenä myös monikossa.
+	Saanas röda skjorta – Saanas röda skjortor  =  Saanan punainen paita – Saanan punaiset paidat
+	min snygga keps – mina snygga kepsar  =  siisti lippalakkini – siistit lippalakkini
+	lärarens mörka kostym – lärarens mörka kostymer  =  opettajan tumma puku – opettajan tummat puvut
+	lärarnas vackra bälte – lärarnas vackra bälten  =  opettajien kaunis vyö – opettajien kauniit vyöt
+	Åkes sportiga klädesplagg  =  Åken sporttinen vaate / vaatteet
+	Finlands fridlysta svan – Finlands fridlysta svanar  =  Suomen rauhoitettu joutsen – Suomen rauhoitetut joutsenet
+	kommunens orörda kust – kommunernas orörda kuster  =  kunnan koskematon rannikko – kuntien koskemattomat rannikot
+	familjens natursköna sommarställe – familjernas natursköna sommarställen  =  perheen luonnonkaunis kesäpaikka – perheiden luonnonkauniit kesäpaikat
+	mitt utrotningshotade lövträd – mina utrotningshotade lövträd  =  uhanalainen lehtipuuni – uhanalaiset lehtipuuni
+	människans skadliga förmåga – människornas skadliga förmågor  =  ihmisen vahingollinen kyky – ihmisten vahingolliset kyvyt
+	Finlands demokratiska värdering – Finlands demokratiska värderingar  =  Suomen demokraattinen arvo – Suomen demokraattiset arvot
+	min oanade konsekvens – mina oanade konsekvenser  =  aavistamaton seuraukseni – aavistamattomat seuraukseni
+Vertaa kahta rakennetta vierekkäin: den fina bilen (määräinen artikkeli + määräinen substantiivi) mutta min fina bil (omistaja + epämääräinen substantiivi). Tämä on se kohta, jossa suomenkielinen kirjoittaja lisää helposti ylimääräisen -n-päätteen.
+Bra on taipumaton, joten omistusrakenteessakin lärarens bra penna. Liten on epäsäännöllinen: liten, litet, små, ja määräinen muoto on lilla – siitä Finlands lilla stad.
+Kaavan sanat erikseen
+Nämä ovat kaavan sanat omina riveinään, jotta kaikki taivutusmuodot ja deklinaatiot löytyvät yhdestä paikasta ja haku löytää ne. Adjektiiveilla on kirjattuna ett-muoto ja monikko, substantiiveilla yksikön määräinen, monikon epämääräinen ja monikon määräinen muoto.
+röd, rött, röda  (adj.)  –  punainen
+snygg, snyggt, snygga  (adj.)  –  siisti, näyttävä
+mörk, mörkt, mörka  (adj.)  –  tumma, pimeä
+vacker, vackert, vackra  (adj.)  –  kaunis
+sportig, sportigt, sportiga  (adj.)  –  sporttinen
+sällsynt, sällsynt, sällsynta  (adj.)  –  harvinainen
+fridlyst, fridlyst, fridlysta  (part.)  –  rauhoitettu (luonnonsuojelu)
+orörd, orört, orörda  (part.)  –  koskematon
+naturskön, naturskönt, natursköna  (adj.)  –  luonnonkaunis
+utrotningshotad, utrotningshotat, utrotningshotade  (part.)  –  uhanalainen
+vild, vilt, vilda  (adj.)  –  villi
+farlig, farligt, farliga  (adj.)  –  vaarallinen
+skadlig, skadligt, skadliga  (adj.)  –  vahingollinen, haitallinen
+demokratisk, demokratiskt, demokratiska  (adj.)  –  demokraattinen
+oanad, oanat, oanade  (part.)  –  aavistamaton, odottamaton
+skyddad, skyddat, skyddade  (part.)  –  suojattu
+falsk, falskt, falska  (adj.)  –  valheellinen, väärä
+trivsam, trivsamt, trivsamma  (adj.)  –  viihtyisä
+en skjorta, skjortan, skjortor, skjortorna  (1)  –  paita (kauluspaita)
+en keps, kepsen, kepsar, kepsarna  (2)  –  lippalakki
+en kostym, kostymen, kostymer, kostymerna  (3)  –  puku (miesten)
+ett bälte, bältet, bälten, bältena  (4)  –  vyö
+ett klädesplagg, klädesplagget, klädesplagg, klädesplaggen  (5)  –  vaate, vaatekappale
+en värmebölja, värmeböljan, värmeböljor, värmeböljorna  (1)  –  hellejakso, helleaalto
+en svan, svanen, svanar, svanarna  (2)  –  joutsen
+en kust, kusten, kuster, kusterna  (3)  –  rannikko
+ett ställe, stället, ställen, ställena  (4)  –  paikka
+ett sommarställe, sommarstället, sommarställen, sommarställena  (4)  –  kesäpaikka, kesämökki
+ett lövträd, lövträdet, lövträd, lövträden  (5)  –  lehtipuu
+en förmåga, förmågan, förmågor, förmågorna  (1)  –  kyky
+en värdering, värderingen, värderingar, värderingarna  (2)  –  arvo, arvostus
+en konsekvens, konsekvensen, konsekvenser, konsekvenserna  (3)  –  seuraus
+ett samhälle, samhället, samhällen, samhällena  (4)  –  yhteiskunta
+ett medieinnehåll, medieinnehållet, medieinnehåll, medieinnehållen  (5)  –  mediasisältö
+ett snöoväder, snöovädret, snöoväder, snöovädren  (5)  –  lumimyrsky
+en klädsel, klädseln, klädslar, klädslarna  (2)  –  pukeutuminen, vaatetus
+ett boende, boendet, boenden, boendena  (4)  –  asuminen
+Seitsemän näistä on jo muualla sanastossa: vacker (3.1), skadlig (3.2), utrotningshotad (3.3), förmåga (2.2), värdering (2.3), samhälle (2.3) ja svan (2.9). Ne ovat tässä mukana, jotta kaava on kokonainen.
 
-7.5 Välkommen / välkomna
-Yhdelle sanotaan välkommen, usealle välkomna: Välkomna allihop! = Tervetuloa kaikki!
+7.4 Sanajärjestys
+Ruotsissa on vain kaksi sanajärjestystä, suora ja käänteinen, ja niiden ero on yhden vaihdon kokoinen: käänteisessä subjekti ja ensimmäinen predikaatti vaihtavat paikkaa keskenään. Kaikki muut sanat pysyvät paikoillaan. Tämän takia riittää tietää, milloin vaihto tehdään.
+Kaksi mallia
+SUORA sanajärjestys: subjekti + 1. predikaatti + inte / liikkuva määre + loput verbit.
+	Jag kan inte dansa med katten.  =  En voi tanssia kissan kanssa.
+KÄÄNTEINEN sanajärjestys: 1. predikaatti + subjekti + inte / liikkuva määre + loput verbit.
+	Idag kan jag inte dansa med katten.  =  Tänään en voi tanssia kissan kanssa.
+Vertaa lauseita: vain jag ja kan vaihtoivat paikkaa. Inte, dansa ja med katten pysyivät täsmälleen samassa järjestyksessä.
+Päälause
+Päälauseessa on yleensä suora sanajärjestys. Käänteinen tulee neljässä tapauksessa. Ensimmäinen: lauseen alussa on jokin muu kuin subjekti – aika, paikka, objekti tai tapa.
+	Idag kan jag inte dansa med katten.  =  Tänään en voi tanssia kissan kanssa.
+Toinen: kyseessä on kysymyslause.
+	Kan jag (inte) dansa med katten idag?  =  Voinko (enkö voi) tanssia kissan kanssa tänään?
+Kolmas: virke alkaa sivulauseella. Sivulause on tällöin kuin yksi iso aloitusmääre, joten päälause jatkuu predikaatilla.
+	Om det inte regnar kan jag dansa med katten idag.  =  Jos ei sada, voin tanssia kissan kanssa tänään.
+Neljäs: suoran lainauksen jälkeen tuleva johtolause.
+	”Jag kan inte dansa med katten idag”, säger hon.  =  ”En voi tanssia kissan kanssa tänään”, hän sanoo.
+Sivulause
+Sivulauseessa on aina suora sanajärjestys.
+	Om jag kan dansa med katten blir jag jätteglad.  =  Jos voin tanssia kissan kanssa, tulen tosi iloiseksi.
+Lisäksi sivulauseessa inte ja liikkuvat määreet tulevat ENNEN predikaatteja, kun ne päälauseessa tulevat ensimmäisen predikaatin jälkeen.
+	Om jag inte kan dansa med katten kan jag alltid sjunga vackra visor.  =  Jos en voi tanssia kissan kanssa, voin aina laulaa kauniita lauluja.
+Tämä on kirjoitelman yleisin sanajärjestysvirhe. Päälauseessa jag kan inte, sivulauseessa om jag inte kan.
+Relatiivilause
+Relatiivilause on sivulause, joka viittaa edellä olevaan sanaan tai lauseeseen. Viittauskohde ratkaisee, mikä relatiivisana valitaan.
+som  –  joka, mikä – jotka, mitkä (viittaa edellä olevaan sanaan)
+	J. S. är en finsk kompositör som tonsatte Finlandia.  =  J. S. on suomalainen säveltäjä, joka sävelsi Finlandian.
+	J. S. är en finländare (som) alla är stolta över.  =  J. S. on suomalainen, josta kaikki ovat ylpeitä.
+Kun som on sivulauseen subjekti, sitä ei voi jättää pois. Kun som ei ole subjektina, se voi jäädä pois – kuten toisessa esimerkissä.
+Tonsättare on tavallisempi sana kuin kompositör.
+vilket  –  mikä (viittaa koko edellä olevaan lauseeseen)
+	Finländarna badar bastu nakna vilket kan förvåna turister.  =  Suomalaiset saunovat alasti, mikä voi hämmästyttää turisteja.
+där  –  jossa (viittaa edellä olevaan paikan ilmaisuun)
+	Åbo är en stad där jag verkligen trivs.  =  Turku on kaupunki, jossa viihdyn todella hyvin.
+dit  –  jonne, johon (viittaa edellä olevaan paikan ilmaisuun)
+	Nyslott, dit jag gärna reser, ligger i östra Finland.  =  Savonlinna, jonne matkustan mielelläni, sijaitsee Itä-Suomessa.
+då  –  jolloin (viittaa edellä olevaan ajan ilmaisuun)
+	Kommer du ihåg sommaren då vi besökte Lappland för första gången?  =  Muistatko sen kesän, jolloin kävimme Lapissa ensimmäisen kerran?
+Erottele där ja dit samoin kuin suomen jossa ja jonne: där on paikallaan oleminen, dit on liike sinne.
+Upotetun sivulauseen ympärillä ei ruotsissa ole aina pilkkuja.
+Korjaus: Muistiinpanoissa "ligger I östra Finland" – prepositio i kirjoitetaan pienellä alkukirjaimella.
+Epäsuora kysymyslause
+Kysymyslauseesta tulee sivulause, kun se upotetaan leipätekstiin ja eteen tulee johtolause, esimerkiksi jag undrar, jag kan inte säga, vet du tai jag vill veta. Neljä asiaa muuttuu.
+a) Kysymyslauseen käänteinen sanajärjestys suoristuu: sivulauseeseen tulee suora sanajärjestys.
+	Hur kommer jag till torget?  =  Miten pääsen torille?
+	Jag undrar hur jag kommer till torget.  =  Ihmettelen, miten pääsen torille.
+b) Inte ja liikkuvat määreet siirtyvät ennen predikaatteja.
+	Har bussen redan gått?  =  Onko bussi jo lähtenyt?
+	Vet du om bussen redan har gått?  =  Tiedätkö, onko bussi jo lähtenyt?
+c) Jos kysymyslauseessa ei ole kysymyssanaa, mukaan liitetään om.
+	Har bussen redan gått?  =  Onko bussi jo lähtenyt?
+	Jag kan inte säga om bussen redan har gått.  =  En osaa sanoa, onko bussi jo lähtenyt.
+d) Jos suora kysymys alkaa kysymyssanalla, joka on lauseen subjekti tai sen osa, epäsuoraan kysymyslauseeseen lisätään som.
+	Vem grundade staden Lahtis?  =  Kuka perusti Lahden kaupungin?
+	Jag undrar vem som grundade staden Lahtis.  =  Ihmettelen, kuka perusti Lahden kaupungin.
+	Vilken väska är din?  =  Mikä laukku on sinun?
+	Jag vet inte vilken väska som är din.  =  En tiedä, mikä laukku on sinun.
+om  –  jos, -ko / -kö (epäsuorassa kysymyslauseessa)
+	Jag kan inte säga om bussen redan har gått.  =  En osaa sanoa, onko bussi jo lähtenyt.
+vem som  –  kuka (epäsuorassa kysymyslauseessa, kun kysymyssana on subjekti)
+	Jag undrar vem som grundade staden Lahtis.  =  Ihmettelen, kuka perusti Lahden kaupungin.
+Kysymysmerkki säilyy, jos päälause on kysyvä: Vet du om bussen redan har gått?
 
-7.6 Pronominit
-Ihmiseen viitataan pronominilla hon/han; objektimuoto on henne/honom.
-
-7.7 Verbien taivutusluokat
+7.5 Verbien taivutusluokat
 I (ar-verbit): tala – talar – talade – talat. Suurin ja säännöllisin ryhmä.
 IIa (de-verbit): ringa – ringer – ringde – ringt. Vartalo päättyy soinnilliseen äänteeseen.
 IIb (te-verbit): köpa – köper – köpte – köpt. Vartalo päättyy soinnittomaan äänteeseen (k, p, s, t, x).
@@ -1005,12 +1388,38 @@ III (r-verbit): bo – bor – bodde – bott. Lyhyt, vokaaliin päättyvä vart
 IV (vahvat verbit): skriva – skriver – skrev – skrivit. Vartalovokaali vaihtuu; opeteltava ulkoa.
 Deponenttiverbit (lyckas, umgås, andas, kännas) päättyvät aina s:ään, vaikka merkitys on aktiivinen.
 
-7.8 Substantiivien deklinaatiot
+7.6 Substantiivien deklinaatiot
 1. deklinaatio: en flicka, flickan, flickor, flickorna (en-sanat, monikko -or)
 2. deklinaatio: en bil, bilen, bilar, bilarna (en-sanat, monikko -ar)
 3. deklinaatio: en park, parken, parker, parkerna (en-sanat, monikko -er)
 4. deklinaatio: ett äpple, äpplet, äpplen, äpplena (ett-sanat vokaaliin, monikko -n)
 5. deklinaatio: ett hus, huset, hus, husen (ett-sanat konsonanttiin, monikossa ei päätettä)
+
+Pienet kielioppiknopit
+
+maanantai 7. syyskuuta 2026
+21.19
+
+8.1 Apuverbi + infinitiivi
+Apuverbin (skulle, ska, kan, måste, vill) jälkeen tulee aina infinitiivi. Har on preesensin persoonamuoto, ha on infinitiivi.
+	Sama pätee: jag kan ha, du måste ha, hon vill ha.
+
+8.2 Omistusrakenne
+Omistusrakenteessa määräinen omistaja + epämääräinen muoto pääsanassa: MÄÄRÄINEN A + EPÄMÄÄRÄINEN MUOTO.
+
+8.3 X av Y -rakenne
+"Slutet av hösten" on kaksi eri substantiivia peräkkäin genetiivityyppisessä rakenteessa (X av Y): slutet on pääsana ja hösten määrittää sitä prepositiolla av. Sanat eivät taivu toistensa mukaan – kumpikin noudattaa omaa sukuaan.
+	ett slut → slutet (ett-sana)
+	en höst → hösten (en-sana)
+
+8.4 Adjektiivista adverbi
+Adjektiivin neutrimuoto (-t) toimii adverbina: otrolig → otroligt (uskomattoman), verklig → verkligen (poikkeus), sen → sent.
+
+8.5 Välkommen / välkomna
+Yhdelle sanotaan välkommen, usealle välkomna: Välkomna allihop! = Tervetuloa kaikki!
+
+8.6 Pronominien objektimuodot
+Ihmiseen viitataan pronominilla hon/han; objektimuoto on henne/honom.
 
 Muistilista ja tehtävät
 
