@@ -682,6 +682,8 @@ enligt  –  jonkun mukaan
 däremot / däremellan / därefter  –  sitä vastoin / niiden välissä / sen jälkeen
 tills  –  kunnes
 nämligen  –  nimittäin
+varav  –  joista, josta
+	Vi fick tre erbjudanden, varav ett var mycket bra. = Saimme kolme tarjousta, joista yksi oli hyvin hyvä.
 det vill säga  –  eli
 så att säga  –  niin sanotusti
 	Den har så att säga fastnat i läsarens tankar. = Se on niin sanotusti jumittunut lukijan ajatuksiin.

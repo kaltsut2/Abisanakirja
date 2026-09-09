@@ -12278,6 +12278,32 @@
       },
       {
        "tyyppi": "sana",
+       "id": "varav",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "varav",
+       "suomi": [
+        "joista",
+        "josta"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "5 Sidosteisuus ja pikkusanat",
+       "alakategoria": "5.1 Tekstin jäsentäminen",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Vi fick tre erbjudanden, varav ett var mycket bra.",
+         "fi": "Saimme kolme tarjousta, joista yksi oli hyvin hyvä."
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
        "id": "det-vill-säga",
        "sanaluokka": "ilmaus",
        "ruotsi": "det vill säga",
