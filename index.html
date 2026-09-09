@@ -487,6 +487,30 @@ h3.alaluku .luvunvari { width: 0.45rem; height: 0.45rem; border-radius: 999px; }
 }
 .huomio { color: var(--muste-2); padding-left: 0.65rem; border-left: 2px dotted var(--viiva-vahva); }
 .muistilista { font-size: 0.93rem; padding: 0.35rem 0; border-bottom: 1px solid var(--viiva); }
+
+/* Ristiviittaus tekstin seassa: näyttää linkiltä, käyttäytyy nappina. */
+.lukulinkki {
+  border: 0; background: none; padding: 0; font: inherit; cursor: pointer;
+  color: var(--korostus); font-weight: 600;
+  text-decoration: underline; text-decoration-style: dotted;
+  text-underline-offset: 0.15em; -webkit-tap-highlight-color: transparent;
+}
+.lukulinkki:hover { text-decoration-style: solid; }
+
+/* Sisällysluettelon avattavat alaluvut. */
+.sisallys-alaluvut { display: grid; gap: 0.25rem; margin: 0.3rem 0 0.5rem 2.6rem; }
+.alalukurivi {
+  display: flex; align-items: center; gap: 0.6rem; width: 100%; text-align: left;
+  padding: 0.5rem 0.75rem; border: 0; border-radius: 9px;
+  background: var(--pinta-2); color: var(--muste); font: inherit; font-size: 0.88rem;
+  cursor: pointer; -webkit-tap-highlight-color: transparent;
+  transition: transform 120ms var(--liike-painallus), background-color 120ms linear;
+}
+.alalukurivi:active { transform: scale(0.99); }
+.alalukurivi .maara { margin-left: auto; }
+.sisallysnuoli { transition: transform 180ms var(--liike-ulos); flex: none; color: var(--muste-3); }
+.sisallysnuoli[data-auki="kylla"] { transform: rotate(90deg); }
+@media (prefers-reduced-motion: reduce) { .sisallysnuoli { transition: none; } }
 mark {
   background: color-mix(in srgb, var(--huomio) 42%, transparent);
   color: inherit; border-radius: 3px; padding: 0 0.1em;
@@ -870,6 +894,7 @@ function poistaOmatSanat(idt) {
 function poistaOmaSana(id) { return poistaOmatSanat([id]); }
 
 function rakennaSanastoUudelleen() {
+  paivitaLukuAnkkurit();
   kaikkiSanat = keraaSanat(sanasto);
   sanatTunnuksella = new Map(kaikkiSanat.map((s) => [s.id, s]));
   kortitSanalla = new Map();
@@ -2419,6 +2444,7 @@ function aaninappi(teksti) {
    12. Teoria – koko sanasto luettavana, haettavana ja harjoiteltavana
    ========================================================================== */
 let teoriaHaku = "";
+const teoriaAuki = new Set();   // sisällysluettelossa avatut luvut
 let teoriaKohdistus = null;
 
 const LUOKKAVARIT = {
@@ -2524,19 +2550,83 @@ function piirraSanaRivi(sana, haku) {
   return rivi;
 }
 
+/* Ristiviittausten kartta: "5.4" → ankkurin id ja otsikko. Rakennetaan
+   sanastosta, jotta viittaus muuttuu linkiksi vain kun kohde on olemassa –
+   näin luvut voi numeroida uudestaan ilman että linkit osoittavat tyhjään. */
+let lukuAnkkurit = new Map();
+function paivitaLukuAnkkurit() {
+  lukuAnkkurit = new Map();
+  if (!sanasto) return;
+  const merkitse = (otsikko) => {
+    const numero = otsikko.split(" ")[0];
+    if (/^\d+(\.\d+)?$/.test(numero)) {
+      lukuAnkkurit.set(numero, { id: lukuTunniste(otsikko), otsikko });
+    }
+  };
+  for (const luku of sanasto.luvut) {
+    merkitse(luku.otsikko);
+    for (const alaluku of luku.alaluvut) if (alaluku.otsikko) merkitse(alaluku.otsikko);
+  }
+}
+
+function vieriKohtaan(id) {
+  const vieri = () => {
+    const solmu = document.getElementById(id);
+    if (!solmu) return;
+    // Teoria on kymmeniätuhansia pikseleitä pitkä. Pehmeä vieritys on
+    // lyhyellä matkalla mukava mutta pitkällä pelkkää odottamista, joten
+    // kauas hypätään suoraan.
+    const matka = Math.abs(solmu.getBoundingClientRect().top);
+    const pehmea = !kevytLiike.matches && matka < innerHeight * 2;
+    solmu.scrollIntoView({ behavior: pehmea ? "smooth" : "auto", block: "start" });
+    korostaHetkeksi(solmu);
+  };
+  // Haun aikana kohde ei ole piirrettynä – tyhjennetään haku ensin.
+  if (teoriaHaku) {
+    teoriaHaku = "";
+    piirraYlapalkki();
+    piirraSisalto();
+    requestAnimationFrame(vieri);
+  } else {
+    vieri();
+  }
+}
+
+/* Muuttaa tekstissä olevat luku- ja alalukuviittaukset ("ks. 7.4") linkeiksi. */
+function linkitaViittaukset(teksti) {
+  const pala = document.createDocumentFragment();
+  const kuvio = /\b\d+\.\d+\b/g;
+  let alku = 0, osuma;
+  while ((osuma = kuvio.exec(teksti)) !== null) {
+    const kohde = lukuAnkkurit.get(osuma[0]);
+    if (!kohde) continue;
+    if (osuma.index > alku) {
+      pala.appendChild(document.createTextNode(teksti.slice(alku, osuma.index)));
+    }
+    const linkki = el("button", "lukulinkki", osuma[0]);
+    linkki.type = "button";
+    linkki.title = kohde.otsikko;
+    linkki.addEventListener("click", () => vieriKohtaan(kohde.id));
+    pala.appendChild(linkki);
+    alku = osuma.index + osuma[0].length;
+  }
+  pala.appendChild(document.createTextNode(teksti.slice(alku)));
+  return pala;
+}
+
 function piirraKohta(kohta, haku) {
   switch (kohta.tyyppi) {
     case "sana": return piirraSanaRivi(kohta, haku);
-    case "teksti": return el("p", "teksti", kohta.teksti);
+    case "teksti": return lisaa(el("p", "teksti"), linkitaViittaukset(kohta.teksti));
     case "otsikko": return el("h4", "valiotsikko", kohta.teksti);
     case "korjaus": {
       const solmu = el("div", "korjaus");
       lisaa(solmu, el("b", null, "Korjaus: "));
-      solmu.appendChild(document.createTextNode(kohta.teksti));
+      solmu.appendChild(linkitaViittaukset(kohta.teksti));
       return solmu;
     }
-    case "huomio": return el("div", "huomio", kohta.teksti);
-    case "muistilista": return el("div", "muistilista", kohta.teksti);
+    case "huomio": return lisaa(el("div", "huomio"), linkitaViittaukset(kohta.teksti));
+    case "muistilista": return lisaa(el("div", "muistilista"), linkitaViittaukset(kohta.teksti));
     case "esimerkki": return esimerkkiLista(kohta.esimerkit);
     default: return null;
   }
@@ -2617,6 +2707,10 @@ function naytaTeoria() {
     const sanoja = luku.alaluvut.reduce(
       (summa, a) => summa + a.sisalto.filter((k) => k.tyyppi === "sana").length, 0);
     if (!sanoja && !luku.alaluvut.length) continue;
+    const nimetytAlaluvut = luku.alaluvut.filter((a) => a.otsikko);
+    const avattava = nimetytAlaluvut.length > 1;
+    const auki = teoriaAuki.has(luku.otsikko);
+
     const rivi = el("button", "rivi");
     rivi.type = "button";
     const numero = (luku.otsikko.match(/^(\d+)\s/) || [])[1];
@@ -2625,12 +2719,41 @@ function naytaTeoria() {
     const kasvaa = el("div", "kasvaa");
     lisaa(kasvaa, el("div", "t-vali", nimi));
     lisaa(rivi, kasvaa, el("span", "maara t-pieni", String(sanoja)));
+    if (avattava) {
+      const nuoli = ikoni('<path d="m9 6 6 6-6 6"/>', 18);
+      nuoli.classList.add("sisallysnuoli");
+      nuoli.dataset.auki = auki ? "kylla" : "ei";
+      lisaa(rivi, nuoli);
+      rivi.setAttribute("aria-expanded", String(auki));
+    }
+    // Monialalukuinen luku avautuu; yhden alaluvun luku vie suoraan perille.
     rivi.addEventListener("click", () => {
-      document.getElementById(lukuTunniste(luku.otsikko))?.scrollIntoView({
-        behavior: kevytLiike.matches ? "auto" : "smooth", block: "start",
-      });
+      if (!avattava) { vieriKohtaan(lukuTunniste(luku.otsikko)); return; }
+      if (auki) teoriaAuki.delete(luku.otsikko);
+      else teoriaAuki.add(luku.otsikko);
+      piirraSisalto();
     });
     lisaa(sisallys, rivi);
+
+    if (avattava && auki) {
+      const lista = el("div", "sisallys-alaluvut");
+      for (const alaluku of nimetytAlaluvut) {
+        const maara = alaluku.sisalto.filter((k) => k.tyyppi === "sana").length;
+        const alarivi = el("button", "alalukurivi");
+        alarivi.type = "button";
+        lisaa(alarivi, el("span", null, alaluku.otsikko));
+        if (maara) lisaa(alarivi, el("span", "maara t-pieni", String(maara)));
+        alarivi.addEventListener("click", () => {
+          // Suljetaan ennen vieritystä: sisällys kutistuu, joten kohteen
+          // paikka muuttuu. Jos vierittäisi ensin, se osuisi väärään kohtaan.
+          teoriaAuki.delete(luku.otsikko);
+          piirraSisalto();
+          vieriKohtaan(lukuTunniste(alaluku.otsikko));
+        });
+        lisaa(lista, alarivi);
+      }
+      lisaa(sisallys, lista);
+    }
   }
   lisaa(juuri, sisallys);
 

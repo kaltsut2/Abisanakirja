@@ -132,6 +132,26 @@ männen`), mutta väärä artikkeli hylätään edelleen. Väärä järjestys ei
 koska silloin ei voi enää päätellä, tunteeko kirjoittaja muotojen merkityksen
 vai on vain toistanut ne oikeassa muistijärjestyksessä.
 
+## Teorian navigointi
+
+**Avattava sisällysluettelo.** Teorian yläreunan luettelossa jokainen luku,
+jolla on useampi alaluku, avautuu napauttamalla ja näyttää alalukunsa
+sanamäärineen. Alaluvun valinta sulkee valikon ja vierittää kohtaan. Valikko
+suljetaan **ennen** vieritystä, koska luettelon kutistuminen siirtäisi kohdetta
+muuten kesken hypyn.
+
+**Ristiviittaukset ovat linkkejä.** Teoriatekstissä oleva luku- tai
+alalukunumero ("ks. 7.4", "sanalista on luvussa 5.2") muuttuu automaattisesti
+klikattavaksi. Linkit rakennetaan `lukuAnkkurit`-kartasta, joka kootaan
+sanastosta joka latauksella: viittaus muuttuu linkiksi vain jos kohde on
+oikeasti olemassa, joten lukuja voi numeroida uudestaan ilman että linkit jäävät
+osoittamaan tyhjään. Jos haku on päällä, se tyhjennetään ensin – muuten kohde
+ei olisi piirrettynä.
+
+Pitkillä matkoilla vieritys on välitön ja lyhyillä pehmeä: teoria on
+kymmeniätuhansia pikseleitä pitkä, ja 95 000 pikselin pehmeä vieritys olisi
+pelkkää odottamista.
+
 ## Työnjako: luku 7 opettaa, luvut 3 ja 5 harjoituttavat
 
 Luku 7 ei tuota kortteja, joten sinne ei kannata kirjoittaa sanalistoja.
