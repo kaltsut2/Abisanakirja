@@ -122,6 +122,16 @@ Kategoriaharjoittelu on **vapaata**: se ei muuta välitoiston aikataulua sanoill
 joita ei ole vielä opittu Opi-välilehdellä. Jo valmistuneilla korteilla arvio
 otetaan normaalisti huomioon. Virheet kirjautuvat aina virhelokiin.
 
+## Koko taivutuksen hyväksyminen
+
+Suomesta ruotsiin kirjoitettaessa hyväksytään perusmuodon lisäksi **koko
+taivutus pilkuilla tai välilyönnein eroteltuna**, oikeassa järjestyksessä:
+`pratsam` ja `pratsam, pratsamt, pratsamma` kelpaavat molemmat. Koskee kaikkia
+sanaluokkia – substantiivilla myös artikkelin kanssa (`en man, mannen, män,
+männen`), mutta väärä artikkeli hylätään edelleen. Väärä järjestys ei kelpaa,
+koska silloin ei voi enää päätellä, tunteeko kirjoittaja muotojen merkityksen
+vai on vain toistanut ne oikeassa muistijärjestyksessä.
+
 ## Harjoitusistunnon hallinta
 
 **Paluunuoli** ylävasemmalla vie askeleen taaksepäin kesken harjoituksen:

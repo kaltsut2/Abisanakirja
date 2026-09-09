@@ -929,6 +929,18 @@ function hyvaksytytVastaukset(sana, suunta) {
       // Artikkeli saa puuttua, mutta väärä artikkeli ei kelpaa.
       if (sana.suku && !/^(en|ett)\s/.test(osa)) lisaaMuoto(sana.suku + " " + osa);
     }
+    // Koko taivutus pilkuilla eroteltuna kelpaa myös, ei vain perusmuoto:
+    // "pratsam, pratsamt, pratsamma" hyväksytään "pratsam" rinnalla. Pilkku
+    // katoaa normalisoinnissa, joten välilyönneillä eroteltuna kelpaisi yhtä
+    // hyvin – kirjoitusasu ei siis ole tiukka, järjestyksen pitää vain täsmätä.
+    // Sama koskee kaikkia sanaluokkia: verbin aikamuodot ja substantiivin
+    // taivutus hyväksytään yhtä lailla kokonaisena listana.
+    if (sana.taivutus.length) {
+      const koko = [sana.ruotsi, ...sana.taivutus].join(", ");
+      lisaaMuoto(koko);
+      // Substantiivilla artikkeli saa olla mukana myös koko taivutuksen edessä.
+      if (sana.suku) lisaaMuoto(sana.suku + " " + koko);
+    }
   } else {
     for (const merkitys of sana.suomi) {
       for (const osa of merkitys.split(" / ")) lisaaMuoto(osa);
