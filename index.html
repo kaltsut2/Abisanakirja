@@ -185,6 +185,10 @@ body {
   font-size: 0.65rem; font-weight: 650; line-height: 1.1rem; text-align: center;
 }
 
+/* Välilehteä vaihdettaessa main saa ohjelmallisen kohdistuksen, jotta
+   ruudunlukija siirtyy uuteen sisältöön. Se ei ole näppäimistökohde
+   (tabindex="-1"), joten näkyvä kehys olisi vain harhaanjohtava viiva. */
+main:focus { outline: none; }
 main {
   max-width: var(--leveys); margin: 0 auto;
   padding: calc(var(--ylapalkki) + env(safe-area-inset-top) + 0.75rem) 1rem
@@ -436,6 +440,22 @@ p.teksti { margin: 0.4rem 0 0.9rem; color: var(--muste-2); font-size: 0.92rem; }
 }
 h2.luku[style*="--luokkavari"] { border-top-color: color-mix(in srgb, var(--luokkavari) 70%, transparent); }
 h3.alaluku .luvunvari { width: 0.45rem; height: 0.45rem; border-radius: 999px; }
+
+/* Segmentoitu suuntavalinta: kolme tilaa yhdessä kiskossa. */
+.suuntavalinta {
+  display: flex; gap: 0.2rem; padding: 0.22rem;
+  background: var(--pinta-2); border-radius: 12px;
+}
+.suuntavalinta button {
+  flex: 1; min-height: 2.3rem; border: 0; border-radius: 10px;
+  background: none; color: var(--muste-2); font: inherit; font-size: 0.82rem;
+  font-weight: 550; cursor: pointer; -webkit-tap-highlight-color: transparent;
+  transition: background-color 140ms linear, color 140ms linear;
+}
+.suuntavalinta button[aria-pressed="true"] {
+  background: var(--pinta); color: var(--korostus); font-weight: 650;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12);
+}
 
 /* Harjoittelutavan laatta: kuvake, nimi ja yhden rivin selite. */
 .vaihtoehto.tilalaatta {
@@ -942,7 +962,8 @@ const oletusEdistyminen = () => ({
   versio: 1,
   kortit: {},
   virheloki: [],
-  asetukset: { aani: true, aaninimi: null, suodatin: null, naytaLuokka: true },
+  asetukset: { aani: true, aaninimi: null, suodatin: null, naytaLuokka: true,
+               treeniSuunta: "molemmat" },
   istunto: { paiva: null, maara: 0 },
   omatSanat: [],
   viimeisinLisays: null,   // { aika, idt: [] } – peruutusta varten
@@ -1531,16 +1552,29 @@ function eraantyvatKortit() {
    vain toinen suunta, flashcardeissa ja monivalinnassa molemmat. */
 /* Kuvake haetaan nimellä vasta piirrettäessä: KUVAKKEET määritellään
    myöhemmin tiedostossa, eikä siihen voi viitata tässä. */
+/* Kuvake haetaan nimellä vasta piirrettäessä (ks. KUVAKKEET alempana).
+
+   Kirjoitustiloilla suunta on osa niiden identiteettiä, joten se on kiinteä.
+   Flashcardeissa ja monivalinnassa suunta on vapaa valinta – niiden selite
+   kertoo valitun suunnan, jotta näkyy mihin suuntanappi vaikuttaa. */
 const TREENITILAT = [
-  { id: "flashcard",   nimi: "Flashcards",         kuvaus: "Katso, muista, käännä kortti",
+  { id: "flashcard",   nimi: "Flashcards",         kuvaus: null,
     kuvake: "kortti",   vari: "var(--luokka-verbi)",        suunnat: null },
   { id: "kirjoita-sv", nimi: "Kirjoita ruotsiksi", kuvaus: "Suomesta ruotsiin",
     kuvake: "kyna",     vari: "var(--luokka-prepositio)",   suunnat: ["fi→sv"] },
   { id: "kirjoita-fi", nimi: "Kirjoita suomeksi",  kuvaus: "Ruotsista suomeen",
     kuvake: "kyna",     vari: "var(--luokka-substantiivi)", suunnat: ["sv→fi"] },
-  { id: "monivalinta", nimi: "Monivalinta",        kuvaus: "Neljä vaihtoehtoa",
+  { id: "monivalinta", nimi: "Monivalinta",        kuvaus: null,
     kuvake: "ruudukko", vari: "var(--huomio)",              suunnat: null },
 ];
+
+const SUUNTAVALINNAT = [
+  { arvo: "molemmat", lyhyt: "Molemmat", pitka: "Molemmat suunnat" },
+  { arvo: "fi→sv",    lyhyt: "FI → SV",  pitka: "Suomesta ruotsiin" },
+  { arvo: "sv→fi",    lyhyt: "SV → FI",  pitka: "Ruotsista suomeen" },
+];
+const suunnanNimi = (arvo) =>
+  (SUUNTAVALINNAT.find((v) => v.arvo === arvo) || SUUNTAVALINNAT[0]).pitka;
 
 let harjoitusValinta = null;   // { otsikko, sanat }
 
@@ -1549,14 +1583,20 @@ function avaaHarjoitusvalinta(otsikko, sanat) {
   if (!kelpaavat.length) return;
   harjoitusValinta = { otsikko, sanat: kelpaavat };
   kertausIstunto = null;
-  vaihdaValilehti("kertaa");
+  // vaihdaValilehti ei piirrä uudelleen, jos ollaan jo Kertaa-välilehdellä.
+  if (valilehti === "kertaa") piirra();
+  else vaihdaValilehti("kertaa");
 }
 
 function aloitaTreeni(treenitila) {
+  // Kiinteä suunta voittaa; muuten käytetään valittua suuntaa.
+  const valittu = edistyminen.asetukset.treeniSuunta || "molemmat";
+  const suunnat = treenitila.suunnat
+    || (valittu === "molemmat" ? null : [valittu]);
   const lista = [];
   for (const sana of harjoitusValinta.sanat) {
     for (const kortti of kortitSanalla.get(sana.id) || []) {
-      if (!treenitila.suunnat || treenitila.suunnat.includes(kortti.suunta)) lista.push(kortti);
+      if (!suunnat || suunnat.includes(kortti.suunta)) lista.push(kortti);
     }
   }
   const otsikko = harjoitusValinta.otsikko;
@@ -1579,6 +1619,28 @@ function naytaHarjoitusvalinta() {
   lisaa(ylin, el("p", "vihje t-pieni haalea", sanat.length + " sanaa · valitse tapa"));
   lisaa(lohko, ylin);
 
+  const suunta = edistyminen.asetukset.treeniSuunta || "molemmat";
+
+  const suuntalohko = el("div", "pino-tiivis");
+  lisaa(suuntalohko, el("p", "t-nano haalein", "SUUNTA"));
+  const valitsin = el("div", "suuntavalinta");
+  valitsin.setAttribute("role", "group");
+  valitsin.setAttribute("aria-label", "Harjoittelun suunta");
+  for (const vaihtoehto of SUUNTAVALINNAT) {
+    const b = el("button", null, vaihtoehto.lyhyt);
+    b.type = "button";
+    b.setAttribute("aria-label", vaihtoehto.pitka);
+    b.setAttribute("aria-pressed", String(vaihtoehto.arvo === suunta));
+    b.addEventListener("click", () => {
+      edistyminen.asetukset.treeniSuunta = vaihtoehto.arvo;
+      tallenna();
+      piirra();
+    });
+    lisaa(valitsin, b);
+  }
+  lisaa(suuntalohko, valitsin);
+  lisaa(lohko, suuntalohko);
+
   const ruudukko = el("div", "vaihtoehdot ruudukko");
   for (const treenitila of TREENITILAT) {
     const b = el("button", "vaihtoehto tilalaatta");
@@ -1588,7 +1650,9 @@ function naytaHarjoitusvalinta() {
     lisaa(kuori, ikoni(KUVAKKEET[treenitila.kuvake], 22));
     lisaa(b, kuori);
     lisaa(b, el("span", "t-vali", treenitila.nimi));
-    lisaa(b, el("span", "t-pieni haalea", treenitila.kuvaus));
+    // Vapaasuuntaisten selite näyttää valitun suunnan – siitä näkee, mihin
+    // laattoihin suuntanappi vaikuttaa.
+    lisaa(b, el("span", "t-pieni haalea", treenitila.kuvaus || suunnanNimi(suunta)));
     b.addEventListener("click", () => { aloitaTreeni(treenitila); piirra(); });
     lisaa(ruudukko, b);
   }

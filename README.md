@@ -107,10 +107,16 @@ koko ruudun valinta, jossa on neljä tapaa:
 
 | Tapa | Suunta | Mitä tekee |
 |---|---|---|
-| **Flashcards** | molemmat | Näytä vastaus, arvioi itse osasitko |
-| **Kirjoita ruotsiksi** | suomi → ruotsi | Kirjoitettu vastaus, tarkistus |
-| **Kirjoita suomeksi** | ruotsi → suomi | Kirjoitettu vastaus, tarkistus |
-| **Monivalinta** | molemmat | Neljä vaihtoehtoa 2×2-ruudukossa |
+| **Flashcards** | valittava | Näytä vastaus, arvioi itse osasitko |
+| **Kirjoita ruotsiksi** | kiinteä: suomi → ruotsi | Kirjoitettu vastaus, tarkistus |
+| **Kirjoita suomeksi** | kiinteä: ruotsi → suomi | Kirjoitettu vastaus, tarkistus |
+| **Monivalinta** | valittava | Neljä vaihtoehtoa 2×2-ruudukossa |
+
+Valinnan yläreunassa on **suuntanappi**: *Molemmat · FI → SV · SV → FI*. Se
+ohjaa flashcardeja ja monivalintaa; kirjoitustiloilla suunta on osa niiden
+nimeä eikä muutu. Sen näkee laatasta: flashcardin ja monivalinnan selite
+kertoo aina valitun suunnan, kirjoitustilojen selite oman kiinteän suuntansa.
+Valinta säilyy `localStorage`ssa.
 
 Kategoriaharjoittelu on **vapaata**: se ei muuta välitoiston aikataulua sanoilla,
 joita ei ole vielä opittu Opi-välilehdellä. Jo valmistuneilla korteilla arvio
