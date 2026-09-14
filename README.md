@@ -137,6 +137,9 @@ vai on vain toistanut ne oikeassa muistijärjestyksessä.
 
 ## Teorian navigointi
 
+Sovellus avautuu aina Teoriaan. Edellistä välilehteä ei palauteta: sanakirja
+on se, mitä kesken lukemisen halutaan auki.
+
 **Avattava sisällysluettelo.** Teorian yläreunan luettelossa jokainen luku,
 jolla on useampi alaluku, avautuu napauttamalla ja näyttää alalukunsa
 sanamäärineen. Alaluvun valinta sulkee valikon ja vierittää kohtaan. Valikko

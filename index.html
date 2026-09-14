@@ -3328,12 +3328,13 @@ const VALILEHDET = [
   { id: "teoria", nimi: "Teoria",
     kuvake: '<path d="M4 5.5A1.5 1.5 0 0 1 5.5 4H19v16H5.5A1.5 1.5 0 0 1 4 18.5z"/><path d="M8 8.5h7M8 12h7M8 15.5h4"/>' },
 ];
-const AVAIN_VALILEHTI = "ruotsi.valilehti";
 /* Näkyy asetusvalikon alimmalla rivillä, jotta tietää mikä versio on käytössä.
    1.5 = sanasto ennen yo-listaa, 1.6 = ylioppilaskokeiden 2020–2026 sanasto. */
 const VERSIO = "1.6";
 
-let valilehti = "opi";
+/* Sovellus avautuu aina Teoriaan: sanakirja on se, mitä kesken lukemisen
+   halutaan auki, eikä edellinen välilehti ole seuraavalla kerralla oikea. */
+let valilehti = "teoria";
 const sijainnit = {};
 
 function piirraAlapalkki() {
@@ -3496,7 +3497,6 @@ function vaihdaValilehti(uusi) {
   }
   sijainnit[valilehti] = window.scrollY;
   valilehti = uusi;
-  try { localStorage.setItem(AVAIN_VALILEHTI, uusi); } catch (virhe) { /* ei kriittinen */ }
   // Kun tullaan tietyn sanan kohdalle, näkymä vierittää sinne itse. Tallennetun
   // sijainnin palauttaminen kumoaisi sen, joten se ohitetaan.
   const kohdistetaan = uusi === "teoria" && teoriaKohdistus;
@@ -3522,11 +3522,6 @@ fetch("sanasto.json")
     lataaEdistyminen();
     for (const sana of edistyminen.omatSanat || []) sijoitaSana(sana);
     rakennaSanastoUudelleen();
-    try {
-      const tallennettu = localStorage.getItem(AVAIN_VALILEHTI);
-      if (VALILEHDET.some((v) => v.id === tallennettu)) valilehti = tallennettu;
-    } catch (virhe) { /* ei kriittinen */ }
-
     piirra();
   })
   .catch((virhe) => {
