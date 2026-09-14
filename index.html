@@ -124,6 +124,8 @@ body {
 .t-vali     { font-size: 1.05rem; line-height: 1.32; letter-spacing: -0.01em;  font-weight: 600; }
 .t-pieni    { font-size: 0.875rem; line-height: 1.45; letter-spacing: 0.004em; }
 .t-nano     { font-size: 0.75rem; line-height: 1.35; letter-spacing: 0.02em; font-weight: 550; }
+/* Asetusvalikon alin rivi: versio kuuluu taustatietoihin, ei sisältöön. */
+.versiorivi { margin-top: 2px; }
 .haalea  { color: var(--muste-2); }
 .haalein { color: var(--muste-3); }
 
@@ -3108,6 +3110,7 @@ function avaaAsetukset() {
     const aloitetut = kortit.filter((k) => tila(k)).length;
     lisaa(sisus, el("p", "t-nano haalein",
       `${kortit.length} KORTTIA · ${aloitetut} ALOITETTU · ${valmiit} VÄLITOISTOSSA`));
+    lisaa(sisus, el("p", "t-nano haalein versiorivi", `Abisanakirja versio ${VERSIO}`));
   });
 }
 
@@ -3326,6 +3329,9 @@ const VALILEHDET = [
     kuvake: '<path d="M4 5.5A1.5 1.5 0 0 1 5.5 4H19v16H5.5A1.5 1.5 0 0 1 4 18.5z"/><path d="M8 8.5h7M8 12h7M8 15.5h4"/>' },
 ];
 const AVAIN_VALILEHTI = "ruotsi.valilehti";
+/* Näkyy asetusvalikon alimmalla rivillä, jotta tietää mikä versio on käytössä.
+   1.5 = sanasto ennen yo-listaa, 1.6 = ylioppilaskokeiden 2020–2026 sanasto. */
+const VERSIO = "1.6";
 
 let valilehti = "opi";
 const sijainnit = {};
