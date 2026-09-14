@@ -140,6 +140,11 @@ vai on vain toistanut ne oikeassa muistijärjestyksessä.
 Sovellus avautuu aina Teoriaan. Edellistä välilehteä ei palauteta: sanakirja
 on se, mitä kesken lukemisen halutaan auki.
 
+Hakutulos on painike: klikkaus tyhjentää haun ja vie sanan omalle paikalleen
+teorialistaan, jossa näkyvät myös alaluku, esimerkit ja naapurisanat. Kohde
+korostuu hetkeksi, jotta silmä löytää sen pitkältä sivulta. Osuman
+kaiutinnappi ääntää sanan siirtymättä minnekään.
+
 **Avattava sisällysluettelo.** Teorian yläreunan luettelossa jokainen luku,
 jolla on useampi alaluku, avautuu napauttamalla ja näyttää alalukunsa
 sanamäärineen. Alaluvun valinta sulkee valikon ja vierittää kohtaan. Valikko
