@@ -124,6 +124,8 @@ body {
 .t-vali     { font-size: 1.05rem; line-height: 1.32; letter-spacing: -0.01em;  font-weight: 600; }
 .t-pieni    { font-size: 0.875rem; line-height: 1.45; letter-spacing: 0.004em; }
 .t-nano     { font-size: 0.75rem; line-height: 1.35; letter-spacing: 0.02em; font-weight: 550; }
+/* Asetusvalikon alin rivi: versio kuuluu taustatietoihin, ei sisältöön. */
+.versiorivi { margin-top: 2px; }
 .haalea  { color: var(--muste-2); }
 .haalein { color: var(--muste-3); }
 
@@ -426,6 +428,11 @@ p.teksti { margin: 0.4rem 0 0.9rem; color: var(--muste-2); font-size: 0.92rem; }
   border-color: color-mix(in srgb, var(--luokkavari) 62%, transparent);
   background: color-mix(in srgb, var(--luokkavari) 17%, transparent);
   color: var(--muste-2);
+}
+.lippu.yo {
+  border-color: color-mix(in srgb, var(--huomio) 70%, transparent);
+  background: color-mix(in srgb, var(--huomio) 20%, transparent);
+  color: var(--huomio-teksti); font-weight: 700; letter-spacing: 0;
 }
 .lippu.rektio {
   border-color: color-mix(in srgb, var(--luokka-prepositio) 70%, transparent);
@@ -2524,6 +2531,11 @@ function piirraSanaRivi(sana, haku) {
   const sisus = el("div", "sisus");
   const otsikko = el("div", "sv");
   otsikko.appendChild(korostaOsumat(hakusana(sana), haku));
+  if (sana.yo) {
+    const tahti = el("span", "lippu yo", "★");
+    tahti.title = "Toistuu ylioppilaskokeissa";
+    lisaa(otsikko, tahti);
+  }
   if (sana.rektio) lisaa(otsikko, el("span", "lippu rektio", sana.rektio));
   if (sana.luokka) {
     const lippu = el("span", "lippu", sana.luokka);
@@ -2896,13 +2908,15 @@ function projisoi(nopeus, hidastuvuus = 0.998) {
 function suodatetutSanat() {
   const suodatin = edistyminen.asetukset.suodatin;
   if (!suodatin) return kaikkiSanat;
+  if (suodatin.tyyppi === "yo") return kaikkiSanat.filter((s) => s.yo);
   if (suodatin.tyyppi === "luku") return kaikkiSanat.filter((s) => s._luku === suodatin.arvo);
   if (suodatin.tyyppi === "sanaluokka") return kaikkiSanat.filter((s) => s.sanaluokka === suodatin.arvo);
   return kaikkiSanat;
 }
 function suodattimenNimi() {
   const suodatin = edistyminen.asetukset.suodatin;
-  return suodatin ? suodatin.arvo : "Koko sanasto";
+  if (!suodatin) return "Koko sanasto";
+  return suodatin.tyyppi === "yo" ? "★ yo-sanat" : suodatin.arvo;
 }
 
 function vieEdistyminen() {
@@ -2948,15 +2962,20 @@ function avaaAsetukset() {
     };
     const nyt = edistyminen.asetukset.suodatin;
     lisaaValinta("Koko sanasto", "", !nyt);
+    const yoMaara = kaikkiSanat.filter((s) => s.yo && kelpaaKortiksi(s)).length;
+    if (yoMaara) lisaaValinta(`★ Vain yo-sanat (${yoMaara})`, "yo:", nyt?.tyyppi === "yo");
     for (const luku of sanasto.luvut) {
       const maara = luku.alaluvut.reduce(
         (s, a) => s + a.sisalto.filter((k) => k.tyyppi === "sana" && kelpaaKortiksi(k)).length, 0);
       if (maara) lisaaValinta(`${luku.otsikko} (${maara})`, "luku:" + luku.otsikko,
                               nyt?.tyyppi === "luku" && nyt.arvo === luku.otsikko);
     }
-    for (const sanaluokka of ["verbi", "substantiivi", "adjektiivi", "adverbi", "ilmaus"]) {
+    const MONIKOT = { verbi: "verbit", substantiivi: "substantiivit",
+                      adjektiivi: "adjektiivit", adverbi: "adverbit",
+                      ilmaus: "ilmaukset" };
+    for (const sanaluokka of Object.keys(MONIKOT)) {
       const maara = kaikkiSanat.filter((s) => s.sanaluokka === sanaluokka && kelpaaKortiksi(s)).length;
-      if (maara) lisaaValinta(`Vain ${sanaluokka}t (${maara})`, "sanaluokka:" + sanaluokka,
+      if (maara) lisaaValinta(`Vain ${MONIKOT[sanaluokka]} (${maara})`, "sanaluokka:" + sanaluokka,
                               nyt?.tyyppi === "sanaluokka" && nyt.arvo === sanaluokka);
     }
     valikko.addEventListener("change", () => {
@@ -3091,6 +3110,7 @@ function avaaAsetukset() {
     const aloitetut = kortit.filter((k) => tila(k)).length;
     lisaa(sisus, el("p", "t-nano haalein",
       `${kortit.length} KORTTIA · ${aloitetut} ALOITETTU · ${valmiit} VÄLITOISTOSSA`));
+    lisaa(sisus, el("p", "t-nano haalein versiorivi", `Abisanakirja versio ${VERSIO}`));
   });
 }
 
@@ -3309,6 +3329,9 @@ const VALILEHDET = [
     kuvake: '<path d="M4 5.5A1.5 1.5 0 0 1 5.5 4H19v16H5.5A1.5 1.5 0 0 1 4 18.5z"/><path d="M8 8.5h7M8 12h7M8 15.5h4"/>' },
 ];
 const AVAIN_VALILEHTI = "ruotsi.valilehti";
+/* Näkyy asetusvalikon alimmalla rivillä, jotta tietää mikä versio on käytössä.
+   1.5 = sanasto ennen yo-listaa, 1.6 = ylioppilaskokeiden 2020–2026 sanasto. */
+const VERSIO = "1.6";
 
 let valilehti = "opi";
 const sijainnit = {};

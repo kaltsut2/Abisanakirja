@@ -11,12 +11,12 @@ maanantai 7. syyskuuta 2026
 21.07
 
 1.1 Ajattelu, ymmärtäminen ja mielipide
-tycka, tycker, tyckte, tyckt  (IIb)  –  olla jotain mieltä
-anse, anser, ansåg, ansett  (IV)  –  olla jotakin mieltä, pitää jonakin, katsoa
-tro, tror, trodde, trott  (III)  –  uskoa, luulla
-anta, antar, antog, antagit  (IV)  –  olettaa
-förstå, förstår, förstod, förstått  (IV)  –  ymmärtää
-inse, inser, insåg, insett  (IV)  –  oivaltaa, tajuta
+tycka, tycker, tyckte, tyckt  (IIb)  –  olla jotain mieltä ★
+anse, anser, ansåg, ansett  (IV)  –  olla jotakin mieltä, pitää jonakin, katsoa ★
+tro, tror, trodde, trott  (III)  –  uskoa, luulla ★
+anta, antar, antog, antagit  (IV)  –  olettaa ★
+förstå, förstår, förstod, förstått  (IV)  –  ymmärtää ★
+inse, inser, insåg, insett  (IV)  –  oivaltaa, tajuta ★
 fatta, fattar, fattade, fattat  (I)  –  tajuta, ymmärtää; tarttua
 	Han fattade pennan och började skriva. = Hän tarttui kynään ja alkoi kirjoittaa.
 	Fattas det något? = Puuttuuko jotain?
@@ -24,34 +24,42 @@ uppfatta, uppfattar, uppfattade, uppfattat  (I)  –  käsittää, ymmärtää
 begripa, begriper, begrep, begripit  (IV)  –  käsittää, tajuta
 	Adjektiivi: begriplig, begripligt, begripliga = ymmärrettävä.
 föreställa sig, föreställer, föreställde, föreställt  (IIa)  –  kuvitella
-betyda, betyder, betydde, betytt  (IIa)  –  merkitä, tarkoittaa
-innebära, innebär, innebar, inneburit  (IV)  –  merkitä, tarkoittaa; sisältää (abstrakti)
-innehålla, innehåller, innehöll, innehållit  (IV)  –  sisältää (fyysinen)
-mena, menar, menade, menat  (I)  –  tarkoittaa
+betyda, betyder, betydde, betytt  (IIa)  –  merkitä, tarkoittaa ★
+innebära, innebär, innebar, inneburit  (IV)  –  merkitä, tarkoittaa; sisältää (abstrakti) ★
+innehålla, innehåller, innehöll, innehållit  (IV)  –  sisältää (fyysinen) ★
+mena, menar, menade, menat  (I)  –  tarkoittaa ★
 	Menar du illa? = Tarkoitatko pahalla?
 	Menar du allvar? = Oletko tosissasi?
-ta ställning till  –  ottaa kantaa
-hålla med (om)  –  olla samaa mieltä
+ta ställning till  –  ottaa kantaa ★
+hålla med (om)  –  olla samaa mieltä ★
+avse, avser, avsåg, avsett  (IV)  –  tarkoittaa, viitata johonkin ★
+	Huom. Vad avses med det historiska ögonblicket? = Mitä tarkoitetaan historiallisella hetkellä?
+tänka, tänker, tänkte, tänkt  (IIb)  –  ajatella, aikoa ★
+	Huom. tänk (imperatiivi) – tänker (preesens) – tänka (infinitiivi) oli oma vastausvaihtoehtokolmikkonsa 2024S. Apuverbin jälkeen aina infinitiivi: ska tänka.
+fundera, funderar, funderade, funderat  (I)  –  pohtia, miettiä ★
+reflektera, reflekterar, reflekterade, reflekterat  (I)  –  heijastaa; pohtia ★
+ångra, ångrar, ångrade, ångrat  (I)  –  katua ★
+	Huom. De ångrar sina val. = He katuvat valintojaan.
 
 1.2 Puhuminen, kertominen ja vaikuttaminen
-uppge, uppger, uppgav, uppgett (uppgivit)  (IV)  –  ilmoittaa, kertoa
+uppge, uppger, uppgav, uppgett (uppgivit)  (IV)  –  ilmoittaa, kertoa ★
 förmedla, förmedlar, förmedlade, förmedlat  (I)  –  välittää
 skriva, skriver, skrev, skrivit  (IV)  –  kirjoittaa
-beskriva, beskriver, beskrev, beskrivit  (IV)  –  kuvailla
+beskriva, beskriver, beskrev, beskrivit  (IV)  –  kuvailla ★
 	Boken är skriven av en finländsk författare. = Kirja on suomalaisen kirjailijan kirjoittama.
 övertala, övertalar, övertalade, övertalat  (I)  –  ylipuhua
-uppmana, uppmanar, uppmanade, uppmanat  (I)  –  kehottaa
+uppmana, uppmanar, uppmanade, uppmanat  (I)  –  kehottaa ★
 	uppmanad av sin fru = vaimonsa kehottamana
 ifrågasätta, ifrågasätter, ifrågasatte, ifrågasatt  (IV)  –  kyseenalaistaa
-lova, lovar, lovade, lovat  (I)  –  luvata
+lova, lovar, lovade, lovat  (I)  –  luvata ★
 	ge ett löfte = antaa lupaus / bryta löftet = rikkoa lupaus / hålla löften = pitää lupaukset
 försäkra, försäkrar, försäkrade, försäkrat  (I)  –  vakuuttaa, varmistaa
 bekräfta, bekräftar, bekräftade, bekräftat  (I)  –  vahvistaa, varmentaa
 medge, medger, medgav, medgivit  (IV)  –  myöntää, tunnustaa; sallia
-gissa, gissar, gissade, gissat  (I)  –  arvata
-skämta, skämtar, skämtade, skämtat  (I)  –  vitsailla
-klaga (på/över), klagar, klagade, klagat  (I)  –  valittaa
-vägra, vägrar, vägrade, vägrat  (I)  –  kieltäytyä
+gissa, gissar, gissade, gissat  (I)  –  arvata ★
+skämta, skämtar, skämtade, skämtat  (I)  –  vitsailla ★
+klaga (på/över), klagar, klagade, klagat  (I)  –  valittaa ★
+vägra, vägrar, vägrade, vägrat  (I)  –  kieltäytyä ★
 	Han vägrar själv att söka hjälp. = Hän kieltäytyy itse hakemasta apua.
 göra anteckningar  –  tehdä muistiinpanoja
 avge, avger, avgav, avgett (avgivit)  (IV)  –  antaa (lupaus, lausunto)
@@ -62,31 +70,45 @@ avvisa, avvisar, avvisade, avvisat  (I)  –  torjua, hylätä, käännyttää
 berömma, berömmer, berömde, berömt  (IIa)  –  ylistää, kehua, kiittää
 berömma sig (av), berömmer sig, berömde sig, berömt sig  (IIa)  –  kerskua, leuhkia, kehuskella
 	Puhekielessä kerskumisesta käytetään useammin verbiä skryta (skryter, skröt, skrutit) + över tai med. Berömma sig av on kirjallisempi.
-uppmuntra, uppmuntrar, uppmuntrade, uppmuntrat  (I)  –  kannustaa, rohkaista, ilahduttaa, virkistää
+uppmuntra, uppmuntrar, uppmuntrade, uppmuntrat  (I)  –  kannustaa, rohkaista, ilahduttaa, virkistää ★
 uttrycka sig, uttrycker sig, uttryckte sig, uttryckt sig  (IIb)  –  ilmaista itseään
 	Korjaus: "utrrycka sig" → uttrycka sig (kaksi t:tä, yksi r)
 dela, delar, delade, delat  (I)  –  jakaa
+berätta, berättar, berättade, berättat  (I)  –  kertoa ★
+betona, betonar, betonade, betonat  (I)  –  korostaa, painottaa ★
+nämna, nämner, nämnde, nämnt  (IIa)  –  mainita ★
+konstatera, konstaterar, konstaterade, konstaterat  (I)  –  todeta ★
+kommentera, kommenterar, kommenterade, kommenterat  (I)  –  kommentoida ★
+påpeka, påpekar, påpekade, påpekat  (I)  –  huomauttaa ★
+råda, råder, rådde, rått  (IIa)  –  neuvoa ★
+	Huom. Substantiivi ett råd = neuvo. råd, rådet, råd, råden (5). ”bästa rådet” oli vastausvaihtoehto 2024K.
+föreslå, föreslår, föreslog, föreslagit  (IV)  –  ehdottaa ★
+	Huom. Substantiivi ett förslag = ehdotus. * Vaihtoehtona försök / fördelar / förslag (2023S).
+varna (för), varnar, varnade, varnat  (I)  –  varoittaa ★
+neka, nekar, nekade, nekat  (I)  –  kieltää, kieltäytyä ★
+locka, lockar, lockade, lockat  (I)  –  houkutella ★
+tystna, tystnar, tystnade, tystnat  (I)  –  vaieta, hiljetä ★
 
 1.3 Epäily, luottamus ja varmuus
 misstänka, misstänker, misstänkte, misstänkt  (IIb)  –  epäillä, aavistaa (vahvempi kuin jag tror)
 	misstänka att någon information är falsk – ei luota siihen. Adjektiivi: tvivelaktig = epäilyttävä.
 tvivla (på), tvivlar, tvivlade, tvivlat  (I)  –  epäillä (ei usko todeksi)
-tveka, tvekar, tvekade, tvekat  (I)  –  epäröidä, empiä
-lita (på), litar, litade, litat  (I)  –  luottaa
+tveka, tvekar, tvekade, tvekat  (I)  –  epäröidä, empiä ★
+lita (på), litar, litade, litat  (I)  –  luottaa ★
 	Ska jag lita på min intuition? = Pitäisikö luottaa intuitiooni?
-förutsätta, förutsätter, förutsatte, förutsatt  (IV)  –  edellyttää
+förutsätta, förutsätter, förutsatte, förutsatt  (IV)  –  edellyttää ★
 
 1.4 Ihmissuhteet ja vuorovaikutus
-umgås, umgås, umgicks, umgåtts  (dep.)  –  seurustella, viettää aikaa yhdessä, olla tekemisissä, pitää yhteyttä
-intressera sig (för), intresserar, intresserade, intresserat  (I)  –  kiinnostua jostakin
-påminna (om), påminner, påminde, påmint  (IIa)  –  muistuttaa jostakin
-likna, liknar, liknade, liknat  (I)  –  muistuttaa (näyttää samalta)
+umgås, umgås, umgicks, umgåtts  (dep.)  –  seurustella, viettää aikaa yhdessä, olla tekemisissä, pitää yhteyttä ★
+intressera sig (för), intresserar, intresserade, intresserat  (I)  –  kiinnostua jostakin ★
+påminna (om), påminner, påminde, påmint  (IIa)  –  muistuttaa jostakin ★
+likna, liknar, liknade, liknat  (I)  –  muistuttaa (näyttää samalta) ★
 	liknande tecken = samanlaisia merkkejä
-uppskatta, uppskattar, uppskattade, uppskattat  (I)  –  arvostaa; arvioida
+uppskatta, uppskattar, uppskattade, uppskattat  (I)  –  arvostaa; arvioida ★
 värdesätta, värdesätter, värdesatte, värdesatt  (IV)  –  arvostaa
 försvara, försvarar, försvarade, försvarat  (I)  –  puolustaa
 skydda (mot), skyddar, skyddade, skyddat  (I)  –  suojella, suojata
-ta hand om, tar, tog, tagit  (IV)  –  huolehtia jostakin, pitää huolta
+ta hand om, tar, tog, tagit  (IV)  –  huolehtia jostakin, pitää huolta ★
 vara rädd om  –  pitää huolta jostakin, varjella
 	Huomaa ero: vara rädd om ngt = varjella jotakin, mutta vara rädd för ngt = pelätä jotakin (6.4).
 stötta, stöttar, stöttade, stöttat  (I)  –  tukea
@@ -94,64 +116,99 @@ stötta, stöttar, stöttade, stöttat  (I)  –  tukea
 	Huomaa: skydda mot något = suojella joltakin. Substantiivi: ett skydd = suoja.
 stå upp för (står, stod, stått)  –  puolustaa, asettua jonkin puolelle
 	Vi måste stå upp för de demokratiska värderingarna. = Meidän on puolustettava demokraattisia arvoja.
-ta hänsyn till  –  ottaa huomioon
+ta hänsyn till  –  ottaa huomioon ★
 	Visa hänsyn till alla andra passagerare. = Huomioi kanssamatkustajat.
 knyta kontakter (knyter, knöt, knutit)  –  solmia kontakteja
 lyckönska, lyckönskar, lyckönskade, lyckönskat  (I)  –  onnitella
-delta (i), deltar, deltog, deltagit  (IV)  –  osallistua johonkin
+delta (i), deltar, deltog, deltagit  (IV)  –  osallistua johonkin ★
+förlåta, förlåter, förlät, förlåtit  (IV)  –  antaa anteeksi ★
+fira, firar, firade, firat  (I)  –  juhlia ★
 
 1.5 Luominen, valmistaminen ja hankkiminen
 skapa, skapar, skapade, skapat  (I)  –  luoda
 	skapa grafisk form = luoda graafinen muoto
-grunda, grundar, grundade, grundat  (I)  –  perustaa
+grunda, grundar, grundade, grundat  (I)  –  perustaa ★
 	Daniel Ek blev berömd när han grundade Spotify.
-utveckla, utvecklar, utvecklade, utvecklat  (I)  –  kehittää
-tillverka, tillverkar, tillverkade, tillverkat  (I)  –  valmistaa
+utveckla, utvecklar, utvecklade, utvecklat  (I)  –  kehittää ★
+tillverka, tillverkar, tillverkade, tillverkat  (I)  –  valmistaa ★
 tillsätta, tillsätter, tillsatte, tillsatt  (IV)  –  lisätä
-tillåta, tillåter, tillät, tillåtit  (IV)  –  sallia
-förbjuda, förbjuder, förbjöd, förbjudit  (IV)  –  kieltää
+tillåta, tillåter, tillät, tillåtit  (IV)  –  sallia ★
+förbjuda, förbjuder, förbjöd, förbjudit  (IV)  –  kieltää ★
 	Vastakohtapari: Det är tillåtet att röka. ↔ Det är förbjudet att röka.
-anställa, anställer, anställde, anställt  (IIa)  –  palkata, värvätä
-skaffa, skaffar, skaffade, skaffat  (I)  –  hankkia
+anställa, anställer, anställde, anställt  (IIa)  –  palkata, värvätä ★
+skaffa, skaffar, skaffade, skaffat  (I)  –  hankkia ★
 	skaffa körkort = hankkia ajokortti / skaffa en djurkompis = hankkia eläinkaveri
-äga, äger, ägde, ägt  (IIa)  –  omistaa
+äga, äger, ägde, ägt  (IIa)  –  omistaa ★
+köpa, köper, köpte, köpt  (IIb)  –  ostaa ★
+sälja, säljer, sålde, sålt  (IV)  –  myydä ★
+betala, betalar, betalade, betalat  (I)  –  maksaa ★
+kosta, kostar, kostade, kostat  (I)  –  maksaa (hinta) ★
+spara, sparar, sparade, sparat  (I)  –  säästää ★
+	Vaihtoehtoina använde / lånade / sparade (2021K) ja fylla / bilda / spara (2026K).
+låna, lånar, lånade, lånat  (I)  –  lainata ★
+erbjuda, erbjuder, erbjöd, erbjudit  (IV)  –  tarjota ★
+bjuda (på), bjuder, bjöd, bjudit  (IV)  –  tarjota, kutsua ★
+beställa, beställer, beställde, beställt  (IIa)  –  tilata ★
+	Huom. Substantiivi en beställning = tilaus.
+reklamera, reklamerar, reklamerade, reklamerat  (I)  –  tehdä reklamaatio ★
+	Huom. en reklamation = reklamaatio. Aihe toistui 2025K (kirjoitustehtävä ”Reklamation”) ja 2026K.
+hyra, hyr, hyrde, hyrt  (IIa)  –  vuokrata ★
+framställa, framställer, framställde, framställt  (IIa)  –  tuottaa, valmistaa ★
+slösa (på/med), slösar, slösade, slösat  (I)  –  tuhlata ★
+ge, ger, gav, gett  (IV)  –  antaa ★
+göra, gör, gjorde, gjort  (IV)  –  tehdä ★
+bilda, bildar, bildade, bildat  (I)  –  muodostaa ★
+grilla, grillar, grillade, grillat  (I)  –  grillata ★
 
 1.6 Muutos, vaikuttaminen ja seuraukset
-påverka (ngt), påverkar, påverkade, påverkat  (I)  –  vaikuttaa johonkin
-leda (till ngt), leder, ledde, lett  (IIa)  –  johtaa johonkin
-bidra (till/med), bidrar, bidrog, bidragit  (IV)  –  myötävaikuttaa, osallistua
-främja, främjar, främjade, främjat  (I)  –  edistää
-förbättra, förbättrar, förbättrade, förbättrat  (I)  –  parantaa
-försämra, försämrar, försämrade, försämrat  (I)  –  heikentää
+påverka (ngt), påverkar, påverkade, påverkat  (I)  –  vaikuttaa johonkin ★
+leda (till ngt), leder, ledde, lett  (IIa)  –  johtaa johonkin ★
+bidra (till/med), bidrar, bidrog, bidragit  (IV)  –  myötävaikuttaa, osallistua ★
+främja, främjar, främjade, främjat  (I)  –  edistää ★
+förbättra, förbättrar, förbättrade, förbättrat  (I)  –  parantaa ★
+försämra, försämrar, försämrade, försämrat  (I)  –  heikentää ★
 uppnå, uppnår, uppnådde, uppnått  (III)  –  saavuttaa
 nå, når, nådde, nått  (III)  –  saavuttaa, ylettyä
-lyckas, lyckas, lyckades, lyckats  (dep.)  –  onnistua
-misslyckas, misslyckas, misslyckades, misslyckats  (dep.)  –  epäonnistua
+lyckas, lyckas, lyckades, lyckats  (dep.)  –  onnistua ★
+misslyckas, misslyckas, misslyckades, misslyckats  (dep.)  –  epäonnistua ★
 utmana, utmanar, utmanade, utmanat  (I)  –  haastaa
-undvika, undviker, undvek, undvikit  (IV)  –  välttää
+undvika, undviker, undvek, undvikit  (IV)  –  välttää ★
 avbryta, avbryter, avbröt, avbrutit  (IV)  –  keskeyttää, pitää tauko
 lösa, löser, löste, löst  (IIb)  –  ratkaista
 avgöra, avgör, avgjorde, avgjort  (IV)  –  ratkaista, päättää
 	Huomaa: avgöra taipuu kuten göra (gör, gjorde, gjort). Adjektiivi avgörande = ratkaiseva.
 undersöka, undersöker, undersökte, undersökt  (IIb)  –  tutkia
 forska, forskar, forskade, forskat  (I)  –  tutkia (tieteellisesti)
-försöka, försöker, försökte, försökt  (IIb)  –  yrittää
-skada, skadar, skadade, skadat  (I)  –  vahingoittaa
+försöka, försöker, försökte, försökt  (IIb)  –  yrittää ★
+skada, skadar, skadade, skadat  (I)  –  vahingoittaa ★
 missbruka, missbrukar, missbrukade, missbrukat  (I)  –  väärinkäyttää
-besluta (om ngt), beslutar, beslutade/beslöt, beslutat  (I / IV)  –  päättää jostakin (muodollinen, esim. viranomainen)
-bestämma sig (för ngt), bestämmer, bestämde, bestämt  (IIa)  –  päättää (henkilökohtainen valinta)
+besluta (om ngt), beslutar, beslutade/beslöt, beslutat  (I / IV)  –  päättää jostakin (muodollinen, esim. viranomainen) ★
+bestämma sig (för ngt), bestämmer, bestämde, bestämt  (IIa)  –  päättää (henkilökohtainen valinta) ★
 	Jag har bestämt mig för att sluta röka.
 avvika (från), avviker, avvek, avvikit  (IV)  –  poiketa jostakin
 bestämma, bestämmer, bestämde, bestämt  (IIa)  –  päättää, määrätä
 	Huomaa ero: bestämma ngt = päättää jokin asia, bestämma sig för ngt = tehdä oma päätös.
+orsaka, orsakar, orsakade, orsakat  (I)  –  aiheuttaa ★
+medföra, medför, medförde, medfört  (IIa)  –  tuoda mukanaan, aiheuttaa ★
+höja, höjer, höjde, höjt  (IIa)  –  nostaa, korottaa ★
+stiga, stiger, steg, stigit  (IV)  –  nousta ★
+sjunka, sjunker, sjönk, sjunkit  (IV)  –  laskea, vajota ★
+utvecklas, utvecklas, utvecklades, utvecklats  (dep.)  –  kehittyä ★
+förändras, förändras, förändrades, förändrats  (dep.)  –  muuttua ★
+ändra (på), ändrar, ändrade, ändrat  (I)  –  muuttaa ★
+	Huom. Vad fick familjen att ändra på sina planer? = Mikä sai perheen muuttamaan suunnitelmiaan?
+byta, byter, bytte, bytt  (IIb)  –  vaihtaa ★
+	Vaihtoehtoina bytas / ändras / återvinnas (2025K) – kaikki passiivi-infinitiivejä.
+förstöra, förstör, förstörde, förstört  (IIa)  –  tuhota, pilata ★
+sortera, sorterar, sorterade, sorterat  (I)  –  lajitella ★
 
 1.7 Tapahtuminen ja havaitseminen
-ske, sker, skedde, skett  (III)  –  tapahtua
-hända, händer, hände, hänt  (IIa)  –  tapahtua
-märka, märker, märkte, märkt  (IIb)  –  huomata
+ske, sker, skedde, skett  (III)  –  tapahtua ★
+hända, händer, hände, hänt  (IIa)  –  tapahtua ★
+märka, märker, märkte, märkt  (IIb)  –  huomata ★
 	Har du märkt…? = Oletko huomannut…?
 lägga märke till (lägger, la, lagt)  –  panna merkille
-upptäcka, upptäcker, upptäckte, upptäckt  (IIb)  –  löytää, huomata
+upptäcka, upptäcker, upptäckte, upptäckt  (IIb)  –  löytää, huomata ★
 visa sig, visar, visade, visat  (I)  –  osoittautua
 kännas, känns, kändes, känts  (dep. IIa)  –  tuntua
 lukta, luktar, luktade, luktat  (I)  –  haista, tuoksua
@@ -160,7 +217,47 @@ hamna (i), hamnar, hamnade, hamnat  (I)  –  päätyä, joutua
 råka ut för (råkar, råkade, råkat)  –  joutua johonkin (ikävään)
 få veta mer (får, fick, fått)  –  saada tietää lisää
 åka fast, åker fast, åkte fast, åkt fast  (IIb)  –  jäädä kiinni
-ta reda på  –  ottaa selvää
+ta reda på  –  ottaa selvää ★
+notera, noterar, noterade, noterat  (I)  –  panna merkille ★
+uppfinna, uppfinner, uppfann, uppfunnit  (IV)  –  keksiä (uusi asia) ★
+hitta, hittar, hittade, hittat  (I)  –  löytää ★
+uppleva, upplever, upplevde, upplevt  (IIa)  –  kokea ★
+	Huom. Hur de upplever bostadssituationen. = Miten he kokevat asuntotilanteen.
+erfara, erfar, erfor, erfarit  (IV)  –  saada kokea ★
+veta, vet, visste, vetat  (epäsäänn.)  –  tietää ★
+	Huom. veta on epäsäännöllinen: preesens vet (ei *vetar). * Vaihtoehtoina vilade / visste / visade (2024K) – kolme aivan eri verbiä, jotka näyttävät samalta.
+känna, känner, kände, känt  (IIa)  –  tuntea (henkilö tai tunne) ★
+känna sig  (IIa)  –  tuntea itsensä joksikin ★
+	Huom. Hur kände sig Peter en måndagsmorgon? = Miltä Peteristä tuntui eräänä maanantaiaamuna?
+känna till  (IIa)  –  tuntea, tietää jostakin ★
+minnas, minns, mindes, mints  (dep.)  –  muistaa ★
+komma ihåg, kommer, kom, kommit  (IV)  –  muistaa ★
+	Huom. ihåg / igen / förbi olivat vastausvaihtoehtoina 2024K. komma ihåg = muistaa, komma igen = tulla uudelleen, komma förbi = poiketa, tulla ohi.
+glömma, glömmer, glömde, glömt  (IIa)  –  unohtaa ★
+inträffa, inträffar, inträffade, inträffat  (I)  –  sattua, tapahtua ★
+	Huom. på grund av det inträffade = tapahtuneen vuoksi
+uppstå, uppstår, uppstod, uppstått  (IV)  –  syntyä, ilmaantua ★
+	Huom. Ett trafikproblem har uppstått. = On syntynyt liikenneongelma.
+förekomma, förekommer, förekom, förekommit  (IV)  –  esiintyä ★
+finnas, finns, fanns, funnits  (dep.)  –  olla olemassa ★
+	Huom. * Vaihtoehtoina är / blir / finns (2024S). finns = on olemassa, blir = tulee joksikin, är = on.
+bli, blir, blev, blivit  (IV)  –  tulla joksikin ★
+ligga, ligger, låg, legat  (IV)  –  sijaita, maata ★
+stå, står, stod, stått  (IV)  –  seisoa, olla ★
+bo, bor, bodde, bott  (III)  –  asua ★
+leva, lever, levde, levt  (IIa)  –  elää ★
+vistas, vistas, vistades, vistats  (dep.)  –  oleskella ★
+flytta, flyttar, flyttade, flyttat  (I)  –  muuttaa (asuinpaikkaa) ★
+	Huom. Att flytta hemifrån = muuttaa pois kotoa
+bero (på), beror, berodde, berott  (III)  –  johtua jostakin ★
+handla (om), handlar, handlade, handlat  (I)  –  kertoa jostakin; toimia; ostaa ★
+bestå (av), består, bestod, bestått  (IV)  –  koostua jostakin ★
+	Huom. Vaihtoehtoina ingår / avstår / består (2020K). ingå = sisältyä, avstå = luopua.
+ingå (i), ingår, ingick, ingått  (IV)  –  sisältyä ★
+räcka, räcker, räckte, räckt  (IIb)  –  riittää ★
+verka, verkar, verkade, verkat  (I)  –  vaikuttaa joltakin ★
+tyckas, tycks, tycktes, tyckts  (dep.)  –  näyttää joltakin ★
+följa, följer, följde, följt  (II)  –  seurata ★
 
 1.8 Terveys, hyvinvointi ja tunteet
 insjukna, insjuknar, insjuknade, insjuknat  (I)  –  sairastua
@@ -169,7 +266,7 @@ vårda, vårdar, vårdade, vårdat  (I)  –  hoitaa
 må illa ↔ må bra  –  voida pahoin ↔ voida hyvin
 	Johdokset: illamående = pahoinvointi, välmående = hyvinvointi.
 bli utbränd  –  palaa loppuun
-oroa sig (för), oroar, oroade, oroat  (I)  –  huolestua
+oroa sig (för), oroar, oroade, oroat  (I)  –  huolestua ★
 vara bekymrad  –  olla huolissaan
 	Ska jag vara bekymrad? = Pitäisikö minun olla huolissani?
 koppla av, kopplar, kopplade, kopplat  (I)  –  rentoutua
@@ -177,9 +274,9 @@ koppla av, kopplar, kopplade, kopplat  (I)  –  rentoutua
 vila, vilar, vilade, vilat  (I)  –  levätä
 	vila en stund = levätä hetken
 lägga sig, lägger, la (lade), lagt  (IV)  –  mennä nukkumaan, käydä pitkälleen
-sova, sover, sov, sovit  (IV)  –  nukkua
-somna, somnar, somnade, somnat  (I)  –  nukahtaa
-vakna, vaknar, vaknade, vaknat  (I)  –  herätä
+sova, sover, sov, sovit  (IV)  –  nukkua ★
+somna, somnar, somnade, somnat  (I)  –  nukahtaa ★
+vakna, vaknar, vaknade, vaknat  (I)  –  herätä ★
 väcka, väcker, väckte, väckt  (IIb)  –  herättää (joku)
 	en väckarklocka = herätyskello
 vaka, vakar, vakade, vakat  (I)  –  valvoa, vahtia
@@ -190,12 +287,31 @@ bete sig, beter, betedde, betett  (III)  –  käyttäytyä
 förhålla sig (till), förhåller, förhöll, förhållit  (IV)  –  suhtautua johonkin
 jämföra (med), jämför, jämförde, jämfört  (IIa)  –  verrata
 stressa mindre  –  stressata vähemmän
+gilla, gillar, gillade, gillat  (I)  –  pitää jostakin ★
+	Esiintyi 40 kertaa: ”Vad gillar Putte minst i skådespelaryrket?”
+njuta (av), njuter, njöt, njutit  (IV)  –  nauttia jostakin ★
+	Vaihtoehtoina litar på / drömmer om / njuter av (2023S) – kaikki rektioverbejä.
+trivas, trivs, trivdes, trivts  (dep.)  –  viihtyä ★
+må, mår, mådde, mått  (III)  –  voida (hyvin/huonosti) ★
+	Huom. Varför mår Sara bättre utomlands än hemma? = Miksi Sara voi paremmin ulkomailla kuin kotona?
+sakna, saknar, saknade, saknat  (I)  –  kaivata; puuttua ★
+	Huom. Tavlan saknar namnteckning. = Taulusta puuttuu nimikirjoitus.
+längta (efter), längtar, längtade, längtat  (I)  –  kaivata, ikävöidä ★
+	Den som längtar efter gamla tider på landet. (2026K, vastausvaihtoehto)
+bry sig (om), bryr, brydde, brytt  (III)  –  välittää jostakin ★
+strunta (i), struntar, struntade, struntat  (I)  –  olla välittämättä ★
+	Huom. Strunta i sociala medier. = Älä välitä sosiaalisesta mediasta.
+engagera sig (i), engagerar, engagerade, engagerat  (I)  –  sitoutua, innostua jostakin ★
+reagera (på), reagerar, reagerade, reagerat  (I)  –  reagoida ★
+skratta, skrattar, skrattade, skrattat  (I)  –  nauraa ★
+trösta, tröstar, tröstade, tröstat  (I)  –  lohduttaa ★
+	Kirjoitustehtävä ”Tröstande meddelande” (2026K) ja ”Tsemppiviesti” (2025K).
 
 1.9 Ympäristö ja kestävä kehitys
 förbruka, förbrukar, förbrukade, förbrukat  (I)  –  kuluttaa, käyttää
-konsumera, konsumerar, konsumerade, konsumerat  (I)  –  kuluttaa
-återvinna, återvinner, återvann, återvunnit  (IV)  –  kierrättää, uudelleenkäyttää
-lämpa sig, lämpar, lämpade, lämpat  (I)  –  sopia, soveltua
+konsumera, konsumerar, konsumerade, konsumerat  (I)  –  kuluttaa ★
+återvinna, återvinner, återvann, återvunnit  (IV)  –  kierrättää, uudelleenkäyttää ★
+lämpa sig, lämpar, lämpade, lämpat  (I)  –  sopia, soveltua ★
 	lämpa (ilman sig) = sovelluttaa, siirtää.
 vädra, vädrar, vädrade, vädrat  (I)  –  tuulettaa
 lossna, lossnar, lossnade, lossnat  (I)  –  irrota
@@ -204,7 +320,8 @@ donera, donerar, donerade, donerat  (I)  –  lahjoittaa
 	skänka/donera pengar till välgörenhet = lahjoittaa rahaa hyväntekeväisyyteen
 svälta, svälter, svalt, svultit  (IV)  –  nähdä nälkää
 dö, dör, dog, dött  (IV)  –  kuolla
-växa, växer, växte, växt  (IIb)  –  kasvaa, laajentua
+växa, växer, växte, växt  (IIb)  –  kasvaa, laajentua ★
+	Huom. taipuu sekä IIb- että IV-luokan mukaan: växte / vuxit.
 	växa upp = kasvaa aikuiseksi
 växla, växlar, växlade, växlat  (I)  –  vaihtaa
 	växla pengar = vaihtaa rahaa
@@ -226,11 +343,19 @@ förbereda sig för  –  valmistautua johonkin
 intressera sig för  –  kiinnostua jostakin
 bestämma sig för  –  päättää jostakin
 oroa sig för  –  huolestua jostakin
-förhålla sig till  –  suhtautua johonkin
+förhålla sig till  –  suhtautua johonkin ★
 bete sig  –  käyttäytyä
-lämpa sig  –  soveltua
+lämpa sig  –  soveltua ★
 löna sig, lönar sig, lönade sig, lönat sig  (I)  –  kannattaa
 	Det lönar sig att öva varje dag. = Kannattaa harjoitella joka päivä.
+vänja sig (vid), vänjer, vande, vant  (IIa)  –  tottua ★
+skilja sig (från), skiljer, skilde, skilt  (IIa)  –  erota jostakin ★
+ta sig (till)  (IV)  –  päästä jonnekin ★
+	Huom. Hur tar sig kompisarna till sommarstugan? = Miten kaverit pääsevät kesämökille?
+ställa upp (för)  (IIa)  –  asettua jonkun tueksi ★
+	Deponenttiverbit (aina s-loppuinen):
+hoppas, hoppas, hoppades, hoppats  (dep.)  –  toivoa ★
+andas, andas, andades, andats  (dep.)  –  hengittää ★
 
 1.11 Verbi → substantiivi -johdokset
 Näissä pareissa kannattaa opetella molemmat yhtä aikaa: verbi ja siitä muodostettu substantiivi.
@@ -242,7 +367,7 @@ lösa → en lösning, lösningen, lösningar, lösningarna (2)  –  ratkaista 
 undersöka → en undersökning, undersökningen, undersökningar, undersökningarna (2)  –  tutkia → tutkimus
 försöka → ett försök, försöket, försök, försöken (5)  –  yrittää → yritys
 skada → en skada, skadan, skador, skadorna (1)  –  vahingoittaa → vahinko
-forska → forskning / en forskare  –  tutkia → tutkimus / tutkija
+forska → forskning / en forskare  –  tutkia → tutkimus / tutkija ★
 äga → en ägare, ägaren, ägare, ägarna (5)  –  omistaa → omistaja
 missbruka → en missbrukare (5)  –  väärinkäyttää → väärinkäyttäjä
 tillverka → en tillverkning  –  valmistaa → valmistus
@@ -261,22 +386,84 @@ komma loss, kommer loss, kom loss, kommit loss  (IV)  –  päästä irti, irrot
 	Korjaus: "komma loss = karata" – loss tarkoittaa irti, joten komma loss = päästä irti. Karata (esim. vankilasta) on rymma.
 släppa, släpper, släppte, släppt  (IIb)  –  päästää irti, vapauttaa, laskea irti
 rinna ut, rinner ut, rann ut, runnit ut  (IV)  –  valua ulos
+landa, landar, landade, landat  (I)  –  laskeutua ★
+leka, leker, lekte, lekt  (II)  –  leikkiä ★
 
 1.13 Talous, työ ja yhteiskunta
-minska, minskar, minskade, minskat ↔ öka, ökar, ökade, ökat  (I)  –  vähentyä, vähentää ↔ kasvaa, lisätä
+minska, minskar, minskade, minskat ↔ öka, ökar, ökade, ökat  (I)  –  vähentyä, vähentää ↔ kasvaa, lisätä ★
 	Behovet av vård ökar stadigt. = Hoidon tarve kasvaa tasaisesti.
-kräva, kräver, krävde, krävt  (IIa)  –  vaatia, edellyttää
+kräva, kräver, krävde, krävt  (IIa)  –  vaatia, edellyttää ★
 tillhandahålla, tillhandahåller, tillhandahöll, tillhandahållit  (IV)  –  tarjota, pitää tarjolla
 	Huomaa: taipuu kuten hålla.
 täcka, täcker, täckte, täckt  (IIb)  –  kattaa, peittää
-ersätta, ersätter, ersatte, ersatt  (IV)  –  korvata
+ersätta, ersätter, ersatte, ersatt  (IV)  –  korvata ★
 	få ersättning = saada korvausta
 utnyttja, utnyttjar, utnyttjade, utnyttjat  (I)  –  hyödyntää, käyttää hyväksi
-expandera, expanderar, expanderade, expanderat  (I)  –  laajentaa, laajentua
-effektivisera, effektiviserar, effektiviserade, effektiviserat  (I)  –  tehostaa
+expandera, expanderar, expanderade, expanderat  (I)  –  laajentaa, laajentua ★
+effektivisera, effektiviserar, effektiviserade, effektiviserat  (I)  –  tehostaa ★
 konkurrera (med/om), konkurrerar, konkurrerade, konkurrerat  (I)  –  kilpailla (yritysten välillä)
 stå inför, står inför, stod inför, stått inför  (IV)  –  olla jonkin edessä, kohdata
 	Många länder står inför flera utmaningar. = Monet maat kohtaavat useita haasteita.
+jobba, jobbar, jobbade, jobbat  (I)  –  tehdä työtä (puhekielisempi) ★
+arbeta, arbetar, arbetade, arbetat  (I)  –  työskennellä ★
+anmäla sig, anmäler, anmälde, anmält  (IIa)  –  ilmoittautua ★
+	Vaihtoehtoina anställde / anmälde / använde (2025S).
+ansöka (om), ansöker, ansökte, ansökt  (IIb)  –  hakea (virallisesti) ★
+	Huom. en ansökan = hakemus.
+studera, studerar, studerade, studerat  (I)  –  opiskella ★
+lära sig, lär, lärde, lärt  (IIa)  –  oppia ★
+undervisa, undervisar, undervisade, undervisat  (I)  –  opettaa ★
+träna, tränar, tränade, tränat  (I)  –  harjoitella, treenata ★
+öva, övar, övade, övat  (I)  –  harjoitella ★
+avlägga, avlägger, avlade, avlagt  (IV)  –  suorittaa (tutkinto) ★
+	Huom. Avlägg en högskoleexamen. = Suorita korkeakoulututkinto.
+utbilda sig, utbildar, utbildade, utbildat  (I)  –  kouluttautua ★
+
+1.14 Yrittäminen, onnistuminen ja valinta
+söka, söker, sökte, sökt  (IIb)  –  hakea, etsiä ★
+besöka, besöker, besökte, besökt  (IIb)  –  vierailla, käydä ★
+våga, vågar, vågade, vågat  (I)  –  uskaltaa ★
+	Våga testa – Våga göra fel – Våga slösa (2021S, vastausvaihtoehdot)
+orka, orkar, orkade, orkat  (I)  –  jaksaa ★
+	Huom. Hen orkar gå längre sträckor. = Hän jaksaa kävellä pitempiä matkoja.
+hinna, hinner, hann, hunnit  (IV)  –  ehtiä ★
+klara (av), klarar, klarade, klarat  (I)  –  selviytyä, suoriutua ★
+slippa, slipper, slapp, sluppit  (IV)  –  välttyä joltakin, päästä tekemättä ★
+välja, väljer, valde, valt  (IV)  –  valita ★
+satsa (på), satsar, satsade, satsat  (I)  –  panostaa ★
+avstå (från), avstår, avstod, avstått  (IV)  –  luopua jostakin, pidättäytyä ★
+
+1.15 Partikkeliverbit
+Partikkeliverbissä paino on partikkelilla ja merkitys ei ole pääteltävissä osista. Nämä ovat kokeessa toistuvia.
+ta del av  –  tutustua johonkin ★
+ta itu med  –  ryhtyä johonkin ★
+ta upp  –  ottaa esiin ★
+ta emot  –  ottaa vastaan ★
+se till att  –  huolehtia siitä, että ★
+	Huom. Se till att ha alla intyg. = Huolehdi siitä, että sinulla on kaikki todistukset.
+komma på  –  keksiä ★
+	Huom. Hur kom Lina på idén att måla fåglar? = Miten Lina keksi idean maalata lintuja?
+komma över  –  päästä yli jostakin ★
+komma fram  –  päästä perille ★
+gå ut på  –  olla kyse jostakin ★
+	Huom. Vad går öhoppning ut på? = Mistä saaristohyppelyssä on kyse?
+gå sönder  –  mennä rikki ★
+gå åt skogen  –  mennä pieleen (2025S, kirjoitustehtävän otsikko) ★
+hålla i gång  –  pitää käynnissä ★
+hålla koll på  –  pitää silmällä ★
+lägga ut  –  julkaista, laittaa esille ★
+lyfta fram  –  nostaa esiin ★
+	Huom. Vilken fördel försöker kollegan lyfta fram? = Minkä edun kollega yrittää nostaa esiin?
+få tag på  –  saada käsiinsä, löytää ★
+	Huom. få tag på boende = löytää asunto (2026K, vastausvaihtoehto)
+ha råd  –  olla varaa ★
+	Huom. ha råd att + infinitiivi.
+göra skillnad  –  olla merkitystä ★
+spela roll  –  olla merkitystä ★
+ha många järn i elden  –  olla monta rautaa tulessa ★
+koka soppa på en spik  –  tehdä tyhjästä jotakin (2020K, tekstin otsikko) ★
+smälta in  –  sulautua joukkoon ★
+låta bli  –  jättää tekemättä ★
 
 Substantiivit
 
@@ -288,21 +475,42 @@ en man, mannen, män, männen  (epäsäänn.)  –  mies
 en hustru, hustrun, hustrur, hustrurna  (3)  –  aviovaimo
 en äkta man  (–)  –  aviomies
 ett äkta par, paret, par, paren  (5)  –  aviopari
-en anhörig, den anhörige, anhöriga, de anhöriga  (adj.subst.)  –  läheinen, omainen
+en anhörig, den anhörige, anhöriga, de anhöriga  (adj.subst.)  –  läheinen, omainen ★
 en flicka, flickan, flickor, flickorna  (1)  –  tyttö
 en ficka, fickan, fickor, fickorna  (1)  –  tasku
 	Muistisääntö: flicka ↔ ficka – vain yksi l:n ero.
 en kändis, kändisen, kändisar, kändisarna  (2)  –  julkkis
-en forskare, forskaren, forskare, forskarna  (5)  –  tutkija
+en forskare, forskaren, forskare, forskarna  (5)  –  tutkija ★
 en ägare, ägaren, ägare, ägarna  (5)  –  omistaja
 en tjänsteman, tjänstemannen, tjänstemän, tjänstemännen  (epäsäänn.)  –  virkamies
 en missbrukare, missbrukaren, missbrukare, missbrukarna  (5)  –  väärinkäyttäjä
 en upptäcktsresande, upptäcktsresanden, upptäcktsresande, upptäcktsresandena  (adj.subst.)  –  löytöretkeilijä
 	en upptäcktsresa = löytöretki
 en hundvalp, hundvalpen, hundvalpar, hundvalparna  (2)  –  koiranpentu
+en vän, vännen, vänner, vännerna  (3)  –  ystävä ★
+en kompis, kompisen, kompisar, kompisarna  (2)  –  kaveri ★
+en vänskap, vänskapen, vänskaper, vänskaperna  (3)  –  ystävyys ★
+	Aihe toistuu: ”Vänskap” (2020S), ”Konsten att få vänner” (2024S).
+en familj, familjen, familjer, familjerna  (3)  –  perhe ★
+en förälder, föräldern, föräldrar, föräldrarna  (2)  –  vanhempi ★
+en släkting, -en, -ar, -arna  (2)  –  sukulainen ★
+en relation, relationen, relationer, relationerna  (3)  –  suhde ★
+ett sällskap, sällskapet, sällskap, sällskapen  (5)  –  seura ★
+	Huom. Ha sällskap = olla seuraa; med böckerna som sällskap = kirjat seuranaan
+en gemenskap, gemenskapen  (3)  –  yhteisöllisyys ★
+en kärlek, kärleken  (2)  –  rakkaus ★
+en känsla, känslan, känslor, känslorna  (1)  –  tunne ★
+	Vaihtoehtoina känsla / gåva / orsak (2023K).
+en stämning, -en, -ar, -arna  (2)  –  tunnelma ★
+	Toistuu poikkeuksellisen usein: ”Stämningen är mysig”, ”Hurdan är stämningen mellan flickorna?”
+ett intryck, intrycket, intryck, intrycken  (5)  –  vaikutelma ★
+en attityd, attityden, attityder, attityderna  (3)  –  asenne ★
+en inställning, -en, -ar, -arna  (2)  –  asenne, suhtautuminen ★
+en hänsyn, hänsynen  –  huomioon ottaminen ★
+	Huom. Visa hänsyn till alla andra passagerare. = Huomioi kanssamatkustajat.
 
 2.2 Terveys- ja hyvinvointisanasto
-en förmåga, förmågan, förmågor, förmågorna  (1)  –  kyky, kyvykkyys
+en förmåga, förmågan, förmågor, förmågorna  (1)  –  kyky, kyvykkyys ★
 	koncentrationsförmågan = keskittymiskyky
 ett hälsotillstånd, hälsotillståndet, hälsotillstånd, hälsotillstånden  (5)  –  terveydentila
 en trygghet, tryggheten, trygghheter, tryggheterna  (3)  –  turvallisuus
@@ -311,15 +519,34 @@ en ömhet, ömheten  (3)  –  hellyys
 en oro, oron  (–)  –  huoli, levottomuus
 ett bekymmer, bekymret, bekymmer, bekymren  (5)  –  huoli
 ett råd, rådet, råd, råden  (5)  –  neuvo, vinkki
-en sömn, sömnen  (–)  –  uni
+en sömn, sömnen  (–)  –  uni ★
 	sömnproblem = uniongelmat / sammanlagd sömn = yhteenlaskettu uniaika
-ett beteende, beteendet, beteenden, beteendena  (4)  –  käyttäytyminen
+ett beteende, beteendet, beteenden, beteendena  (4)  –  käyttäytyminen ★
 en gäspning, gäspningen, gäspningar, gäspningarna  (2)  –  haukotus
 en svängning, svängningen, svängningar, svängningarna  (2)  –  vaihtelu, heilahtelu
 	Humöret skiftar. = Mieliala vaihtelee.
 en magkänsla, magkänslan, magkänslor, magkänslorna  (1)  –  vaistomainen tunne, mutu
 ett läkemedel, läkemedlet, läkemedel, läkemedlen  (5)  –  lääke
 ett mässlingsutbrott, mässlingsutbrottet, mässlingsutbrott, mässlingsutbrotten  (5)  –  tuhkarokkoepidemia
+en hälsa, hälsan  (1)  –  terveys ★
+ett välbefinnande, välbefinnandet  (4)  –  hyvinvointi ★
+en välfärd, välfärden  (3)  –  hyvinvointi (yhteiskunnallinen) ★
+	Huom. ”Välfärdsteknik” = hyvinvointiteknologia (2026K).
+en motion, motionen  (3)  –  liikunta ★
+en träning, träningen, träningar, träningarna  (2)  –  harjoittelu ★
+en stress, stressen  –  stressi ★
+en ångest, ångesten  –  ahdistus ★
+en sjukdom, -en, -ar, -arna  (2)  –  sairaus ★
+en patient, patienten, patienter, patienterna  (3)  –  potilas ★
+ett symptom / symtom, symptomet, symptom, symptomen  (5)  –  oire ★
+ett hjälpmedel, -medlet, -medel, -medlen  (5)  –  apuväline ★
+en rörelseförmåga, -n  (1)  –  liikuntakyky ★
+	Huom. nedsatt rörelseförmåga = alentunut liikuntakyky (2026K, vastausvaihtoehto)
+en styrka, styrkan, styrkor, styrkorna  (1)  –  voima; vahvuus ★
+en kost, kosten  (3)  –  ravinto ★
+en specialkost, -en  (3)  –  erikoisruokavalio ★
+en ensamhet, ensamheten  (3)  –  yksinäisyys ★
+ett missbruk, missbruket  (5)  –  väärinkäyttö, päihdeongelma ★
 
 2.3 Yhteiskunta, laki ja turvallisuus
 ett fängelse, fängelset, fängelser, fängelserna  (3)  –  vankila
@@ -354,28 +581,50 @@ en välgörenhet, välgörenheten  (3)  –  hyväntekeväisyys
 en verksamhet, verksamheten, verksamheter, verksamheterna  (3)  –  toiminta
 en verklighet, verkligheten, verkligheter, verkligheterna  (3)  –  todellisuus
 	det verkliga livet = todellinen elämä
-en metod, metoden, metoder, metoderna  (3)  –  metodi
+en metod, metoden, metoder, metoderna  (3)  –  metodi ★
 en databas, databasen, databaser, databaserna  (3)  –  tietokanta
-en annons, annonsen, annonser, annonserna  (3)  –  mainos, ilmoitus
+en annons, annonsen, annonser, annonserna  (3)  –  mainos, ilmoitus ★
 en reklam, reklamen  (–)  –  mainonta, mainos
-en tjänst, tjänsten, tjänster, tjänsterna  (3)  –  palvelu
-en skatt, skatten, skatter, skatterna  (3)  –  vero
+en tjänst, tjänsten, tjänster, tjänsterna  (3)  –  palvelu ★
+en skatt, skatten, skatter, skatterna  (3)  –  vero ★
 	skattefritt = verovapaa / ge skattefritt = antaa verovapaana
-ett samhälle, samhället, samhällen, samhällena  (4)  –  yhteiskunta, yhdyskunta
+ett samhälle, samhället, samhällen, samhällena  (4)  –  yhteiskunta, yhdyskunta ★
 ett fusk, fusket, fusk, fusken  (5)  –  huijaus, vilppi, lunttaus
 	Huomaa: fusk on tavallisesti aineensana eikä esiinny monikossa. Verbi: fuska (I) = huijata, luntata.
+en lagstiftning, -en, -ar, -arna  (2)  –  lainsäädäntö ★
+en bestämmelse, -n, -r, -rna  (3)  –  määräys ★
+en regel, regeln, regler, reglerna  (3)  –  sääntö ★
+en invandring, invandringen  (2)  –  maahanmuutto ★
+en integration, integrationen  (3)  –  kotoutuminen ★
+en myndighet, -en, -er, -erna  (3)  –  viranomainen ★
+en kommun, kommunen, kommuner, kommunerna  (3)  –  kunta ★
+ett brott, brottet, brott, brotten  (5)  –  rikos ★
+ett bedrägeri, bedrägeriet, bedrägerier, bedrägerierna  (3)  –  petos ★
+en förfalskning, -en, -ar, -arna  (2)  –  väärennös ★
+en polis, polisen, poliser, poliserna  (3)  –  poliisi ★
+en fara, faran, faror, farorna  (1)  –  vaara ★
+	Huom. En fara är över. = Vaara on ohi. (2026K, viranomaistiedote)
+en varning, -en, -ar, -arna  (2)  –  varoitus ★
+ett strömavbrott, -et, -, -en  (5)  –  sähkökatko ★
+en åtgärd, -en, -er, -erna  (3)  –  toimenpide ★
+	Huom. kräver omfattande åtgärder = vaatii laajoja toimenpiteitä
+en rättighet, -en, -er, -erna  (3)  –  oikeus ★
+en skyldighet, -en, -er, -erna  (3)  –  velvollisuus ★
+en allmänhet, allmänheten  (3)  –  yleisö, suuri yleisö ★
+	Huom. ”Viktiga meddelanden till allmänheten” = viranomaistiedote (2026K).
+en frihet, friheten, friheter, friheterna  (3)  –  vapaus ★
 
 2.4 Näkökulma, suhde ja mielipide
 en åsikt, åsikten, åsikter, åsikterna  (3)  –  mielipide, näkemys
 ett ansikte, ansiktet, ansikten, ansiktena  (4)  –  kasvot
 ett synsätt, synsättet, synsätt, synsätten  (5)  –  näkökulma, katsantokanta
 en syn, synen  (–)  –  näkö, näkemys
-en synpunkt (på), synpunkten, synpunkter, synpunkterna  (3)  –  näkökulma johonkin
+en synpunkt (på), synpunkten, synpunkter, synpunkterna  (3)  –  näkökulma johonkin ★
 en jämförelse (med), jämförelsen, jämförelser, jämförelserna  (3)  –  vertailu johonkin
-ett förhållande (till), förhållandet, förhållanden, förhållandena  (4)  –  suhde johonkin; olosuhde
+ett förhållande (till), förhållandet, förhållanden, förhållandena  (4)  –  suhde johonkin; olosuhde ★
 	olika förhållanden = erilaiset olosuhteet
 en avsikt, avsikten, avsikter, avsikterna  (3)  –  tarkoitus, aikomus, tahallisuus
-ett syfte, syftet, syften, syftena  (4)  –  tarkoitus, päämäärä
+ett syfte, syftet, syften, syftena  (4)  –  tarkoitus, päämäärä ★
 en tanke, tanken, tankar, tankarna  (2)  –  ajatus
 ett påstående, påståendet, påståenden, påståendena  (4)  –  väite
 en förutsättning (för), förutsättningen, förutsättningar, förutsättningarna  (2)  –  edellytys, ehto, ennakkoehto
@@ -386,8 +635,8 @@ en föreställning (om), föreställningen, föreställningar, föreställningar
 2.5 Ympäristö ja kestävä kehitys
 ett område, området, områden, områdena  (4)  –  alue
 	på fattiga områden = köyhillä alueilla
-hållbar utveckling  –  kestävä kehitys
-ett avfall, avfallet, avfall, avfallen  (5)  –  jäte (teollisuusjäte)
+hållbar utveckling  –  kestävä kehitys ★
+ett avfall, avfallet, avfall, avfallen  (5)  –  jäte (teollisuusjäte) ★
 	inget avfall alls = ei yhtään jätettä
 sopor, soporna  (mon.)  –  kotitalousjäte, roskat
 ett skräp, skräpet, skräp, skräpen  (5)  –  roska
@@ -397,17 +646,34 @@ ett trafikbuller, trafikbullret  (5)  –  liikenteen melu
 en lukt, lukten, lukter, lukterna  (3)  –  haju
 en doft, doften, dofter, dofterna  (3)  –  tuoksu
 en odör, odören, odörer, odörerna  (3)  –  paha haju
-ett djur, djuret, djur, djuren  (5)  –  eläin
+ett djur, djuret, djur, djuren  (5)  –  eläin ★
 	ett rovdjur = petoeläin / ett sällskapsdjur = seuraeläin
+en miljö, miljön, miljöer, miljöerna  (3)  –  ympäristö ★
+en natur, naturen  (3)  –  luonto ★
+ett klimat, klimatet  (5)  –  ilmasto ★
+en återvinning, återvinningen  (2)  –  kierrätys ★
+ett matsvinn, matsvinnet  (5)  –  ruokahävikki ★
+ett utsläpp, utsläppet, utsläpp, utsläppen  (5)  –  päästö ★
+en energi, energin  (3)  –  energia ★
+	Huom. förnybar energi = uusiutuva energia (2020K, tekstin otsikko).
+ett husdjur, -et, -, -en  (5)  –  lemmikki ★
+ett väder, vädret  –  sää ★
+	Huom. * Vaihtoehtoina vädret / väder / ett väder (2023K). Sää on yleensä määräisessä muodossa: Hurdant är vädret? Vädret är vackert.
+en å, ån, åar, åarna  (2)  –  joki (pieni) ★
+	Huom. En å svämmar över. = Joki tulvii. (2026K)
+ett plagg, plagget, plagg, plaggen  (5)  –  vaatekappale ★
+kläder  –  vaatteet (en klädsel = asu) ★
+	”Gamla kläder” – vaatteiden kierrätys oli 2026K:n kuuntelutehtävän aihe.
+förnybar energi  –  uusiutuva energia ★
 
 2.6 Työ, opiskelu ja talous
-en färdighet, färdigheten, färdigheter, färdigheterna  (3)  –  valmius, taito
+en färdighet, färdigheten, färdigheter, färdigheterna  (3)  –  valmius, taito ★
 	Skaffa dig färdigheter som få har. = Hanki taitoja, joita harvoilla on.
 en arbetsmöjlighet, -möjligheten, -möjligheter, -möjligheterna  (3)  –  työmahdollisuus
 en arbetslöshet, arbetslösheten  (3)  –  työttömyys
 ett flygbolag, flygbolaget, flygbolag, flygbolagen  (5)  –  lentoyhtiö
-ett körkort, körkortet, körkort, körkorten  (5)  –  ajokortti
-en examen, examen, examina  (epäsäänn.)  –  tutkinto
+ett körkort, körkortet, körkort, körkorten  (5)  –  ajokortti ★
+en examen, examen, examina  (epäsäänn.)  –  tutkinto ★
 en studentmössa, studentmössan, studentmössor, studentmössorna  (1)  –  ylioppilaslakki
 ett veckoschema, veckoschemat, veckoscheman, veckoschemana  (4)  –  viikkosuunnitelma
 gymlokaler / träningslokaler  (mon.)  –  salin tilat
@@ -418,15 +684,49 @@ ett pris, priset, priser, priserna  (3)  –  hinta, palkinto
 	priset på månadskortet är för högt/lågt = kuukausikortin hinta on liian korkea/matala
 	ett högt/lågt pris = korkea/matala hinta; priset på mjölk = mjölkpriset
 	Huomaa: sama sana tarkoittaa sekä hintaa että palkintoa – konteksti ratkaisee. Vrt. 2.13.
-en arbetskraft, arbetskraften  (–)  –  työvoima
-en bransch, branschen, branscher, branscherna  (3)  –  ala, toimiala
-en marknad, marknaden, marknader, marknaderna  (3)  –  markkinat
+en arbetskraft, arbetskraften  (–)  –  työvoima ★
+en bransch, branschen, branscher, branscherna  (3)  –  ala, toimiala ★
+en marknad, marknaden, marknader, marknaderna  (3)  –  markkinat ★
 	den globala marknaden = globaalit markkinat
-ett utbud, utbudet, utbud, utbuden  (5)  –  tarjonta, valikoima
-en efterfrågan, efterfrågan  (–)  –  kysyntä
+ett utbud, utbudet, utbud, utbuden  (5)  –  tarjonta, valikoima ★
+en efterfrågan, efterfrågan  (–)  –  kysyntä ★
 	Huomaa: utbud ja efterfrågan ovat talouden vastinpari – tarjonta ja kysyntä.
 en ledning, ledningen, ledningar, ledningarna  (2)  –  johto
 ett inflytande, inflytandet  (4)  –  vaikutusvalta
+ett jobb, jobbet, jobb, jobben  (5)  –  työ, työpaikka ★
+ett arbete, arbetet, arbeten, arbetena  (4)  –  työ ★
+en arbetsplats, arbetsplatsen, arbetsplatser, arbetsplatserna  (3)  –  työpaikka ★
+en arbetsuppgift, -en, -er, -erna  (3)  –  työtehtävä ★
+en arbetstid, -en, -er, -erna  (3)  –  työaika ★
+en arbetstagare, -n, -, -na  (5)  –  työntekijä ★
+en arbetsgivare, -n, -, -na  (5)  –  työnantaja ★
+en arbetsbörda, -n, -or, -orna  (1)  –  työtaakka ★
+ett yrke, yrket, yrken, yrkena  (4)  –  ammatti ★
+en chef, chefen, chefer, cheferna  (3)  –  esimies, pomo ★
+en kollega, kollegan, kollegor, kollegorna  (1)  –  työtoveri ★
+en anställd, den anställda, anställda, de anställda  (adj.subst.)  –  työntekijä ★
+en kund, kunden, kunder, kunderna  (3)  –  asiakas ★
+en vara, varan, varor, varorna  (1)  –  tavara, hyödyke ★
+	Huom. konsumera varor och tjänster = kuluttaa tavaroita ja palveluja
+ett företag, företaget, företag, företagen  (5)  –  yritys ★
+en företagare, -n, -, -na  (5)  –  yrittäjä ★
+ett företagande, företagandet  (4)  –  yrittäjyys ★
+en lön, lönen, löner, lönerna  (3)  –  palkka ★
+en inkomst, inkomsten, inkomster, inkomsterna  (3)  –  tulo ★
+en ekonomi, ekonomin, ekonomier, ekonomierna  (3)  –  talous ★
+en tillväxt, tillväxten  (3)  –  kasvu ★
+en tillgång, tillgången, tillgångar, tillgångarna  (2)  –  saatavuus, pääsy; varallisuus ★
+	Huom. * Vaihtoehtoina tillgången / efterfrågan / utbudet (2026K). utbud = tarjonta, efterfrågan = kysyntä, tillgång = saatavuus. Vakiintunut pari on tillgång och efterfrågan = tarjonta ja kysyntä.
+en kompetens, kompetensen, kompetenser, kompetenserna  (3)  –  osaaminen, pätevyys ★
+en erfarenhet, -en, -er, -erna  (3)  –  kokemus ★
+en förmån, förmånen, förmåner, förmånerna  (3)  –  etu, etuus ★
+	Vaihtoehtoina färdighet / förmån / frihet (2022S) – kolme f-alkuista, jotka sekoittuvat.
+en produktion, produktionen, produktioner, produktionerna  (3)  –  tuotanto ★
+ett karriärbyte, karriärbytet, karriärbyten, karriärbytena  (4)  –  alanvaihto ★
+en konsument, konsumenten, konsumenter, konsumenterna  (3)  –  kuluttaja ★
+en kostnad, kostnaden, kostnader, kostnaderna  (3)  –  kustannus ★
+en rea, rean, reor, reorna  (1)  –  alennusmyynti ★
+en reklamation, reklamationen, reklamationer, reklamationerna  (3)  –  reklamaatio, valitus ★
 
 2.7 Matkustaminen, liikenne ja paikat
 en rakapparat, rakapparaten, rakapparater, rakapparaterna  (3)  –  partakone
@@ -449,14 +749,47 @@ en cykelhjälm, cykelhjälmen, cykelhjälmar, cykelhjälmarna  (2)  –  pyörä
 ett väglag, väglaget  (5)  –  ajokeli, keli
 en besiktning, besiktningen, besiktningar, besiktningarna  (2)  –  katsastus, tarkastus
 ett vägarbete, vägarbetet, vägarbeten, vägarbetena  (4)  –  tietyö
+en resa, resan, resor, resorna  (1)  –  matka ★
+en resenär, -en, -er, -erna  (3)  –  matkustaja ★
+en passagerare, -n, -, -na  (5)  –  matkustaja ★
+en buss, bussen, bussar, bussarna  (2)  –  bussi ★
+en busskur, -en, -er, -erna  (3)  –  bussipysäkkikatos ★
+ett tåg, tåget, tåg, tågen  (5)  –  juna ★
+en bil, bilen, bilar, bilarna  (2)  –  auto ★
+en cykel, cykeln, cyklar, cyklarna  (2)  –  polkupyörä ★
+en trafik, trafiken  (3)  –  liikenne ★
+en omväg, -en, -ar, -arna  (2)  –  kiertotie ★
+	Huom. Ta en omväg. = Aja kiertotietä. (2026K, vastausvaihtoehto)
+en sträcka, sträckan, sträckor, sträckorna  (1)  –  matka, väli ★
+en semester, semestern, semestrar, semestrarna  (2)  –  loma ★
+en ledighet, -en, -er, -erna  (3)  –  vapaa, vapaapäivä ★
+en öppettid, -en, -er, -erna  (3)  –  aukioloaika ★
+en plats, platsen, platser, platserna  (3)  –  paikka ★
+en turist, turisten, turister, turisterna  (3)  –  turisti ★
 
 2.8 Juhlat ja elämänvaiheet
 en present, presenten, presenter, presenterna  (3)  –  lahja
-en gåva, gåvan, gåvor, gåvorna  (1)  –  lahja
+en gåva, gåvan, gåvor, gåvorna  (1)  –  lahja ★
 en julklapp, julklappen, julklappar, julklapparna  (2)  –  joululahja
 ett bröllop, bröllopet, bröllop, bröllopen  (5)  –  häät
 	Grattis till de nygifta! = Onnea vastanaineille!
 en begravning, begravningen, begravningar, begravningarna  (2)  –  hautajaiset
+en hobby, hobbyn, hobbyer, hobbyerna  (3)  –  harrastus ★
+en fritid, fritiden  (3)  –  vapaa-aika ★
+ett evenemang, -et, -, -en  (5)  –  tapahtuma ★
+en fest, festen, fester, festerna  (3)  –  juhla ★
+en tradition, -en, -er, -erna  (3)  –  perinne ★
+en högtid, högtiden, högtider, högtiderna  (3)  –  juhlapyhä ★
+en musik, musiken  (3)  –  musiikki ★
+en kör, kören, körer, körerna  (3)  –  kuoro ★
+en konst, konsten, konster, konsterna  (3)  –  taide ★
+en bok, boken, böcker, böckerna  (3)  –  kirja ★
+en dikt, dikten, dikter, dikterna  (3)  –  runo ★
+en film, filmen, filmer, filmerna  (3)  –  elokuva ★
+ett minne, minnet, minnen, minnena  (4)  –  muisto ★
+	Huom. Den väcker gamla minnen hos Jakob. = Se herättää Jakobissa vanhoja muistoja.
+ett intresse, intresset, intressen, intressena  (4)  –  kiinnostus ★
+en midsommar, midsommaren  –  juhannus ★
 
 2.9 Eläimet
 en älg, älgen, älgar, älgarna  (2)  –  hirvi
@@ -465,7 +798,7 @@ en ren, renen, renar, renarna  (2)  –  poro
 en häst, hästen, hästar, hästarna  (2)  –  hevonen
 en björn, björnen, björnar, björnarna  (2)  –  karhu
 ett lodjur, lodjuret, lodjur, lodjuren  (5)  –  ilves
-en varg, vargen, vargar, vargarna  (2)  –  susi
+en varg, vargen, vargar, vargarna  (2)  –  susi ★
 en räv, räven, rävar, rävarna  (2)  –  kettu
 en igelkott, igelkotten, igelkottar, igelkottarna  (2)  –  siili
 en ekorre, ekorren, ekorrar, ekorrarna  (2)  –  orava
@@ -478,24 +811,53 @@ en tupp, tuppen, tuppar, tupparna  (2)  –  kukko
 en gris, grisen, grisar, grisarna  (2)  –  sika, porsas
 ett svin, svinet, svin, svinen  (5)  –  sika (halventava sävy)
 ett marsvin, marsvinet, marsvin, marsvinen  (5)  –  marsu
+en fågel, fågeln, fåglar, fåglarna  (2)  –  lintu ★
+en hund, hunden, hundar, hundarna  (2)  –  koira ★
 
 2.10 Määrät, osat ja abstraktit käsitteet
 halv, halvt, halva  (adj.)  –  puoli
-en halva, halvan, halvor, halvorna  (1)  –  puolikas (konkreettinen kappale)
+en halva, halvan, halvor, halvorna  (1)  –  puolikas (konkreettinen kappale) ★
 en hälft, hälften, hälfter, hälfterna  (3)  –  puolet (määrä)
 en bråkdel, bråkdelen, bråkdelar, bråkdelarna  (2)  –  murto-osa
-en möjlighet, möjligheten, möjligheter, möjligheterna  (3)  –  mahdollisuus, tilaisuus
+en möjlighet, möjligheten, möjligheter, möjligheterna  (3)  –  mahdollisuus, tilaisuus ★
 en motvikt, motvikten, motvikter, motvikterna  (3)  –  vastapaino
 en balans, balansen  (–)  –  tasapaino
 oanade konsekvenser  –  odottamattomat seuraukset
 en ande, anden, andar, andarna  (2)  –  henki, haltija
 	Muistiinpanoissa oli merkintä "Ande ende". Huomaa ero: en ande = henki, mutta den ende / det enda = ainoa (adjektiivista enda).
-ett sätt, sättet, sätt, sätten  (5)  –  tapa
+ett sätt, sättet, sätt, sätten  (5)  –  tapa ★
 ett löfte, löftet, löften, löftena  (4)  –  lupaus
 	Korjaus: Muistiinpanoissa "lupais" – lupaus. Ks. myös avge ett löfte (1.2).
 ett mörker, mörkret  (5)  –  pimeys
 	i mörker = pimeydessä
 ett arrangemang, arrangemanget, arrangemang, arrangemangen  (5)  –  järjestely
+en anledning, -en, -ar, -arna  (2)  –  syy ★
+en följd, följden, följder, följderna  (3)  –  seuraus ★
+en effekt, effekten, effekter, effekterna  (3)  –  vaikutus ★
+en betydelse, -n, -r, -rna  (3)  –  merkitys ★
+en förklaring, -en, -ar, -arna  (2)  –  selitys ★
+	Vaihtoehtoina en betydelse / en förklaring (2024K).
+ett krav, kravet, krav, kraven  (5)  –  vaatimus ★
+en fördel, fördelen, fördelar, fördelarna  (2)  –  etu, hyöty ★
+en nackdel, -en, -ar, -arna  (2)  –  haitta ★
+	Vastakohtapari. * Vaihtoehtoina misstankar / motstånd / nackdelar (2022S).
+en nytta, nyttan  (1)  –  hyöty ★
+ett försök, försöket, försök, försöken  (5)  –  yritys, kokeilu ★
+ett förslag, förslaget, förslag, förslagen  (5)  –  ehdotus ★
+en lösning, -en, -ar, -arna  (2)  –  ratkaisu ★
+ett problem, problemet, problem, problemen  (5)  –  ongelma ★
+en utmaning, -en, -ar, -arna  (2)  –  haaste ★
+en brist (på), bristen, brister, bristerna  (3)  –  puute ★
+en misstanke, -n, -ar, -arna  (2)  –  epäilys ★
+ett motstånd, motståndet  (5)  –  vastustus ★
+en del, delen, delar, delarna  (2)  –  osa ★
+en princip, -en, -er, -erna  (3)  –  periaate ★
+	Huom. i princip = periaatteessa
+ett värde, värdet, värden, värdena  (4)  –  arvo ★
+en berättelse, -n, -r, -rna  (3)  –  kertomus ★
+en dröm, drömmen, drömmar, drömmarna  (2)  –  unelma, uni ★
+en framtid, framtiden  –  tulevaisuus ★
+en symbol, symbolen, symboler, symbolerna  (3)  –  symboli ★
 
 2.11 Esineet ja arjen sanat
 en dräkt, dräkten, dräkter, dräkterna  (3)  –  puku, asu, asukokonaisuus
@@ -503,20 +865,20 @@ ett kuvert, kuvertet, kuvert, kuverten  (5)  –  kirjekuori
 
 2.12 Yhteiskunnallinen muutos ja hyvinvointi
 Tämä ryhmä on kirjoitelman ydinsanastoa: väestö muuttuu, tarve kasvaa, palvelut vastaavat. Sanat esiintyvät teksteissä yhdessä, joten ne kannattaa opetella yhdessä.
-en befolkning, befolkningen, befolkningar, befolkningarna  (2)  –  väestö
-en andel, andelen, andelar, andelarna  (2)  –  osuus, osa
+en befolkning, befolkningen, befolkningar, befolkningarna  (2)  –  väestö ★
+en andel, andelen, andelar, andelarna  (2)  –  osuus, osa ★
 	Korjaus: Muistiinpanoissa "andelen" – se on määräinen muoto. Perusmuoto on en andel.
 en förändring, förändringen, förändringar, förändringarna  (2)  –  muutos
-en orsak, orsaken, orsaker, orsakerna  (3)  –  syy
+en orsak, orsaken, orsaker, orsakerna  (3)  –  syy ★
 	en av de främsta orsakerna = yksi tärkeimmistä syistä
 	Korjaus: Muistiinpanoissa "yksi pahimmista syistä" – främst tarkoittaa tärkeintä tai ensisijaista, ei pahinta. Rektio: en orsak till (6.5).
-ett behov, behovet, behov, behoven  (5)  –  tarve
+ett behov, behovet, behov, behoven  (5)  –  tarve ★
 	Huomaa rektio: ett behov av ngt = tarve johonkin (6.5).
-en inverkan (på), inverkan  (–)  –  vaikutus johonkin
+en inverkan (på), inverkan  (–)  –  vaikutus johonkin ★
 en roll, rollen, roller, rollerna  (3)  –  rooli
 	spela en viktig roll = olla tärkeässä roolissa
-en omsorg, omsorgen, omsorger, omsorgerna  (3)  –  huolenpito
-en vård, vården  (–)  –  hoito
+en omsorg, omsorgen, omsorger, omsorgerna  (3)  –  huolenpito ★
+en vård, vården  (–)  –  hoito ★
 	Huomaa pari: omsorg on huolenpitoa, vård hoitoa – kirjoitelmassa ne esiintyvät usein vierekkäin.
 
 2.13 Helposti sekoittuvat sanaparit
@@ -524,12 +886,112 @@ Näissä pareissa suku tai vivahde vaihtaa merkityksen kokonaan. Ne opitaan vain
 en val, valen, valar, valarna  (2)  –  valas
 ett val, valet, val, valen  (5)  –  valinta, vaalit
 	Suku ratkaisee: en val ui meressä, ett val tehdään uurnalla.
-en lag, lagen, lagar, lagarna  (2)  –  laki
-ett lag, laget, lag, lagen  (5)  –  joukkue
+en lag, lagen, lagar, lagarna  (2)  –  laki ★
+ett lag, laget, lag, lagen  (5)  –  joukkue ★
 	Sama kaava kuin val-parissa: en-sana on konkreettinen, ett-sana abstraktimpi tai kollektiivi.
-en konkurrens, konkurrensen  (–)  –  kilpailu (yritysten välillä)
-en tävling, tävlingen, tävlingar, tävlingarna  (2)  –  kilpailu (urheilu)
+en konkurrens, konkurrensen  (–)  –  kilpailu (yritysten välillä) ★
+en tävling, tävlingen, tävlingar, tävlingarna  (2)  –  kilpailu (urheilu) ★
 	Huomaa: konkurrens on markkinoiden kilpailua, tävling yksittäinen kisa. Verbit samoin: konkurrera ja tävla.
+
+2.14 Opiskelu ja koulutus
+en utbildning, -en, -ar, -arna  (2)  –  koulutus ★
+en studerande, den studerande, studerande, de studerande  (adj.subst.)  –  opiskelija ★
+ett prov, provet, prov, proven  (5)  –  koe ★
+ett inträdesprov, -provet, -prov, -proven  (5)  –  pääsykoe ★
+ett betyg, betyget, betyg, betygen  (5)  –  arvosana, todistus ★
+en kurs, kursen, kurser, kurserna  (3)  –  kurssi ★
+ett ämne, ämnet, ämnen, ämnena  (4)  –  oppiaine; aihe ★
+en praktik, praktiken  (3)  –  harjoittelu ★
+en studiehandledare, -n, -, -na  (5)  –  opinto-ohjaaja ★
+ett intyg, intyget, intyg, intygen  (5)  –  todistus ★
+en språkkunskap, -en, -er, -erna  (3)  –  kielitaito ★
+ett språk, språket, språk, språken  (5)  –  kieli ★
+en kunskap, kunskapen, kunskaper, kunskaperna  (3)  –  tieto, osaaminen ★
+	Vaihtoehtoina lösningen / kunskapen / principen (2021K).
+en högskola, -n, -or, -orna  (1)  –  korkeakoulu ★
+en forskning, forskningen  (2)  –  tutkimus (toimintana) ★
+en undersökning, -en, -ar, -arna  (2)  –  tutkimus (yksittäinen) ★
+ett resultat, resultatet, resultat, resultaten  (5)  –  tulos ★
+en analys, analysen, analyser, analyserna  (3)  –  analyysi ★
+	Vaihtoehtoina analys / metod / förening (2025K).
+
+2.15 Asuminen ja arki
+en bostad, bostaden, bostäder, bostäderna  (3)  –  asunto ★
+	Aihe toistuu: ”Unga på bostadsmarknaden” (2026K), ”Att söka studentbostad” (2023S), ”Kollektivboende” (2020S), ”Emils drömbostad” (2021S).
+en bostadsmarknad, -en, -er, -erna  (3)  –  asuntomarkkinat ★
+en bostadsbrist, -en  (3)  –  asuntopula ★
+en lägenhet, -en, -er, -erna  (3)  –  huoneisto ★
+ett hus, huset, hus, husen  (5)  –  talo ★
+en stuga, stugan, stugor, stugorna  (1)  –  mökki ★
+en granne, grannen, grannar, grannarna  (2)  –  naapuri ★
+en rumskamrat, -en, -er, -erna  (3)  –  kämppäkaveri ★
+	Huom. Kirjoitustehtävä ”Rumskamrat sökes” (2026K) – sökes = etsitään.
+en kö, kön, köer, köerna  (3)  –  jono ★
+en vardag, vardagen, vardagar, vardagarna  (2)  –  arki; arkipäivä ★
+	Vaihtoehtoina veckoslut / vardagar / högtider (2025S).
+ett veckoslut, -et, -, -en  (5)  –  viikonloppu ★
+en städning, städningen  (2)  –  siivous ★
+en tvättstuga, -n, -or, -orna  (1)  –  pesutupa ★
+ett hushåll, hushållet, hushåll, hushållen  (5)  –  kotitalous ★
+en ort, orten, orter, orterna  (3)  –  paikkakunta ★
+en tätort, -en, -er, -erna  (3)  –  taajama ★
+ett kollektivboende, kollektivboendet, kollektivboenden, kollektivboendena  (4)  –  yhteisöasuminen ★
+
+2.16 Media, teknologia ja digitaalisuus
+ett medium, mediet, medier, medierna  (3)  –  media, väline ★
+sociala medier  –  sosiaalinen media ★
+	Aihe toistuu: ”Unga och sociala medier” (2025K), ”Medievanor” (2022K), ”Nikos mobilvanor” (2024K).
+en vana, vanan, vanor, vanorna  (1)  –  tapa, tottumus ★
+en tidning, -en, -ar, -arna  (2)  –  lehti ★
+en skärm, skärmen, skärmar, skärmarna  (2)  –  näyttö, ruutu ★
+en dator, datorn, datorer, datorerna  (3)  –  tietokone ★
+en uppkoppling, -en, -ar, -arna  (2)  –  verkkoyhteys ★
+en robot, roboten, robotar, robotarna  (2)  –  robotti ★
+en teknik, tekniken, tekniker, teknikerna  (3)  –  tekniikka ★
+en utveckling, -en, -ar, -arna  (2)  –  kehitys ★
+ett spel, spelet, spel, spelen  (5)  –  peli ★
+en användning, användningen  (2)  –  käyttö ★
+en marknadsföring, marknadsföringen  (2)  –  markkinointi ★
+	Huom. Vilseledande marknadsföring = harhaanjohtava markkinointi
+en mobilvana, mobilvanan, mobilvanor, mobilvanorna  (1)  –  puhelimen käyttötapa ★
+
+2.17 Ruoka ja ruokakulttuuri
+en mat, maten  (3)  –  ruoka ★
+en måltid, måltiden, måltider, måltiderna  (3)  –  ateria ★
+ett recept, receptet, recept, recepten  (5)  –  resepti ★
+	Ruoka-aihe toistuu joka vuosi: ”Läckra recept” (2026K), ”Finlandssvensk matkultur” (2025K), ”Grillning – ett nordiskt måste” (2025S), ”Dags att sätta linsen i fokus” (2021S).
+en efterrätt, -en, -er, -erna  (3)  –  jälkiruoka ★
+en smak, smaken, smaker, smakerna  (3)  –  maku ★
+en deg, degen, degar, degarna  (2)  –  taikina ★
+en grönsak, -en, -er, -erna  (3)  –  vihannes ★
+en frukt, frukten, frukter, frukterna  (3)  –  hedelmä ★
+ett mjöl, mjölet  (5)  –  jauho ★
+en krydda, kryddan, kryddor, kryddorna  (1)  –  mauste ★
+en rest, resten, rester, resterna  (3)  –  jäännös, tähde ★
+	Huom. En måltid av rester = ateria tähteistä (2026K)
+en matkultur, matkulturen, matkulturer, matkulturerna  (3)  –  ruokakulttuuri ★
+
+2.18 Kokeen tekstilajit
+en dialog, dialogen, dialoger, dialogerna  (3)  –  vuoropuhelu ★
+ett meddelande, meddelandet, meddelanden, meddelandena  (4)  –  viesti, tiedote ★
+en nyhet, nyheten, nyheter, nyheterna  (3)  –  uutinen ★
+	Huom. Vad handlar nyheten om? = Mistä uutinen kertoo? (toistuu useissa kokeissa)
+en intervju, intervjun, intervjuer, intervjuerna  (3)  –  haastattelu ★
+en sammanfattning, sammanfattningen, sammanfattningar, sammanfattningarna  (2)  –  tiivistelmä ★
+en insändare, insändaren, insändare, insändarna  (5)  –  yleisönosastokirjoitus ★
+en recension, recensionen, recensioner, recensionerna  (3)  –  arvostelu ★
+en bruksanvisning, bruksanvisningen, bruksanvisningar, bruksanvisningarna  (2)  –  käyttöohje ★
+ett blogginlägg, blogginlägget, blogginlägg, blogginläggen  (5)  –  blogikirjoitus ★
+ett e-postmeddelande, e-postmeddelandet, e-postmeddelanden, e-postmeddelandena  (4)  –  sähköpostiviesti ★
+en kommentar, kommentaren, kommentarer, kommentarerna  (3)  –  kommentti ★
+
+2.19 Pohjoismaat ja suomenruotsalaisuus
+Norden  –  Pohjoismaat ★
+nordisk, nordiskt, nordiska  (adj.)  –  pohjoismainen ★
+Svenskfinland  –  suomenruotsalainen Suomi ★
+en finlandssvensk, finlandssvensken, finlandssvenskar, finlandssvenskarna  (2)  –  suomenruotsalainen ★
+	Adjektiivina finlandssvensk, finlandssvenskt, finlandssvenska.
+en dialekt, dialekten, dialekter, dialekterna  (3)  –  murre ★
 
 Adjektiivit ja adverbit
 
@@ -538,13 +1000,13 @@ maanantai 7. syyskuuta 2026
 
 3.1 Vastakohtapareja
 Nämä kannattaa opetella pareittain – vastakohta syntyy usein etuliitteellä o- tai miss-.
-tillåten, tillåtet, tillåtna ↔ förbjuden, förbjudet, förbjudna  –  sallittu ↔ kielletty
+tillåten, tillåtet, tillåtna ↔ förbjuden, förbjudet, förbjudna  –  sallittu ↔ kielletty ★
 rättvis, rättvist, rättvisa ↔ orättvis, orättvist, orättvisa  –  oikeudenmukainen ↔ epäoikeudenmukainen
-möjlig, möjligt, möjliga ↔ omöjlig, omöjligt, omöjliga  –  mahdollinen ↔ mahdoton
+möjlig, möjligt, möjliga ↔ omöjlig, omöjligt, omöjliga  –  mahdollinen ↔ mahdoton ★
 läslig, läsligt, läsliga ↔ oläslig, oläsligt, oläsliga  –  helppolukuinen ↔ lukukelvoton
 avsiktlig, avsiktligt, avsiktliga ↔ oavsiktlig, oavsiktligt, oavsiktliga  –  tahallinen ↔ tahaton
 sannolik, sannolikt, sannolika ↔ osannolik, osannolikt, osannolika  –  todennäköinen ↔ epätodennäköinen
-nödvändig, nödvändigt, nödvändiga ↔ onödig, onödigt, onödiga  –  tarpeellinen ↔ tarpeeton
+nödvändig, nödvändigt, nödvändiga ↔ onödig, onödigt, onödiga  –  tarpeellinen ↔ tarpeeton ★
 äkta ↔ oäkta  –  aito ↔ epäaito
 	äkta kärlek = aitoa rakkautta / äkta pärlor = aidot helmet
 	äkta = fairs
@@ -554,8 +1016,8 @@ rolig, roligt, roliga ↔ orolig, oroligt, oroliga  –  hauska ↔ huolestunut,
 	Huomaa: o- ei tässä tarkoita kieltoa – orolig ei ole "ei-hauska"!
 mätt, mätt, mätta ↔ hungrig, hungrigt, hungriga  –  kylläinen ↔ nälkäinen
 	mätt = kylläinen, mutta full (ihmisestä) = humalassa.
-vacker, vackert, vackra ↔ ful, fult, fula  –  kaunis ↔ ruma
-dyr, dyrt, dyra ↔ förmånlig, förmånligt, förmånliga  –  kallis ↔ edullinen
+vacker, vackert, vackra ↔ ful, fult, fula  –  kaunis ↔ ruma ★
+dyr, dyrt, dyra ↔ förmånlig, förmånligt, förmånliga  –  kallis ↔ edullinen ★
 rik, rikt, rika / förmögen, förmöget, förmögna  –  rikas / varakas
 högljudd, högljutt, högljudda ↔ tystlåten, tystlåtet, tystlåtna  –  äänekäs ↔ hiljainen, vaitelias
 	Vrt. ett ljud = ääni – siitä tulee neutrimuoto högljutt.
@@ -565,28 +1027,43 @@ förbättra ↔ försämra  –  parantaa ↔ heikentää
 förberedd, förberett, förberedda ↔ oförberedd, oförberett, oförberedda  –  valmistautunut ↔ valmistautumaton
 väntad, väntat, väntade ↔ oväntad, oväntat, oväntade  –  odotettu ↔ odottamaton
 	Vrt. verbi vänta = odottaa; oväntad on siis odottamaton, ei aavistamaton.
+olämplig  (adj.)  –  sopimaton ★
+	Vastakohtapari: lämplig.
+oberoende  (taipumaton)  –  riippumaton ★
+	Vastakohtapari: beroende.
+missförstå  (IV)  –  ymmärtää väärin ★
+	Vastakohtapari: förstå.
+	Huom. Ett missförstånd = väärinkäsitys (2022S, tehtävän otsikko).
+okänd  (adj.)  –  tuntematon ★
+	Vastakohtapari: känd.
+omedveten  (adj.)  –  tiedostamaton ★
+	Vastakohtapari: medveten.
+inne ↔ ute  (adv.)  –  sisällä ↔ ulkona ★
+	2022K tehtävä 16.4: ”Fyll i motsatsen till ute.” Vastakohtatehtävä on oma tehtävätyyppinsä.
+inomhus ↔ utomhus  (adv.)  –  sisätiloissa ↔ ulkona ★
+större ↔ mindre  –  suurempi ↔ pienempi ★
 
 3.2 Perusadjektiivit (en-muoto, ett-muoto, monikko/määräinen)
-nöjd, nöjt, nöjda  (adj.)  –  tyytyväinen
-glad, glatt, glada  (adj.)  –  iloinen
-ledsen, ledset, ledsna  (adj.)  –  surullinen (ihmisestä)
+nöjd, nöjt, nöjda  (adj.)  –  tyytyväinen ★
+glad, glatt, glada  (adj.)  –  iloinen ★
+ledsen, ledset, ledsna  (adj.)  –  surullinen (ihmisestä) ★
 	ledsna personer = surullisia ihmisiä
 sorglig, sorgligt, sorgliga  (adj.)  –  surullinen (asiasta)
 	sorgliga nyheter = surullisia uutisia
-svår, svårt, svåra  (adj.)  –  vaikea
+svår, svårt, svåra  (adj.)  –  vaikea ★
 hård, hårt, hårda  (adj.)  –  kova
-enkel, enkelt, enkla  (adj.)  –  helppo, yksinkertainen
+enkel, enkelt, enkla  (adj.)  –  helppo, yksinkertainen ★
 dum, dumt, dumma  (adj.)  –  tyhmä
-säker, säkert, säkra  (adj.)  –  turvallinen, varma
+säker, säkert, säkra  (adj.)  –  turvallinen, varma ★
 	säkerhetsrutiner = turvallisuusrutiinit
-tveksam, tveksamt, tveksamma  (adj.)  –  epäileväinen, epävarma
+tveksam, tveksamt, tveksamma  (adj.)  –  epäileväinen, epävarma ★
 frisk, friskt, friska  (adj.)  –  terve, raitis, tuore
 	frisk som en fisk = terve kuin kala / frisk luft = raitis ilma
 sträng, strängt, stränga  (adj.)  –  ankara
 	Ska jag bli strängare? = Pitäisikö minun olla ankarampi?
 allvarlig, allvarligt, allvarliga  (adj.)  –  vakava
 smutsig, smutsigt, smutsiga  (adj.)  –  likainen, epäpuhdas
-vid, vitt, vida  (adj.)  –  laaja
+vid, vitt, vida  (adj.)  –  laaja ★
 vidsträckt, vidsträckt, vidsträckta  (adj.)  –  laajalle levinnyt
 	Muodostuu sanoista vid (laaja) + sträckt (levinnyt).
 invecklad, invecklat, invecklade  (adj.)  –  monimutkainen, mutkikas
@@ -596,7 +1073,7 @@ orimlig, orimligt, orimliga  (adj.)  –  kohtuuton, absurdi, järjetön
 avgörande  (adj. (taipumaton))  –  ratkaiseva
 förnyelsebar, förnyelsebart, förnyelsebara  (adj.)  –  uusiutuva
 	Muistisääntö: -bar viittaa johonkin positiiviseen tai mahdolliseen, ny- johonkin uuteen.
-hållbar, hållbart, hållbara  (adj.)  –  kestävä
+hållbar, hållbart, hållbara  (adj.)  –  kestävä ★
 tvåspråkig, tvåspråkigt, tvåspråkiga  (adj.)  –  kaksikielinen
 kreddig, kreddigt, kreddiga  (adj. (puhek.))  –  arvostettu, meriittiä tuova
 	ett kreddigt universitet = arvostettu yliopisto
@@ -604,13 +1081,13 @@ försiktig (med), försiktigt, försiktiga  (adj.)  –  varovainen
 ansvarsfull, ansvarsfullt, ansvarsfulla  (adj.)  –  vastuuntuntoinen, vastuullinen
 	Vrt. ansvarig för = vastuussa jostakin. Ansvarsfull kuvaa ihmisen luonnetta, ansvarig konkreettista vastuuta.
 saklig, sakligt, sakliga  (adj.)  –  asiallinen, asiapitoinen
-slarvig, slarvigt, slarviga  (adj.)  –  huolimaton
+slarvig, slarvigt, slarviga  (adj.)  –  huolimaton ★
 traditionell, traditionellt, traditionella  (adj.)  –  perinteinen
 	inom traditionella branscher = perinteisillä aloilla
 global, globalt, globala  (adj.)  –  globaali, maailmanlaajuinen
 offentlig, offentligt, offentliga  (adj.)  –  julkinen
 	offentliga tjänster = julkiset palvelut
-lämplig, lämpligt, lämpliga  (adj.)  –  sopiva, tarkoituksenmukainen
+lämplig, lämpligt, lämpliga  (adj.)  –  sopiva, tarkoituksenmukainen ★
 	Superlatiivi: lämpligast, den lämpligaste = sopivin.
 	Vrt. passande (3.4), joka tarkoittaa samaa mutta ei taivu eikä siitä saa superlatiivia.
 trasig, trasigt, trasiga  (adj.)  –  rikkinäinen
@@ -618,12 +1095,49 @@ hotfull, hotfullt, hotfulla  (adj.)  –  uhkaava
 ärlig, ärligt, ärliga  (adj.)  –  rehellinen
 snål, snålt, snåla  (adj.)  –  saita, nuuka
 flitig, flitigt, flitiga  (adj.)  –  ahkera
+viktig, viktigt, viktiga  (adj.)  –  tärkeä ★
+	Vaihtoehtoina viktiga / viktigaste / viktigare (2022K) – vertailumuoto ratkaisi.
+vanlig, vanligt, vanliga  (adj.)  –  tavallinen, yleinen ★
+ovanlig, ovanligt, ovanliga  (adj.)  –  epätavallinen ★
+lätt, lätt, lätta  (adj.)  –  helppo; kevyt ★
+	Huom. -t-loppuinen adjektiivi ei saa toista t:tä: lätt → lätt (ei *lättt). Sama koskee sanoja mätt, låst, trött.
+god, gott, goda  (adj.)  –  hyvä (maku, laatu) ★
+	Vaihtoehtoina goda / gott / god (2025S).
+dålig, dåligt, dåliga  (adj.)  –  huono ★
+stor, stort, stora  (adj.)  –  suuri ★
+liten, litet, små (den lilla)  –  pieni ★
+ny, nytt, nya  (adj.)  –  uusi ★
+gammal, gammalt, gamla  (adj.)  –  vanha ★
+	Vaihtoehtoina gamla / gammal / gammalt (2020S) – pelkkä muoto.
+ung, ungt, unga  (adj.)  –  nuori ★
+lång, långt, långa  (adj.)  –  pitkä ★
+kort, kort, korta  (adj.)  –  lyhyt ★
+hög, högt, höga  (adj.)  –  korkea ★
+låg, lågt, låga  (adj.)  –  matala ★
+stark, starkt, starka  (adj.)  –  vahva ★
+svag, svagt, svaga  (adj.)  –  heikko ★
+billig, billigt, billiga  (adj.)  –  halpa ★
+öppen, öppet, öppna  (adj.)  –  avoin ★
+mångsidig, mångsidigt, mångsidiga  (adj.)  –  monipuolinen ★
+miljövänlig, miljövänligt, miljövänliga  (adj.)  –  ympäristöystävällinen ★
+populär, populärt, populära  (adj.)  –  suosittu ★
+tillgänglig, tillgängligt, tillgängliga  (adj.)  –  saatavilla oleva, esteetön ★
+utbredd, utbrett, utbredda  (adj.)  –  laajalle levinnyt ★
+	Huom. utbrett över hela landet = levinnyt koko maahan (2026K)
+utländsk, utländskt, utländska  (adj.)  –  ulkomainen ★
+inhemsk, inhemskt, inhemska  (adj.)  –  kotimainen ★
+	Vastakohtapari. * Vaihtoehtoina Utländsk / Utländska / Utländskt (2026K).
+ledig, ledigt, lediga  (adj.)  –  vapaa (ajasta, paikasta) ★
+fri, fritt, fria  (adj.)  –  vapaa ★
+gratis  (taipumaton)  –  ilmainen ★
+	Vaihtoehtoina gratis / fria / lediga (2021S) – kolme eri ”vapaata”.
+digital, digitalt, digitala  (adj.)  –  digitaalinen ★
 
 3.3 Partisiippiadjektiivit
 Perfektin partisiipista muodostetut adjektiivit taipuvat kolmessa muodossa: en-muoto, ett-muoto (-t) ja monikko/määräinen (-a/-e).
 bevakad, bevakat, bevakade  (part.)  –  vartioitu
 	en obevakad resväska = vartioimaton matkalaukku
-begagnad, begagnat, begagnade  (part.)  –  käytetty
+begagnad, begagnat, begagnade  (part.)  –  käytetty ★
 berusad, berusat, berusade  (part.)  –  humaltunut
 misslyckad, misslyckat, misslyckade  (part.)  –  epäonnistunut
 godkänd, godkänt, godkända  (part.)  –  hyväksytty
@@ -635,13 +1149,13 @@ inställd, inställt, inställda  (part.)  –  peruttu
 slutsåld, slutsålt, slutsålda  (part.)  –  loppuunmyyty
 	Konserten var slutsåld. = Konsertti oli loppuunmyyty.
 utbränd, utbränt, utbrända  (part.)  –  loppuunpalanut
-sliten, slitet, slitna  (part.)  –  kulunut
+sliten, slitet, slitna  (part.)  –  kulunut ★
 utrotningshotad, utrotningshotat, utrotningshotade  (part.)  –  uhanalainen
 	Den här röda fågeln är utrotningshotad. = Tämä punainen lintu on uhanalainen.
 	De röda fåglarna kräver särskilt skydd. = Punaiset linnut vaativat erityistä suojelua.
 omtyckt, omtyckt, omtyckta  (part.)  –  pidetty
 berömd, berömt, berömda  (part.)  –  kuuluisa
-känd, känt, kända  (part.)  –  tunnettu
+känd, känt, kända  (part.)  –  tunnettu ★
 	bli berömd / bli känd = tulla tunnetuksi
 nymålad, nymålat, nymålade  (part.)  –  vastamaalattu
 	Etuliite ny- + partisiippi = "vasta-". Vrt. adverbi nyss = vasta, äskettäin.
@@ -649,6 +1163,21 @@ lättirriterad, lättirriterat, lättirriterade  (part.)  –  helposti ärsyynt
 bekymrad, bekymrat, bekymrade  (part.)  –  huolestunut
 avsedd (för), avsett, avsedda  (part.)  –  tarkoitettu
 	Huomaa: perfektin partisiippi verbistä avse (avser, avsåg, avsett) = tarkoittaa. Vrt. en avsikt = tarkoitus, aikomus.
+antagen, antaget, antagna  (part.)  –  hyväksytty (opiskelijaksi) ★
+anpassad, anpassat, anpassade  (part.)  –  mukautettu ★
+antecknad, antecknat, antecknade  (part.)  –  muistiin merkitty ★
+	Huom. Nämä neljä an-alkuista esiintyivät samoissa vastausvaihtoehdoissa 2022K ja 2024K. Ne näyttävät samalta mutta tarkoittavat aivan eri asioita.
+förvånad, förvånat, förvånade  (part.)  –  yllättynyt ★
+splittrad, splittrat, splittrade  (part.)  –  hajanainen, pirstoutunut ★
+vald, valt, valda  (part.)  –  valittu ★
+självvald, självvalt, självvalda  (part.)  –  itse valittu ★
+	Huom. Den självvalda ensamheten = itse valittu yksinäisyys (2026K)
+lurad, lurat, lurade  (part.)  –  huijattu ★
+stoppad, stoppat, stoppade  (part.)  –  pysäytetty ★
+uppkopplad, uppkopplat, uppkopplade  (part.)  –  verkkoon kytketty ★
+förd, fört, förda  (part.)  –  viety ★
+avvikande  (taipumaton)  –  poikkeava ★
+	Huom. Tavlan har en avvikande färgnyans. = Taulussa on poikkeava värisävy.
 
 3.4 -ande/-ende-partisiipit (preesensin partisiippi)
 närvarande  (taipumaton)  –  läsnä oleva
@@ -656,12 +1185,31 @@ avkopplande  (taipumaton)  –  rentouttava
 illamående ↔ välmående  (taipumaton)  –  pahoinvoiva ↔ hyvinvoiva
 fängslande  (taipumaton)  –  vangitseva
 avtagande ↔ tilltagande  (taipumaton)  –  vähenevä ↔ kasvava
-avgörande  (taipumaton)  –  ratkaiseva
+avgörande  (taipumaton)  –  ratkaiseva ★
 grundläggande  (taipumaton)  –  perustavanlaatuinen, perus-, olennainen
 förtjusande  (taipumaton)  –  lumoava, hurmaava, upea
 	Sääntö: -ande-partisiipit eivät taivu lainkaan: ett grundläggande problem, en förtjusande utsikt.
 passande  (taipumaton)  –  sopiva
 	Vrt. lämplig (3.2): sama merkitys, mutta lämplig taipuu ja siitä saa superlatiivin lämpligaste = sopivin.
+spännande  (taipumaton)  –  jännittävä ★
+inbjudande  (taipumaton)  –  kutsuva ★
+störande  (taipumaton)  –  häiritsevä ★
+	Vad tycker Maria är störande? (2023S)
+engagerande  (taipumaton)  –  mukaansatempaava ★
+uppmuntrande  (taipumaton)  –  kannustava ★
+inspirerande  (taipumaton)  –  innostava ★
+utvecklande  (taipumaton)  –  kehittävä ★
+bristande  (taipumaton)  –  puutteellinen ★
+växlande  (taipumaton)  –  vaihteleva ★
+närliggande  (taipumaton)  –  läheinen ★
+återkommande  (taipumaton)  –  toistuva ★
+skrämmande  (taipumaton)  –  pelottava ★
+musicerande  (taipumaton)  –  musisoiva ★
+åldrande  (taipumaton)  –  ikääntyvä ★
+	Huom. den åldrande befolkningen = ikääntyvä väestö (2026K)
+välfungerande  (taipumaton)  –  hyvin toimiva ★
+tröstande  (taipumaton)  –  lohduttava ★
+peppande  (taipumaton)  –  kannustava ★
 
 3.5 -aktig-johtimiset adjektiivit
 tvivelaktig, tvivelaktigt, tvivelaktiga  (adj.)  –  epäilyttävä
@@ -673,80 +1221,227 @@ sent  (adv.)  –  myöhään
 nyss  (adv.)  –  vasta, äskettäin
 fort  (adv.)  –  nopeasti
 framåt  (adv.)  –  eteenpäin
-fortfarande  (adv.)  –  edelleen, jatkuvasti
-ständigt  (adv.)  –  jatkuvasti
+fortfarande  (adv.)  –  edelleen, jatkuvasti ★
+ständigt  (adv.)  –  jatkuvasti ★
 	ständigt trött = jatkuvasti väsynyt
-egentligen  (adv.)  –  itse asiassa, oikeastaan
-verkligen  (adv.)  –  todella
+egentligen  (adv.)  –  itse asiassa, oikeastaan ★
+verkligen  (adv.)  –  todella ★
 	Vrt. adjektiivi verklig, verkligt, verkliga = todellinen.
-förresten  (adv.)  –  muuten
+förresten  (adv.)  –  muuten ★
 hellre  (adv.)  –  mieluummin
 	Jag köper hellre på loppis än i butiken. = Ostan mieluummin kirppikseltä kuin kaupasta.
 helt och hållet  (adv.)  –  kokonaan, täysin
-alltmer / allt mer  (adv.)  –  yhä enemmän
+alltmer / allt mer  (adv.)  –  yhä enemmän ★
 allt fler  (adv.)  –  yhä useampi
-sällan  (adv.)  –  harvoin
+sällan  (adv.)  –  harvoin ★
 lyckligtvis ↔ olyckligtvis  (adv.)  –  onneksi ↔ epäonneksi, valitettavasti
 aningen  (adv.)  –  hieman
 	aningen obekväm = hieman epämukava
-knappast  (adv.)  –  tuskin
+knappast  (adv.)  –  tuskin ★
 	Det blir knappast ens bråttom för dig. = Sinulle tuskin edes tulee kiire.
-tvärtom  (adv.)  –  päinvastoin
-stadigt  (adv.)  –  tasaisesti, vakaasti
-däremot  (adv.)  –  sitä vastoin, toisaalta
-otroligt  (adv.)  –  uskomattoman
+tvärtom  (adv.)  –  päinvastoin ★
+stadigt  (adv.)  –  tasaisesti, vakaasti ★
+däremot  (adv.)  –  sitä vastoin, toisaalta ★
+otroligt  (adv.)  –  uskomattoman ★
 	Sääntö: adjektiivi + t = adverbi. otrolig (uskomaton) → otroligt (uskomattoman).
 
 3.7 Lauseadverbit eli liikkuvat määreet
 Nämä lyhyet adverbit kertovat ajan, taajuuden, varmuuden tai asenteen, ja ne liikkuvat lauseessa täsmälleen kuten inte. Paikkasääntö on luvussa 7.7; tässä ne ovat sanoina.
 Taajuus ja toistuvuus
-alltid  (adv.)  –  aina
-ofta  (adv.)  –  usein
-ibland  (adv.)  –  joskus, toisinaan
+alltid  (adv.)  –  aina ★
+ofta  (adv.)  –  usein ★
+ibland  (adv.)  –  joskus, toisinaan ★
 någon gång  (adv.)  –  joskus (tulevaisuudessa)
-aldrig  (adv.)  –  ei koskaan
+aldrig  (adv.)  –  ei koskaan ★
 Aika
 nu  (adv.)  –  nyt
-redan  (adv.)  –  jo
-snart  (adv.)  –  pian
-genast  (adv.)  –  heti
+redan  (adv.)  –  jo ★
+snart  (adv.)  –  pian ★
+genast  (adv.)  –  heti ★
 först  (adv.)  –  ensin, vasta
-ännu  (adv.)  –  vielä
-länge  (adv.)  –  kauan
+ännu  (adv.)  –  vielä ★
+länge  (adv.)  –  kauan ★
 äntligen  (adv.)  –  vihdoin, lopultakin
 Varmuus ja epäilys
-säkert  (adv.)  –  varmasti
+säkert  (adv.)  –  varmasti ★
 absolut  (adv.)  –  ehdottomasti
-kanske  (adv.)  –  ehkä
+kanske  (adv.)  –  ehkä ★
 troligen  (adv.)  –  luultavasti
-faktiskt  (adv.)  –  tosiaan, itse asiassa
+faktiskt  (adv.)  –  tosiaan, itse asiassa ★
 	Huomaa ero: faktiskt yllättää tai pehmentää, verkligen vahvistaa. Det var faktiskt roligt = se oli tosiaan hauskaa, vastoin odotusta. Det var verkligen roligt = se oli todella hauskaa.
 Asenne ja mieltymys
-gärna  (adv.)  –  mielellään
+gärna  (adv.)  –  mielellään ★
 helst  (adv.)  –  mieluiten
-tyvärr  (adv.)  –  valitettavasti
+tyvärr  (adv.)  –  valitettavasti ★
 vanligen  (adv.)  –  tavallisesti
 Lisäävät ja rajaavat
-också  (adv.)  –  myös
-bara  (adv.)  –  vain
-enbart  (adv.)  –  vain, ainoastaan
+också  (adv.)  –  myös ★
+bara  (adv.)  –  vain ★
+enbart  (adv.)  –  vain, ainoastaan ★
 Kieltävät liikkuvat määreet
 Nämä käyttäytyvät täsmälleen kuten inte. Jos osaat inte-sanan paikan, osaat näiden paikan.
 inte alltid  (adv.)  –  ei aina
 inte ofta  (adv.)  –  ei usein
 inte alls  (adv.)  –  ei lainkaan
-inte ens  (adv.)  –  ei edes
+inte ens  (adv.)  –  ei edes ★
 inte längre  (adv.)  –  ei enää
-inte heller  (adv.)  –  ei myöskään
+inte heller  (adv.)  –  ei myöskään ★
+vanligtvis  (adv.)  –  tavallisesti ★
+oftast  (adv.)  –  useimmiten ★
+numera / nuförtiden  (adv.)  –  nykyään ★
+hittills  (adv.)  –  tähän asti ★
+småningom / så småningom  (adv.)  –  vähitellen ★
+	Vaihtoehtoina samtidigt / framför allt / småningom (2020S).
+samtidigt  (adv.)  –  samanaikaisesti ★
+slutligen  (adv.)  –  lopuksi ★
+till slut  –  lopulta ★
+avslutningsvis  (adv.)  –  lopuksi ★
+	Vaihtoehtoina ofta / avslutningsvis / stadigt (2026K).
+åtminstone  (adv.)  –  ainakin ★
+tidvis  (adv.)  –  ajoittain ★
+dagligen  (adv.)  –  päivittäin ★
+givetvis / naturligtvis  (adv.)  –  luonnollisesti ★
+nog  (adv.)  –  kyllä, varmaankin ★
+	Huom. Du får nog glömma det. = Saat kyllä unohtaa sen.
+väl  (adv.)  –  kai, kaipa ★
+	Huom. Det ska väl gå. = Kyllä se kai onnistuu.
+hellre – helst  –  mieluummin – mieluiten ★
+annars  (adv.)  –  muuten, muussa tapauksessa ★
+ytterligare  (adv.)  –  lisäksi, edelleen ★
+	Vaihtoehtoina ytterligare / annars / tvärtom (2023S).
+noga  (adv.)  –  tarkkaan ★
+speciellt / särskilt  (adv.)  –  erityisesti ★
+sammanfattningsvis  (adv.)  –  yhteenvetona ★
+i princip  –  periaatteessa ★
+i praktiken  –  käytännössä ★
+i verkligheten  –  todellisuudessa ★
+i allmänhet  –  yleisesti ottaen ★
+hur som helst  –  joka tapauksessa; miten tahansa ★
+så gott som  –  melkeinpä ★
+	Vaihtoehtoina så länge / så gott / så där (2022S).
+sakta men säkert  –  hitaasti mutta varmasti ★
+
+3.8 Tunne ja mieliala
+Nämä ovat kokeen tärkeimpiä sanoja: kysymys ”Hur kände sig X?” tai ”Hur förhåller sig X till…?” esiintyy joka vuosi, ja vastausvaihtoehdot ovat juuri näitä.
+missnöjd, missnöjt, missnöjda  (adj.)  –  tyytymätön ★
+besviken, besviket, besvikna  (adj.)  –  pettynyt ★
+trött (på), trött, trötta  (adj.)  –  väsynyt; kyllästynyt ★
+ångestfull, ångestfullt, ångestfulla  (adj.)  –  ahdistunut ★
+	Vastausvaihtoehtona 2026K: Ångestfull – Kritisk – Likgiltig.
+rädd (för), rätt, rädda  (adj.)  –  peloissaan ★
+förskräckt, förskräckt, förskräckta  (adj.)  –  kauhistunut ★
+förvirrad, förvirrat, förvirrade  (adj.)  –  hämmentynyt ★
+förargad, förargat, förargade  (adj.)  –  ärsyyntynyt ★
+arg (på), argt, arga  (adj.)  –  vihainen ★
+deppig, deppigt, deppiga  (adj.)  –  alakuloinen ★
+desperat, desperat, desperata  (adj.)  –  epätoivoinen ★
+förväntansfull, -fullt, -fulla  (adj.)  –  odottava, innokas ★
+avslappnad, avslappnat, avslappnade  (adj.)  –  rentoutunut ★
+avspänd, avspänt, avspända  (adj.)  –  rento, jännittämätön ★
+	Avslappnad ja Avspänd esiintyivät saman tehtävän vaihtoehtoina – lähes synonyymejä.
+lugn, lugnt, lugna  (adj.)  –  rauhallinen ★
+obekymrad, obekymrat, obekymrade  (adj.)  –  huoleton ★
+likgiltig, likgiltigt, likgiltiga  (adj.)  –  välinpitämätön ★
+	Huom. esiintynyt kolmessa kokeessa.
+	Huom. Likgiltig esiintyi vastausvaihtoehtona kolmessa eri kokeessa – useammin kuin mikään muu yksittäinen adjektiivi. Jos et tunne sitä, menetät pisteen.
+hektisk, hektiskt, hektiska  (adj.)  –  kiireinen, hektinen ★
+jäktad, jäktat, jäktade  (adj.)  –  kiireinen, stressaantunut ★
+ensam, ensamt, ensamma  (adj.)  –  yksinäinen ★
+stolt (över), stolt, stolta  (adj.)  –  ylpeä ★
+tacksam (för), tacksamt, tacksamma  (adj.)  –  kiitollinen ★
+
+3.9 Luonne ja asenne
+kritisk (mot), kritiskt, kritiska  (adj.)  –  kriittinen ★
+misstänksam, misstänksamt, misstänksamma  (adj.)  –  epäluuloinen ★
+osäker, osäkert, osäkra  (adj.)  –  epävarma ★
+självsäker, självsäkert, självsäkra  (adj.)  –  itsevarma ★
+optimistisk, optimistiskt, optimistiska  (adj.)  –  optimistinen ★
+målmedveten, målmedvetet, målmedvetna  (adj.)  –  määrätietoinen ★
+medveten (om), medvetet, medvetna  (adj.)  –  tietoinen ★
+självständig, självständigt, självständiga  (adj.)  –  itsenäinen ★
+krävande  (taipumaton)  –  vaativa ★
+	Huom. Var inte för krävande. = Älä ole liian vaativa. (2023S)
+noggrann, noggrant, noggranna  (adj.)  –  tarkka, huolellinen ★
+nyfiken (på), nyfiket, nyfikna  (adj.)  –  utelias ★
+intresserad (av), intresserat, intresserade  (adj.)  –  kiinnostunut ★
+engagerad, engagerat, engagerade  (adj.)  –  sitoutunut, innostunut ★
+vänlig, vänligt, vänliga  (adj.)  –  ystävällinen ★
+	Superlatiivi vänligast: ”Välj det vänligaste svaret” oli koko tehtävän 4 ohje 2026K.
+snäll (mot), snällt, snälla  (adj.)  –  kiltti ★
+hjälpsam, hjälpsamt, hjälpsamma  (adj.)  –  avulias ★
+självisk, själviskt, själviska  (adj.)  –  itsekäs ★
+lat, lat, lata  (adj.)  –  laiska ★
+beroende (av)  (taipumaton)  –  riippuvainen ★
+van (vid), vant, vana  (adj.)  –  tottunut ★
+erfaren, erfaret, erfarna  (adj.)  –  kokenut ★
+
+3.10 Epäsäännöllinen vertailu
+Vertailumuoto oli aukkotehtävän vaihtoehtona lähes joka kokeessa. Epäsäännölliset on pakko osata ulkoa.
+stor – större – störst  –  suuri – suurempi – suurin ★
+liten – mindre – minst  –  pieni – pienempi – pienin ★
+dålig – sämre – sämst  –  huono – huonompi – huonoin ★
+gammal – äldre – äldst  –  vanha – vanhempi – vanhin ★
+ung – yngre – yngst  –  nuori – nuorempi – nuorin ★
+hög – högre – högst  –  korkea – korkeampi – korkein ★
+låg – lägre – lägst  –  matala – matalampi – matalin ★
+lång – längre – längst  –  pitkä – pitempi – pisin ★
+tung – tyngre – tyngst  –  raskas – raskaampi – raskain ★
+många – fler – flest  –  moni – useampi – useimmat ★
+mycket – mer – mest  –  paljon – enemmän – eniten ★
+	Vaihtoehtoina mer / mycket / mest (2025S) ja klarare / högre / lägre (2022S).
+	Huom. Määräisen muodon superlatiivi saa -a: den största fördelen, de största fördelarna. 2022S:n vaihtoehdot olivat juuri de största fördelarna / största fördelarna / den största fördelen.
+
+3.11 Astetta ilmaisevat adverbit
+mycket  (adv.)  –  hyvin, paljon ★
+väldigt  (adv.)  –  todella, tosi ★
+riktigt  (adv.)  –  oikein, aika ★
+ganska  (adv.)  –  melko ★
+	Vaihtoehtoina ganska / förstås / noga (2021K).
+rätt  (adv.)  –  melko, aika ★
+	Huom. Det var rätt bra. = Se oli melko hyvä. (vrt. rätt = oikein: Det var rätt gjort.)
+alldeles  (adv.)  –  aivan ★
+helt  (adv.)  –  täysin ★
+	Huom. Arbete och familj är två helt skilda kapitel. = Työ ja perhe ovat kaksi täysin eri asiaa.
+ytterst  (adv.)  –  äärimmäisen ★
+oerhört  (adv.)  –  tavattoman ★
+alltför  (adv.)  –  liian ★
+lite  (adv.)  –  vähän ★
+nästan  (adv.)  –  melkein ★
+knappt  (adv.)  –  tuskin, hädin tuskin ★
+allra  (adv.)  –  kaikkein (superlatiivin vahvike) ★
+	Vaihtoehtoina lika / allt / allra (2021S) ja lika / ännu / allra (2022S).
+lika  (adv.)  –  yhtä (lika stor som = yhtä suuri kuin) ★
+ordentligt  (adv.)  –  kunnolla ★
+	Huom. innan mamman lärde sig svenska ordentligt = ennen kuin äiti oppi ruotsin kunnolla
+
+3.12 Määrä ja rajaus
+ungefär / cirka  (adv.)  –  noin ★
+drygt  (adv.)  –  runsaat ★
+minst – högst  (adv.)  –  vähintään – enintään ★
+tillsammans  (adv.)  –  yhdessä ★
+gemensamt  (adv.)  –  yhteisesti ★
+sammanlagt  (adv.)  –  yhteensä ★
+	Huom. * Vaihtoehtoina Tillsammans / Gemensamt / Sammanlagt (2022K). Nämä kolme ovat lähellä toisiaan mutta eivät vaihtokelpoisia.
+varandra  –  toisiaan ★
+	Vaihtoehtoina båda / alla / varandra (2021S).
+några få  –  muutama ★
+en hel del  –  melkoisesti ★
+massor av  –  valtavasti ★
+ett par  –  pari ★
+var tredje  –  joka kolmas ★
+	Var tredje ung vuxen ser sina möjligheter som små. (2026K)
+sex av tio  –  kuusi kymmenestä ★
+kvar  (adv.)  –  jäljellä ★
+	Huom. Många unga tvingas bo kvar hemma längre. = Moni nuori joutuu asumaan kotona pitempään.
 
 Ilmaukset ja sanonnat
 
 4.1 Muodollinen kirjoittaminen ja asiointi
 Jag ser fram emot ert svar.  –  Odotan vastaustanne.
 Jag hoppas att ni hör av er snart.  –  Toivon että kuulen teistä pian.
-Med vänlig hälsning / Med vänliga hälsningar  –  Ystävällisin terveisin
+Med vänlig hälsning / Med vänliga hälsningar  –  Ystävällisin terveisin ★
 angående  –  johonkin liittyen
-när det gäller  –  kun on kyse jostakin
+när det gäller  –  kun on kyse jostakin ★
 i god tid  –  hyvissä ajoin
 på kort varsel  –  lyhyellä varoitusajalla
 Vi erbjuder hjälp både på finska och på svenska eftersom området är tvåspråkigt.  –  Tarjoamme apua sekä suomeksi että ruotsiksi, koska alue on kaksikielinen.
@@ -762,8 +1457,36 @@ Tack till dig! / Tack ska du ha!  –  Kiitos sinulle!
 Tack för idag och välkommen åter!  –  Kiitos tästä päivästä ja tervetuloa uudelleen!
 Välkommen (yhdelle) / Välkomna (usealle)  –  Tervetuloa
 	Välkomna allihop! = Tervetuloa kaikki!
-Lycka till!  –  Onnea matkaan!
+Lycka till!  –  Onnea matkaan! ★
 Grattis till de nygifta!  –  Onnea vastanaineille!
+Grattis! / Gratulerar!  –  Onnea! ★
+Kämpa på!  –  Jaksamisia! ★
+Bra jobbat!  –  Hyvin tehty! ★
+Tack själv!  –  Kiitos itsellesi! ★
+Ingen orsak!  –  Ei kestä! ★
+Var så god.  –  Ole hyvä. ★
+För all del!  –  Ei kestä! / Toki! ★
+Så snällt av dig!  –  Kuinka kilttiä sinulta! ★
+Vad snällt av dig!  –  Kuinka kilttiä sinulta! ★
+	Sävy: ystävällinen.
+Vad roligt att du kom!  –  Kiva että tulit! ★
+	Sävy: ystävällinen.
+Vilken underbar nyhet!  –  Mikä ihana uutinen! ★
+Vad tråkigt att höra!  –  Ikävä kuulla! ★
+	Sävy: myötätuntoinen.
+Stackars dig!  –  Voi sinua raukkaa! ★
+Oroa dig inte, det går säkert bra!  –  Älä huoli, kyllä se järjestyy! ★
+Ursäkta, det var inte meningen!  –  Anteeksi, en tarkoittanut! ★
+Det håller jag nog med om.  –  Olen kyllä siitä samaa mieltä. ★
+Akta dig!  –  Varo! ★
+Låt bli!  –  Älä! ★
+Lägg av!  –  Lopeta! / Älä viitsi! ★
+Vad konstigt!  –  Kuinka outoa! ★
+Vad äckligt!  –  Kuinka ällöttävää! ★
+Du skulle inte ha behövt.  –  Ei olisi tarvinnut. ★
+Det var ju bara en tidsfråga!  –  Se oli vain ajan kysymys! ★
+Nämen!  –  Ei kai! (yllättynyt) ★
+Jaså!  –  Ai niin? / Vai niin. ★
 
 4.4 Vertauksia ja sanontoja
 frisk som en fisk  –  terve kuin kala
@@ -780,9 +1503,9 @@ Vad fan!  –  Mitä helvettiä! (karkea)
 4.5 Muut käyttökelpoiset ilmaukset
 många slags texter  –  monenlaisia tekstejä
 göra någon sällskap  –  tehdä jollekin seuraa
-ta reda på  –  ottaa selvää
+ta reda på  –  ottaa selvää ★
 få veta mer  –  saada tietää lisää
-lägga märke till  –  panna merkille
+lägga märke till  –  panna merkille ★
 Har du märkt…?  –  Oletko huomannut…?
 komplettera svaren  –  täydennä vastaukset
 	Muistisääntö "visa vinkuu": visa (IIb, visar, visade, visat) = näyttää; en visa = laulu.
@@ -790,7 +1513,48 @@ ett sätt att tänka  –  ajattelutapa
 dagens tanke  –  päivän ajatus
 spela en viktig roll  –  olla tärkeässä roolissa
 i mörker  –  pimeydessä
-på egen hand  –  omatoimisesti, omin päin, itsenäisesti
+på egen hand  –  omatoimisesti, omin päin, itsenäisesti ★
+det gäller  –  on kyse, koskee ★
+det handlar om  –  kyse on siitä, että ★
+det beror på  –  se riippuu ★
+det är fråga om  –  kyseessä on ★
+i sin helhet  –  kokonaisuudessaan ★
+i delar  –  osissa ★
+på eget initiativ  –  omasta aloitteesta ★
+i samarbete med  –  yhteistyössä jonkun kanssa ★
+	Spelet designades i samarbete med olika aktörer. (2026K)
+vid behov  –  tarvittaessa ★
+enligt behov  –  tarpeen mukaan ★
+i fokus  –  keskiössä ★
+i gång  –  käynnissä ★
+åt gången / i taget  –  kerrallaan ★
+med jämna mellanrum  –  säännöllisin väliajoin ★
+så gott som hela världen  –  melkeinpä koko maailma ★
+utan tvekan  –  epäilemättä ★
+en tidsfråga  –  ajan kysymys ★
+lära sig utantill  –  opetella ulkoa ★
+	Huom. Att lära sig replikerna utantill = opetella repliikit ulkoa (2026K)
+bli grundlurad  –  tulla perin pohjin huijatuksi ★
+det är glasklart  –  se on päivänselvää ★
+
+4.6 Kirjoitustehtävän vakiofraasit
+Kirjoitustehtävät ovat 13 kokeessa olleet lähes aina samoja tekstilajeja: ilmoitus, viesti ystävälle, kommentti verkkopalstalla, mielipidekirjoitus, kertomus ja blogi. Nämä fraasit sopivat niihin kaikkiin.
+Hej! / Hejsan!  –  Hei! ★
+Jag skriver för att …  –  Kirjoitan, jotta … / Kirjoitan …kseni ★
+Jag undrar om …  –  Mietin, olisiko … ★
+Jag skulle vilja …  –  Haluaisin … ★
+Jag tycker att …  –  Mielestäni … ★
+Enligt min åsikt / Enligt mig  –  Minun mielestäni ★
+Jag anser att …  –  Katson, että … ★
+Det verkar som om …  –  Näyttää siltä, että … ★
+För det första … för det andra  –  Ensinnäkin … toiseksi ★
+Sammanfattningsvis kan man säga att …  –  Yhteenvetona voidaan sanoa, että … ★
+Jag hoppas att …  –  Toivon, että … ★
+Hör gärna av dig!  –  Ota ihmeessä yhteyttä! ★
+Sökes  –  Etsitään (ilmoitusotsikossa) ★
+	Rumskamrat sökes (2026K), Efterlysning – resesällskap sökes (2024S)
+Är du intresserad?  –  Kiinnostaako? ★
+Hör av dig om du vill veta mer.  –  Ota yhteyttä, jos haluat tietää lisää. ★
 
 Sidosteisuus ja pikkusanat
 
@@ -798,19 +1562,19 @@ maanantai 7. syyskuuta 2026
 21.16
 
 5.1 Tekstin jäsentäminen
-först och främst  –  ensinnäkin, ennen kaikkea
-framför allt  –  ennen kaikkea
-dessutom  –  lisäksi, sitä paitsi
+först och främst  –  ensinnäkin, ennen kaikkea ★
+framför allt  –  ennen kaikkea ★
+dessutom  –  lisäksi, sitä paitsi ★
 	Filmen var bra, och dessutom var biljetten billig. = Elokuva oli hyvä, ja lisäksi lippu oli halpa.
-förstås  –  tietysti
+förstås  –  tietysti ★
 	Du kan komma till festen, förstås! = Voit tulla juhliin, tietysti!
-alltså  –  siis
+alltså  –  siis ★
 	Vi behöver pengar. Alltså måste vi jobba. = Tarvitsemme rahaa. Siis meidän täytyy tehdä töitä.
-ändå  –  kuitenkin, silti
+ändå  –  kuitenkin, silti ★
 	Det var kallt ute, men vi gick ändå till parken. = Ulkona oli kylmä, mutta menimme kuitenkin puistoon.
-enligt  –  jonkun mukaan
+enligt  –  jonkun mukaan ★
 	enligt mig = minun mielestäni
-däremot / däremellan / därefter  –  sitä vastoin / niiden välissä / sen jälkeen
+däremot / däremellan / därefter  –  sitä vastoin / niiden välissä / sen jälkeen ★
 nämligen  –  nimittäin
 varav  –  joista, josta
 	Vi fick tre erbjudanden, varav ett var mycket bra. = Saimme kolme tarjousta, joista yksi oli hyvin hyvä.
@@ -819,6 +1583,29 @@ så att säga  –  niin sanotusti
 	Den har så att säga fastnat i läsarens tankar. = Se on niin sanotusti jumittunut lukijan ajatuksiin.
 genom att  –  tekemällä jotain
 utan att  –  tekemättä jotain
+därför  (adv.)  –  siksi ★
+följaktligen  (adv.)  –  näin ollen ★
+	Vaihtoehtoina Följaktligen / Däremot / Samtidigt (2026K).
+emellertid  (adv.)  –  kuitenkin ★
+å ena sidan … å andra sidan  –  toisaalta … toisaalta ★
+till och med  –  jopa ★
+	Huom. * Vaihtoehtoina till och med / med andra ord / å andra sidan (2025S). Kaikki kolme ovat kolmen sanan ilmauksia – lue vaihtoehdot loppuun asti.
+i stället (för)  –  sen sijaan ★
+oberoende av  –  riippumatta jostakin ★
+i jämförelse med / jämfört med  –  verrattuna johonkin ★
+i förhållande till  –  suhteessa johonkin ★
+	Vaihtoehtoina förhållande till / jämförelse med / synpunkt på (2023K).
+beroende på  –  riippuen jostakin ★
+för det första / för det andra  –  ensinnäkin / toiseksi ★
+bland annat (bl.a.)  –  muun muassa ★
+	Vaihtoehtoina från och med / bland annat / i stället (2021S ja 2022K).
+från och med  –  jostakin lähtien ★
+såsom  –  kuten ★
+sedan dess  –  siitä lähtien ★
+under tiden  –  sillä välin ★
+på sikt  –  pitkällä aikavälillä ★
+med tiden  –  ajan myötä ★
+i längden  –  pitkän päälle ★
 
 5.2 Rinnastuskonjunktiot
 Näitä on vain kuusi. Ne yhdistävät samanarvoisia osia – kaksi substantiivia tai kaksi päälausetta – eivätkä vaikuta sanajärjestykseen lainkaan. Ero alistuskonjunktioihin on selitetty luvussa 7.5.
@@ -828,12 +1615,12 @@ eller  –  tai, vai
 	Vill du ha kaffe eller te? = Haluatko kahvia vai teetä?
 men  –  mutta
 	Jag sökte till universitetet men jag kom inte in. = Hain yliopistoon, mutta en päässyt sisään.
-för  –  sillä (syy)
+för  –  sillä (syy) ★
 	Jag stannade hemma, för jag var sjuk. = Jäin kotiin, sillä olin kipeä.
 	Huomaa: för on myös prepositio (ks. 6.9). Rinnastuskonjunktiona se ei voi aloittaa virkettä.
 så  –  joten (seuraus, joka toteutui)
 	Det regnade, så vi stannade hemma. = Satoi, joten jäimme kotiin.
-utan  –  vaan (vain kielteisen lauseen jälkeen)
+utan  –  vaan (vain kielteisen lauseen jälkeen) ★
 	Han är inte lärare utan läkare. = Hän ei ole opettaja vaan lääkäri.
 
 5.3 Parikonjunktiot
@@ -851,13 +1638,20 @@ antingen – eller  –  joko – tai
 inte bara – utan också  –  ei ainoastaan – vaan myös
 	Jag lär mig inte bara svenska utan också tyska. = En opiskele ainoastaan ruotsia vaan myös saksaa.
 	Huomaa: varken – eller sisältää kiellon itse, joten lauseeseen ei tule erillistä inte-sanaa.
+både … och  –  sekä … että ★
+varken … eller  –  ei … eikä ★
+antingen … eller  –  joko … tai ★
+inte bara … utan även/också  –  ei ainoastaan … vaan myös ★
+	Utländsk arbetskraft fyller inte bara arbetskraftsbehov utan skapar även nya jobb. (2026K)
+inte ännu  –  ei vielä ★
+	Huom. * Vaihtoehtoina inte heller / inte ens / inte bara (2021S) ja inte ännu / inte ens / inte heller (2022S). Kaksi eri koetta, sama ansa.
 
 5.4 Alistuskonjunktiot
 Alistuskonjunktio tekee lauseesta sivulauseen, joka ei voi olla yksin. Sivulauseen sanajärjestys on aina sama riippumatta siitä, mistä sanasta se alkaa – kaava on luvussa 7.6, samoin näiden käyttöerot.
 Että ja ehto
 att  –  että
 	Jag hoppas att du kommer. = Toivon, että tulet.
-om  –  jos
+om  –  jos ★
 	Om det inte regnar går vi ut. = Jos ei sada, menemme ulos.
 Aika
 när  –  kun
@@ -865,48 +1659,48 @@ när  –  kun
 då  –  koska, kun
 	Då du redan är här kan vi börja. = Kun sinä jo olet täällä, voimme aloittaa.
 	Huomaa: samalla sanalla on kolme roolia – tässä konjunktio, relatiivisanana jolloin (5.5) ja liikkuvana määreenä silloin (7.7).
-medan  –  samalla kun, sillä aikaa kun, kun taas
+medan  –  samalla kun, sillä aikaa kun, kun taas ★
 	Jag lagade mat medan hon läste. = Laitoin ruokaa sillä aikaa kun hän luki.
-innan  –  ennen kuin
+innan  –  ennen kuin ★
 	Jag ringer innan jag kommer. = Soitan ennen kuin tulen.
-förrän  –  ennen kuin (kielteisen lauseen jälkeen)
+förrän  –  ennen kuin (kielteisen lauseen jälkeen) ★
 	Han kom inte förrän klockan tio. = Hän tuli vasta kello kymmenen.
-sedan  –  sen jälkeen kun, sitten kun
+sedan  –  sen jälkeen kun, sitten kun ★
 	Sedan vi hade ätit gick vi ut. = Sen jälkeen kun olimme syöneet, menimme ulos.
 tills  –  kunnes
 	Vi väntar tills bussen kommer. = Odotamme, kunnes bussi tulee.
 Syy
-eftersom  –  koska
+eftersom  –  koska ★
 	Vi erbjuder hjälp eftersom området är tvåspråkigt. = Tarjoamme apua, koska alue on kaksikielinen.
-därför att  –  siksi että, koska
+därför att  –  siksi että, koska ★
 	Jag stannade hemma därför att jag var sjuk. = Jäin kotiin, koska olin kipeä.
 Tarkoitus ja seuraus
 så att  –  jotta, niin että
 	Tala högre så att alla hör. = Puhu kovempaa, jotta kaikki kuulevat.
 	Huomaa: för att on myös tarkoituksen konjunktio – se on luvussa 6.6, koska sen perässä tulee infinitiivi.
 Myönnytys
-trots att  –  siitä huolimatta että
+trots att  –  siitä huolimatta että ★
 	Trots att det regnade gick vi ut. = Siitä huolimatta että satoi, menimme ulos.
 fastän  –  vaikka, vaikkakin
 	Fastän det regnade gick vi ut. = Vaikka satoi, menimme ulos.
-fast  –  vaikka (arkisempi)
+fast  –  vaikka (arkisempi) ★
 	Jag gick ut fast det regnade. = Menin ulos, vaikka satoi.
-även om  –  vaikka, siinäkin tapauksessa että
+även om  –  vaikka, siinäkin tapauksessa että ★
 	Även om det regnar går vi ut. = Vaikka sataisi, menemme ulos.
 
 5.5 Relatiivisanat
 Relatiivisana aloittaa relatiivilauseen ja viittaa edellä olevaan sanaan tai lauseeseen eli korrelaattiin. Viittauskohde ratkaisee, mikä sana valitaan; esimerkit ja valintasääntö ovat luvussa 7.6.
-som  –  joka, mikä, jotka, mitkä
+som  –  joka, mikä, jotka, mitkä ★
 	Jag bor i en stad som jag verkligen gillar. = Asun kaupungissa, josta todella pidän.
-vilket  –  mikä (viittaa koko edellä olevaan lauseeseen)
+vilket  –  mikä (viittaa koko edellä olevaan lauseeseen) ★
 	Ibland är det för kallt i Finland vilket jag inte gillar. = Joskus Suomessa on liian kylmää, mistä en pidä.
-vars  –  jonka, joiden (omistus)
+vars  –  jonka, joiden (omistus) ★
 	Jag har en kompis vars pappa är läkare. = Minulla on kaveri, jonka isä on lääkäri.
 allt som / allt vad  –  kaikki mikä, kaikki mitä
 	Du måste berätta allt som hände. = Sinun täytyy kertoa kaikki, mitä tapahtui.
-där  –  jossa
+där  –  jossa ★
 	Uleåborg är en stad där jag inte har varit. = Oulu on kaupunki, jossa en ole ollut.
-dit  –  jonne, johon
+dit  –  jonne, johon ★
 	Nyslott, dit jag gärna reser, ligger i östra Finland. = Savonlinna, jonne matkustan mielelläni, sijaitsee Itä-Suomessa.
 
 5.6 Mielipiteen ilmaiseminen – synonyymejä
@@ -939,13 +1733,13 @@ om två timmar  –  kahden tunnin PÄÄSTÄ (tulevaisuudessa)
 för två timmar sedan  –  kaksi tuntia SITTEN (menneisyydessä)
 	Muistisääntö: i = kuinka kauan, på = kuinka nopeasti, om = kuinka pian, för…sedan = kuinka kauan sitten.
 om – toistuva tapahtuma
-om dagen / om året / om veckan  –  päivässä / vuodessa / viikossa
+om dagen / om året / om veckan  –  päivässä / vuodessa / viikossa ★
 	Jag jobbar sju timmar om dagen. = Teen töitä seitsemän tuntia päivässä.
 om somrarna / om vintrarna  –  kesäisin / talvisin
 om morgnarna / om kvällarna  –  aamuisin / iltaisin
 på – toistuva viikonpäivä ja vuorokaudenaika
 på måndagar / på helgerna  –  maanantaisin / viikonloppuisin
-på morgonen / på dagen / på kvällen / på natten  –  aamulla / päivällä / illalla / yöllä
+på morgonen / på dagen / på kvällen / på natten  –  aamulla / päivällä / illalla / yöllä ★
 på 90-talet / på 2000-talet  –  90-luvulla / 2000-luvulla
 på sistone  –  viime aikoina
 	Huomaa poikkeukset: i morse (tänä aamuna), i kväll (tänä iltana), i natt (tänä yönä).
@@ -967,6 +1761,13 @@ vid tretiden / vid midnatt  –  kolmen aikoihin / keskiyöllä
 till på fredag  –  perjantaiksi
 klockan sju  –  kello seitsemän
 	Kellonajassa käytetään klockan-sanaa ilman prepositiota: Vi ses klockan sju.
+på  –  viikonpäivä ja vuorokaudenaika: på måndagar, på morgonen ★
+i  –  kuukaudet: i mars, i januari ★
+	Huom. Vuodenajasta yleisesti: på sommaren, om somrarna. i somras = viime kesänä (mennyt).
+under  –  jonkin aikana: under kvällens övning ★
+före  –  ennen ★
+	Vastakohtapari: efter.
+i väntan på  –  odotellessa ★
 
 6.2 Paikan prepositiot – i vai på?
 Pääsääntö: i = jonkin sisällä tai rajatun alueen sisäpuolella, på = pinnalla, saarella tai "toiminnan paikassa". Rajatapaukset on opeteltava ulkoa.
@@ -1010,24 +1811,31 @@ utanför ↔ innanför  –  ulkopuolella ↔ sisäpuolella
 norr om Helsingfors  –  Helsingistä pohjoiseen
 Kulkuvälineet
 med bil, med tåg, med buss, med båt, med flyg  –  autolla, junalla, bussilla, laivalla, lentäen
-till fots  –  jalan
-på cykel / med cykel  –  pyörällä
+till fots  –  jalan ★
+på cykel / med cykel  –  pyörällä ★
+hos  –  jonkun luona: hos frisören, hos kunderna ★
+kring / omkring  –  ympärillä ★
+mellan  –  välissä ★
+genom  –  läpi, kautta ★
+längs  –  pitkin ★
+mot  –  kohti; vastaan ★
+	Huom. Liike vs. sijainti: hem ↔ hemma, dit ↔ där, hit ↔ här, bort ↔ borta, ut ↔ ute, in ↔ inne, upp ↔ uppe, ner ↔ nere.
 
 6.3 Verbi + prepositio -rektiot
 Nämä ovat kiinteitä pareja: prepositio kuuluu verbiin eikä sitä voi päätellä suomen kielestä. Opettele verbi ja prepositio aina yhdessä.
 på
-tänka på ngt  –  ajatella jotakin
-titta på ngt  –  katsoa jotakin
-vänta på ngt  –  odottaa jotakin
-lyssna på ngt  –  kuunnella jotakin
+tänka på ngt  –  ajatella jotakin ★
+titta på ngt  –  katsoa jotakin ★
+vänta på ngt  –  odottaa jotakin ★
+lyssna på ngt  –  kuunnella jotakin ★
 tro på ngt  –  uskoa johonkin
-lita på ngn  –  luottaa johonkin
+lita på ngn  –  luottaa johonkin ★
 tvivla på ngt  –  epäillä jotakin
 hoppas på ngt  –  toivoa jotakin
 svara på en fråga  –  vastata kysymykseen
-bero på ngt  –  riippua jostakin, johtua jostakin
-klaga på / över ngt  –  valittaa jostakin
-ta reda på ngt  –  ottaa selvää jostakin
+bero på ngt  –  riippua jostakin, johtua jostakin ★
+klaga på / över ngt  –  valittaa jostakin ★
+ta reda på ngt  –  ottaa selvää jostakin ★
 vara arg på ngn  –  olla vihainen jollekin
 vara bra / dålig på ngt  –  olla hyvä / huono jossakin
 för
@@ -1043,16 +1851,16 @@ tacka för ngt  –  kiittää jostakin
 betala för ngt  –  maksaa jostakin
 ansvara för ngt  –  vastata jostakin
 till
-leda till ngt  –  johtaa johonkin
-bidra till ngt  –  myötävaikuttaa johonkin
-ta hänsyn till ngt  –  ottaa huomioon
-ta ställning till ngt  –  ottaa kantaa
-förhålla sig till ngt  –  suhtautua johonkin
+leda till ngt  –  johtaa johonkin ★
+bidra till ngt  –  myötävaikuttaa johonkin ★
+ta hänsyn till ngt  –  ottaa huomioon ★
+ta ställning till ngt  –  ottaa kantaa ★
+förhålla sig till ngt  –  suhtautua johonkin ★
 gratulera ngn till ngt  –  onnitella jotakuta jostakin
 höra till ngt  –  kuulua johonkin
 av
 lida av ngt  –  kärsiä jostakin
-bestå av ngt  –  koostua jostakin
+bestå av ngt  –  koostua jostakin ★
 vara beroende av ngt  –  olla riippuvainen jostakin
 vara intresserad av ngt  –  olla kiinnostunut jostakin
 med
@@ -1062,62 +1870,92 @@ börja med ngt ↔ sluta med ngt  –  aloittaa jostakin ↔ lopettaa jokin
 hjälpa ngn med ngt  –  auttaa jotakuta jossakin
 jobba med ngt  –  työskennellä jonkin parissa
 gifta sig med ngn  –  mennä naimisiin jonkun kanssa
-hålla med ngn  –  olla samaa mieltä jonkun kanssa
+hålla med ngn  –  olla samaa mieltä jonkun kanssa ★
 bidra med ngt  –  osallistua jollakin
 om
 påminna om ngt  –  muistuttaa jostakin
 besluta om ngt  –  päättää jostakin
-handla om ngt  –  käsitellä jotakin, olla kyse jostakin
-be om ngt  –  pyytää jotakin
+handla om ngt  –  käsitellä jotakin, olla kyse jostakin ★
+be om ngt  –  pyytää jotakin ★
 tala om ngt  –  kertoa jostakin
 vara medveten om ngt  –  olla tietoinen jostakin
 efter, från, mot, över, åt
-längta efter ngt  –  kaivata jotakin
+längta efter ngt  –  kaivata jotakin ★
 leta / söka efter ngt  –  etsiä jotakin
-fråga efter ngn  –  kysyä jonkun perään
+fråga efter ngn  –  kysyä jonkun perään ★
 skilja sig från ngt  –  erota jostakin
 protestera / reagera mot ngt  –  protestoida / reagoida jotakin vastaan
 byta ut ngt mot ngt  –  vaihtaa jokin johonkin
 vara stolt över ngt  –  olla ylpeä jostakin
 vara förvånad över ngt  –  olla yllättynyt jostakin
 skratta åt ngt  –  nauraa jollekin
+satsa på  –  panostaa johonkin ★
+passa på  –  käyttää tilaisuus hyväksi ★
+tycka om  –  pitää jostakin ★
+drömma om  –  haaveilla jostakin ★
+bry sig om  –  välittää jostakin ★
+höra av sig  –  ottaa yhteyttä ★
+	Huom. Kanske du kan höra av dig senare? = Ehkä voisit ottaa yhteyttä myöhemmin?
+njuta av  –  nauttia jostakin ★
+strunta i  –  olla välittämättä jostakin ★
+engagera sig i  –  innostua jostakin ★
+vänja sig vid  –  tottua johonkin ★
+	Vaihtoehtoina vänja sig / längta efter / bjuda på (2022S).
+stå ut med  –  sietää ★
+hålla på med  –  puuhata jotakin ★
+komma överens  –  tulla toimeen; sopia ★
+	Huom. komma överens med någon.
 
 6.4 Adjektiivi + prepositio
-rädd för  –  peloissaan jostakin
-intresserad av  –  kiinnostunut jostakin
-beroende av  –  riippuvainen jostakin
-nöjd med  –  tyytyväinen johonkin
-trött på  –  kyllästynyt johonkin
+rädd för  –  peloissaan jostakin ★
+intresserad av  –  kiinnostunut jostakin ★
+beroende av  –  riippuvainen jostakin ★
+nöjd med  –  tyytyväinen johonkin ★
+trött på  –  kyllästynyt johonkin ★
 arg på  –  vihainen jollekin
-bra / dålig på  –  hyvä / huono jossakin
-säker på  –  varma jostakin
-stolt över  –  ylpeä jostakin
+bra / dålig på  –  hyvä / huono jossakin ★
+säker på  –  varma jostakin ★
+stolt över  –  ylpeä jostakin ★
 förvånad över  –  yllättynyt jostakin
 ledsen över  –  surullinen jostakin
-glad över / åt  –  iloinen jostakin
-medveten om  –  tietoinen jostakin
-ansvarig för  –  vastuussa jostakin
-van vid  –  tottunut johonkin
-full av  –  täynnä jotakin
+glad över / åt  –  iloinen jostakin ★
+medveten om  –  tietoinen jostakin ★
+ansvarig för  –  vastuussa jostakin ★
+van vid  –  tottunut johonkin ★
+full av  –  täynnä jotakin ★
 lik ngn  –  jonkun näköinen
+missnöjd med  –  tyytymätön johonkin ★
+besviken på  –  pettynyt johonkin ★
+kritisk mot  –  kriittinen jotakin kohtaan ★
+snäll mot  –  kiltti jollekin ★
+lämplig för  –  sopiva johonkin ★
 
 6.5 Substantiivi + prepositio
-ett intresse för  –  kiinnostus johonkin
-en orsak till / en anledning till / ett skäl till  –  syy johonkin
+ett intresse för  –  kiinnostus johonkin ★
+en orsak till / en anledning till / ett skäl till  –  syy johonkin ★
 ett svar på  –  vastaus johonkin
 en lösning på  –  ratkaisu johonkin
 ett exempel på  –  esimerkki jostakin
-en brist på  –  puute jostakin
-ett behov av  –  tarve johonkin
-en risk för  –  riski johonkin
+en brist på  –  puute jostakin ★
+ett behov av  –  tarve johonkin ★
+en risk för  –  riski johonkin ★
 en chans till  –  mahdollisuus johonkin
-tillgång till  –  pääsy johonkin
+tillgång till  –  pääsy johonkin ★
 rätt till  –  oikeus johonkin
 priset på ngt  –  jonkin hinta
-en synpunkt på ngt  –  näkökulma johonkin
+en synpunkt på ngt  –  näkökulma johonkin ★
 en jämförelse med ngt  –  vertailu johonkin
 ett förhållande till ngt  –  suhde johonkin
 hänsyn till ngt  –  huomioonottaminen
+möjlighet att / till  –  mahdollisuus tehdä / johonkin ★
+förmåga att  –  kyky tehdä jotakin ★
+nytta av  –  hyöty jostakin ★
+fördel med  –  etu jossakin ★
+krav på  –  vaatimus jostakin ★
+erfarenhet av  –  kokemus jostakin ★
+	Huom. * Vaihtoehtoina erfarenhet av / dokument på / tillgång till (2022S). Tässä ratkaisi nimenomaan prepositio, ei substantiivi.
+dokument på  –  todistus jostakin ★
+ansvar för  –  vastuu jostakin ★
 
 6.6 Prepositio + att + infinitiivi
 Kun rektioprepositiota seuraa verbi, väliin tulee aina att.
@@ -1132,28 +1970,35 @@ intresserad av att  –  kiinnostunut tekemään
 rädd för att  –  peloissaan tehdä
 börja med att  –  aloittaa tekemällä
 	Prepositio säilyy myös att-lauseen edellä: Jag är säker på att det stämmer. Jag tänker på att flytta.
+för att + infinitiivi  –  jotta, tehdäkseen ★
+	Huom. Företag söker kompetens för att kunna konkurrera. = Yritykset etsivät osaamista voidakseen kilpailla.
+genom att + infinitiivi  –  tekemällä ★
+	Huom. Genom att betala skatt bidrar de till ekonomin. = Veroja maksamalla he vaikuttavat talouteen.
+utan att + infinitiivi  –  tekemättä ★
+	Huom. Han gick utan att säga något. = Hän lähti sanomatta mitään.
+	Huom. Merkitys: för att = tarkoitus, genom att = keino, utan att = kielto. Suomen kääntäjä menee helposti vikaan, koska suomessa kaikki kolme ovat eri rakenteita.
 
 6.7 Valmiit prepositioilmaukset kirjoitelmaan
-på grund av  –  jonkin takia, johtuen
+på grund av  –  jonkin takia, johtuen ★
 	Konserten blev inställd på grund av sjukdom.
-tack vare  –  jonkin ansiosta
+tack vare  –  jonkin ansiosta ★
 i stället för  –  jonkin sijasta
 med hjälp av  –  jonkin avulla
 med tanke på  –  ottaen huomioon
-i samband med  –  jonkin yhteydessä
-när det gäller / i fråga om  –  kun on kyse jostakin
-enligt  –  jonkun mukaan
+i samband med  –  jonkin yhteydessä ★
+när det gäller / i fråga om  –  kun on kyse jostakin ★
+enligt  –  jonkun mukaan ★
 	enligt mig = minun mielestäni / enligt forskningen = tutkimuksen mukaan
 trots  –  jostakin huolimatta
 förutom / utom  –  paitsi, lisäksi, ohella
-till exempel (t.ex.)  –  esimerkiksi
-framför allt  –  ennen kaikkea
-i synnerhet  –  erityisesti
+till exempel (t.ex.)  –  esimerkiksi ★
+framför allt  –  ennen kaikkea ★
+i synnerhet  –  erityisesti ★
 å ena sidan – å andra sidan  –  toisaalta – toisaalta
-i alla fall  –  joka tapauksessa
-för det mesta  –  useimmiten
+i alla fall  –  joka tapauksessa ★
+för det mesta  –  useimmiten ★
 för närvarande  –  tällä hetkellä
-med andra ord  –  toisin sanoen
+med andra ord  –  toisin sanoen ★
 i god tid  –  hyvissä ajoin
 på kort varsel  –  lyhyellä varoitusajalla
 i ett sträck  –  putkeen, yhtäjaksoisesti
@@ -1242,7 +2087,7 @@ Kolmas: käytetään aistihavaintoverbejä.
 	Det känns härligt.  =  Tuntuu ihanalta.
 	Det låter jättebra.  =  Kuulostaa oikein hyvältä.
 Neljäs: ilmaistaan, että jossakin on jotakin – det finns / det fanns -rakenne.
-det finns / det fanns  –  jossakin on / oli jotakin
+det finns / det fanns  –  jossakin on / oli jotakin ★
 	Det finns mycket folk här.  =  Täällä on paljon ihmisiä.
 	Det finns inte tusentals sjöar i Sverige.  =  Ruotsissa ei ole tuhansia järviä.
 Demonstratiivipronominit
@@ -1273,7 +2118,8 @@ densamma, detsamma, desamma  –  sama (yksinään, ilman substantiivia)
 	Hotellet har varit detsamma hela mitt liv.  =  Hotelli on ollut sama koko elämäni.
 	Vitsarna har säkert varit desamma under hela hans karriär.  =  Vitsit ovat varmasti olleet samat koko hänen uransa ajan.
 Muoto tulee siitä sanasta, johon viitataan: bilen → densamma (en-sana), hotellet → detsamma (ett-sana), vitsarna → desamma (monikko).
-Tack detsamma!  –  Kiitos samoin!
+Tack detsamma!  –  Kiitos samoin! ★
+	Sävy: ystävällinen.
 med detsamma  –  heti, saman tien
 	Kom hit med detsamma!  =  Tule heti tänne!
 sådan, sådant, sådana  –  sellainen
@@ -1295,7 +2141,7 @@ någon annan, något annat, några andra  –  joku toinen / muu, jotkut toiset 
 	någon annan fin resa  =  joku toinen hieno matka
 	något annat fint hus  =  joku toinen hieno talo
 	några andra fina resor / hus  =  jotkut muut hienot matkat / talot
-ingen, inget, inga  –  ei kukaan, ei mikään (inte-sana sisällä!)
+ingen, inget, inga  –  ei kukaan, ei mikään (inte-sana sisällä!) ★
 	ingen fin resa  =  ei yhtään hienoa matkaa
 	inget fint hus  =  ei yhtään hienoa taloa
 	inga fina resor / hus  =  ei yhtään hienoja matkoja / taloja
@@ -1305,7 +2151,7 @@ något / någonting  –  jotakin
 	Har du hört något?  =  Oletko kuullut jotakin?
 något annat / någonting annat  –  jotakin muuta
 inget / ingenting  –  ei mitään (inte-sana sisällä!)
-allt / allting  –  kaikki, kaikkea
+allt / allting  –  kaikki, kaikkea ★
 Ingen, inget ja inga jaetaan kahteen osaan – inte + någon / något / några – kahdessa tapauksessa: kun päälauseessa on useampi verbi, ja kun pronomini on sivulauseessa.
 	Han har inte sagt något / någonting.  =  Hän ei ole sanonut mitään.
 	Han ska inte säga något / någonting.  =  Hän ei aio sanoa mitään.
@@ -1313,7 +2159,7 @@ Ingen, inget ja inga jaetaan kahteen osaan – inte + någon / något / några �
 Jakoa ei tehdä, kun pronomini on lauseen subjektina.
 	Ingenting händer om ingen gör någonting.  =  Mitään ei tapahdu, jos kukaan ei tee mitään.
 JOKA, JOKAINEN -ryhmässä ratkaisee jälleen se, onko substantiivi perässä. Kaikki nämä ovat vain yksikössä.
-varje  –  joka, jokainen (substantiivin kanssa, vain yksikkö)
+varje  –  joka, jokainen (substantiivin kanssa, vain yksikkö) ★
 	Vi träffas varje vacker dag.  =  Tapaamme joka kauniina päivänä.
 var och en / vart och ett  –  jokainen (yksinään, ilman substantiivia, vain yksikkö)
 	Var och en vet det.  =  Jokainen tietää sen.
@@ -1322,7 +2168,7 @@ var och en / vart och ett  –  jokainen (yksinään, ilman substantiivia, vain 
 Ihminen on en-sukuinen, siksi var och en. Vart och ett viittaa ett-sanaan, esimerkiksi barn.
 vars och ens  –  jokaisen (var och en -pronominin omistusmuoto)
 	Vars och ens åsikt är viktig.  =  Jokaisen mielipide on tärkeä.
-varenda / vartenda  –  jokainen, jokaikinen (substantiivin kanssa, vain yksikkö)
+varenda / vartenda  –  jokainen, jokaikinen (substantiivin kanssa, vain yksikkö) ★
 	Jag köper blommor varenda vacker dag.  =  Ostan kukkia jokaikisenä kauniina päivänä.
 	vartenda vackert år  =  jokaikinen kaunis vuosi
 Var / vart + järjestysluku + substantiivi ilmaisee toistuvan välin.
@@ -1339,14 +2185,14 @@ den ena – den andra / det ena – det andra  –  toinen – toinen (yksinää
 	De två flickorna är i skolan. Den ena sjunger och den andra skriver.  =  Ne kaksi tyttöä ovat koulussa. Toinen laulaa ja toinen kirjoittaa.
 	De två barnen är i skolan. Det ena sjunger och det andra skriver.  =  Ne kaksi lasta ovat koulussa. Toinen laulaa ja toinen kirjoittaa.
 några – andra  –  jotkut – toiset (yksinään, monikko)
-själv, självt, själva  –  itse (taipuu lauseen tekijän mukaan)
+själv, självt, själva  –  itse (taipuu lauseen tekijän mukaan) ★
 	Eleven gjorde det själv.  =  Oppilas teki sen itse.
 	Eleverna gjorde det själva.  =  Oppilaat tekivät sen itse.
 Huomaa, että substantiivin EDESSÄ själva on taipumaton. Själva presidenten besökte samma stad. = Itse presidentti vieraili samassa kaupungissa.
-hela  –  koko (substantiivin kanssa)
+hela  –  koko (substantiivin kanssa) ★
 	Jag tillbringade hela (den) fina dagen med henne.  =  Vietin koko sen hienon päivän hänen kanssaan.
 	Jag byggde hela (det) fina huset med honom.  =  Rakensin koko sen hienon talon hänen kanssaan.
-båda / bägge  –  molemmat (substantiivin kanssa)
+båda / bägge  –  molemmat (substantiivin kanssa) ★
 	båda fina föräldrarna  =  molemmat hienot vanhemmat
 Paljoussanat
 Paljoussanan jälkeen laskettava sana on monikon epämääräisessä muodossa ja ei-laskettava sana yksikön epämääräisessä muodossa. Sarjat kannattaa opetella vierekkäin, koska niiden jäsenet vastaavat toisiaan.
@@ -1518,7 +2364,7 @@ Nämä ovat kaavan sanat omina riveinään, jotta kaikki taivutusmuodot ja dekli
 röd, rött, röda  (adj.)  –  punainen
 snygg, snyggt, snygga  (adj.)  –  siisti, näyttävä
 mörk, mörkt, mörka  (adj.)  –  tumma, pimeä
-vacker, vackert, vackra  (adj.)  –  kaunis
+vacker, vackert, vackra  (adj.)  –  kaunis ★
 sportig, sportigt, sportiga  (adj.)  –  sporttinen
 sällsynt, sällsynt, sällsynta  (adj.)  –  harvinainen
 fridlyst, fridlyst, fridlysta  (part.)  –  rauhoitettu (luonnonsuojelu)
@@ -1544,14 +2390,14 @@ en kust, kusten, kuster, kusterna  (3)  –  rannikko
 ett ställe, stället, ställen, ställena  (4)  –  paikka
 ett sommarställe, sommarstället, sommarställen, sommarställena  (4)  –  kesäpaikka, kesämökki
 ett lövträd, lövträdet, lövträd, lövträden  (5)  –  lehtipuu
-en förmåga, förmågan, förmågor, förmågorna  (1)  –  kyky
+en förmåga, förmågan, förmågor, förmågorna  (1)  –  kyky ★
 en värdering, värderingen, värderingar, värderingarna  (2)  –  arvo, arvostus
 en konsekvens, konsekvensen, konsekvenser, konsekvenserna  (3)  –  seuraus
-ett samhälle, samhället, samhällen, samhällena  (4)  –  yhteiskunta
+ett samhälle, samhället, samhällen, samhällena  (4)  –  yhteiskunta ★
 ett medieinnehåll, medieinnehållet, medieinnehåll, medieinnehållen  (5)  –  mediasisältö
 ett snöoväder, snöovädret, snöoväder, snöovädren  (5)  –  lumimyrsky
 en klädsel, klädseln, klädslar, klädslarna  (2)  –  pukeutuminen, vaatetus
-ett boende, boendet, boenden, boendena  (4)  –  asuminen
+ett boende, boendet, boenden, boendena  (4)  –  asuminen ★
 Seitsemän näistä on jo muualla sanastossa: vacker (3.1), skadlig (3.2), utrotningshotad (3.3), förmåga (2.2), värdering (2.3), samhälle (2.3) ja svan (2.9). Ne ovat tässä mukana, jotta kaava on kokonainen.
 
 7.4 Sanajärjestys
@@ -1702,6 +2548,115 @@ Yhdelle sanotaan välkommen, usealle välkomna: Välkomna allihop! = Tervetuloa 
 
 8.6 Pronominien objektimuodot
 Ihmiseen viitataan pronominilla hon/han; objektimuoto on henne/honom.
+
+Monivalintojen vastausvaihtoehdot
+
+maanantai 7. syyskuuta 2026
+21.22
+
+Monivalintatehtävissä vastausvaihtoehdot toistuvat kokeesta toiseen. Nämä sanat eivät ole tekstissä vaan vaihtoehdoissa, joten ne pitää tunnistaa nopeasti eikä vain ymmärtää lukiessa.
+
+9.1 Tunnetta ja suhtautumista kuvaavat
+Kysymys on muotoa ”Hur kände sig X?”, ”Hur förhåller sig X till…?”, ”Hur reagerade X?” tai ”På vilket humör är X?”. Vastaus on yksi sana.
+En glad attityd  –  iloinen asenne ★
+Hög motivation  –  korkea motivaatio ★
+Hemlängtan  –  koti-ikävä ★
+Samvetet började gnaga  –  omatunto alkoi kolkuttaa ★
+	Huom. Näistä lähes kaikki ovat adjektiiveja, joiden vartalo on tuttu mutta joita ei tunnista ilman erillistä opettelua: lik+giltig, miss+tänksam, av+spänd, o+bekymrad, mål+medveten. Puretaan osiin, niin merkitys aukeaa.
+
+9.2 Ominaisuutta ja luonnetta kuvaavat
+Mångsidigt  –  monipuolista ★
+Självständigt  –  itsenäistä ★
+	Nämä kolme olivat saman kysymyksen vaihtoehdot 2026K: ”Hurdant var Peters tidigare jobb?”
+Självdisciplin / Självironi / Självkännedom  –  itsekuri / itseironia / itsetuntemus ★
+	Saman kysymyksen kolme vaihtoehtoa 2026K. Kaikki alkavat själv-, ja ero on loppuosassa – klassinen ansa.
+Massivt  –  massiivista ★
+Splittrat  –  hajanaista ★
+Färgstarkt  –  värikästä ★
+	Saman kysymyksen vaihtoehdot 2026K: ”Vilket intryck gjorde konsten?”
+Hektiska / Lugna  –  kiireisiä / rauhallisia ★
+Ensamma / Betydligt mindre ensamma / Mycket ensammare / Ungefär lika ensamma  –  yksinäisiä / huomattavasti vähemmän yksinäisiä / paljon yksinäisempiä / suunnilleen yhtä yksinäisiä ★
+	Vertailumuoto ratkaisee vastauksen. Nämä neljä olivat saman kysymyksen vaihtoehdot.
+Smala och nätta / Grova och låga / Tjocka och stadiga  –  kapeita ja siroja / karkeita ja matalia / paksuja ja tukevia ★
+Snyggt och proffsigt  –  siistiä ja ammattimaista ★
+Jämn kvalitet  –  tasainen laatu ★
+Oordnat  –  epäjärjestyksessä ★
+Lyckad anpassning  –  onnistunut sopeutuminen ★
+Överraskande konsekvenser  –  yllättävät seuraukset ★
+
+9.3 Sää ja olosuhteet
+”Hurdant var vädret?” ja ”Vad är det för väder?” ovat toistuvia kysymyksiä. Vastaus on aina ett-muotoinen adjektiivi tai det-alkuinen lause.
+Soligt  –  aurinkoista ★
+Regnigt  –  sateista ★
+	Huom. esiintynyt kahdessa kokeessa.
+Blåsigt  –  tuulista ★
+Molnigt  –  pilvistä ★
+Halvklart  –  puolipilvistä ★
+Det regnar / Det snöar / Det blåser  –  sataa vettä / sataa lunta / tuulee ★
+Det blåser mycket hårt  –  tuulee hyvin kovaa ★
+Den kalla vintern  –  kylmä talvi ★
+Våren / Sommaren / Hösten / Vintern  –  kevät / kesä / syksy / talvi ★
+Dammigt / Smutsigt  –  pölyistä / likaista ★
+en årstid, årstiden, årstider, årstiderna  (3)  –  vuodenaika ★
+
+9.4 Vaihtoehtojen verbit
+Vaihtoehdot ovat usein muotoa ”Att + infinitiivi” tai ”Han/Hon + verbi”. Nämä verbit toistuivat neljässä tai useammassa kokeessa.
+använda  –  käyttää ★
+börja / sluta  –  aloittaa / lopettaa ★
+behöva  –  tarvita ★
+hjälpa  –  auttaa ★
+träffa  –  tavata ★
+Att lära sig utantill  –  opetella ulkoa ★
+Att jämföras med andra  –  tulla verratuksi muihin ★
+Att få feedback  –  saada palautetta ★
+Låta sig undersökas  –  antaa tutkia itsensä ★
+Donera dem / Sälja dem / Läsa dem / Skriva upp dem  –  lahjoittaa / myydä / lukea / kirjoittaa ylös ne ★
+Motionera en stund  –  liikkua hetki ★
+Vakna lite senare  –  herätä vähän myöhemmin ★
+Vända om / Köra långsamt / Ta en omväg  –  kääntyä takaisin / ajaa hitaasti / ajaa kiertotietä ★
+	Nämä kolme olivat saman viranomaistiedotetehtävän vaihtoehdot 2026K.
+
+9.5 Vaihtoehtojen substantiivit
+Pengar / Ekonomin / Bostadspriserna  –  raha / talous / asuntohinnat ★
+En missnöjd kund  –  tyytymätön asiakas ★
+Ett nytt jobb / Ett lämpligt arbete / En permanent arbetsplats  –  uusi työpaikka / sopiva työ / vakituinen työpaikka ★
+Fritidsaktiviteterna / Nya fritidsaktiviteter  –  vapaa-ajan harrastukset / uudet harrastukset ★
+Relationernas antal / kvalitet / längd  –  suhteiden määrä / laatu / pituus ★
+	Saman kysymyksen kolme vaihtoehtoa – vain jälkiosa vaihtuu.
+Fysiska behov / Psykiska orsaker / Dolda hälsoproblem  –  fyysiset tarpeet / psyykkiset syyt / piilevät terveysongelmat ★
+Självförtroende, Självdisciplin, Självkännedom  –  itseluottamus, itsekuri, itsetuntemus ★
+Med kontanter / Med kreditkort / Med faktura  –  käteisellä / luottokortilla / laskulla ★
+	Maksutapakysymys toistuu: ”Hur betalar man…?”
+Någon dag / Några dagar / Cirka två veckor / Över en månad  –  jonakin päivänä / muutama päivä / noin kaksi viikkoa / yli kuukausi ★
+	Aikamääre-vaihtoehdot toistuvat kuuntelutehtävissä. Numerot ja aikayksiköt kannattaa kuunnella tarkkaan.
+Utrustningen / Inredningen / Servicen / Servicenivån / Tillgänglighet  –  varustus / sisustus / palvelu / palvelutaso / saavutettavuus ★
+
+9.6 Pienet sanat, jotka erottavat vaihtoehdot
+Kaksi vaihtoehtoa voi olla muuten identtisiä ja erota vain yhdestä sanasta. Nämä ovat ne sanat, joihin ero useimmiten kätkeytyy.
+inte  –  ei – katso aina, onko vaihtoehdossa kielto ★
+egen, eget, egna  –  oma ★
+	Vertaa: Den självvalda ensamheten (itse valittu yksinäisyys) vs. Ensamma (yksinäisiä) – ero on yhdessä etuliitteessä.
+tidigare / senare  –  aiempi / myöhempi ★
+
+9.7 Dialogitehtävien repliikkivaihtoehdot
+Tehtävätyyppi ”Välj det vänligaste svaret” / ”Vilken replik passar bäst?” esiintyi 2021S, 2022S, 2023S ja 2026K. Vaihtoehdot ovat kokonaisia repliikkejä, joista yksi on ystävällinen, yksi neutraali ja yksi töykeä. Ero on sävyssä.
+Nämen tack! Du skulle inte ha behövt.  –  Voi kiitos! Ei olisi tarvinnut. ★
+	Sävy: ystävällinen.
+Det ska väl gå.  –  Kyllä se kai onnistuu. ★
+	Sävy: neutraali.
+Kanske du kunde ha hjälpt till?  –  Ehkä olisit voinut auttaa? ★
+	Sävy: moittiva.
+Jag ser det inte som min uppgift.  –  En pidä sitä tehtävänäni. ★
+	Sävy: torjuva.
+Jaså! Den där behöver jag inte.  –  Vai niin! Tuota en tarvitse. ★
+	Sävy: töykeä.
+Du får nog glömma det.  –  Taidat joutua unohtamaan sen. ★
+	Sävy: torjuva.
+Ja, men jag antar att du betalar?  –  Joo, mutta oletan että sinä maksat? ★
+	Sävy: epäkohtelias.
+Tror du faktiskt att jag kommer så där bara?  –  Luuletko tosiaan, että tulen noin vain? ★
+	Sävy: töykeä.
+	Huom. Sävyn tunnistaa pienistä sanoista: nog, väl, faktiskt, bara, ju ja kysymysmuoto tekevät repliikistä epäystävällisen. Vad + adjektiivi -huudahdus (Vad roligt! Vad snällt!) on melkein aina se ystävällinen vaihtoehto.
 
 Muistilista ja tehtävät
 
