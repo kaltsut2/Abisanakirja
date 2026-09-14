@@ -54,7 +54,7 @@ klaga (på/över), klagar, klagade, klagat  (I)  –  valittaa
 vägra, vägrar, vägrade, vägrat  (I)  –  kieltäytyä
 	Han vägrar själv att söka hjälp. = Hän kieltäytyy itse hakemasta apua.
 göra anteckningar  –  tehdä muistiinpanoja
-avge, avger, avgav, avgett  (IV)  –  antaa (lupaus, lausunto)
+avge, avger, avgav, avgett (avgivit)  (IV)  –  antaa (lupaus, lausunto)
 	avge ett löfte = antaa lupaus
 	Huomaa: avge taipuu kuten ge. Arkisempi vaihtoehto on ge ett löfte.
 påstå, påstår, påstod, påstått  (IV)  –  väittää
@@ -610,6 +610,9 @@ traditionell, traditionellt, traditionella  (adj.)  –  perinteinen
 global, globalt, globala  (adj.)  –  globaali, maailmanlaajuinen
 offentlig, offentligt, offentliga  (adj.)  –  julkinen
 	offentliga tjänster = julkiset palvelut
+lämplig, lämpligt, lämpliga  (adj.)  –  sopiva, tarkoituksenmukainen
+	Superlatiivi: lämpligast, den lämpligaste = sopivin.
+	Vrt. passande (3.4), joka tarkoittaa samaa mutta ei taivu eikä siitä saa superlatiivia.
 trasig, trasigt, trasiga  (adj.)  –  rikkinäinen
 hotfull, hotfullt, hotfulla  (adj.)  –  uhkaava
 ärlig, ärligt, ärliga  (adj.)  –  rehellinen
@@ -658,6 +661,7 @@ grundläggande  (taipumaton)  –  perustavanlaatuinen, perus-, olennainen
 förtjusande  (taipumaton)  –  lumoava, hurmaava, upea
 	Sääntö: -ande-partisiipit eivät taivu lainkaan: ett grundläggande problem, en förtjusande utsikt.
 passande  (taipumaton)  –  sopiva
+	Vrt. lämplig (3.2): sama merkitys, mutta lämplig taipuu ja siitä saa superlatiivin lämpligaste = sopivin.
 
 3.5 -aktig-johtimiset adjektiivit
 tvivelaktig, tvivelaktigt, tvivelaktiga  (adj.)  –  epäilyttävä

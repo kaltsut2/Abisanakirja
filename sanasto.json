@@ -862,7 +862,7 @@
        "taivutus": [
         "avger",
         "avgav",
-        "avgett"
+        "avgett (avgivit)"
        ],
        "luokka": "IV",
        "suku": null,
@@ -11224,6 +11224,40 @@
       },
       {
        "tyyppi": "sana",
+       "id": "lämplig",
+       "sanaluokka": "adjektiivi",
+       "ruotsi": "lämplig",
+       "suomi": [
+        "sopiva",
+        "tarkoituksenmukainen"
+       ],
+       "taivutus": [
+        "lämpligt",
+        "lämpliga"
+       ],
+       "luokka": "adj.",
+       "suku": null,
+       "kategoria": "3 Adjektiivit ja adverbit",
+       "alakategoria": "3.2 Perusadjektiivit (en-muoto, ett-muoto, monikko/määräinen)",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Superlatiivi: lämpligast, den lämpligaste",
+         "fi": "sopivin."
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "huomio",
+       "teksti": "Vrt. passande (3.4), joka tarkoittaa samaa mutta ei taivu eikä siitä saa superlatiivia.",
+       "liittyy": "lämplig"
+      },
+      {
+       "tyyppi": "sana",
        "id": "trasig",
        "sanaluokka": "adjektiivi",
        "ruotsi": "trasig",
@@ -12076,6 +12110,11 @@
        "esimerkit": [],
        "muistiinpano": null,
        "paallekkainen": false
+      },
+      {
+       "tyyppi": "huomio",
+       "teksti": "Vrt. lämplig (3.2): sama merkitys, mutta lämplig taipuu ja siitä saa superlatiivin lämpligaste = sopivin.",
+       "liittyy": "passande"
       }
      ]
     },
