@@ -853,6 +853,40 @@
       },
       {
        "tyyppi": "sana",
+       "id": "avge",
+       "sanaluokka": "verbi",
+       "ruotsi": "avge",
+       "suomi": [
+        "antaa (lupaus, lausunto)"
+       ],
+       "taivutus": [
+        "avger",
+        "avgav",
+        "avgett"
+       ],
+       "luokka": "IV",
+       "suku": null,
+       "kategoria": "1 Verbit",
+       "alakategoria": "1.2 Puhuminen, kertominen ja vaikuttaminen",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "avge ett löfte",
+         "fi": "antaa lupaus"
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "huomio",
+       "teksti": "Huomaa: avge taipuu kuten ge. Arkisempi vaihtoehto on ge ett löfte.",
+       "liittyy": "avge"
+      },
+      {
+       "tyyppi": "sana",
        "id": "påstå",
        "sanaluokka": "verbi",
        "ruotsi": "påstå",
@@ -1383,9 +1417,89 @@
        "paallekkainen": false
       },
       {
+       "tyyppi": "sana",
+       "id": "ta-hand-om",
+       "sanaluokka": "verbi",
+       "ruotsi": "ta hand om",
+       "suomi": [
+        "huolehtia jostakin",
+        "pitää huolta"
+       ],
+       "taivutus": [
+        "tar",
+        "tog",
+        "tagit"
+       ],
+       "luokka": "IV",
+       "suku": null,
+       "kategoria": "1 Verbit",
+       "alakategoria": "1.4 Ihmissuhteet ja vuorovaikutus",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "vara-rädd-om",
+       "sanaluokka": "verbi",
+       "ruotsi": "vara rädd om",
+       "suomi": [
+        "pitää huolta jostakin",
+        "varjella"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "1 Verbit",
+       "alakategoria": "1.4 Ihmissuhteet ja vuorovaikutus",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "huomio",
+       "teksti": "Huomaa ero: vara rädd om ngt = varjella jotakin, mutta vara rädd för ngt = pelätä jotakin (6.4).",
+       "liittyy": "vara-rädd-om"
+      },
+      {
+       "tyyppi": "sana",
+       "id": "stötta",
+       "sanaluokka": "verbi",
+       "ruotsi": "stötta",
+       "suomi": [
+        "tukea"
+       ],
+       "taivutus": [
+        "stöttar",
+        "stöttade",
+        "stöttat"
+       ],
+       "luokka": "I",
+       "suku": null,
+       "kategoria": "1 Verbit",
+       "alakategoria": "1.4 Ihmissuhteet ja vuorovaikutus",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "huomio",
+       "teksti": "Huomaa: sama sana on myös substantiivi en stötta = tuki.",
+       "liittyy": "stötta"
+      },
+      {
        "tyyppi": "huomio",
        "teksti": "Huomaa: skydda mot något = suojella joltakin. Substantiivi: ett skydd = suoja.",
-       "liittyy": "skydda"
+       "liittyy": "stötta"
       },
       {
        "tyyppi": "sana",
@@ -2346,6 +2460,36 @@
        "esimerkit": [],
        "muistiinpano": null,
        "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "bestämma",
+       "sanaluokka": "verbi",
+       "ruotsi": "bestämma",
+       "suomi": [
+        "päättää",
+        "määrätä"
+       ],
+       "taivutus": [
+        "bestämmer",
+        "bestämde",
+        "bestämt"
+       ],
+       "luokka": "IIa",
+       "suku": null,
+       "kategoria": "1 Verbit",
+       "alakategoria": "1.6 Muutos, vaikuttaminen ja seuraukset",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "huomio",
+       "teksti": "Huomaa ero: bestämma ngt = päättää jokin asia, bestämma sig för ngt = tehdä oma päätös.",
+       "liittyy": "bestämma"
       }
      ]
     },
@@ -4435,6 +4579,327 @@
        "vastakohta": null,
        "rektio": null,
        "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "rinna-ut",
+       "sanaluokka": "verbi",
+       "ruotsi": "rinna ut",
+       "suomi": [
+        "valua ulos"
+       ],
+       "taivutus": [
+        "rinner ut",
+        "rann ut",
+        "runnit ut"
+       ],
+       "luokka": "IV",
+       "suku": null,
+       "kategoria": "1 Verbit",
+       "alakategoria": "1.12 Liike, irtoaminen ja fyysinen toiminta",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      }
+     ]
+    },
+    {
+     "otsikko": "1.13 Talous, työ ja yhteiskunta",
+     "sisalto": [
+      {
+       "tyyppi": "sana",
+       "id": "minska",
+       "sanaluokka": "verbi",
+       "ruotsi": "minska",
+       "suomi": [
+        "vähentyä",
+        "vähentää"
+       ],
+       "taivutus": [
+        "minskar",
+        "minskade",
+        "minskat"
+       ],
+       "luokka": "I",
+       "suku": null,
+       "kategoria": "1 Verbit",
+       "alakategoria": "1.13 Talous, työ ja yhteiskunta",
+       "valiotsikko": null,
+       "vastakohta": "öka",
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Behovet av vård ökar stadigt.",
+         "fi": "Hoidon tarve kasvaa tasaisesti."
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "öka",
+       "sanaluokka": "verbi",
+       "ruotsi": "öka",
+       "suomi": [
+        "kasvaa",
+        "lisätä"
+       ],
+       "taivutus": [
+        "ökar",
+        "ökade",
+        "ökat"
+       ],
+       "luokka": "I",
+       "suku": null,
+       "kategoria": "1 Verbit",
+       "alakategoria": "1.13 Talous, työ ja yhteiskunta",
+       "valiotsikko": null,
+       "vastakohta": "minska",
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "kräva",
+       "sanaluokka": "verbi",
+       "ruotsi": "kräva",
+       "suomi": [
+        "vaatia",
+        "edellyttää"
+       ],
+       "taivutus": [
+        "kräver",
+        "krävde",
+        "krävt"
+       ],
+       "luokka": "IIa",
+       "suku": null,
+       "kategoria": "1 Verbit",
+       "alakategoria": "1.13 Talous, työ ja yhteiskunta",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "tillhandahålla",
+       "sanaluokka": "verbi",
+       "ruotsi": "tillhandahålla",
+       "suomi": [
+        "tarjota",
+        "pitää tarjolla"
+       ],
+       "taivutus": [
+        "tillhandahåller",
+        "tillhandahöll",
+        "tillhandahållit"
+       ],
+       "luokka": "IV",
+       "suku": null,
+       "kategoria": "1 Verbit",
+       "alakategoria": "1.13 Talous, työ ja yhteiskunta",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "huomio",
+       "teksti": "Huomaa: taipuu kuten hålla.",
+       "liittyy": "tillhandahålla"
+      },
+      {
+       "tyyppi": "sana",
+       "id": "täcka",
+       "sanaluokka": "verbi",
+       "ruotsi": "täcka",
+       "suomi": [
+        "kattaa",
+        "peittää"
+       ],
+       "taivutus": [
+        "täcker",
+        "täckte",
+        "täckt"
+       ],
+       "luokka": "IIb",
+       "suku": null,
+       "kategoria": "1 Verbit",
+       "alakategoria": "1.13 Talous, työ ja yhteiskunta",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "ersätta",
+       "sanaluokka": "verbi",
+       "ruotsi": "ersätta",
+       "suomi": [
+        "korvata"
+       ],
+       "taivutus": [
+        "ersätter",
+        "ersatte",
+        "ersatt"
+       ],
+       "luokka": "IV",
+       "suku": null,
+       "kategoria": "1 Verbit",
+       "alakategoria": "1.13 Talous, työ ja yhteiskunta",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "få ersättning",
+         "fi": "saada korvausta"
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "utnyttja",
+       "sanaluokka": "verbi",
+       "ruotsi": "utnyttja",
+       "suomi": [
+        "hyödyntää",
+        "käyttää hyväksi"
+       ],
+       "taivutus": [
+        "utnyttjar",
+        "utnyttjade",
+        "utnyttjat"
+       ],
+       "luokka": "I",
+       "suku": null,
+       "kategoria": "1 Verbit",
+       "alakategoria": "1.13 Talous, työ ja yhteiskunta",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "expandera",
+       "sanaluokka": "verbi",
+       "ruotsi": "expandera",
+       "suomi": [
+        "laajentaa",
+        "laajentua"
+       ],
+       "taivutus": [
+        "expanderar",
+        "expanderade",
+        "expanderat"
+       ],
+       "luokka": "I",
+       "suku": null,
+       "kategoria": "1 Verbit",
+       "alakategoria": "1.13 Talous, työ ja yhteiskunta",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "effektivisera",
+       "sanaluokka": "verbi",
+       "ruotsi": "effektivisera",
+       "suomi": [
+        "tehostaa"
+       ],
+       "taivutus": [
+        "effektiviserar",
+        "effektiviserade",
+        "effektiviserat"
+       ],
+       "luokka": "I",
+       "suku": null,
+       "kategoria": "1 Verbit",
+       "alakategoria": "1.13 Talous, työ ja yhteiskunta",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "konkurrera",
+       "sanaluokka": "verbi",
+       "ruotsi": "konkurrera",
+       "suomi": [
+        "kilpailla (yritysten välillä)"
+       ],
+       "taivutus": [
+        "konkurrerar",
+        "konkurrerade",
+        "konkurrerat"
+       ],
+       "luokka": "I",
+       "suku": null,
+       "kategoria": "1 Verbit",
+       "alakategoria": "1.13 Talous, työ ja yhteiskunta",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": "med/om",
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "stå-inför",
+       "sanaluokka": "verbi",
+       "ruotsi": "stå inför",
+       "suomi": [
+        "olla jonkin edessä",
+        "kohdata"
+       ],
+       "taivutus": [
+        "står inför",
+        "stod inför",
+        "stått inför"
+       ],
+       "luokka": "IV",
+       "suku": null,
+       "kategoria": "1 Verbit",
+       "alakategoria": "1.13 Talous, työ ja yhteiskunta",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "Många länder står inför flera utmaningar.",
+         "fi": "Monet maat kohtaavat useita haasteita."
+        }
+       ],
        "muistiinpano": null,
        "paallekkainen": false
       }
@@ -6913,7 +7378,8 @@
        "sanaluokka": "substantiivi",
        "ruotsi": "pris",
        "suomi": [
-        "hinta"
+        "hinta",
+        "palkinto"
        ],
        "taivutus": [
         "priset",
@@ -6937,6 +7403,185 @@
          "fi": "korkea/matala hinta; priset på mjölk = mjölkpriset"
         }
        ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "huomio",
+       "teksti": "Huomaa: sama sana tarkoittaa sekä hintaa että palkintoa – konteksti ratkaisee. Vrt. 2.13.",
+       "liittyy": "pris"
+      },
+      {
+       "tyyppi": "sana",
+       "id": "arbetskraft",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "arbetskraft",
+       "suomi": [
+        "työvoima"
+       ],
+       "taivutus": [
+        "arbetskraften"
+       ],
+       "luokka": null,
+       "suku": "en",
+       "kategoria": "2 Substantiivit",
+       "alakategoria": "2.6 Työ, opiskelu ja talous",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "bransch",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "bransch",
+       "suomi": [
+        "ala",
+        "toimiala"
+       ],
+       "taivutus": [
+        "branschen",
+        "branscher",
+        "branscherna"
+       ],
+       "luokka": "3",
+       "suku": "en",
+       "kategoria": "2 Substantiivit",
+       "alakategoria": "2.6 Työ, opiskelu ja talous",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "marknad",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "marknad",
+       "suomi": [
+        "markkinat"
+       ],
+       "taivutus": [
+        "marknaden",
+        "marknader",
+        "marknaderna"
+       ],
+       "luokka": "3",
+       "suku": "en",
+       "kategoria": "2 Substantiivit",
+       "alakategoria": "2.6 Työ, opiskelu ja talous",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "den globala marknaden",
+         "fi": "globaalit markkinat"
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "utbud",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "utbud",
+       "suomi": [
+        "tarjonta",
+        "valikoima"
+       ],
+       "taivutus": [
+        "utbudet",
+        "utbud",
+        "utbuden"
+       ],
+       "luokka": "5",
+       "suku": "ett",
+       "kategoria": "2 Substantiivit",
+       "alakategoria": "2.6 Työ, opiskelu ja talous",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "efterfrågan",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "efterfrågan",
+       "suomi": [
+        "kysyntä"
+       ],
+       "taivutus": [
+        "efterfrågan"
+       ],
+       "luokka": null,
+       "suku": "en",
+       "kategoria": "2 Substantiivit",
+       "alakategoria": "2.6 Työ, opiskelu ja talous",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "huomio",
+       "teksti": "Huomaa: utbud ja efterfrågan ovat talouden vastinpari – tarjonta ja kysyntä.",
+       "liittyy": "efterfrågan"
+      },
+      {
+       "tyyppi": "sana",
+       "id": "ledning",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "ledning",
+       "suomi": [
+        "johto"
+       ],
+       "taivutus": [
+        "ledningen",
+        "ledningar",
+        "ledningarna"
+       ],
+       "luokka": "2",
+       "suku": "en",
+       "kategoria": "2 Substantiivit",
+       "alakategoria": "2.6 Työ, opiskelu ja talous",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "inflytande",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "inflytande",
+       "suomi": [
+        "vaikutusvalta"
+       ],
+       "taivutus": [
+        "inflytandet"
+       ],
+       "luokka": "4",
+       "suku": "ett",
+       "kategoria": "2 Substantiivit",
+       "alakategoria": "2.6 Työ, opiskelu ja talous",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
        "muistiinpano": null,
        "paallekkainen": false
       }
@@ -7296,6 +7941,78 @@
        ],
        "luokka": "2",
        "suku": "en",
+       "kategoria": "2 Substantiivit",
+       "alakategoria": "2.7 Matkustaminen, liikenne ja paikat",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "väglag",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "väglag",
+       "suomi": [
+        "ajokeli",
+        "keli"
+       ],
+       "taivutus": [
+        "väglaget"
+       ],
+       "luokka": "5",
+       "suku": "ett",
+       "kategoria": "2 Substantiivit",
+       "alakategoria": "2.7 Matkustaminen, liikenne ja paikat",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "besiktning",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "besiktning",
+       "suomi": [
+        "katsastus",
+        "tarkastus"
+       ],
+       "taivutus": [
+        "besiktningen",
+        "besiktningar",
+        "besiktningarna"
+       ],
+       "luokka": "2",
+       "suku": "en",
+       "kategoria": "2 Substantiivit",
+       "alakategoria": "2.7 Matkustaminen, liikenne ja paikat",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "vägarbete",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "vägarbete",
+       "suomi": [
+        "tietyö"
+       ],
+       "taivutus": [
+        "vägarbetet",
+        "vägarbeten",
+        "vägarbetena"
+       ],
+       "luokka": "4",
+       "suku": "ett",
        "kategoria": "2 Substantiivit",
        "alakategoria": "2.7 Matkustaminen, liikenne ja paikat",
        "valiotsikko": null,
@@ -8142,6 +8859,86 @@
        "esimerkit": [],
        "muistiinpano": null,
        "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "löfte",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "löfte",
+       "suomi": [
+        "lupaus"
+       ],
+       "taivutus": [
+        "löftet",
+        "löften",
+        "löftena"
+       ],
+       "luokka": "4",
+       "suku": "ett",
+       "kategoria": "2 Substantiivit",
+       "alakategoria": "2.10 Määrät, osat ja abstraktit käsitteet",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "korjaus",
+       "teksti": "Muistiinpanoissa \"lupais\" – lupaus. Ks. myös avge ett löfte (1.2).",
+       "liittyy": "löfte"
+      },
+      {
+       "tyyppi": "sana",
+       "id": "mörker",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "mörker",
+       "suomi": [
+        "pimeys"
+       ],
+       "taivutus": [
+        "mörkret"
+       ],
+       "luokka": "5",
+       "suku": "ett",
+       "kategoria": "2 Substantiivit",
+       "alakategoria": "2.10 Määrät, osat ja abstraktit käsitteet",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "i mörker",
+         "fi": "pimeydessä"
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "arrangemang",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "arrangemang",
+       "suomi": [
+        "järjestely"
+       ],
+       "taivutus": [
+        "arrangemanget",
+        "arrangemang",
+        "arrangemangen"
+       ],
+       "luokka": "5",
+       "suku": "ett",
+       "kategoria": "2 Substantiivit",
+       "alakategoria": "2.10 Määrät, osat ja abstraktit käsitteet",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
       }
      ]
     },
@@ -8197,6 +8994,425 @@
        "esimerkit": [],
        "muistiinpano": null,
        "paallekkainen": false
+      }
+     ]
+    },
+    {
+     "otsikko": "2.12 Yhteiskunnallinen muutos ja hyvinvointi",
+     "sisalto": [
+      {
+       "tyyppi": "teksti",
+       "teksti": "Tämä ryhmä on kirjoitelman ydinsanastoa: väestö muuttuu, tarve kasvaa, palvelut vastaavat. Sanat esiintyvät teksteissä yhdessä, joten ne kannattaa opetella yhdessä."
+      },
+      {
+       "tyyppi": "sana",
+       "id": "befolkning",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "befolkning",
+       "suomi": [
+        "väestö"
+       ],
+       "taivutus": [
+        "befolkningen",
+        "befolkningar",
+        "befolkningarna"
+       ],
+       "luokka": "2",
+       "suku": "en",
+       "kategoria": "2 Substantiivit",
+       "alakategoria": "2.12 Yhteiskunnallinen muutos ja hyvinvointi",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "andel",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "andel",
+       "suomi": [
+        "osuus",
+        "osa"
+       ],
+       "taivutus": [
+        "andelen",
+        "andelar",
+        "andelarna"
+       ],
+       "luokka": "2",
+       "suku": "en",
+       "kategoria": "2 Substantiivit",
+       "alakategoria": "2.12 Yhteiskunnallinen muutos ja hyvinvointi",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "korjaus",
+       "teksti": "Muistiinpanoissa \"andelen\" – se on määräinen muoto. Perusmuoto on en andel.",
+       "liittyy": "andel"
+      },
+      {
+       "tyyppi": "sana",
+       "id": "förändring",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "förändring",
+       "suomi": [
+        "muutos"
+       ],
+       "taivutus": [
+        "förändringen",
+        "förändringar",
+        "förändringarna"
+       ],
+       "luokka": "2",
+       "suku": "en",
+       "kategoria": "2 Substantiivit",
+       "alakategoria": "2.12 Yhteiskunnallinen muutos ja hyvinvointi",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "orsak",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "orsak",
+       "suomi": [
+        "syy"
+       ],
+       "taivutus": [
+        "orsaken",
+        "orsaker",
+        "orsakerna"
+       ],
+       "luokka": "3",
+       "suku": "en",
+       "kategoria": "2 Substantiivit",
+       "alakategoria": "2.12 Yhteiskunnallinen muutos ja hyvinvointi",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "en av de främsta orsakerna",
+         "fi": "yksi tärkeimmistä syistä"
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "korjaus",
+       "teksti": "Muistiinpanoissa \"yksi pahimmista syistä\" – främst tarkoittaa tärkeintä tai ensisijaista, ei pahinta. Rektio: en orsak till (6.5).",
+       "liittyy": "orsak"
+      },
+      {
+       "tyyppi": "sana",
+       "id": "behov",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "behov",
+       "suomi": [
+        "tarve"
+       ],
+       "taivutus": [
+        "behovet",
+        "behov",
+        "behoven"
+       ],
+       "luokka": "5",
+       "suku": "ett",
+       "kategoria": "2 Substantiivit",
+       "alakategoria": "2.12 Yhteiskunnallinen muutos ja hyvinvointi",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "huomio",
+       "teksti": "Huomaa rektio: ett behov av ngt = tarve johonkin (6.5).",
+       "liittyy": "behov"
+      },
+      {
+       "tyyppi": "sana",
+       "id": "inverkan",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "inverkan",
+       "suomi": [
+        "vaikutus johonkin"
+       ],
+       "taivutus": [
+        "inverkan"
+       ],
+       "luokka": null,
+       "suku": "en",
+       "kategoria": "2 Substantiivit",
+       "alakategoria": "2.12 Yhteiskunnallinen muutos ja hyvinvointi",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": "på",
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "roll",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "roll",
+       "suomi": [
+        "rooli"
+       ],
+       "taivutus": [
+        "rollen",
+        "roller",
+        "rollerna"
+       ],
+       "luokka": "3",
+       "suku": "en",
+       "kategoria": "2 Substantiivit",
+       "alakategoria": "2.12 Yhteiskunnallinen muutos ja hyvinvointi",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "spela en viktig roll",
+         "fi": "olla tärkeässä roolissa"
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "omsorg",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "omsorg",
+       "suomi": [
+        "huolenpito"
+       ],
+       "taivutus": [
+        "omsorgen",
+        "omsorger",
+        "omsorgerna"
+       ],
+       "luokka": "3",
+       "suku": "en",
+       "kategoria": "2 Substantiivit",
+       "alakategoria": "2.12 Yhteiskunnallinen muutos ja hyvinvointi",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "vård",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "vård",
+       "suomi": [
+        "hoito"
+       ],
+       "taivutus": [
+        "vården"
+       ],
+       "luokka": null,
+       "suku": "en",
+       "kategoria": "2 Substantiivit",
+       "alakategoria": "2.12 Yhteiskunnallinen muutos ja hyvinvointi",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "huomio",
+       "teksti": "Huomaa pari: omsorg on huolenpitoa, vård hoitoa – kirjoitelmassa ne esiintyvät usein vierekkäin.",
+       "liittyy": "vård"
+      }
+     ]
+    },
+    {
+     "otsikko": "2.13 Helposti sekoittuvat sanaparit",
+     "sisalto": [
+      {
+       "tyyppi": "teksti",
+       "teksti": "Näissä pareissa suku tai vivahde vaihtaa merkityksen kokonaan. Ne opitaan vain vierekkäin."
+      },
+      {
+       "tyyppi": "sana",
+       "id": "val",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "val",
+       "suomi": [
+        "valas"
+       ],
+       "taivutus": [
+        "valen",
+        "valar",
+        "valarna"
+       ],
+       "luokka": "2",
+       "suku": "en",
+       "kategoria": "2 Substantiivit",
+       "alakategoria": "2.13 Helposti sekoittuvat sanaparit",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "val-2",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "val",
+       "suomi": [
+        "valinta",
+        "vaalit"
+       ],
+       "taivutus": [
+        "valet",
+        "val",
+        "valen"
+       ],
+       "luokka": "5",
+       "suku": "ett",
+       "kategoria": "2 Substantiivit",
+       "alakategoria": "2.13 Helposti sekoittuvat sanaparit",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": true
+      },
+      {
+       "tyyppi": "huomio",
+       "teksti": "Suku ratkaisee: en val ui meressä, ett val tehdään uurnalla.",
+       "liittyy": "val-2"
+      },
+      {
+       "tyyppi": "sana",
+       "id": "lag",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "lag",
+       "suomi": [
+        "laki"
+       ],
+       "taivutus": [
+        "lagen",
+        "lagar",
+        "lagarna"
+       ],
+       "luokka": "2",
+       "suku": "en",
+       "kategoria": "2 Substantiivit",
+       "alakategoria": "2.13 Helposti sekoittuvat sanaparit",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "lag-2",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "lag",
+       "suomi": [
+        "joukkue"
+       ],
+       "taivutus": [
+        "laget",
+        "lag",
+        "lagen"
+       ],
+       "luokka": "5",
+       "suku": "ett",
+       "kategoria": "2 Substantiivit",
+       "alakategoria": "2.13 Helposti sekoittuvat sanaparit",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": true
+      },
+      {
+       "tyyppi": "huomio",
+       "teksti": "Sama kaava kuin val-parissa: en-sana on konkreettinen, ett-sana abstraktimpi tai kollektiivi.",
+       "liittyy": "lag-2"
+      },
+      {
+       "tyyppi": "sana",
+       "id": "konkurrens",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "konkurrens",
+       "suomi": [
+        "kilpailu (yritysten välillä)"
+       ],
+       "taivutus": [
+        "konkurrensen"
+       ],
+       "luokka": null,
+       "suku": "en",
+       "kategoria": "2 Substantiivit",
+       "alakategoria": "2.13 Helposti sekoittuvat sanaparit",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "tävling",
+       "sanaluokka": "substantiivi",
+       "ruotsi": "tävling",
+       "suomi": [
+        "kilpailu (urheilu)"
+       ],
+       "taivutus": [
+        "tävlingen",
+        "tävlingar",
+        "tävlingarna"
+       ],
+       "luokka": "2",
+       "suku": "en",
+       "kategoria": "2 Substantiivit",
+       "alakategoria": "2.13 Helposti sekoittuvat sanaparit",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "huomio",
+       "teksti": "Huomaa: konkurrens on markkinoiden kilpailua, tävling yksittäinen kisa. Verbit samoin: konkurrera ja tävla.",
+       "liittyy": "tävling"
       }
      ]
     }
@@ -9905,6 +11121,109 @@
       },
       {
        "tyyppi": "sana",
+       "id": "slarvig",
+       "sanaluokka": "adjektiivi",
+       "ruotsi": "slarvig",
+       "suomi": [
+        "huolimaton"
+       ],
+       "taivutus": [
+        "slarvigt",
+        "slarviga"
+       ],
+       "luokka": "adj.",
+       "suku": null,
+       "kategoria": "3 Adjektiivit ja adverbit",
+       "alakategoria": "3.2 Perusadjektiivit (en-muoto, ett-muoto, monikko/määräinen)",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "traditionell",
+       "sanaluokka": "adjektiivi",
+       "ruotsi": "traditionell",
+       "suomi": [
+        "perinteinen"
+       ],
+       "taivutus": [
+        "traditionellt",
+        "traditionella"
+       ],
+       "luokka": "adj.",
+       "suku": null,
+       "kategoria": "3 Adjektiivit ja adverbit",
+       "alakategoria": "3.2 Perusadjektiivit (en-muoto, ett-muoto, monikko/määräinen)",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "inom traditionella branscher",
+         "fi": "perinteisillä aloilla"
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "global",
+       "sanaluokka": "adjektiivi",
+       "ruotsi": "global",
+       "suomi": [
+        "globaali",
+        "maailmanlaajuinen"
+       ],
+       "taivutus": [
+        "globalt",
+        "globala"
+       ],
+       "luokka": "adj.",
+       "suku": null,
+       "kategoria": "3 Adjektiivit ja adverbit",
+       "alakategoria": "3.2 Perusadjektiivit (en-muoto, ett-muoto, monikko/määräinen)",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "offentlig",
+       "sanaluokka": "adjektiivi",
+       "ruotsi": "offentlig",
+       "suomi": [
+        "julkinen"
+       ],
+       "taivutus": [
+        "offentligt",
+        "offentliga"
+       ],
+       "luokka": "adj.",
+       "suku": null,
+       "kategoria": "3 Adjektiivit ja adverbit",
+       "alakategoria": "3.2 Perusadjektiivit (en-muoto, ett-muoto, monikko/määräinen)",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "offentliga tjänster",
+         "fi": "julkiset palvelut"
+        }
+       ],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
        "id": "trasig",
        "sanaluokka": "adjektiivi",
        "ruotsi": "trasig",
@@ -10737,6 +12056,26 @@
        "tyyppi": "huomio",
        "teksti": "Sääntö: -ande-partisiipit eivät taivu lainkaan: ett grundläggande problem, en förtjusande utsikt.",
        "liittyy": "förtjusande"
+      },
+      {
+       "tyyppi": "sana",
+       "id": "passande",
+       "sanaluokka": "adjektiivi",
+       "ruotsi": "passande",
+       "suomi": [
+        "sopiva"
+       ],
+       "taivutus": [],
+       "luokka": "taipumaton",
+       "suku": null,
+       "kategoria": "3 Adjektiivit ja adverbit",
+       "alakategoria": "3.4 -ande/-ende-partisiipit (preesensin partisiippi)",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
       }
      ]
     },
@@ -11196,6 +12535,27 @@
        "ruotsi": "tvärtom",
        "suomi": [
         "päinvastoin"
+       ],
+       "taivutus": [],
+       "luokka": "adv.",
+       "suku": null,
+       "kategoria": "3 Adjektiivit ja adverbit",
+       "alakategoria": "3.6 Adverbit",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "stadigt",
+       "sanaluokka": "adverbi",
+       "ruotsi": "stadigt",
+       "suomi": [
+        "tasaisesti",
+        "vakaasti"
        ],
        "taivutus": [],
        "luokka": "adv.",
@@ -11760,6 +13120,27 @@
        "ruotsi": "bara",
        "suomi": [
         "vain"
+       ],
+       "taivutus": [],
+       "luokka": "adv.",
+       "suku": null,
+       "kategoria": "3 Adjektiivit ja adverbit",
+       "alakategoria": "3.7 Lauseadverbit eli liikkuvat määreet",
+       "valiotsikko": "Lisäävät ja rajaavat",
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "enbart",
+       "sanaluokka": "adverbi",
+       "ruotsi": "enbart",
+       "suomi": [
+        "vain",
+        "ainoastaan"
        ],
        "taivutus": [],
        "luokka": "adv.",
@@ -12649,6 +14030,46 @@
        "ruotsi": "dagens tanke",
        "suomi": [
         "päivän ajatus"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "4 Ilmaukset ja sanonnat",
+       "alakategoria": "4.5 Muut käyttökelpoiset ilmaukset",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "spela-en-viktig-roll",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "spela en viktig roll",
+       "suomi": [
+        "olla tärkeässä roolissa"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "4 Ilmaukset ja sanonnat",
+       "alakategoria": "4.5 Muut käyttökelpoiset ilmaukset",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "i-mörker",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "i mörker",
+       "suomi": [
+        "pimeydessä"
        ],
        "taivutus": [],
        "luokka": null,
@@ -18036,7 +19457,8 @@
        "ruotsi": "förutom / utom",
        "suomi": [
         "paitsi",
-        "lisäksi"
+        "lisäksi",
+        "ohella"
        ],
        "taivutus": [],
        "luokka": null,
@@ -18504,6 +19926,36 @@
        "vastakohta": null,
        "rektio": null,
        "esimerkit": [],
+       "muistiinpano": null,
+       "paallekkainen": false
+      },
+      {
+       "tyyppi": "sana",
+       "id": "inom",
+       "sanaluokka": "ilmaus",
+       "ruotsi": "inom",
+       "suomi": [
+        "sisällä",
+        "-ssä (ajasta ja alasta)"
+       ],
+       "taivutus": [],
+       "luokka": null,
+       "suku": null,
+       "kategoria": "6 Prepositiot",
+       "alakategoria": "6.9 Muita prepositioita",
+       "valiotsikko": null,
+       "vastakohta": null,
+       "rektio": null,
+       "esimerkit": [
+        {
+         "sv": "inom traditionella branscher",
+         "fi": "perinteisillä aloilla"
+        },
+        {
+         "sv": "inom en vecka",
+         "fi": "viikon kuluessa"
+        }
+       ],
        "muistiinpano": null,
        "paallekkainen": false
       },

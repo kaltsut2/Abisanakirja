@@ -54,6 +54,9 @@ klaga (på/över), klagar, klagade, klagat  (I)  –  valittaa
 vägra, vägrar, vägrade, vägrat  (I)  –  kieltäytyä
 	Han vägrar själv att söka hjälp. = Hän kieltäytyy itse hakemasta apua.
 göra anteckningar  –  tehdä muistiinpanoja
+avge, avger, avgav, avgett  (IV)  –  antaa (lupaus, lausunto)
+	avge ett löfte = antaa lupaus
+	Huomaa: avge taipuu kuten ge. Arkisempi vaihtoehto on ge ett löfte.
 påstå, påstår, påstod, påstått  (IV)  –  väittää
 avvisa, avvisar, avvisade, avvisat  (I)  –  torjua, hylätä, käännyttää
 berömma, berömmer, berömde, berömt  (IIa)  –  ylistää, kehua, kiittää
@@ -83,6 +86,11 @@ uppskatta, uppskattar, uppskattade, uppskattat  (I)  –  arvostaa; arvioida
 värdesätta, värdesätter, värdesatte, värdesatt  (IV)  –  arvostaa
 försvara, försvarar, försvarade, försvarat  (I)  –  puolustaa
 skydda (mot), skyddar, skyddade, skyddat  (I)  –  suojella, suojata
+ta hand om, tar, tog, tagit  (IV)  –  huolehtia jostakin, pitää huolta
+vara rädd om  –  pitää huolta jostakin, varjella
+	Huomaa ero: vara rädd om ngt = varjella jotakin, mutta vara rädd för ngt = pelätä jotakin (6.4).
+stötta, stöttar, stöttade, stöttat  (I)  –  tukea
+	Huomaa: sama sana on myös substantiivi en stötta = tuki.
 	Huomaa: skydda mot något = suojella joltakin. Substantiivi: ett skydd = suoja.
 stå upp för (står, stod, stått)  –  puolustaa, asettua jonkin puolelle
 	Vi måste stå upp för de demokratiska värderingarna. = Meidän on puolustettava demokraattisia arvoja.
@@ -134,6 +142,8 @@ besluta (om ngt), beslutar, beslutade/beslöt, beslutat  (I / IV)  –  päätt�
 bestämma sig (för ngt), bestämmer, bestämde, bestämt  (IIa)  –  päättää (henkilökohtainen valinta)
 	Jag har bestämt mig för att sluta röka.
 avvika (från), avviker, avvek, avvikit  (IV)  –  poiketa jostakin
+bestämma, bestämmer, bestämde, bestämt  (IIa)  –  päättää, määrätä
+	Huomaa ero: bestämma ngt = päättää jokin asia, bestämma sig för ngt = tehdä oma päätös.
 
 1.7 Tapahtuminen ja havaitseminen
 ske, sker, skedde, skett  (III)  –  tapahtua
@@ -250,6 +260,23 @@ fastna, fastnar, fastnade, fastnat  (I)  –  juuttua, tarttua kiinni
 komma loss, kommer loss, kom loss, kommit loss  (IV)  –  päästä irti, irrota, päästä vauhtiin
 	Korjaus: "komma loss = karata" – loss tarkoittaa irti, joten komma loss = päästä irti. Karata (esim. vankilasta) on rymma.
 släppa, släpper, släppte, släppt  (IIb)  –  päästää irti, vapauttaa, laskea irti
+rinna ut, rinner ut, rann ut, runnit ut  (IV)  –  valua ulos
+
+1.13 Talous, työ ja yhteiskunta
+minska, minskar, minskade, minskat ↔ öka, ökar, ökade, ökat  (I)  –  vähentyä, vähentää ↔ kasvaa, lisätä
+	Behovet av vård ökar stadigt. = Hoidon tarve kasvaa tasaisesti.
+kräva, kräver, krävde, krävt  (IIa)  –  vaatia, edellyttää
+tillhandahålla, tillhandahåller, tillhandahöll, tillhandahållit  (IV)  –  tarjota, pitää tarjolla
+	Huomaa: taipuu kuten hålla.
+täcka, täcker, täckte, täckt  (IIb)  –  kattaa, peittää
+ersätta, ersätter, ersatte, ersatt  (IV)  –  korvata
+	få ersättning = saada korvausta
+utnyttja, utnyttjar, utnyttjade, utnyttjat  (I)  –  hyödyntää, käyttää hyväksi
+expandera, expanderar, expanderade, expanderat  (I)  –  laajentaa, laajentua
+effektivisera, effektiviserar, effektiviserade, effektiviserat  (I)  –  tehostaa
+konkurrera (med/om), konkurrerar, konkurrerade, konkurrerat  (I)  –  kilpailla (yritysten välillä)
+stå inför, står inför, stod inför, stått inför  (IV)  –  olla jonkin edessä, kohdata
+	Många länder står inför flera utmaningar. = Monet maat kohtaavat useita haasteita.
 
 Substantiivit
 
@@ -387,9 +414,19 @@ gymlokaler / träningslokaler  (mon.)  –  salin tilat
 hushållssysslor, hushållssysslorna  (mon.)  –  kotityöt
 	vakta barn / sköta bankärenden / handla mat = vahtia lapsia / hoitaa pankkiasioita / käydä ruokakaupassa
 ett lösenord, lösenordet, lösenord, lösenorden  (5)  –  salasana
-ett pris, priset, priser, priserna  (3)  –  hinta
+ett pris, priset, priser, priserna  (3)  –  hinta, palkinto
 	priset på månadskortet är för högt/lågt = kuukausikortin hinta on liian korkea/matala
 	ett högt/lågt pris = korkea/matala hinta; priset på mjölk = mjölkpriset
+	Huomaa: sama sana tarkoittaa sekä hintaa että palkintoa – konteksti ratkaisee. Vrt. 2.13.
+en arbetskraft, arbetskraften  (–)  –  työvoima
+en bransch, branschen, branscher, branscherna  (3)  –  ala, toimiala
+en marknad, marknaden, marknader, marknaderna  (3)  –  markkinat
+	den globala marknaden = globaalit markkinat
+ett utbud, utbudet, utbud, utbuden  (5)  –  tarjonta, valikoima
+en efterfrågan, efterfrågan  (–)  –  kysyntä
+	Huomaa: utbud ja efterfrågan ovat talouden vastinpari – tarjonta ja kysyntä.
+en ledning, ledningen, ledningar, ledningarna  (2)  –  johto
+ett inflytande, inflytandet  (4)  –  vaikutusvalta
 
 2.7 Matkustaminen, liikenne ja paikat
 en rakapparat, rakapparaten, rakapparater, rakapparaterna  (3)  –  partakone
@@ -409,6 +446,9 @@ en hastighetsbegränsning, hastighetsbegränsningen, hastighetsbegränsningar, h
 en rusningstid, rusningstiden, rusningstider, rusningstiderna  (3)  –  ruuhka-aika
 ett vägmärke, vägmärket, vägmärken, vägmärkena  (4)  –  liikennemerkki
 en cykelhjälm, cykelhjälmen, cykelhjälmar, cykelhjälmarna  (2)  –  pyöräilykypärä
+ett väglag, väglaget  (5)  –  ajokeli, keli
+en besiktning, besiktningen, besiktningar, besiktningarna  (2)  –  katsastus, tarkastus
+ett vägarbete, vägarbetet, vägarbeten, vägarbetena  (4)  –  tietyö
 
 2.8 Juhlat ja elämänvaiheet
 en present, presenten, presenter, presenterna  (3)  –  lahja
@@ -451,10 +491,45 @@ oanade konsekvenser  –  odottamattomat seuraukset
 en ande, anden, andar, andarna  (2)  –  henki, haltija
 	Muistiinpanoissa oli merkintä "Ande ende". Huomaa ero: en ande = henki, mutta den ende / det enda = ainoa (adjektiivista enda).
 ett sätt, sättet, sätt, sätten  (5)  –  tapa
+ett löfte, löftet, löften, löftena  (4)  –  lupaus
+	Korjaus: Muistiinpanoissa "lupais" – lupaus. Ks. myös avge ett löfte (1.2).
+ett mörker, mörkret  (5)  –  pimeys
+	i mörker = pimeydessä
+ett arrangemang, arrangemanget, arrangemang, arrangemangen  (5)  –  järjestely
 
 2.11 Esineet ja arjen sanat
 en dräkt, dräkten, dräkter, dräkterna  (3)  –  puku, asu, asukokonaisuus
 ett kuvert, kuvertet, kuvert, kuverten  (5)  –  kirjekuori
+
+2.12 Yhteiskunnallinen muutos ja hyvinvointi
+Tämä ryhmä on kirjoitelman ydinsanastoa: väestö muuttuu, tarve kasvaa, palvelut vastaavat. Sanat esiintyvät teksteissä yhdessä, joten ne kannattaa opetella yhdessä.
+en befolkning, befolkningen, befolkningar, befolkningarna  (2)  –  väestö
+en andel, andelen, andelar, andelarna  (2)  –  osuus, osa
+	Korjaus: Muistiinpanoissa "andelen" – se on määräinen muoto. Perusmuoto on en andel.
+en förändring, förändringen, förändringar, förändringarna  (2)  –  muutos
+en orsak, orsaken, orsaker, orsakerna  (3)  –  syy
+	en av de främsta orsakerna = yksi tärkeimmistä syistä
+	Korjaus: Muistiinpanoissa "yksi pahimmista syistä" – främst tarkoittaa tärkeintä tai ensisijaista, ei pahinta. Rektio: en orsak till (6.5).
+ett behov, behovet, behov, behoven  (5)  –  tarve
+	Huomaa rektio: ett behov av ngt = tarve johonkin (6.5).
+en inverkan (på), inverkan  (–)  –  vaikutus johonkin
+en roll, rollen, roller, rollerna  (3)  –  rooli
+	spela en viktig roll = olla tärkeässä roolissa
+en omsorg, omsorgen, omsorger, omsorgerna  (3)  –  huolenpito
+en vård, vården  (–)  –  hoito
+	Huomaa pari: omsorg on huolenpitoa, vård hoitoa – kirjoitelmassa ne esiintyvät usein vierekkäin.
+
+2.13 Helposti sekoittuvat sanaparit
+Näissä pareissa suku tai vivahde vaihtaa merkityksen kokonaan. Ne opitaan vain vierekkäin.
+en val, valen, valar, valarna  (2)  –  valas
+ett val, valet, val, valen  (5)  –  valinta, vaalit
+	Suku ratkaisee: en val ui meressä, ett val tehdään uurnalla.
+en lag, lagen, lagar, lagarna  (2)  –  laki
+ett lag, laget, lag, lagen  (5)  –  joukkue
+	Sama kaava kuin val-parissa: en-sana on konkreettinen, ett-sana abstraktimpi tai kollektiivi.
+en konkurrens, konkurrensen  (–)  –  kilpailu (yritysten välillä)
+en tävling, tävlingen, tävlingar, tävlingarna  (2)  –  kilpailu (urheilu)
+	Huomaa: konkurrens on markkinoiden kilpailua, tävling yksittäinen kisa. Verbit samoin: konkurrera ja tävla.
 
 Adjektiivit ja adverbit
 
@@ -529,6 +604,12 @@ försiktig (med), försiktigt, försiktiga  (adj.)  –  varovainen
 ansvarsfull, ansvarsfullt, ansvarsfulla  (adj.)  –  vastuuntuntoinen, vastuullinen
 	Vrt. ansvarig för = vastuussa jostakin. Ansvarsfull kuvaa ihmisen luonnetta, ansvarig konkreettista vastuuta.
 saklig, sakligt, sakliga  (adj.)  –  asiallinen, asiapitoinen
+slarvig, slarvigt, slarviga  (adj.)  –  huolimaton
+traditionell, traditionellt, traditionella  (adj.)  –  perinteinen
+	inom traditionella branscher = perinteisillä aloilla
+global, globalt, globala  (adj.)  –  globaali, maailmanlaajuinen
+offentlig, offentligt, offentliga  (adj.)  –  julkinen
+	offentliga tjänster = julkiset palvelut
 trasig, trasigt, trasiga  (adj.)  –  rikkinäinen
 hotfull, hotfullt, hotfulla  (adj.)  –  uhkaava
 ärlig, ärligt, ärliga  (adj.)  –  rehellinen
@@ -576,6 +657,7 @@ avgörande  (taipumaton)  –  ratkaiseva
 grundläggande  (taipumaton)  –  perustavanlaatuinen, perus-, olennainen
 förtjusande  (taipumaton)  –  lumoava, hurmaava, upea
 	Sääntö: -ande-partisiipit eivät taivu lainkaan: ett grundläggande problem, en förtjusande utsikt.
+passande  (taipumaton)  –  sopiva
 
 3.5 -aktig-johtimiset adjektiivit
 tvivelaktig, tvivelaktigt, tvivelaktiga  (adj.)  –  epäilyttävä
@@ -606,6 +688,7 @@ aningen  (adv.)  –  hieman
 knappast  (adv.)  –  tuskin
 	Det blir knappast ens bråttom för dig. = Sinulle tuskin edes tulee kiire.
 tvärtom  (adv.)  –  päinvastoin
+stadigt  (adv.)  –  tasaisesti, vakaasti
 däremot  (adv.)  –  sitä vastoin, toisaalta
 otroligt  (adv.)  –  uskomattoman
 	Sääntö: adjektiivi + t = adverbi. otrolig (uskomaton) → otroligt (uskomattoman).
@@ -642,6 +725,7 @@ vanligen  (adv.)  –  tavallisesti
 Lisäävät ja rajaavat
 också  (adv.)  –  myös
 bara  (adv.)  –  vain
+enbart  (adv.)  –  vain, ainoastaan
 Kieltävät liikkuvat määreet
 Nämä käyttäytyvät täsmälleen kuten inte. Jos osaat inte-sanan paikan, osaat näiden paikan.
 inte alltid  (adv.)  –  ei aina
@@ -700,6 +784,8 @@ komplettera svaren  –  täydennä vastaukset
 	Muistisääntö "visa vinkuu": visa (IIb, visar, visade, visat) = näyttää; en visa = laulu.
 ett sätt att tänka  –  ajattelutapa
 dagens tanke  –  päivän ajatus
+spela en viktig roll  –  olla tärkeässä roolissa
+i mörker  –  pimeydessä
 på egen hand  –  omatoimisesti, omin päin, itsenäisesti
 
 Sidosteisuus ja pikkusanat
@@ -1055,7 +1141,7 @@ när det gäller / i fråga om  –  kun on kyse jostakin
 enligt  –  jonkun mukaan
 	enligt mig = minun mielestäni / enligt forskningen = tutkimuksen mukaan
 trots  –  jostakin huolimatta
-förutom / utom  –  paitsi, lisäksi
+förutom / utom  –  paitsi, lisäksi, ohella
 till exempel (t.ex.)  –  esimerkiksi
 framför allt  –  ennen kaikkea
 i synnerhet  –  erityisesti
@@ -1096,6 +1182,9 @@ Prepositiot ajanmääreissä
 
 6.9 Muita prepositioita
 i förväg = etukäteen
+inom = sisällä, -ssä (ajasta ja alasta)
+	inom traditionella branscher = perinteisillä aloilla
+	inom en vecka = viikon kuluessa
 bland = joukossa, parissa
 	Bland mina studiekompisar…
 Efter = jälkeen, perässä
