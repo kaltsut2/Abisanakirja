@@ -43,6 +43,7 @@ niiden muodosta, ei erillisistä merkeistä:
 | *sisennetty* `Menar du allvar? = Oletko tosissasi?` | esimerkki |
 | *sisennetty* `Korjaus: …` | korjaus (punainen) |
 | *sisennetty* muu teksti | huomio (harmaa) |
+| `… – kasvaa ★` | rivin lopun tähti: sana toistuu ylioppilaskokeissa |
 
 Erotin `  –  ` on merkitsevä: yksi välilyönti ei riitä, koska ajatusviiva
 esiintyy myös sanojen sisällä (`i dag – i går – i morgon`).
@@ -56,6 +57,8 @@ Muuntimen päättelemät asiat:
   linkitetään toisiinsa molempiin suuntiin.
 - **Päällekkäisyys**: sama sana useassa luvussa näkyy Teoriassa joka paikassa,
   mutta kortteja tehdään vain ensimmäisestä.
+- **Yo-merkintä** `★` rivin lopussa nostaa sanan `yo`-lipun. Tähti ei kuulu
+  käännökseen: muunnin irrottaa sen ennen kuin suomennos jäetään osiin.
 
 Sisennetty rivi tulkitaan esimerkiksi, jos siinä on yhtäsuuruusmerkki. Jos
 haluat sen huomioksi, aloita rivi sanalla `Huomaa:`, `Vrt.`, `Sääntö:`,
@@ -222,13 +225,40 @@ ja flashcardeissa vastaus on jo yksiselitteinen tai itse arvioitu.
 | 1–6 | Verbit, substantiivit, adjektiivit, ilmaukset, sidesanat, prepositiot | kyllä |
 | 7 Kielioppisäännöt | Pronominit, vertailumuodot, adjektiivi + substantiivi, sanajärjestys, rinnastus- ja alistuskonjunktiot, liikkuvat määreet, taivutusluokat, deklinaatiot | **ei** |
 | 8 Pienet kielioppiknopit | Yksittäiset säännöt: apuverbi + infinitiivi, X av Y, adjektiivista adverbi, välkommen/välkomna, pronominien objektimuodot | ei |
-| 9 Muistilista ja tehtävät | Omat muistiinpanot opiskeltavasta | ei |
+| 9 Monivalintojen vastausvaihtoehdot | Kuullun ja luetun ymmärtämisen vaihtoehdot: tunne, luonne, sää, verbit, substantiivit, pikkusanat, repliikit | kyllä |
+| 10 Muistilista ja tehtävät | Omat muistiinpanot opiskeltavasta | ei |
 
 Luku 7 on **luettavaa teoriaa**, ei korttiharjoittelua: `kelpaaKortiksi`
 sulkee pois luvut, joiden otsikko alkaa `7 `. Luvun 94 sanariviä näkyvät
 Teoriassa ja löytyvät haulla, mutta niistä ei synny kortteja eivätkä ne
 päädy harjoituspooleihin. Jos jokin luvun 7 sana halutaan korteiksi, se
 lisätään erikseen lukuun 1–6.
+
+## Yo-sanasto ja tähtimerkintä
+
+Sanastoon on yhdistetty vuosien 2020–2026 ylioppilaskokeissa toistuva sanasto.
+Rivin lopun `★` merkitsee, että sana kuuluu tähän joukkoon; Teoriassa se näkyy
+keltaisena merkkinä sanan perässä ja Asetusten suodattimessa on valinta
+**★ Vain yo-sanat**, joka rajaa Opin ja Kertauksen pelkkiin yo-sanoihin.
+
+Yhdistämisen periaatteet:
+
+- **Ei duplikaatteja.** Jos sana oli jo sanastossa, uutta merkintää ei luotu –
+  vanha rivi sai vain tähden. Vertailuavain jättää huomiotta artikkelin,
+  `ngt`/`ngn`-paikanpitäjät, sulkeissa olevan rektion ja taivutusmuodot, joten
+  `bero på`, `bero på ngt` ja sanastossa erillisenä kenttänä oleva
+  `bero` + rektio `på` tunnistetaan samaksi sanaksi.
+- **Sanat menivät nykyisiin kategorioihin.** Uusia alalukuja syntyi vain siihen,
+  mihin vanha jaottelu ei riittänyt (esim. 1.15 Partikkeliverbit,
+  2.14–2.19, 3.8–3.12, 4.6 Kirjoitustehtävän vakiofraasit).
+- **Omat kategoriansa** saivat kokeen kannalta keskeiset joukot, kuten
+  kirjoitustehtävien vakiofraasit ja kokeen tekstilajit.
+- **Pois jätettiin** lukuohje ja luku 1 lukuun ottamatta alaluvun 1.3
+  tekstilajeja, sekä luvut 12 ja 13 kokonaan. Lukuja 9 ja 11 ei säilytetty
+  sellaisenaan, mutta niiden sanat tarkistettiin ja puuttuvat lisättiin muihin
+  kategorioihin.
+- **Lisähuomautukset** säilyivät sanoilla, joilla niitä oli: koevuodet,
+  vastausvaihtoehtojen sävy (`Sävy: ystävällinen.`) ja esiintymistiheys.
 
 ## Kehitys
 
@@ -344,6 +374,7 @@ Rakennusjärjestys on `SPEC.md` luvussa 9.
 - [x] 11 Kategoriasuodatin, "harjoittele tämä luku", osaamismerkit
 - [x] 12 Rektio- ja prepositioharjoitukset
 - [x] 13 Ääntäminen, leech-tunnistus, virheloki, istunnon pituus
+- [x] 14 Yo-sanasto 2020–2026 yhdistetty, tähtimerkintä ja yo-suodatin
 
 Rakentamatta jäi tarkoituksella se, mitä `SPEC.md` luvussa 7 kielletään:
 tunnukset, palvelin, pisteet ja sarjat, monivalinta kertauksessa.

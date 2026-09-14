@@ -157,6 +157,18 @@ def jasenna_esimerkki(rivi):
     return tulos
 
 
+# Rivin lopun tähti merkitsee sanan, joka toistuu ylioppilaskokeissa. Se
+# irrotetaan ennen jäsennystä, jotta se ei päädy käännökseen eikä vastaukseen.
+YO_MERKKI = "★"
+
+
+def irrota_yo(teksti):
+    siisti = teksti.rstrip()
+    if siisti.endswith(YO_MERKKI):
+        return siisti[:-len(YO_MERKKI)].rstrip(), True
+    return teksti, False
+
+
 def tee_sana(ruotsi_raaka, luokka, suomi_raaka, ctx, kaytetyt):
     perusmuoto, taivutus, suku = jaa_muodot(ruotsi_raaka)
     perusmuoto, rektio = poimi_rektio(perusmuoto)
@@ -185,6 +197,7 @@ def tee_sana(ruotsi_raaka, luokka, suomi_raaka, ctx, kaytetyt):
         "esimerkit": [],
         "muistiinpano": None,
         "paallekkainen": False,
+        "yo": ctx["yo"],
     }
 
 
@@ -242,7 +255,7 @@ def rakenna():
     kaytetyt = set()
     luku = alaluku = None
     ctx = {"luku": None, "luku_nro": 0, "alaluku": None, "valiotsikko": None,
-           "rektioluku": False, "muistilista": False, "rivi": 0}
+           "rektioluku": False, "muistilista": False, "rivi": 0, "yo": False}
     viime_sana = None
 
     def seuraava_rivi(i):
@@ -304,6 +317,7 @@ def rakenna():
             continue
 
         if EROTIN in teksti or on_yhtasuuruusmerkinta(teksti):
+            teksti, ctx["yo"] = irrota_yo(teksti)
             if EROTIN in teksti:
                 ruotsi_raaka, suomi_raaka = teksti.split(EROTIN, 1)
             else:
@@ -387,6 +401,7 @@ if __name__ == "__main__":
     print(f"  vastakohtia   {sum(1 for s in sanat if s['vastakohta'])}")
     print(f"  esimerkkeja   {sum(len(s['esimerkit']) for s in sanat)}")
     print(f"  paallekkaisia {paallekkaisia} (ei kortteja)")
+    print(f"  yo-sanoja     {sum(1 for s in sanat if s['yo'])}")
     print(f"  -> kortteja   {(len(sanat) - paallekkaisia) * 2}")
     print("\nLuvut:")
     for l in doc["luvut"]:
