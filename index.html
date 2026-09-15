@@ -259,7 +259,8 @@ textarea.laatikko {
   padding: 1.4rem 1.25rem;
 }
 .kysymys { text-align: center; padding: 1.5rem 0.5rem 1.75rem; }
-.kysymys .kehote { margin: 0 0 0.6rem; color: var(--huomio-teksti); }
+.kysymys .kehote { margin: 0 0 0.6rem; color: var(--huomio-teksti);
+  display: flex; align-items: center; justify-content: center; }
 .kysymys .sana { margin: 0; overflow-wrap: anywhere; }
 .kysymys .vihje { margin: 0.5rem 0 0; }
 .kysymys .kaannos { margin: 0.65rem 0 0.9rem; }
@@ -1112,9 +1113,20 @@ const onLeech = (kortti) => (tila(kortti)?.virheita || 0) >= LEECH_RAJA;
    ========================================================================== */
 const naytto = $("#naytto");
 
-function kysymysLohko(kehote, teksti, vihje, puhuttava) {
+/* Sama tähti kuin Teoriassa. Harjoituksissa se kertoo kesken suorituksen,
+   että juuri tämä sana kannattaa osata – siksi se on kehotteen vieressä,
+   samassa paikassa joka tehtävätyypissä. */
+function yoMerkki() {
+  const tahti = el("span", "lippu yo", "★");
+  tahti.title = "Toistuu ylioppilaskokeissa";
+  return tahti;
+}
+
+function kysymysLohko(kehote, teksti, vihje, puhuttava, sana) {
   const lohko = el("div", "kysymys");
-  lisaa(lohko, el("p", "kehote t-nano haalein", kehote.toUpperCase()));
+  const kehoterivi = el("p", "kehote t-nano haalein", kehote.toUpperCase());
+  if (sana && sana.yo) lisaa(kehoterivi, yoMerkki());
+  lisaa(lohko, kehoterivi);
   lisaa(lohko, el("p", "sana t-nayttava", teksti));
   if (vihje) lisaa(lohko, el("p", "vihje t-pieni haalea", vihje));
   const aani = puhuttava ? aaninappi(puhuttava) : null;
@@ -1495,7 +1507,8 @@ function naytaOpi() {
   } else if (vaihe === 1 || vaihe === 2) {
     const suunta = vaihe === 1 ? SUUNNAT.SVFI : SUUNNAT.FISV;
     const oikea = lyhytVastaus(sana, suunta);
-    lisaa(kortti, kysymysLohko(VAIHEET[vaihe].ohje, kysymysTeksti(sana, suunta), sanavihje(sana)));
+    lisaa(kortti, kysymysLohko(VAIHEET[vaihe].ohje, kysymysTeksti(sana, suunta), sanavihje(sana),
+      null, sana));
     const vaihtoehdot = sekoita([oikea, ...hairiot(sana, suunta)]);
     lisaa(kortti, vaihtoehtolohko(vaihtoehdot, (valittu, palkki) => {
       const osui = valittu === oikea;
@@ -1515,7 +1528,8 @@ function naytaOpi() {
     }));
   } else {
     const suunta = vaihe === 3 ? SUUNNAT.SVFI : SUUNNAT.FISV;
-    lisaa(kortti, kysymysLohko(VAIHEET[vaihe].ohje, kysymysTeksti(sana, suunta), sanavihje(sana)));
+    lisaa(kortti, kysymysLohko(VAIHEET[vaihe].ohje, kysymysTeksti(sana, suunta), sanavihje(sana),
+      null, sana));
     let osuiViimeksi = false;
     const muoto = vastauslomake({
       paikanpitaja: suunta === SUUNNAT.FISV ? "ruotsiksi" : "suomeksi",
@@ -1549,7 +1563,9 @@ function naytaOpi() {
    samalle akselille kuin myöhemmät kysymykset – sama paikka, eri sisältö. */
 function esittelyLohko(sana) {
   const lohko = el("div", "kysymys");
-  lisaa(lohko, el("p", "kehote t-nano haalein", "UUSI SANA"));
+  const kehoterivi = el("p", "kehote t-nano haalein", "UUSI SANA");
+  if (sana.yo) lisaa(kehoterivi, yoMerkki());
+  lisaa(lohko, kehoterivi);
   lisaa(lohko, el("p", "sana t-nayttava", (sana.suku ? sana.suku + " " : "") + sana.ruotsi));
   lisaa(lohko, el("p", "kaannos t-otsikko", sana.suomi.join(", ")));
 
@@ -1881,7 +1897,7 @@ function naytaKertaa() {
 
   if (treenitila === "flashcard") {
     lisaa(laatikko, kysymysLohko("Muista käännös", kysymysTeksti(sana, suunta),
-      sanavihje(sana), suunta === SUUNNAT.SVFI ? sana.ruotsi : null));
+      sanavihje(sana), suunta === SUUNNAT.SVFI ? sana.ruotsi : null, sana));
     const paljasta = nappi("Näytä vastaus", "ensisijainen leve", () => {
       paljasta.remove();
       const vastaus = el("div", "palaute saapuu");
@@ -1910,7 +1926,7 @@ function naytaKertaa() {
   } else if (treenitila === "monivalinta") {
     const oikea = lyhytVastaus(sana, suunta);
     lisaa(laatikko, kysymysLohko("Valitse oikea", kysymysTeksti(sana, suunta),
-      sanavihje(sana), suunta === SUUNNAT.SVFI ? sana.ruotsi : null));
+      sanavihje(sana), suunta === SUUNNAT.SVFI ? sana.ruotsi : null, sana));
     lisaa(laatikko, vaihtoehtolohko(sekoita([oikea, ...hairiot(sana, suunta)]), (valittu, palkki) => {
       const osui = valittu === oikea;
       for (const b of palkki.children) {
@@ -1930,7 +1946,7 @@ function naytaKertaa() {
       suunta === SUUNNAT.FISV ? "Kirjoita ruotsiksi" : "Kirjoita suomeksi",
       kysymysTeksti(sana, suunta),
       sanavihje(sana) + (onLeech(kortti) ? " · vaikea sana" : ""),
-      suunta === SUUNNAT.SVFI ? sana.ruotsi : null));
+      suunta === SUUNNAT.SVFI ? sana.ruotsi : null, sana));
 
     const muoto = vastauslomake({
       paikanpitaja: suunta === SUUNNAT.FISV ? "ruotsiksi" : "suomeksi",
@@ -2288,7 +2304,8 @@ function harjoitusNakyma(tehtava, indeksi, kokonais, otsikko, onJatka, onTulos) 
   lisaa(lohko, yla);
 
   const kortti = el("div", "kortti");
-  lisaa(kortti, kysymysLohko(tehtava.kehote, tehtava.kysymys, tehtava.vihje));
+  lisaa(kortti, kysymysLohko(tehtava.kehote, tehtava.kysymys, tehtava.vihje,
+    null, tehtava.sana));
 
   /* Kirjaa tuloksen. Vain jo aloitetun kortin tilastoja päivitetään: harjoitus
      ei aloita sanaa eikä siis vie sitä pois Opi-välilehden uusista sanoista. */
@@ -2542,11 +2559,7 @@ function piirraSanaRivi(sana, haku) {
   const sisus = el("div", "sisus");
   const otsikko = el("div", "sv");
   otsikko.appendChild(korostaOsumat(hakusana(sana), haku));
-  if (sana.yo) {
-    const tahti = el("span", "lippu yo", "★");
-    tahti.title = "Toistuu ylioppilaskokeissa";
-    lisaa(otsikko, tahti);
-  }
+  if (sana.yo) lisaa(otsikko, yoMerkki());
   if (sana.rektio) lisaa(otsikko, el("span", "lippu rektio", sana.rektio));
   if (sana.luokka) {
     const lippu = el("span", "lippu", sana.luokka);

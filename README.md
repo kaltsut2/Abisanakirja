@@ -249,6 +249,11 @@ Rivin lopun `★` merkitsee, että sana kuuluu tähän joukkoon; Teoriassa se n�
 keltaisena merkkinä sanan perässä ja Asetusten suodattimessa on valinta
 **★ Vain yo-sanat**, joka rajaa Opin ja Kertauksen pelkkiin yo-sanoihin.
 
+Harjoituksissa sama tähti on kehotteen vieressä – samassa kohdassa joka
+tehtävätyypissä – jotta kesken suorituksen näkee, kannattaako juuri tämä
+sana osata. Se tulee jaetusta `yoMerkki`-apurista, jota käyttävät sekä
+teorian sanarivi että `kysymysLohko` ja Opin esittelylohko.
+
 Yhdistämisen periaatteet:
 
 - **Ei duplikaatteja.** Jos sana oli jo sanastossa, uutta merkintää ei luotu –
